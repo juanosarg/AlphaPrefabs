@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_SingleRoom1</defName>
+		<layouts>
+			<li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+				<li>Wall_WoodLog,TorchLamp,.,.,.,AnimalBed_Cloth,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,.,PassiveCooler,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,DoubleBed_WoodLog_South,EndTable_WoodLog_South,.,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+		</terrainGrid>
+		<tags>
+			<li>GenericBedroom</li>
+		</tags>
+	</KCSG.StructureLayoutDef>
+</Defs>

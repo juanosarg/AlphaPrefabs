@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="ResourceBase" Name="AP_PrefabBase" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Mass>0.2</Mass>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>AP_Prefabs</li>
+		</thingCategories>
+		<techLevel>Ultra</techLevel>
+		<tradeTags>
+			<li>Prefabs</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>NotForGuests</li>
+		</thingSetMakerTags>
+	</ThingDef>
+	<ThingDef ParentName="AP_PrefabBase">
+		<defName>AP_Prefab</defName>
+		<label>prefab</label>
+		<description>This is a test</description>
+		<graphicData>
+			<texPath>Things/Item/Artifact/PsychicAnimalPulser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<tradeability>Sellable</tradeability>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Use prefab</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="CompProperties_Targetable">
+				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
+			</li>
+			
+			<li Class="AlphaPrefabs.CompProperties_Prefab">
+				<prefab>AP_SingleRoom1</prefab>
+			</li>
+			
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBoxAsItem</li>
+		</placeWorkers>
+	</ThingDef>
+	
+	
+	
+</Defs>

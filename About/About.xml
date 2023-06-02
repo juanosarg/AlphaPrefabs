@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>Alpha Prefabs</name>
+	<author>Sarg Bjornson</author>
+	<url/>
+	<supportedVersions>
+
+		
+		<li>1.4</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+		<li>
+			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+			<displayName>Vanilla Expanded Framework</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+			<downloadUrl>https://github.com/Vanilla-Expanded/VanillaExpandedFramework</downloadUrl>
+		</li>
+		
+	</modDependencies>
+	
+	<packageId>Sarg.AlphaPrefabs</packageId>
+	<description>Adds Stuff
+
+&lt;size=24&gt;Credits&lt;/size&gt;
+
+
+&lt;size=24&gt;Issues&lt;/size&gt;
+
+No issues known at the moment 
+
+&lt;size=24&gt;Plans for the future&lt;/size&gt;
+
+Oh you can bet I will add new things!
+
+&lt;size=24&gt;Changelog&lt;/size&gt;
+
+
+v1.0: Release. (00/00/00)
+Full changelog on GitHub</description>
+</ModMetaData>

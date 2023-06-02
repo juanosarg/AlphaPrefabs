@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AP_DeployedPrefab</defName>
+		<label>deployed prefab</label>
+		<thingClass>AlphaPrefabs.Building_DeployedPrefab</thingClass>
+		<description>Test.</description>
+		<graphicData>
+			<texPath>Things/Item/Artifact/PsychicAnimalPulser</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>25</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<comps>
+			
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBox</li>
+		</placeWorkers>
+	</ThingDef>
+</Defs>
