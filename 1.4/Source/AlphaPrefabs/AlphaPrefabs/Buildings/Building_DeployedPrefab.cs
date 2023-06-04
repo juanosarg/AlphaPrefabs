@@ -30,11 +30,12 @@ namespace AlphaPrefabs
             buildPrefab.action = delegate
             {
                 Map map = this.Map;
-                var cellRect = CellRect.CenteredOn(this.Position, (int)prefab.Sizes.x, (int)prefab.Sizes.y);
-                if (CheckNoBuildings(cellRect)) {
-                    GenOption.GetAllMineableIn(cellRect, this.Map);
-                    LayoutUtils.CleanRect(prefab, map, cellRect, false);
-                    prefab.Generate(cellRect, map);
+                var cleanCellRect = CellRect.CenteredOn(this.Position, (int)prefab.Sizes.x, (int)prefab.Sizes.z);
+                
+                if (CheckNoBuildings(cleanCellRect)) {
+                    GenOption.GetAllMineableIn(cleanCellRect, map);
+                    LayoutUtils.CleanRect(prefab, map, cleanCellRect, true);
+                    prefab.Generate(cleanCellRect, map);
                 }
                    
 

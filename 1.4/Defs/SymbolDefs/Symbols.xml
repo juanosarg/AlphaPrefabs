@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>AM_SteampunkSlab_Medium_BlocksSandstone_South</defName>
+		<thing>AM_SteampunkSlab_Medium</thing>
+		<stuff>BlocksSandstone</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+  <defName>Autodoor_WoodLog_Steampunk</defName>
+  <thing>Autodoor</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>AM_SteampunkRevival</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Wall_WoodLog_Steampunk</defName>
+  <thing>Wall</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>AM_SteampunkRevival</styleCategory>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>Table2x2c_WoodLog_Steampunk</defName>
+  <thing>Table2x2c</thing>
+  <stuff>WoodLog</stuff>
+  <styleCategory>AM_SteampunkRevival</styleCategory>
+</KCSG.SymbolDef>
+	
+</Defs>

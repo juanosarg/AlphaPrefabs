@@ -45,7 +45,7 @@
 			</li>
 			
 			<li Class="AlphaPrefabs.CompProperties_Prefab">
-				<prefab>AP_SingleRoom1</prefab>
+				<prefab>AP_Test</prefab>
 			</li>
 			
 		</comps>
