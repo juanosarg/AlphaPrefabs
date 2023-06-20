@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using KCSG;
 using RimWorld;
 using UnityEngine;
+using UnityEngine.UI;
 using Verse;
 using Verse.Noise;
 
@@ -34,7 +35,7 @@ namespace AlphaPrefabs
                 Map map = this.Map;
                 var cleanCellRect = CellRect.CenteredOn(this.Position, (int)prefab.Sizes.x, (int)prefab.Sizes.z);
                 
-                if (CheckNoBuildings(cleanCellRect)) {
+                if (CheckNoBuildingsOrWater(cleanCellRect)) {
                     GenOption.GetAllMineableIn(cleanCellRect, map);
                     LayoutUtils.CleanRect(prefab, map, cleanCellRect, true);
                     prefab.Generate(cleanCellRect, map);
@@ -58,7 +59,7 @@ namespace AlphaPrefabs
             yield return undeployPrefab;
         }
 
-        public bool CheckNoBuildings(CellRect cellRect)
+        public bool CheckNoBuildingsOrWater(CellRect cellRect)
         {
 
             foreach(IntVec3 cell in cellRect.Cells)
@@ -66,6 +67,13 @@ namespace AlphaPrefabs
                 if (cell.GetEdifice(this.Map)!=null && cell.GetEdifice(this.Map)?.def!=InternalDefOf.AP_DeployedPrefab )
                 {
                     Messages.Message("AP_OccupiedBy".Translate(cell.GetEdifice(this.Map)?.LabelCap), cell.GetEdifice(this.Map), MessageTypeDefOf.NegativeEvent);
+                    return false;
+
+                }
+                TerrainDef terrain = cell.GetTerrain(this.Map);
+                if (terrain.passability== Traversability.Impassable)
+                {
+                    Messages.Message("AP_ImpassableTerrain".Translate(terrain.LabelCap), new LookTargets(cell.ToVector3().ToIntVec3(), this.Map), MessageTypeDefOf.NegativeEvent);
                     return false;
 
                 }
@@ -82,7 +90,7 @@ namespace AlphaPrefabs
             var vector = this.DrawPos;
             float speed = 0.1f;
 
-            float oscillation = Mathf.Cos(tickCounter*speed / Mathf.PI);
+            float oscillation = Mathf.Cos(Current.Game.tickManager.TicksGame*speed / Mathf.PI);
 
             vector.y += 6;
             vector.z += 0.8f + oscillation/4;
@@ -91,20 +99,6 @@ namespace AlphaPrefabs
             
         }
 
-        public override void Tick()
-        {
-            base.Tick();
-
-            
-                tickCounter++;
-                if (tickCounter > 3600)
-                {
-                    tickCounter = 0;
-                }
-            
-
-            
-        }
 
         
 

@@ -1,6 +1,7 @@
 ﻿using AlphaPrefabs;
 using RimWorld;
 using System.Collections.Generic;
+using UnityEngine;
 using Verse;
 using Verse.AI;
 
@@ -51,10 +52,19 @@ namespace AlphaPrefabs
         public override void DoEffect(Pawn user)
         {
 
+            if (this.target.Cell.GetTerrain(user.Map).passability != Traversability.Impassable)
+            {
+                Job job = JobMaker.MakeJob(InternalDefOf.AP_UsePrefab, this.target, this.parent);
+                job.count = 1;
+                user.jobs.TryTakeOrderedJob(job, JobTag.Misc);
 
-            Job job = JobMaker.MakeJob(InternalDefOf.AP_UsePrefab, this.target, this.parent);
-            job.count = 1;
-            user.jobs.TryTakeOrderedJob(job, JobTag.Misc);
+            }
+            else
+            {
+                Messages.Message("AP_ImpassableTerrainDeploy".Translate(this.target.Cell.GetTerrain(user.Map).LabelCap), new LookTargets(target.Cell.ToVector3().ToIntVec3(), user.Map), MessageTypeDefOf.NegativeEvent);
+
+            }
+
 
         }
     }
