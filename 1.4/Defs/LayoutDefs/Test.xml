@@ -126,4 +126,16 @@
     <li>sarg.alphamemes</li>
   </modRequirements>
 </KCSG.StructureLayoutDef>
+<KCSG.StructureLayoutDef>
+  <defName>AP_Test2</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Autodoor_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Autodoor_WoodLog,Wall_WoodLog</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>Concrete,Concrete,Concrete,Concrete,Concrete</li>
+  </terrainGrid>
+</KCSG.StructureLayoutDef>
 </Defs>

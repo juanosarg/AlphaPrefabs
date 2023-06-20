@@ -26,7 +26,7 @@
 		<label>prefab</label>
 		<description>This is a test</description>
 		<graphicData>
-			<texPath>Things/Item/Artifact/PsychicAnimalPulser</texPath>
+			<texPath>Things/Item/AP_PrefabItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<stackLimit>1</stackLimit>

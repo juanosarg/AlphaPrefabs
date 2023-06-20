@@ -6,10 +6,12 @@
 		<thingClass>AlphaPrefabs.Building_DeployedPrefab</thingClass>
 		<description>Test.</description>
 		<graphicData>
-			<texPath>Things/Item/Artifact/PsychicAnimalPulser</texPath>
+			<texPath>Things/Building/AP_DeployedPrefab</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(2,2)</drawSize>
 		</graphicData>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
 		<rotatable>false</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>PassThroughOnly</passability>

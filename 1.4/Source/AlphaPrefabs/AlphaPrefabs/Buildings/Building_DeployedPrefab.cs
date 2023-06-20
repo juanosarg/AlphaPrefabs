@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using KCSG;
 using RimWorld;
+using UnityEngine;
 using Verse;
 using Verse.Noise;
 
@@ -10,6 +11,7 @@ namespace AlphaPrefabs
     public class Building_DeployedPrefab : Building
     {
         public StructureLayoutDef prefab;
+        public int tickCounter;
 
         public override void ExposeData()
         {
@@ -73,6 +75,38 @@ namespace AlphaPrefabs
             return true;
 
         }
+
+        public override void Draw()
+        {
+            
+            var vector = this.DrawPos;
+            float speed = 0.1f;
+
+            float oscillation = Mathf.Cos(tickCounter*speed / Mathf.PI);
+
+            vector.y += 6;
+            vector.z += 0.8f + oscillation/4;
+            GraphicsCache.graphicOrb?.DrawFromDef(vector, Rot4.North, null);
+            base.Draw();
+            
+        }
+
+        public override void Tick()
+        {
+            base.Tick();
+
+            
+                tickCounter++;
+                if (tickCounter > 3600)
+                {
+                    tickCounter = 0;
+                }
+            
+
+            
+        }
+
+        
 
 
     }
