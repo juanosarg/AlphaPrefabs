@@ -298,6 +298,7 @@
     <Compile Include="Comps\CompPrefab.cs" />
     <Compile Include="Comps\Properties\CompProperties_Prefab.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Dev Mode\DebugActions.cs" />
     <Compile Include="GraphicsCache\GraphicsCache.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBox.cs" />
@@ -310,5 +311,6 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ 
+    <ThingCategoryDef>
+      <defName>AP_Prefabs</defName>
+      <label>prefab structures</label>
+      <parent>Buildings</parent>
+	  <iconPath>Things/Item/AP_PrefabItem</iconPath>
+      
+    </ThingCategoryDef>
+	
+	
+
+
+</Defs>

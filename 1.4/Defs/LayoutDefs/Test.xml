@@ -1,86 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<KCSG.StructureLayoutDef>
-		<defName>AP_SingleRoom1</defName>
-		<layouts>
-			<li>
-				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-				<li>Wall_WoodLog,TorchLamp,.,.,.,AnimalBed_Cloth,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,.,.,PassiveCooler,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,DoubleBed_WoodLog_South,EndTable_WoodLog_South,.,Wall_WoodLog</li>
-				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-			</li>
-		</layouts>
-		<roofGrid>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-			<li>1,1,1,1,1,1,1</li>
-		</roofGrid>
-		<terrainGrid>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
-		</terrainGrid>
-		<tags>
-			<li>GenericBedroom</li>
-		</tags>
-	</KCSG.StructureLayoutDef>
 	
-	<KCSG.StructureLayoutDef>
-  <defName>PB_Steampunk1</defName>
-  <spawnConduits>false</spawnConduits>
-  <layouts>
-    <li>
-      <li>.,.,.,.,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Autodoor_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-      <li>.,.,.,.,.,Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-      <li>.,.,.,.,.,Wall_WoodLog,Table2x2c_WoodLog,.,.,.,.,Wall_WoodLog</li>
-      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,.,.,.,.,Wall_WoodLog</li>
-      <li>Wall_WoodLog,.,.,.,ChunkMarble,.,.,.,.,AM_SteampunkSlab_Medium_BlocksSandstone_South,.,Wall_WoodLog</li>
-      <li>Wall_WoodLog,Bed_WoodLog_South,.,.,ChunkMarble,ChunkMarble,ChunkMarble,ChunkMarble,ChunkMarble,.,.,Wall_WoodLog</li>
-      <li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-    </li>
-    <li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-    </li>
-  </layouts>
-  <roofGrid>
-    <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-    <li>.,.,.,.,.,.,.,1,1,1,.,.</li>
-    <li>.,.,.,.,.,1,1,1,1,1,.,.</li>
-    <li>.,.,.,.,.,1,1,1,1,1,.,.</li>
-    <li>.,.,.,.,1,1,1,1,1,1,.,.</li>
-    <li>.,.,.,.,1,1,1,1,1,1,1,.</li>
-    <li>.,.,.,.,1,1,1,1,1,1,1,.</li>
-  </roofGrid>
-  <terrainGrid>
-    <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-    <li>.,.,.,.,.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
-    <li>.,.,.,.,.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
-    <li>.,.,.,.,.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
-    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
-    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
-    <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
-  </terrainGrid>
-  <modRequirements>
-    <li>sarg.alphamemes</li>
-  </modRequirements>
-</KCSG.StructureLayoutDef>
 <KCSG.StructureLayoutDef>
   <defName>AP_Test</defName>
   <spawnConduits>false</spawnConduits>
@@ -95,7 +15,7 @@
       <li>Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Wall_WoodLog_Steampunk</li>
     </li>
     <li>
-      <li>.,.,.,.,.,.,.,.,Colonist,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.</li>
@@ -126,16 +46,5 @@
     <li>sarg.alphamemes</li>
   </modRequirements>
 </KCSG.StructureLayoutDef>
-<KCSG.StructureLayoutDef>
-  <defName>AP_Test2</defName>
-  <spawnConduits>false</spawnConduits>
-  <layouts>
-    <li>
-      <li>Wall_WoodLog,Autodoor_WoodLog_Steampunk,Wall_WoodLog_Steampunk,Autodoor_WoodLog,Wall_WoodLog</li>
-    </li>
-  </layouts>
-  <terrainGrid>
-    <li>Concrete,Concrete,Concrete,Concrete,Concrete</li>
-  </terrainGrid>
-</KCSG.StructureLayoutDef>
+
 </Defs>

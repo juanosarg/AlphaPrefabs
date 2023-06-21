@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using Verse;
 using Verse.AI;
 using RimWorld;
+using Verse.Sound;
 using static UnityEngine.UIElements.UxmlAttributeDescription;
 using static HarmonyLib.Code;
 using static UnityEngine.GraphicsBuffer;
+using UnityEngine.UIElements;
 
 namespace AlphaPrefabs
 {
@@ -49,8 +51,8 @@ namespace AlphaPrefabs
             createPrefab.initAction = delegate ()
             {
                 CompPrefab comp = Item.TryGetComp<CompPrefab>();
-              
 
+                InternalDefOf.AP_DeployPrefab.PlayOneShot(new TargetInfo(TargetA.Cell, Map, false));
                 ThingDef newThing = InternalDefOf.AP_DeployedPrefab;
                 Thing prefab = GenSpawn.Spawn(newThing, TargetPosition, map, WipeMode.Vanish);
                 prefab.SetFaction(Faction.OfPlayer);

@@ -10,7 +10,11 @@ namespace AlphaPrefabs
     {
         public static ThingDef AP_Prefab;
         public static ThingDef AP_DeployedPrefab;
+        
         public static JobDef AP_UsePrefab;
+
+        public static SoundDef AP_BuildPrefab;
+        public static SoundDef AP_DeployPrefab;
 
         static InternalDefOf()
         {

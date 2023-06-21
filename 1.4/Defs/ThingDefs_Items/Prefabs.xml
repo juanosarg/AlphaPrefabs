@@ -23,7 +23,7 @@
 	</ThingDef>
 	<ThingDef ParentName="AP_PrefabBase">
 		<defName>AP_Prefab</defName>
-		<label>prefab</label>
+		<label>prefab box</label>
 		<description>This is a test</description>
 		<graphicData>
 			<texPath>Things/Item/AP_PrefabItem</texPath>
@@ -37,7 +37,7 @@
 		<comps>
 			<li Class="CompProperties_Usable">
 				<useJob>UseItem</useJob>
-				<useLabel>Use prefab</useLabel>
+				<useLabel>Deploy prefab builder</useLabel>
 				<useDuration>60</useDuration>
 			</li>
 			<li Class="CompProperties_Targetable">

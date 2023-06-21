@@ -3,4 +3,16 @@
 	<AP_OccupiedBy>Prefab can't be built. {0} is blocking construction.</AP_OccupiedBy>
 	<AP_ImpassableTerrain>Prefab can't be built. Impassable terrain, "{0}" is blocking construction.</AP_ImpassableTerrain>
 	<AP_ImpassableTerrainDeploy>Can't deploy prefab on impassable terrain: "{0}"</AP_ImpassableTerrainDeploy>
+	
+	<!-- Dev mode -->
+	
+	<AP_TotalPrefabValue>Total prefab value estimated at {0} simoleons</AP_TotalPrefabValue>
+	<AP_PrefabLockingResearches>This prefab requires the following researches: {0}</AP_PrefabLockingResearches>
+	
+	<!-- Gizmos -->
+	
+	<AP_BuildPrefab>Build prefab</AP_BuildPrefab>
+	<AP_BuildPrefabDesc>Build the prefab structure contained inside this builder. The prefab won't be built if there are already buildings or impassable terrain in the indicated area.</AP_BuildPrefabDesc>
+	<AP_UndeployPrefab>Undeploy prefab</AP_UndeployPrefab>
+	<AP_UndeployPrefabDesc>Cancels prefab deployment, transforming the prefab builder into an item that can be again moved.</AP_UndeployPrefabDesc>
 </LanguageData>

@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef ParentName="BuildingBase">
 		<defName>AP_DeployedPrefab</defName>
-		<label>deployed prefab</label>
+		<label>prefab builder</label>
 		<thingClass>AlphaPrefabs.Building_DeployedPrefab</thingClass>
 		<description>Test.</description>
 		<graphicData>
