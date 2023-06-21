@@ -298,6 +298,8 @@
     <Compile Include="Comps\CompPrefab.cs" />
     <Compile Include="Comps\Properties\CompProperties_Prefab.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Defs\PrefabCategoryDef.cs" />
+    <Compile Include="Defs\PrefabDef.cs" />
     <Compile Include="Dev Mode\DebugActions.cs" />
     <Compile Include="GraphicsCache\GraphicsCache.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
@@ -311,6 +313,8 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Windows and Dialogs\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
