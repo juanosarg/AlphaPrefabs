@@ -293,6 +293,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\JobDrivers\JobDriver_UsePrefab.cs" />
+    <Compile Include="Buildings\Building_Catalog.cs" />
     <Compile Include="Buildings\Building_DeployedPrefab.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
     <Compile Include="Comps\CompPrefab.cs" />
@@ -306,6 +307,10 @@
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBox.cs" />
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBoxAsItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThingDefs\ThingDef_Prefab.cs" />
+    <Compile Include="Windows and Dialogs\Window_Prefab.cs" />
+    <Compile Include="Windows and Dialogs\Window_PrefabCategories.cs" />
+    <Compile Include="Windows and Dialogs\Window_PrefabsListing.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Lib.Harmony">
@@ -313,8 +318,6 @@
       <ExcludeAssets>runtime</ExcludeAssets>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Windows and Dialogs\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

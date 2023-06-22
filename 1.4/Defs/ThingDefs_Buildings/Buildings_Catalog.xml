@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AP_PrefabCatalogBuilding</defName>
+		<label>prefab catalog</label>
+		<thingClass>AlphaPrefabs.Building_Catalog</thingClass>
+		<description>todo.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<texPath>Things/Building/AP_PrefabCatalog</texPath>
+			<drawSize>(3.5,1.5)</drawSize>
+			<shadowData>
+				<volume>(0.8, 1, 0.8)</volume>
+			</shadowData>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<designationCategory>Misc</designationCategory>
+		<fillPercent>0.35</fillPercent>
+		<selectable>true</selectable>
+		<useHitPoints>true</useHitPoints>
+		<size>(3,1)</size>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>15</Steel>
+		</costList>
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Flammability>1.0</Flammability>
+			<Mass>25</Mass>
+		</statBases>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<hasInteractionCell>false</hasInteractionCell>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+	</ThingDef>
+</Defs>

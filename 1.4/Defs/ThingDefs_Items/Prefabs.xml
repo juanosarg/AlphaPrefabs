@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="ResourceBase" Name="AP_PrefabBase" Abstract="True">
-		<thingClass>ThingWithComps</thingClass>
+		
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<thingClass>AlphaPrefabs.Thing_Prefab</thingClass>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
 			<MaxHitPoints>80</MaxHitPoints>
@@ -24,7 +25,7 @@
 	<ThingDef ParentName="AP_PrefabBase">
 		<defName>AP_Prefab</defName>
 		<label>prefab box</label>
-		<description>This is a test</description>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The prefab box needs to be deployed by a colonist, placing it in the desired location. For that, select a colonist and right click the prefab box, selecting a tile of passable terrain.</description>
 		<graphicData>
 			<texPath>Things/Item/AP_PrefabItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -45,7 +46,8 @@
 			</li>
 			
 			<li Class="AlphaPrefabs.CompProperties_Prefab">
-				<prefab>AP_Test</prefab>
+				<prefab>AP_Prefab_Bedroom_1</prefab>
+				<newLabel>small 1-person bedroom</newLabel>
 			</li>
 			
 		</comps>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms</defName>
+		<label>bedrooms</label>
+		<description>Prefabs that include beds, end tables, dressers, etc</description>
+		<priority>1</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms2</defName>
+		<label>poop</label>
+		<priority>2</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms3</defName>
+		<label>bedrooms</label>
+		<priority>3</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms4</defName>
+		<label>bedrooms</label>
+		<priority>4</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms5</defName>
+		<label>bedrooms</label>
+		<priority>5</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms6</defName>
+		<label>bedrooms</label>
+		<priority>6</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms7</defName>
+		<label>bedrooms</label>
+		<priority>7</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms8</defName>
+		<label>bedrooms</label>
+		<priority>8</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms9</defName>
+		<label>bedrooms</label>
+		<priority>9</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms10</defName>
+		<label>bedrooms</label>
+		<priority>10</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms11</defName>
+		<label>bedrooms</label>
+		<priority>11</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+		
+	</AlphaPrefabs.PrefabCategoryDef>
+</Defs>

@@ -8,6 +8,7 @@ namespace AlphaPrefabs
     public class CompProperties_Prefab : CompProperties
     {
         public StructureLayoutDef prefab;
+        public string newLabel;
 
         public CompProperties_Prefab()
         {

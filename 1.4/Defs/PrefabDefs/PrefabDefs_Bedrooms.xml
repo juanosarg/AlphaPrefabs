@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_1</defName>
+		<label>small 1-person bedroom</label>
+		<description>A very small 1-person bedroom ideal for cramped spaces. Its 13 tiles of space classifies it as "rather tight".</description>
+		<priority>1</priority>
+		<icon>UI/Prefabs/AP_Prefab_Bedroom_1</icon>		
+		<category>AP_PrefabCategoryBedrooms</category>
+        <layout>AP_Prefab_Bedroom_1</layout>
+        <marketvalue>630</marketvalue>
+        <researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+</Defs>

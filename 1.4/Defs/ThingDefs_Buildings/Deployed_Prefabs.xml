@@ -4,7 +4,7 @@
 		<defName>AP_DeployedPrefab</defName>
 		<label>prefab builder</label>
 		<thingClass>AlphaPrefabs.Building_DeployedPrefab</thingClass>
-		<description>Test.</description>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds. This prefab has already been deployed, and you can choose whether to build the structure or undeploy it to return it to a movable state.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The structure will only be built if no other buildings and no tiles of impassable terrain are in the designated area. No colonists or animals will be harmed in the construction of the structure.</description>
 		<graphicData>
 			<texPath>Things/Building/AP_DeployedPrefab</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

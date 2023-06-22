@@ -3,6 +3,8 @@
 	<AP_OccupiedBy>Prefab can't be built. {0} is blocking construction.</AP_OccupiedBy>
 	<AP_ImpassableTerrain>Prefab can't be built. Impassable terrain, "{0}" is blocking construction.</AP_ImpassableTerrain>
 	<AP_ImpassableTerrainDeploy>Can't deploy prefab on impassable terrain: "{0}"</AP_ImpassableTerrainDeploy>
+	<AP_GoBack>Go back</AP_GoBack>
+	<AP_NeedsDeployment>This prefab needs to be deployed by a colonist</AP_NeedsDeployment>
 	
 	<!-- Dev mode -->
 	
@@ -15,4 +17,6 @@
 	<AP_BuildPrefabDesc>Build the prefab structure contained inside this builder. The prefab won't be built if there are already buildings or impassable terrain in the indicated area.</AP_BuildPrefabDesc>
 	<AP_UndeployPrefab>Undeploy prefab</AP_UndeployPrefab>
 	<AP_UndeployPrefabDesc>Cancels prefab deployment, transforming the prefab builder into an item that can be again moved.</AP_UndeployPrefabDesc>
+	<AP_OpenPrefabCatalog>Open prefab catalog</AP_OpenPrefabCatalog>
+	<AP_OpenPrefabCatalog>Open a catalog to browse all available prefabs. To buy prefabs you'll need a trading beacon with silver on its effect radius.</AP_OpenPrefabCatalog>
 </LanguageData>

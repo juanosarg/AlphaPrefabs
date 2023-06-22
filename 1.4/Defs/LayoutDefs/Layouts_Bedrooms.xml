@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	
+<KCSG.StructureLayoutDef>
+  <defName>AP_Prefab_Bedroom_1</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,Table1x2c_WoodLog_West,Wall_WoodLog</li>
+      <li>Wall_WoodLog,.,.,.,DiningChair_WoodLog_South,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Bed_WoodLog_South,.,.,TorchLamp,Wall_WoodLog</li>
+      <li>Wall_WoodLog,Wall_WoodLog,.,Dresser_WoodLog_South,Wall_WoodLog,Wall_WoodLog</li>
+      <li>.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>.,WoodPlankFloor,.,.,.,.</li>
+    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
+    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
+    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
+    <li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.</li>
+    <li>.,.,.,.,.,.</li>
+  </terrainGrid>
+</KCSG.StructureLayoutDef>
+
+</Defs>
