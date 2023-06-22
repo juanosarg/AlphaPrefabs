@@ -50,15 +50,16 @@ namespace AlphaPrefabs
             Toil createPrefab = new Toil();
             createPrefab.initAction = delegate ()
             {
-                CompPrefab comp = Item.TryGetComp<CompPrefab>();
+                Thing_Prefab prefabItem = Item as Thing_Prefab;
 
                 InternalDefOf.AP_DeployPrefab.PlayOneShot(new TargetInfo(TargetA.Cell, Map, false));
                 ThingDef newThing = InternalDefOf.AP_DeployedPrefab;
-                Thing prefab = GenSpawn.Spawn(newThing, TargetPosition, map, WipeMode.Vanish);
-                prefab.SetFaction(Faction.OfPlayer);
-                Building_DeployedPrefab prefabWithClass = prefab as Building_DeployedPrefab;
-                prefabWithClass.prefab = comp.Props.prefab;
-               
+                Thing prefabBuilder = GenSpawn.Spawn(newThing, TargetPosition, map, WipeMode.Vanish);
+                prefabBuilder.SetFaction(Faction.OfPlayer);
+                Building_DeployedPrefab prefabBuilderWithClass = prefabBuilder as Building_DeployedPrefab;
+                prefabBuilderWithClass.prefab = prefabItem.prefab;
+                prefabBuilderWithClass.newLabel = prefabItem.newLabel;
+
                 Item.Destroy();
             };
             yield return createPrefab;

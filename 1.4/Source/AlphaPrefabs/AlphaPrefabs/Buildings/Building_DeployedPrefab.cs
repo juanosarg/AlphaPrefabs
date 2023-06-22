@@ -14,12 +14,15 @@ namespace AlphaPrefabs
     public class Building_DeployedPrefab : Building
     {
         public StructureLayoutDef prefab;
+        public string newLabel;
         public int tickCounter;
+        string cachedLabel = "";
 
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Defs.Look(ref prefab, "prefab");
+            Scribe_Values.Look(ref newLabel, "newLabel");
         }
 
         public override IEnumerable<Gizmo> GetGizmos()
@@ -61,9 +64,10 @@ namespace AlphaPrefabs
             {
                 InternalDefOf.AP_DeployPrefab.PlayOneShot(new TargetInfo(Position, Map, false));
                 ThingDef newThing = InternalDefOf.AP_Prefab;
-                Thing prefab = GenSpawn.Spawn(newThing, Position, Map, WipeMode.Vanish);               
-                CompPrefab comp = prefab.TryGetComp<CompPrefab>();
-                comp.Props.prefab = this.prefab;
+                Thing prefab = GenSpawn.Spawn(newThing, Position, Map, WipeMode.Vanish);
+                Thing_Prefab prefabItem = prefab as Thing_Prefab;
+                prefabItem.prefab = this.prefab;
+                prefabItem.newLabel = this.newLabel;
                 this.DeSpawn();
             };
             yield return undeployPrefab;
@@ -84,6 +88,12 @@ namespace AlphaPrefabs
                 if (terrain.passability== Traversability.Impassable)
                 {
                     Messages.Message("AP_ImpassableTerrain".Translate(terrain.LabelCap), new LookTargets(cell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NegativeEvent);
+                    return false;
+
+                }
+                Thing thing2 = Map.thingGrid.ThingAt(cell, ThingDefOf.SteamGeyser);
+                if(thing2!=null) {
+                    Messages.Message("AP_GeyserAt".Translate(), thing2, MessageTypeDefOf.NegativeEvent);
                     return false;
 
                 }
@@ -109,8 +119,26 @@ namespace AlphaPrefabs
             
         }
 
+        public override string GetInspectString()
+        {
+            return base.GetInspectString() + "AP_WillTurnInto".Translate(newLabel);
+        }
 
-        
+        public override string Label
+        {
+            get
+            {
+                if (cachedLabel.NullOrEmpty())
+                {
+                    cachedLabel = def.label + ": " + newLabel;
+                }
+                return cachedLabel;
+            }
+
+        }
+
+
+
 
 
     }

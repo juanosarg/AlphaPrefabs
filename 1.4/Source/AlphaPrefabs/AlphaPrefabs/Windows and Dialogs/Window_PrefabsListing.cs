@@ -13,20 +13,36 @@ namespace AlphaPrefabs
     {
         public Building_Catalog building;
         public PrefabCategoryDef category;
+        public List<string> allActiveModIds = new List<string>();   
         public override Vector2 InitialSize => new Vector2(620f, 500f);
         private Vector2 scrollPosition = new Vector2(0, 0);
         public int columnCount = 4;
         private static readonly Color borderColor = new Color(0.13f, 0.13f, 0.13f);
         private static readonly Color fillColor = new Color(0, 0, 0, 0.1f);
+        private string searchKey;
 
         public Window_PrefabsListing(PrefabCategoryDef category, Building_Catalog building)
         {
+            foreach(ModMetaData item in ModsConfig.ActiveModsInLoadOrder)
+            {
+                if (!allActiveModIds.Contains(item.PackageId))
+                {
+                    allActiveModIds.Add(item.PackageId);
+                }
+            }
+            Log.Message(allActiveModIds.ToStringSafeEnumerable());
+
             this.building = building;
             this.category = category;
             doCloseX = true;
             doCloseButton = true;
             closeOnClickedOutside = true;
 
+        }
+
+        public static bool ContainsAllItems(List<string> a, List<string> b)
+        {
+            return !b.Except(a).Any();
         }
 
         public override void DoWindowContents(Rect inRect)
@@ -46,10 +62,21 @@ namespace AlphaPrefabs
                 Close();
             }
 
-            Widgets.Label(new Rect(40, 5, 300f, 32f), "AP_GoBack".Translate());
+
+
+            Widgets.Label(new Rect(40, 5, 100f, 32f), "AP_GoBack".Translate());
+
+           
+            var searchRect = new Rect(160, 5, 150, 24);
+            searchKey = Widgets.TextField(searchRect, searchKey);
+            var searchLabel = new Rect(320,5,100,32);
+            Widgets.Label(searchLabel, "AP_PrefabSearch".Translate());
+            
+
             outRect.yMin += 20f;
-            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category
-                                                        select x).OrderBy(x => x.priority).ToList();
+            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && x.label.ToLower().Contains(searchKey.ToLower())&&
+                                       (x.modPrerequisites.NullOrEmpty() ||(x.modPrerequisites!=null&&ContainsAllItems(allActiveModIds,x.modPrerequisites)))
+                                       select x).OrderBy(x => x.priority).ToList();
 
 
             var viewRect = new Rect(0f, 40, outRect.width - 16f, prefabs.Sum(opt => 50 + 17f));

@@ -48,6 +48,7 @@ namespace AlphaPrefabs
 
                 }
                 Messages.Message("AP_TotalPrefabValue".Translate(totalValue), new LookTargets(rect.CenterCell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NeutralEvent);
+                Log.Message("AP_TotalPrefabValue".Translate(totalValue));
 
             });
 
@@ -110,6 +111,46 @@ namespace AlphaPrefabs
 
                 }
                 Messages.Message("AP_PrefabLockingResearches".Translate(researchesNeeded.ToStringSafeEnumerable()), new LookTargets(rect.CenterCell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NeutralEvent);
+                Log.Message("AP_PrefabLockingResearches".Translate(researchesNeeded.ToStringSafeEnumerable()));
+            });
+
+        }
+
+        [DebugAction("Alpha prefabs", "Calculate prefab mods", false, false, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void DebugCalculateModsOnRect()
+        {
+            DebugToolsGeneral.GenericRectTool("mods", delegate (CellRect rect)
+            {
+
+                List<string> modsUsed = new List<string>();
+                foreach (IntVec3 cell in rect)
+                {
+                    foreach (Thing thing in cell.GetThingList(Map))
+                    {
+                        if (thing.ContentSource?.PackageId.NullOrEmpty() == false)
+                        {
+                            if (thing.ContentSource.PackageId != "ludeon.rimworld" && !modsUsed.Contains(thing.ContentSource.PackageId))
+                            {
+                                modsUsed.Add(thing.ContentSource.PackageId);
+                            }
+
+                        }
+
+
+                    }
+
+                    if (cell.GetTerrain(Map)?.modContentPack?.PackageId.NullOrEmpty() == false)
+                    {
+                        if (cell.GetTerrain(Map).modContentPack.PackageId != "ludeon.rimworld" && !modsUsed.Contains(cell.GetTerrain(Map).modContentPack.PackageId))
+                        {
+                            modsUsed.Add(cell.GetTerrain(Map).modContentPack.PackageId);
+                        }
+
+                    }
+
+                }
+                Messages.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable()), new LookTargets(rect.CenterCell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NeutralEvent);
+                Log.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable()));
 
             });
 

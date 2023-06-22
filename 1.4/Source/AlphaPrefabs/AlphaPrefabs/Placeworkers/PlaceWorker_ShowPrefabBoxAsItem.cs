@@ -10,8 +10,10 @@ namespace AlphaPrefabs
     {
         public override void DrawGhost(ThingDef def, IntVec3 center, Rot4 rot, Color ghostCol, Thing thing = null)
         {
-            CompPrefab comp = thing.TryGetComp<CompPrefab>();
-            IntVec2 size = comp.Props.prefab.Sizes;
+           
+            Thing_Prefab prefabItem = thing as Thing_Prefab;
+
+            IntVec2 size = prefabItem.prefab.Sizes;
             var cellRect = CellRect.CenteredOn(thing.Position, (int)size.x, (int)size.z);
             GenDraw.DrawFieldEdges(cellRect.ToList());
         }

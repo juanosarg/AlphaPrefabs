@@ -15,4 +15,24 @@
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
+		<label>erin's 2-person cottage bedroom</label>
+		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight".</description>
+		<priority>2</priority>
+		<icon>UI/Prefabs/AP_Prefab_ErinsCottageBedroom_1</icon>		
+		<category>AP_PrefabCategoryBedrooms</category>
+        <layout>AP_Prefab_ErinsCottageBedroom_1</layout>
+        <marketvalue>1953</marketvalue>
+        <researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>erin.cottagecollection</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
 </Defs>

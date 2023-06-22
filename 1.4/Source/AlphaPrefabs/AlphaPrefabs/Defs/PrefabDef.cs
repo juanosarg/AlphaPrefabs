@@ -17,5 +17,6 @@ namespace AlphaPrefabs
         public StructureLayoutDef layout;
         public float marketvalue;
         public List<ResearchProjectDef> researchPrerequisites;
+        public List<string> modPrerequisites;
     }
 }

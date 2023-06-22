@@ -45,10 +45,6 @@
 				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
 			</li>
 			
-			<li Class="AlphaPrefabs.CompProperties_Prefab">
-				<prefab>AP_Prefab_Bedroom_1</prefab>
-				<newLabel>small 1-person bedroom</newLabel>
-			</li>
 			
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
