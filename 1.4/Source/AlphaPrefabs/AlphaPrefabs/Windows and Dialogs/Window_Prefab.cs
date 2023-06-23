@@ -58,7 +58,7 @@ namespace AlphaPrefabs
                 ThingDef newThingDef = InternalDefOf.AP_Prefab;
                 Thing newPrefab = ThingMaker.MakeThing(newThingDef);
                 Thing_Prefab prefabItem = newPrefab as Thing_Prefab;
-                prefabItem.prefab = prefab.layout;
+                prefabItem.prefab = prefab;
                 prefabItem.newLabel = prefab.LabelCap;
 
                 DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110,false,false,false,false);

@@ -13,7 +13,7 @@ namespace AlphaPrefabs
            
             Thing_Prefab prefabItem = thing as Thing_Prefab;
 
-            IntVec2 size = prefabItem.prefab.Sizes;
+            IntVec2 size = prefabItem.prefab.layout.Sizes;
             var cellRect = CellRect.CenteredOn(thing.Position, (int)size.x, (int)size.z);
             GenDraw.DrawFieldEdges(cellRect.ToList());
         }

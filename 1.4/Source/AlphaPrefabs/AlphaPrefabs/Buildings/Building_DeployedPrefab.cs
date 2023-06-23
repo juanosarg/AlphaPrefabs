@@ -13,7 +13,7 @@ namespace AlphaPrefabs
 {
     public class Building_DeployedPrefab : Building
     {
-        public StructureLayoutDef prefab;
+        public PrefabDef prefab;
         public string newLabel;
         public int tickCounter;
         string cachedLabel = "";
@@ -41,13 +41,13 @@ namespace AlphaPrefabs
             buildPrefab.action = delegate
             {
                 Map map = Map;
-                var cleanCellRect = CellRect.CenteredOn(Position, prefab.Sizes.x, prefab.Sizes.z);
+                var cleanCellRect = CellRect.CenteredOn(Position, prefab.layout.Sizes.x, prefab.layout.Sizes.z);
                 
                 if (CheckNoBuildingsOrWater(cleanCellRect)) {
                     InternalDefOf.AP_BuildPrefab.PlayOneShot(new TargetInfo(Position, map, false));
                     GenOption.GetAllMineableIn(cleanCellRect, map);
-                    LayoutUtils.CleanRect(prefab, map, cleanCellRect, false);
-                    prefab.Generate(cleanCellRect, map);
+                    LayoutUtils.CleanRect(prefab.layout, map, cleanCellRect, false);
+                    prefab.layout.Generate(cleanCellRect, map);
                 }
                    
 

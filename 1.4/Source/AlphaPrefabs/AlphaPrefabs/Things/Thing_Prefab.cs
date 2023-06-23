@@ -9,10 +9,19 @@ namespace AlphaPrefabs
 {
     public class Thing_Prefab : ThingWithComps
     {
-        public StructureLayoutDef prefab;
-        public string newLabel;
+        public PrefabDef prefab = new PrefabDef();
+        public string newLabel ="";
         string cachedLabel = "";
-     
+
+
+        public override void PostMake()
+        {
+            base.PostMake();
+            prefab = DefDatabase<PrefabDef>.AllDefsListForReading.RandomElement();
+            newLabel = def.label + ": " + prefab.LabelCap;
+         
+        }
+
         public override string Label {
             get
             {
@@ -25,6 +34,22 @@ namespace AlphaPrefabs
 
         }
 
+        public override string LabelNoCount
+        {
+            get
+            {
+                if (cachedLabel.NullOrEmpty())
+                {
+                    cachedLabel = newLabel;
+                }
+                return cachedLabel;
+            }
+        }
+
+
+
+
+
         public override void ExposeData()
         {
             base.ExposeData();
@@ -33,7 +58,7 @@ namespace AlphaPrefabs
 
         }
 
-      
+       
 
 
         public override string GetInspectString()

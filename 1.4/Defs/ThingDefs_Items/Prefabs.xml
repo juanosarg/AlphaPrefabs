@@ -11,15 +11,20 @@
 			<DeteriorationRate>2.0</DeteriorationRate>
 			<Flammability>0.2</Flammability>
 		</statBases>
+		<stackLimit>1</stackLimit>
+		<tradeability>All</tradeability>
+		<tradeNeverGenerateStacked>true</tradeNeverGenerateStacked>
+		<healthAffectsPrice>false</healthAffectsPrice>
 		<thingCategories>
 			<li>AP_Prefabs</li>
 		</thingCategories>
-		<techLevel>Ultra</techLevel>
+		<techLevel>Industrial</techLevel>
 		<tradeTags>
 			<li>Prefabs</li>
 		</tradeTags>
 		<thingSetMakerTags>
 			<li>NotForGuests</li>
+			<li>RewardStandardMidFreq</li>
 		</thingSetMakerTags>
 	</ThingDef>
 	<ThingDef ParentName="AP_PrefabBase">
@@ -30,8 +35,7 @@
 			<texPath>Things/Item/AP_PrefabItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<stackLimit>1</stackLimit>
-		<tradeability>Sellable</tradeability>
+		
 		<statBases>
 			<MarketValue>100</MarketValue>
 		</statBases>
