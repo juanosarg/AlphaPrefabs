@@ -307,6 +307,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StatParts\StatPart_Prefab.cs" />
     <Compile Include="Things\Thing_Prefab.cs" />
+    <Compile Include="Utils.cs" />
     <Compile Include="Windows and Dialogs\Window_Prefab.cs" />
     <Compile Include="Windows and Dialogs\Window_PrefabCategories.cs" />
     <Compile Include="Windows and Dialogs\Window_PrefabsListing.cs" />

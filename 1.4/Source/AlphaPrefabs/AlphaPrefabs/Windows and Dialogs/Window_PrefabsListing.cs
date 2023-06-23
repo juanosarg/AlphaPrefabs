@@ -30,8 +30,7 @@ namespace AlphaPrefabs
                     allActiveModIds.Add(item.PackageId);
                 }
             }
-            Log.Message(allActiveModIds.ToStringSafeEnumerable());
-
+           
             this.building = building;
             this.category = category;
             doCloseX = true;
@@ -40,10 +39,7 @@ namespace AlphaPrefabs
 
         }
 
-        public static bool ContainsAllItems(List<string> a, List<string> b)
-        {
-            return !b.Except(a).Any();
-        }
+       
 
         public override void DoWindowContents(Rect inRect)
         {
@@ -75,7 +71,7 @@ namespace AlphaPrefabs
 
             outRect.yMin += 20f;
             List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && x.label.ToLower().Contains(searchKey.ToLower())&&
-                                       (x.modPrerequisites.NullOrEmpty() ||(x.modPrerequisites!=null&&ContainsAllItems(allActiveModIds,x.modPrerequisites)))
+                                       (x.modPrerequisites.NullOrEmpty() ||(x.modPrerequisites!=null && Utils.ContainsAllItems(allActiveModIds,x.modPrerequisites)))
                                        select x).OrderBy(x => x.priority).ToList();
 
 
