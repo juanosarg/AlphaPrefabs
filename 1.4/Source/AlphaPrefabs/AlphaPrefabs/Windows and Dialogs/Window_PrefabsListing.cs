@@ -33,8 +33,8 @@ namespace AlphaPrefabs
            
             this.building = building;
             this.category = category;
-            doCloseX = true;
-            doCloseButton = true;
+      
+           
             closeOnClickedOutside = true;
 
         }
@@ -67,7 +67,11 @@ namespace AlphaPrefabs
             searchKey = Widgets.TextField(searchRect, searchKey);
             var searchLabel = new Rect(320,5,100,32);
             Widgets.Label(searchLabel, "AP_PrefabSearch".Translate());
-            
+
+            if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 0f, 18f, 18f), TexButton.CloseXSmall))
+            {
+                Close();
+            }
 
             outRect.yMin += 20f;
             List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && x.label.ToLower().Contains(searchKey.ToLower())&&

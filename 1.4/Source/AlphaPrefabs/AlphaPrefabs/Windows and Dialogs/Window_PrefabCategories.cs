@@ -21,8 +21,7 @@ namespace AlphaPrefabs
         public Window_PrefabCategories(Building_Catalog building)
         {
             this.building = building;
-            doCloseX = true;
-            doCloseButton = true;
+         
             closeOnClickedOutside = true;
   
         }
@@ -34,9 +33,12 @@ namespace AlphaPrefabs
             outRect.yMin += 20f;
             outRect.yMax -= 40f;
             outRect.width -= 16f;
-         
 
-          
+            if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 0f, 18f, 18f), TexButton.CloseXSmall))
+            {
+                Close();
+            }
+
             List<PrefabCategoryDef> prefabCategories = (from x in DefDatabase<PrefabCategoryDef>.AllDefsListForReading                                           
                                             select x).OrderBy(x => x.priority).ToList();
 

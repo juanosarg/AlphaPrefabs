@@ -9,6 +9,8 @@
 	<AP_WillTurnInto>Structure that will be built: {0}</AP_WillTurnInto>
 	<AP_PrefabSearch>Search</AP_PrefabSearch>
 	<AP_PrefabFixedPrice>Prefab price: fixed value</AP_PrefabFixedPrice>
+	<AP_OrderNow>Order now</AP_OrderNow>
+	<AP_Silver>silver</AP_Silver>
 	<!-- Dev mode -->
 	<AP_TotalPrefabValue>Total prefab value estimated at {0} simoleons</AP_TotalPrefabValue>
 	<AP_PrefabLockingResearches>This prefab requires the following researches: {0}</AP_PrefabLockingResearches>

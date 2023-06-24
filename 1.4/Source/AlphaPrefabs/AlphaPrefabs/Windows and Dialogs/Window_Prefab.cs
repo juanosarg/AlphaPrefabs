@@ -25,8 +25,7 @@ namespace AlphaPrefabs
         {
             this.building = building;
             this.prefab = prefab;
-            doCloseX = true;
-            doCloseButton = true;
+           
             closeOnClickedOutside = true;
 
         }
@@ -49,11 +48,41 @@ namespace AlphaPrefabs
             }
 
             Widgets.Label(new Rect(40, 5, 300f, 32f), "AP_GoBack".Translate());
+
+            if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 0f, 18f, 18f), TexButton.CloseXSmall))
+            {
+                Close();
+            }
+
+
             outRect.yMin += 20f;
 
-            var orderNowRect = new Rect(228f, 350f, 128f, 64f);
-            GUI.DrawTexture(orderNowRect, ContentFinder<Texture2D>.Get("UI/AP_OrderNow", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
-            if (Widgets.ButtonInvisible(orderNowRect))
+            Rect rectIcon = new Rect(0f, outRect.yMin+12, 128, 128);
+
+            Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
+            Rect rectIconInside = rectIcon.ContractedBy(2);
+            GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefab.icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+
+            Text.Font = GameFont.Medium;
+            Rect rectLabel = new Rect(150, outRect.yMin + 12, 400, 40);
+            Widgets.Label(rectLabel, prefab.LabelCap);
+
+            Text.Font = GameFont.Small;
+            Rect rectDescription = new Rect(150, outRect.yMin + 50, 400, 100);
+            Widgets.Label(rectDescription, prefab.description);
+
+            Rect rectResearchNeeded = new Rect(0, outRect.yMin + 175, 600, 25);
+            Widgets.Label(rectResearchNeeded, prefab.researchPrerequisites.ToStringSafeEnumerable());
+
+            Rect modsNeeded = new Rect(0, outRect.yMin + 200, 600, 25);
+            Widgets.Label(modsNeeded, prefab.modPrerequisites.ToStringSafeEnumerable());
+
+            Rect totalCost = new Rect(0, outRect.yMin + 225, 600, 25);
+            Widgets.Label(totalCost, prefab.marketvalue+" "+ "AP_Silver".Translate());
+
+
+            Text.Font = GameFont.Small;
+            if (Widgets.ButtonText(new Rect(outRect.width / 2f - CloseButSize.x / 2f, outRect.height+30, CloseButSize.x, CloseButSize.y), "AP_OrderNow".Translate()))
             {
                 ThingDef newThingDef = InternalDefOf.AP_Prefab;
                 Thing newPrefab = ThingMaker.MakeThing(newThingDef);
@@ -61,9 +90,11 @@ namespace AlphaPrefabs
                 prefabItem.prefab = prefab;
                 prefabItem.newLabel = prefab.LabelCap;
 
-                DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110,false,false,false,false);
+                DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
                 Close();
             }
+
+
 
         }
     }
