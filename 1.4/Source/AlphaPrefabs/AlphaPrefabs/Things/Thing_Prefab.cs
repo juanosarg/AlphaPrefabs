@@ -22,11 +22,39 @@ namespace AlphaPrefabs
             Utils.StoreAllactiveMods();
 
             prefab = (from x in DefDatabase<PrefabDef>.AllDefsListForReading
-                      where (x.modPrerequisites.NullOrEmpty() || (x.modPrerequisites != null && Utils.ContainsAllItems(Utils.allActiveModIds, x.modPrerequisites)))
+                      where CheckModsAndResearch(x)
                       select x).ToList().RandomElement();
 
             newLabel = def.label + ": " + prefab.LabelCap;
          
+        }
+
+        public bool CheckModsAndResearch(PrefabDef prefab)
+        {
+            //Check research
+            if (!prefab.researchPrerequisites.NullOrEmpty())
+            {
+                foreach (ResearchProjectDef research in prefab.researchPrerequisites)
+                {
+                    if (!research.IsFinished)
+                    {                        
+                        return false;
+                    }
+
+                }
+            }
+            //Check mods
+            if (!prefab.modPrerequisites.NullOrEmpty())
+            {
+                Utils.StoreAllactiveMods();
+                if (!Utils.ContainsAllItems(Utils.allActiveModIds, prefab.modPrerequisites))
+                {
+                    return false;
+                }
+
+            }
+            return true;
+
         }
 
         public override string Label {
