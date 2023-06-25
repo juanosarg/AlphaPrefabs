@@ -310,6 +310,7 @@
     <Compile Include="Utils.cs" />
     <Compile Include="Windows and Dialogs\Window_Prefab.cs" />
     <Compile Include="Windows and Dialogs\Window_PrefabCategories.cs" />
+    <Compile Include="Windows and Dialogs\Window_PrefabImage.cs" />
     <Compile Include="Windows and Dialogs\Window_PrefabsListing.cs" />
   </ItemGroup>
   <ItemGroup>

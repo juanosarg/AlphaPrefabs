@@ -26,15 +26,26 @@ namespace AlphaPrefabs
   
         }
 
+        public void OpenPrefabListWindow(PrefabCategoryDef category)
+        {
+            Window_PrefabsListing prefabWindow = new Window_PrefabsListing(category, building);
+            Find.WindowStack.Add(prefabWindow);
+            Close();
+        }
+
         public override void DoWindowContents(Rect inRect)
         {
-            Text.Font = GameFont.Small;
+            
             var outRect = new Rect(inRect);
-            outRect.yMin += 20f;
+            outRect.yMin += 40f;
             outRect.yMax -= 40f;
             outRect.width -= 16f;
 
-            if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 0f, 18f, 18f), TexButton.CloseXSmall))
+            Text.Font = GameFont.Medium;
+            var IntroLabel = new Rect(0, 0, 300, 32f);
+            Widgets.Label(IntroLabel, "AP_ChoosePrefabCategory".Translate());
+            Text.Font = GameFont.Small;
+            if (Widgets.ButtonImage(new Rect(outRect.xMax - 18f - 4f, 2f, 18f, 18f), TexButton.CloseXSmall))
             {
                 Close();
             }
@@ -51,20 +62,19 @@ namespace AlphaPrefabs
                 for (var i = 0; i < prefabCategories.Count; i++)
                 {
 
-                    Rect rectIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 128);
-
+                    Rect rectIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y  + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 128);
                     Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
                     Rect rectIconInside = rectIcon.ContractedBy(2);
-
                     GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefabCategories[i].icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
-
                     TooltipHandler.TipRegion(rectIcon, prefabCategories[i].LabelCap+": "+ prefabCategories[i].description);
+
+                    var categoryTextRect = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 128 + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 20);
+                    Widgets.Label(categoryTextRect, prefabCategories[i].LabelCap);
 
                     if (Widgets.ButtonInvisible(rectIcon))
                     {
-                        Window_PrefabsListing prefabWindow = new Window_PrefabsListing(prefabCategories[i],building);
-                        Find.WindowStack.Add(prefabWindow);
-                        Close();
+                        OpenPrefabListWindow(prefabCategories[i]);
+                       
                     }
                 }
             }

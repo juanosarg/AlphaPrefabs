@@ -4,6 +4,7 @@ using Verse;
 using RimWorld;
 using System.Linq;
 using KCSG;
+using System.Collections.Generic;
 
 namespace AlphaPrefabs
 {
@@ -12,12 +13,18 @@ namespace AlphaPrefabs
         public PrefabDef prefab = new PrefabDef();
         public string newLabel ="";
         string cachedLabel = "";
-
+       
 
         public override void PostMake()
         {
             base.PostMake();
-            prefab = DefDatabase<PrefabDef>.AllDefsListForReading.RandomElement();
+
+            Utils.StoreAllactiveMods();
+
+            prefab = (from x in DefDatabase<PrefabDef>.AllDefsListForReading
+                      where (x.modPrerequisites.NullOrEmpty() || (x.modPrerequisites != null && Utils.ContainsAllItems(Utils.allActiveModIds, x.modPrerequisites)))
+                      select x).ToList().RandomElement();
+
             newLabel = def.label + ": " + prefab.LabelCap;
          
         }

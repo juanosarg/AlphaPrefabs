@@ -7,19 +7,38 @@
 		<description>A very small 1-person bedroom ideal for cramped spaces. Its 13 tiles of space classifies it as "rather tight".</description>
 		<priority>1</priority>
 		<icon>UI/Prefabs/AP_Prefab_Bedroom_1</icon>		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
         <layout>AP_Prefab_Bedroom_1</layout>
         <marketvalue>630</marketvalue>
         <researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_2</defName>
+		<label>small 2-person bedroom</label>
+		<description>A very small 2-person bedroom ideal for cramped spaces. Its 18 tiles of space classifies it as "rather tight".</description>
+		<priority>2</priority>
+		<icon>UI/Prefabs/AP_Prefab_Bedroom_2</icon>		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+        <layout>AP_Prefab_Bedroom_2</layout>
+        <marketvalue>1129</marketvalue>
+        <researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		
 	</AlphaPrefabs.PrefabDef>
 	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
 		<label>erin's 2-person cottage bedroom</label>
 		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight".</description>
-		<priority>2</priority>
+		<priority>2000</priority>
 		<icon>UI/Prefabs/AP_Prefab_ErinsCottageBedroom_1</icon>		
 		<category>AP_PrefabCategoryBedrooms</category>
         <layout>AP_Prefab_ErinsCottageBedroom_1</layout>

@@ -12,11 +12,13 @@ namespace AlphaPrefabs
     public class PrefabDef : Def
     {
         public string icon;
+        public string detailedImage;
         public float priority;
         public PrefabCategoryDef category;
         public StructureLayoutDef layout;
         public float marketvalue;
         public List<ResearchProjectDef> researchPrerequisites;
         public List<string> modPrerequisites;
+        public List<string> suggestedMods;
     }
 }

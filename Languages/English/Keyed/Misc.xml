@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
 	<AP_OccupiedBy>Prefab can't be built. {0} is blocking construction.</AP_OccupiedBy>
 	<AP_ImpassableTerrain>Prefab can't be built. Impassable terrain, "{0}" is blocking construction.</AP_ImpassableTerrain>
 	<AP_GeyserAt>Prefab can't be built over a steam geyser</AP_GeyserAt>
@@ -7,10 +8,20 @@
 	<AP_GoBack>Go back</AP_GoBack>
 	<AP_NeedsDeployment>This prefab needs to be deployed by a colonist</AP_NeedsDeployment>
 	<AP_WillTurnInto>Structure that will be built: {0}</AP_WillTurnInto>
+	<AP_ChoosePrefabCategory>Select prefab category:</AP_ChoosePrefabCategory>
 	<AP_PrefabSearch>Search</AP_PrefabSearch>
 	<AP_PrefabFixedPrice>Prefab price: fixed value</AP_PrefabFixedPrice>
 	<AP_OrderNow>Order now</AP_OrderNow>
 	<AP_Silver>silver</AP_Silver>
+	<AP_ResearchNeeded>Research needed: {0}</AP_ResearchNeeded>
+	<AP_NoResearchNeeded>No research needed</AP_NoResearchNeeded>
+	<AP_ModsNeeded>Mods needed: {0}</AP_ModsNeeded>
+	<AP_NoModsNeeded>No mods or DLC needed</AP_NoModsNeeded>
+	<AP_PrefabDimensions>Prefab dimensions: {0} x {1} tiles</AP_PrefabDimensions>
+	<AP_SuggestedMods>Suggested mods (not essential to have): {0}</AP_SuggestedMods>
+	<AP_ResearchNotFinished>Research "{0}" needs to be finished before being able to buy this prefab</AP_ResearchNotFinished>
+	<AP_NotAllModsPresent>This prefab is lacking one or more mods needed to buy it</AP_NotAllModsPresent>
+	<AP_NotEnoughMoney>Not enough silver. You need at least {0} silver around valid trade beacons to buy this prefab</AP_NotEnoughMoney>
 	<!-- Dev mode -->
 	<AP_TotalPrefabValue>Total prefab value estimated at {0} simoleons</AP_TotalPrefabValue>
 	<AP_PrefabLockingResearches>This prefab requires the following researches: {0}</AP_PrefabLockingResearches>

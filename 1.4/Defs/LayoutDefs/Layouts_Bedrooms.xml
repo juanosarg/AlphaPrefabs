@@ -22,8 +22,30 @@
 			<li>.,.,.,.,.,.</li>
 		</terrainGrid>
 	</KCSG.StructureLayoutDef>
-	
-	
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Bedroom_2</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,.</li>
+				<li>Wall_BlocksSlate,AnimalSleepingBox_WoodLog,TorchLamp,Dresser_WoodLog_North,.,Wall_BlocksSlate,.</li>
+				<li>Wall_BlocksSlate,PlantPot_WoodLog,.,.,.,Wall_BlocksSlate,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,Wall_BlocksSlate,.,.,.,.,Door_WoodLog</li>
+				<li>.,Wall_BlocksSlate,.,.,.,.,Wall_BlocksSlate</li>
+				<li>.,Wall_BlocksSlate,EndTable_WoodLog_South,.,DoubleBed_WoodLog_South,EndTable_WoodLog_South,Wall_BlocksSlate</li>
+				<li>.,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.</li>
+			<li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.</li>
+			<li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.</li>
+			<li>.,.,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep</li>
+			<li>.,.,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,.</li>
+			<li>.,.,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,CarpetPurpleDeep,.</li>
+			<li>.,.,.,.,.,.,.</li>
+		</terrainGrid>
+	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
 		<spawnConduits>false</spawnConduits>
