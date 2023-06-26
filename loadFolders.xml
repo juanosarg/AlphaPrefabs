@@ -6,6 +6,8 @@
 		<li>1.4</li>
 
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.4/Mods/Ideology</li>	
+		<li IfModActive="VanillaExpanded.VMemesE">1.4/Mods/VanillaMemesExpanded</li>
+		<li IfModActive="Sarg.AlphaMemes">1.4/Mods/AlphaMemes</li>
 
 	</v1.4>
 </loadFolders>

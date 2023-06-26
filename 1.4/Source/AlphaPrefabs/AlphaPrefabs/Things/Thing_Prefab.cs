@@ -16,6 +16,7 @@ namespace AlphaPrefabs
         public string newLabel ="";
         string cachedLabel = "";
         public string variationString = "";
+        public Graphic cachedGraphic;
 
 
         public override void PostMake()
@@ -25,11 +26,30 @@ namespace AlphaPrefabs
             Utils.StoreAllactiveMods();
 
             prefab = (from x in DefDatabase<PrefabDef>.AllDefsListForReading
-                      where CheckModsAndResearch(x)
+                      where CheckModsAndResearch(x) && x.marketvalue > MarketvalueCutOff(this.def).Item1 && x.marketvalue <= MarketvalueCutOff(this.def).Item2
                       select x).ToList().RandomElement();
 
             newLabel = def.label + ": " + prefab.LabelCap;
          
+        }
+
+        public Tuple<int, int> MarketvalueCutOff(ThingDef thingdef) { 
+        
+            if(thingdef == InternalDefOf.AP_Prefab_LowValue)
+            {
+                return new Tuple<int, int>(0,900);
+            }
+            if (thingdef == InternalDefOf.AP_Prefab)
+            {
+                return new Tuple<int, int>(900, 1500);
+            }
+            if (thingdef == InternalDefOf.AP_Prefab_MediumHighValue)
+            {
+                return new Tuple<int, int>(1500, 3000);
+            }
+
+            return  new Tuple<int, int>(3000, int.MaxValue); 
+
         }
 
         public bool CheckModsAndResearch(PrefabDef prefab)
@@ -97,6 +117,38 @@ namespace AlphaPrefabs
             Scribe_Values.Look(ref variationString, "variationString");
 
 
+        }
+
+        public override Graphic Graphic
+        {
+            get
+            {
+                if(cachedGraphic == null) {
+
+                    if (prefab?.marketvalue < 900)
+                    {
+                        return GraphicsCache.graphicLowValue;
+                    }
+                    else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 1500)
+                    {
+                        return base.Graphic;
+                    }
+                    else if (prefab?.marketvalue >= 1500 && prefab?.marketvalue < 3000)
+                    {
+                        return GraphicsCache.graphicMediumHighValue;
+                    }
+                    else
+                    {
+                        return GraphicsCache.graphicHighValue;
+                    }
+
+                }else return cachedGraphic;
+
+
+                
+
+            }
+        
         }
 
 

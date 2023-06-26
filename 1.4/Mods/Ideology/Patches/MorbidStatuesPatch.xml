@@ -9,7 +9,7 @@
 			</DesignatorDropdownGroupDef>
 			<ThingDef Name="AP_SmallMorbidSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>small morbid sculpture</label>
-				<description>An morbid style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A morbid style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<fillPercent>0.35</fillPercent>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +51,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_MediumMorbidFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>large morbid sculpture</label>
-				<description>An morbid style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A morbid style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +95,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_GrandMorbidFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>grand morbid sculpture</label>
-				<description>An morbid style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A morbid style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>

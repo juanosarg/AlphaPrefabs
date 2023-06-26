@@ -9,7 +9,7 @@
 			</DesignatorDropdownGroupDef>
 			<ThingDef Name="AP_SmallBuddhistSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>small buddhist sculpture</label>
-				<description>An buddhist style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A buddhist style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<fillPercent>0.35</fillPercent>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +51,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_MediumBuddhistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>large buddhist sculpture</label>
-				<description>An buddhist style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A buddhist style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +95,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_GrandBuddhistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>grand buddhist sculpture</label>
-				<description>An buddhist style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A buddhist style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>

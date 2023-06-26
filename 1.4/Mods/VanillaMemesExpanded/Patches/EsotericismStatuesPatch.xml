@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_EsotericismFakeSculptures</defName>
+				<label>esotericism fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallEsotericismSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small esotericism sculpture</label>
+				<description>An esotericism style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>VME_Esotericism</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_EsotericismFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallEsotericismSculptureBase">
+				<defName>AP_EsotericismFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Small/VME_SculptureSmallEsotericismA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallEsotericismSculptureBase">
+				<defName>AP_EsotericismFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Small/VME_SculptureSmallEsotericismB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallEsotericismSculptureBase">
+				<defName>AP_EsotericismFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Small/VME_SculptureSmallEsotericismC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumEsotericismFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large esotericism sculpture</label>
+				<description>An esotericism style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>VME_Esotericism</dominantStyleCategory>
+				<designatorDropdown>AP_EsotericismFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumEsotericismFakeSculptureBase">
+				<defName>AP_EsotericismFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Large/VME_SculptureLargeEsotericismA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumEsotericismFakeSculptureBase">
+				<defName>AP_EsotericismFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Large/VME_SculptureLargeEsotericismB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumEsotericismFakeSculptureBase">
+				<defName>AP_EsotericismFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Esotericism/Sculptures/Large/VME_SculptureLargeEsotericismC</texPath>
+				</graphicData>
+			</ThingDef>
+			
+		</value>
+	</Operation>
+</Patch>

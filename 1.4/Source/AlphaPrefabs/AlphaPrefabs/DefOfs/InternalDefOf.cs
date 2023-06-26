@@ -9,6 +9,9 @@ namespace AlphaPrefabs
     public static class InternalDefOf
     {
         public static ThingDef AP_Prefab;
+        public static ThingDef AP_Prefab_LowValue;
+        public static ThingDef AP_Prefab_MediumHighValue;
+        public static ThingDef AP_Prefab_HighValue;
         public static ThingDef AP_DeployedPrefab;
         
         public static JobDef AP_UsePrefab;

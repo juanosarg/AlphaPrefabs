@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="ResourceBase" Name="AP_PrefabBase" Abstract="True">
-		
+	<ThingDef ParentName="ResourceBase" Name="AP_PrefabBase" Abstract="True">		
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<thingClass>AlphaPrefabs.Thing_Prefab</thingClass>
 		<useHitPoints>true</useHitPoints>
@@ -28,14 +27,13 @@
 		</thingSetMakerTags>
 	</ThingDef>
 	<ThingDef ParentName="AP_PrefabBase">
-		<defName>AP_Prefab</defName>
+		<defName>AP_Prefab_LowValue</defName>
 		<label>prefab box</label>
 		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The prefab box needs to be deployed by a colonist, placing it in the desired location. For that, select a colonist and right click the prefab box, selecting a tile of passable terrain.</description>
 		<graphicData>
 			<texPath>Things/Item/AP_PrefabItem</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		
 		<statBases>
 			<MarketValue>100</MarketValue>
 		</statBases>
@@ -47,9 +45,85 @@
 			</li>
 			<li Class="CompProperties_Targetable">
 				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
+			</li>					
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBoxAsItem</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="AP_PrefabBase">
+		<defName>AP_Prefab</defName>
+		<label>prefab box</label>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The prefab box needs to be deployed by a colonist, placing it in the desired location. For that, select a colonist and right click the prefab box, selecting a tile of passable terrain.</description>
+		<graphicData>
+			<texPath>Things/Item/AP_PrefabItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Deploy prefab builder</useLabel>
+				<useDuration>60</useDuration>
 			</li>
-			
-			
+			<li Class="CompProperties_Targetable">
+				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
+			</li>					
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBoxAsItem</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="AP_PrefabBase">
+		<defName>AP_Prefab_MediumHighValue</defName>
+		<label>prefab box</label>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The prefab box needs to be deployed by a colonist, placing it in the desired location. For that, select a colonist and right click the prefab box, selecting a tile of passable terrain.</description>
+		<graphicData>
+			<texPath>Things/Item/AP_PrefabItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Deploy prefab builder</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="CompProperties_Targetable">
+				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
+			</li>					
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBoxAsItem</li>
+		</placeWorkers>
+	</ThingDef>
+	<ThingDef ParentName="AP_PrefabBase">
+		<defName>AP_Prefab_HighValue</defName>
+		<label>prefab box</label>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The prefab box needs to be deployed by a colonist, placing it in the desired location. For that, select a colonist and right click the prefab box, selecting a tile of passable terrain.</description>
+		<graphicData>
+			<texPath>Things/Item/AP_PrefabItem</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Deploy prefab builder</useLabel>
+				<useDuration>60</useDuration>
+			</li>
+			<li Class="CompProperties_Targetable">
+				<compClass>AlphaPrefabs.CompTargetable_Ground</compClass>
+			</li>					
 		</comps>
 		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
 		<placeWorkers>

@@ -9,7 +9,7 @@
 			</DesignatorDropdownGroupDef>
 			<ThingDef Name="AP_SmallTotemicSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>small totemic sculpture</label>
-				<description>An totemic style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A totemic style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<fillPercent>0.35</fillPercent>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -51,7 +51,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_MediumTotemicFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>large totemic sculpture</label>
-				<description>An totemic style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A totemic style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>
@@ -95,7 +95,7 @@
 			</ThingDef>
 			<ThingDef Name="AP_GrandTotemicFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
 				<label>grand totemic sculpture</label>
-				<description>An totemic style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<description>A totemic style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
 				<castEdgeShadows>true</castEdgeShadows>
 				<graphicData>
 					<graphicClass>Graphic_Single</graphicClass>

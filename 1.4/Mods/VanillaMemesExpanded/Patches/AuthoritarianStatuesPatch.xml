@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_AuthoritarianFakeSculptures</defName>
+				<label>authoritarian fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallAuthoritarianSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small authoritarian sculpture</label>
+				<description>An authoritarian style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>VME_Authoritarian</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_AuthoritarianFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAuthoritarianSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Small/VME_SculptureSmallAuthoritarianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAuthoritarianSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Small/VME_SculptureSmallAuthoritarianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAuthoritarianSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Small/VME_SculptureSmallAuthoritarianC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumAuthoritarianFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large authoritarian sculpture</label>
+				<description>An authoritarian style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>VME_Authoritarian</dominantStyleCategory>
+				<designatorDropdown>AP_AuthoritarianFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Large/VME_SculptureLargeAuthoritarianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Large/VME_SculptureLargeAuthoritarianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Large/VME_SculptureLargeAuthoritarianC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandAuthoritarianFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand authoritarian sculpture</label>
+				<description>An authoritarian style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_AuthoritarianFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>VME_Authoritarian</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Grand/VME_SculptureGrandAuthoritarianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Grand/VME_SculptureGrandAuthoritarianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAuthoritarianFakeSculptureBase">
+				<defName>AP_AuthoritarianFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Authoritarian/Sculptures/Grand/VME_SculptureGrandAuthoritarianC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

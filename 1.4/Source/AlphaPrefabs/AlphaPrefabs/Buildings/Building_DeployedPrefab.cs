@@ -20,6 +20,8 @@ namespace AlphaPrefabs
         public int tickCounter;
         string cachedLabel = "";
         public string variationString = "";
+        public Verse.Graphic cachedGraphic;
+
 
         public override void ExposeData()
         {
@@ -154,6 +156,42 @@ namespace AlphaPrefabs
 
 
            
+        }
+
+        public override Verse.Graphic Graphic
+        {
+            get
+            {
+
+
+                if (cachedGraphic == null)
+                {
+
+                    if (prefab?.marketvalue < 900)
+                    {
+                        return GraphicsCache.graphicLowValueBuilding;
+                    }
+                    else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 1500)
+                    {
+                        return base.Graphic;
+                    }
+                    else if (prefab?.marketvalue >= 1500 && prefab?.marketvalue < 3000)
+                    {
+                        return GraphicsCache.graphicMediumHighValueBuilding;
+                    }
+                    else
+                    {
+                        return GraphicsCache.graphicHighValueBuilding;
+                    }
+
+                }
+                else return cachedGraphic;
+
+
+                
+
+            }
+
         }
 
         public override string Label
