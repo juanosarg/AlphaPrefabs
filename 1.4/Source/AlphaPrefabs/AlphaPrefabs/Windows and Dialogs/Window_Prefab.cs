@@ -193,7 +193,10 @@ namespace AlphaPrefabs
                     prefabItem.variationString = variationString;
 
                 }
-                TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), building.Map, null);
+                if (!AlphaPrefabs_Settings.noSilverMode) {
+                    TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), building.Map, null);
+                }
+                
                 DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
                 Close();
             }
@@ -210,7 +213,7 @@ namespace AlphaPrefabs
         {
 
             // Checking research projects
-            if (!prefab.researchPrerequisites.NullOrEmpty())
+            if (!AlphaPrefabs_Settings.noResearchLockingMode && !prefab.researchPrerequisites.NullOrEmpty())
             {
                 foreach (ResearchProjectDef research in prefab.researchPrerequisites)
                 {
@@ -233,7 +236,7 @@ namespace AlphaPrefabs
 
             }
             // Checking money
-            if (AmountSendableSilver(building.Map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
+            if (!AlphaPrefabs_Settings.noSilverMode && AmountSendableSilver(building.Map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
             {              
                     reason = "AP_NotEnoughMoney".Translate((int)(prefab.marketvalue * Constants.SellPriceModifier));
                     return false;              

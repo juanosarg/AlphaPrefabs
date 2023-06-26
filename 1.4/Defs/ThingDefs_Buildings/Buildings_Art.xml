@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase" Name="AP_FakeSculptureBase" Abstract="True">
+		<thingClass>Building_Art</thingClass>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<useHitPoints>true</useHitPoints>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+	
+		<statBases>
+			<Flammability>1.0</Flammability>
+			<SellPriceFactor>0.1</SellPriceFactor>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtSculpture</nameMaker>
+				<descriptionMaker>ArtDescription_Sculpture</descriptionMaker>
+				<canBeEnjoyedAsArt>true</canBeEnjoyedAsArt>
+			</li>
+			<li Class="CompProperties_MeditationFocus">
+				<statDef>MeditationFocusStrength</statDef>
+				<focusTypes>
+					<li>Artistic</li>
+				</focusTypes>
+				<offsets>
+					<li Class="FocusStrengthOffset_Quality">
+						<curve>
+							<points>
+								<li>(0,0.12)</li>
+								<!-- awful -->
+								<li>(1,0.16)</li>
+								<!-- poor -->
+								<li>(2,0.20)</li>
+								<!-- normal -->
+								<li>(3,0.22)</li>
+								<!-- good -->
+								<li>(4,0.24)</li>
+								<!-- excellent -->
+								<li>(5,0.26)</li>
+								<!-- masterwork -->
+								<li>(6,0.28)</li>
+								<!-- legendary -->
+							</points>
+						</curve>
+					</li>
+					<li Class="FocusStrengthOffset_BuildingDefsWithQuality">
+						<defs>
+							<li>SculptureSmall</li>
+							<li>SculptureLarge</li>
+							<li>SculptureGrand</li>
+						</defs>
+						<radius>9.9</radius>
+						<maxBuildings>8</maxBuildings>
+						<focusPerQuality>
+							<points>
+								<li>(0,0.0)</li>
+								<!-- awful -->
+								<li>(1,0.0)</li>
+								<!-- poor -->
+								<li>(2,0.01)</li>
+								<!-- normal -->
+								<li>(3,0.01)</li>
+								<!-- good -->
+								<li>(4,0.01)</li>
+								<!-- excellent -->
+								<li>(5,0.02)</li>
+								<!-- masterwork -->
+								<li>(6,0.02)</li>
+								<!-- legendary -->
+							</points>
+						</focusPerQuality>
+						<explanationKey>MeditationFocusPerSculpture</explanationKey>
+						<explanationKeyAbstract>MeditationFocusPerSculptureAbstract</explanationKeyAbstract>
+					</li>
+				</offsets>
+			</li>
+			<li Class="CompProperties_Styleable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_MeditationOffsetBuildingsNear</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<tradeTags>
+			<li>Art</li>
+		</tradeTags>
+		<ritualFocus>
+			<spectateDistance>2</spectateDistance>
+			<allowedSpectateSides>Down</allowedSpectateSides>
+		</ritualFocus>
+		<building>
+			<paintable>true</paintable>
+		</building>
+	</ThingDef>
+	<!--================================ Sculptures ======================================-->
+	<ThingDef Name="AP_SmallFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+		<label>small sculpture</label>
+		<description>A torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+		<fillPercent>0.35</fillPercent>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<designatorDropdown>AP_SmallFakeSculptures</designatorDropdown>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Mass>3</Mass>
+			<Beauty>50</Beauty>
+			<WorkToMake>18000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallA</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallAbstractA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallB</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallAbstractB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallC</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallAbstractC</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallD</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallBustA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallE</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallBustB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_SmallFakeSculptureBase">
+		<defName>AP_FakeSculptureSmallF</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureSmall/SculptureSmallBustC</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef Name="AP_MediumFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+		<label>large sculpture</label>
+		<description>A person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<designatorDropdown>AP_MediumFakeSculptures</designatorDropdown>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>7</Mass>
+			<Beauty>100</Beauty>
+			<WorkToMake>30000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumA</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeAbstractA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumB</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeAbstractB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumC</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeAbstractC</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumD</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeOrganicA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumE</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeOrganicB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_MediumFakeSculptureBase">
+		<defName>AP_FakeSculptureMediumF</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureLarge/SculptureLargeOrganicC</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef Name="AP_GrandFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+		<label>grand sculpture</label>
+		<description>A huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+		<castEdgeShadows>true</castEdgeShadows>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+		<designatorDropdown>AP_GrandFakeSculptures</designatorDropdown>
+		<fillPercent>0.5</fillPercent>
+		<rotatable>false</rotatable>
+		<size>(2,2)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<statBases>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Beauty>400</Beauty>
+			<Mass>28</Mass>
+			<WorkToMake>105000</WorkToMake>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>1</costStuffCount>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandA</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractA</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandB</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractB</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandC</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractC</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandD</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractD</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandE</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractE</texPath>
+		</graphicData>
+	</ThingDef>
+	<ThingDef ParentName="AP_GrandFakeSculptureBase">
+		<defName>AP_FakeSculptureGrandF</defName>
+		<graphicData>
+			<texPath>Things/Building/Art/SculptureGrand/SculptureGrandAbstractF</texPath>
+		</graphicData>
+	</ThingDef>
+</Defs>

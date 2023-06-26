@@ -35,7 +35,7 @@ namespace AlphaPrefabs
         public bool CheckModsAndResearch(PrefabDef prefab)
         {
             //Check research
-            if (!prefab.researchPrerequisites.NullOrEmpty())
+            if (!AlphaPrefabs_Settings.noResearchLockingMode && !prefab.researchPrerequisites.NullOrEmpty())
             {
                 foreach (ResearchProjectDef research in prefab.researchPrerequisites)
                 {

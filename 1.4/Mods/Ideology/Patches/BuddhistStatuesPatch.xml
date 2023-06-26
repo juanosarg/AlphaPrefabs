@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_BuddhistFakeSculptures</defName>
+				<label>buddhist fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallBuddhistSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small buddhist sculpture</label>
+				<description>An buddhist style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>Buddhist</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_BuddhistFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallBuddhistSculptureBase">
+				<defName>AP_BuddhistFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Small/SculptureSmallBuddhistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallBuddhistSculptureBase">
+				<defName>AP_BuddhistFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Small/SculptureSmallBuddhistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallBuddhistSculptureBase">
+				<defName>AP_BuddhistFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Small/SculptureSmallBuddhistC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumBuddhistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large buddhist sculpture</label>
+				<description>An buddhist style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>Buddhist</dominantStyleCategory>
+				<designatorDropdown>AP_BuddhistFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Large/SculptureLargeBuddhistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Large/SculptureLargeBuddhistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Large/SculptureLargeBuddhistC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandBuddhistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand buddhist sculpture</label>
+				<description>An buddhist style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_BuddhistFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>Buddhist</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Grand/SculptureGrandBuddhistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Grand/SculptureGrandBuddhistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandBuddhistFakeSculptureBase">
+				<defName>AP_BuddhistFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Buddhist/Sculptures/Grand/SculptureGrandBuddhistC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

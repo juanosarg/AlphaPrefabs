@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_ChristianFakeSculptures</defName>
+				<label>christian fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallChristianSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small christian sculpture</label>
+				<description>An christian style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>Christian</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_ChristianFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallChristianSculptureBase">
+				<defName>AP_ChristianFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Small/SculptureSmallChristianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallChristianSculptureBase">
+				<defName>AP_ChristianFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Small/SculptureSmallChristianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallChristianSculptureBase">
+				<defName>AP_ChristianFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Small/SculptureSmallChristianC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumChristianFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large christian sculpture</label>
+				<description>An christian style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>Christian</dominantStyleCategory>
+				<designatorDropdown>AP_ChristianFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Large/SculptureLargeChristianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Large/SculptureLargeChristianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Large/SculptureLargeChristianC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandChristianFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand christian sculpture</label>
+				<description>An christian style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_ChristianFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>Christian</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Grand/SculptureGrandChristianA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Grand/SculptureGrandChristianB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandChristianFakeSculptureBase">
+				<defName>AP_ChristianFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Christian/Sculptures/Grand/SculptureGrandChristianC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

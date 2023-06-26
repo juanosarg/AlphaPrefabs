@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+  <DesignatorDropdownGroupDef>
+    <defName>AP_SmallFakeSculptures</defName>
+    <label>small fake sculptures</label>
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>AP_MediumFakeSculptures</defName>
+    <label>large fake sculptures</label>
+  </DesignatorDropdownGroupDef>
+  
+  <DesignatorDropdownGroupDef>
+    <defName>AP_GrandFakeSculptures</defName>
+    <label>grand fake sculptures</label>
+  </DesignatorDropdownGroupDef>
+
+</Defs>

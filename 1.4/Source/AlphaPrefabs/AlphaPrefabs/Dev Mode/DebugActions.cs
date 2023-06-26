@@ -156,6 +156,66 @@ namespace AlphaPrefabs
 
         }
 
+        [DebugAction("Alpha prefabs", "Normalize qualities", false, false, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static void DebugNormalizeQualitiesOnRect()
+        {
+            DebugToolsGeneral.GenericRectTool("normalize quality", delegate (CellRect rect)
+            {              
+                foreach (IntVec3 cell in rect)
+                {
+                    foreach (Thing thing in cell.GetThingList(Map))
+                    {
+                        CompQuality comp = thing.TryGetComp<CompQuality>();
+                        if (comp!=null)
+                        {
+                            comp.SetQuality(QualityCategory.Normal,ArtGenerationContext.Colony);
+
+                        }
+                    }                
+                }                
+            });
+        }
+
+        [DebugAction("Alpha prefabs", "Change stuff",false, false, false, 0, false, actionType = DebugActionType.ToolMap, allowedGameStates = AllowedGameStates.PlayingOnMap)]
+        private static DebugActionNode DebugChangeItemStuff()
+        {
+            DebugActionNode debugActionNode = new DebugActionNode();
+            List<ThingDef> materials = GetStuffableMaterials();
+
+            for (int i = 0; i < materials.Count; i++)
+            {
+                ThingDef material = materials[i];
+                if (material.IsStuff)
+                {
+                    debugActionNode.AddChild(new DebugActionNode(material.LabelCap.ToString(), DebugActionType.ToolMap, delegate
+                    {
+                        foreach (Thing thing in UI.MouseCell().GetThingList(Find.CurrentMap))
+                        {
+                            thing.SetStuffDirect(material);
+                          
+                        }
+                    }));
+                }
+            }
+            return debugActionNode;
+
+
+        }
+
+        private static List<ThingDef> GetStuffableMaterials()
+        {
+            List<ThingDef> materials = new List<ThingDef>();
+            foreach (ThingDef item in DefDatabase<ThingDef>.AllDefsListForReading)
+            {
+                if (item.IsStuff)
+                {
+                    materials.Add(item);
+                }
+            }
+            return materials;
+
+        }
+
 
 
 
