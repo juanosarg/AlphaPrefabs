@@ -11,7 +11,7 @@ namespace AlphaPrefabs
             Thing_Prefab prefab;
             if (req.HasThing && (prefab = (req.Thing as Thing_Prefab)) != null)
             {
-                val = prefab.prefab.marketvalue;
+                val = prefab.prefab.marketvalue * Constants.SellPriceModifier;
                 
             }
         }

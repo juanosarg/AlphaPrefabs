@@ -12,6 +12,8 @@
 	<AP_PrefabSearch>Search</AP_PrefabSearch>
 	<AP_PrefabFixedPrice>Prefab price: fixed value</AP_PrefabFixedPrice>
 	<AP_OrderNow>Order now</AP_OrderNow>
+	<AP_OrderNowWithVariation>Order now with...</AP_OrderNowWithVariation>
+	<AP_VariantLayout>Variant layout: {0}</AP_VariantLayout>
 	<AP_Silver>silver</AP_Silver>
 	<AP_ResearchNeeded>Research needed: {0}</AP_ResearchNeeded>
 	<AP_NoResearchNeeded>No research needed</AP_NoResearchNeeded>

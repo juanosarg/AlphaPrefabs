@@ -59,6 +59,11 @@ namespace AlphaPrefabs
                 Building_DeployedPrefab prefabBuilderWithClass = prefabBuilder as Building_DeployedPrefab;
                 prefabBuilderWithClass.prefab = prefabItem.prefab;
                 prefabBuilderWithClass.newLabel = prefabItem.newLabel;
+                if(prefabItem.variantLayout != null)
+                {
+                    prefabBuilderWithClass.variantLayout=prefabItem.variantLayout;
+                    prefabBuilderWithClass.variationString = prefabItem.variationString;
+                }
 
                 Item.Destroy();
             };

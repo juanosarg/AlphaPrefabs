@@ -296,7 +296,9 @@
     <Compile Include="Buildings\Building_Catalog.cs" />
     <Compile Include="Buildings\Building_DeployedPrefab.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
+    <Compile Include="Constants.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
+    <Compile Include="Defs\LayoutVariationsWithName.cs" />
     <Compile Include="Defs\PrefabCategoryDef.cs" />
     <Compile Include="Defs\PrefabDef.cs" />
     <Compile Include="Dev Mode\DebugActions.cs" />

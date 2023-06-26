@@ -3,6 +3,7 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 using System.Linq;
+using KCSG;
 
 namespace AlphaPrefabs
 {
@@ -13,7 +14,18 @@ namespace AlphaPrefabs
            
             Thing_Prefab prefabItem = thing as Thing_Prefab;
 
-            IntVec2 size = prefabItem.prefab.layout.Sizes;
+            StructureLayoutDef layoutToUse;
+            if (prefabItem.variantLayout != null)
+            {
+                layoutToUse = prefabItem.variantLayout;
+            }
+            else
+            {
+                layoutToUse = prefabItem.prefab.layout;
+            }
+
+
+            IntVec2 size = layoutToUse.Sizes;
             var cellRect = CellRect.CenteredOn(thing.Position, (int)size.x, (int)size.z);
             GenDraw.DrawFieldEdges(cellRect.ToList());
         }

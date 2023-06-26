@@ -13,6 +13,7 @@ namespace AlphaPrefabs
     {
         public string icon;
         public string detailedImage;
+        public string labelForDefaultVariation;
         public float priority;
         public PrefabCategoryDef category;
         public StructureLayoutDef layout;
@@ -20,5 +21,6 @@ namespace AlphaPrefabs
         public List<ResearchProjectDef> researchPrerequisites;
         public List<string> modPrerequisites;
         public List<string> suggestedMods;
+        public List<LayoutVariationsWithName> variations;
     }
 }

@@ -4,6 +4,7 @@
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bedroom_1</defName>
 		<label>small 1-person bedroom</label>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<description>A very small 1-person bedroom ideal for cramped spaces. Its 13 tiles of space classifies it as "rather tight".</description>
 		<priority>1</priority>
 		<icon>UI/Prefabs/AP_Prefab_Bedroom_1</icon>		
@@ -14,12 +15,26 @@
         <researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
-		
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_east</layoutVariation>
+			</li>
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bedroom_2</defName>
 		<label>small 2-person bedroom</label>
+		<labelForDefaultVariation>Facing East</labelForDefaultVariation>
 		<description>A very small 2-person bedroom ideal for cramped spaces. Its 18 tiles of space classifies it as "rather tight".</description>
 		<priority>2</priority>
 		<icon>UI/Prefabs/AP_Prefab_Bedroom_2</icon>		
@@ -31,7 +46,51 @@
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
 		</researchPrerequisites>
-		
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_south</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Tribal_1</defName>
+		<label>cozy 2-person tribal hut</label>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A cozy 2-person tribal hut with a passive cooler. Its 18 tiles of space classifies it as "rather tight".</description>
+		<priority>3</priority>
+		<icon>UI/Prefabs/AP_Prefab_Bedroom_Tribal_1</icon>		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Tribal_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+        <layout>AP_Prefab_Bedroom_Tribal_1</layout>
+        <marketvalue>988</marketvalue>
+        <researchPrerequisites>
+			<li>PassiveCooler</li>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_east</layoutVariation>
+			</li>
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 	
 	<AlphaPrefabs.PrefabDef>
@@ -49,6 +108,26 @@
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>erin.cottagecollection</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ErinsCottageBedroom_2</defName>
+		<label>erin's medium 2-person cottage bedroom</label>
+		<description>A medium 2-person cottage bedroom using Erin's cottage collection items. Includes a fireplace and a dining room. Its 36 tiles of space classifies it as "average sized".</description>
+		<priority>2001</priority>
+		<icon>UI/Prefabs/AP_Prefab_ErinsCottageBedroom_2</icon>		
+		<category>AP_PrefabCategoryBedrooms</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_2_Preview</detailedImage>
+        <layout>AP_Prefab_ErinsCottageBedroom_2</layout>
+        <marketvalue>4649</marketvalue>
+        <researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>erin.cottagecollection</li>
+			<li>ludeon.rimworld.ideology</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	

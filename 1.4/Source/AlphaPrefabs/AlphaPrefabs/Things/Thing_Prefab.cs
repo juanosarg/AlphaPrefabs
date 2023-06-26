@@ -5,15 +5,18 @@ using RimWorld;
 using System.Linq;
 using KCSG;
 using System.Collections.Generic;
+using System.Text;
 
 namespace AlphaPrefabs
 {
     public class Thing_Prefab : ThingWithComps
     {
         public PrefabDef prefab = new PrefabDef();
+        public StructureLayoutDef variantLayout;
         public string newLabel ="";
         string cachedLabel = "";
-       
+        public string variationString = "";
+
 
         public override void PostMake()
         {
@@ -89,16 +92,28 @@ namespace AlphaPrefabs
         {
             base.ExposeData();
             Scribe_Defs.Look(ref prefab, "prefab");
+            Scribe_Defs.Look(ref variantLayout, "variantLayout");
             Scribe_Values.Look(ref newLabel, "newLabel");
+            Scribe_Values.Look(ref variationString, "variationString");
+
 
         }
 
-       
+
 
 
         public override string GetInspectString()
         {
-            return base.GetInspectString()+"AP_NeedsDeployment".Translate()+"\n"+"AP_WillTurnInto".Translate(newLabel);
+            StringBuilder sb = new StringBuilder(base.GetInspectString());
+            sb.AppendLine("AP_NeedsDeployment".Translate());
+            sb.AppendLine("AP_WillTurnInto".Translate(newLabel));
+            if (variationString != "")
+            {
+                sb.AppendLine("AP_VariantLayout".Translate(variationString));
+            }
+
+
+            return sb.ToString().Trim();
         }
     }
 }

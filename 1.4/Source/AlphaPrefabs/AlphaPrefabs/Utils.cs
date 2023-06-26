@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UnityEngine;
 using Verse;
 
 namespace AlphaPrefabs
@@ -26,6 +27,15 @@ namespace AlphaPrefabs
                     allActiveModIds.Add(item.PackageId);
                 }
             }
+        }
+
+        public static void DrawButton(Rect rect, string label, Action action)
+        {
+            if (Widgets.ButtonText(rect, label))
+            {
+                action();
+            }
+           
         }
 
 

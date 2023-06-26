@@ -3,6 +3,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Security.Cryptography;
 using HarmonyLib;
+using KCSG;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -138,20 +139,46 @@ namespace AlphaPrefabs
             Widgets.Label(dimensionsRect, "AP_PrefabDimensions".Translate(prefab.layout.Sizes.x, prefab.layout.Sizes.z));
 
             Rect totalCost = new Rect(0, outRect.yMin + 250 + optionalModsSpace, 600, 25);
-            Widgets.Label(totalCost, prefab.marketvalue+" "+ "AP_Silver".Translate());
+            Widgets.Label(totalCost, ((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " "+ "AP_Silver".Translate());
 
 
             Text.Font = GameFont.Small;
-            if (Widgets.ButtonText(new Rect(outRect.width / 2f - CloseButSize.x / 2f, outRect.height+30, CloseButSize.x, CloseButSize.y), "AP_OrderNow".Translate()))
+            Rect oderButtonRect = new Rect(outRect.width / 2f - CloseButSize.x / 2f, outRect.height + 30, CloseButSize.x, CloseButSize.y);
+            if (!prefab.variations.NullOrEmpty())
             {
-                OrderPrefab();
+                Utils.DrawButton(oderButtonRect, "AP_OrderNowWithVariation".Translate(), delegate
+                {
+                    var floatOptions = new List<FloatMenuOption>();
+                    floatOptions.Add(new FloatMenuOption(prefab.labelForDefaultVariation.CapitalizeFirst(), delegate
+                    {
+                        OrderPrefab(null, "");
+                    }));
+                    foreach (LayoutVariationsWithName variation in prefab.variations)
+                    {
+                        floatOptions.Add(new FloatMenuOption(variation.name.CapitalizeFirst(), delegate
+                        {
+                            OrderPrefab(variation.layoutVariation,variation.name);
+                        }));
+                    }
+                   
+                    Find.WindowStack.Add(new FloatMenu(floatOptions));
+                });
+
             }
+            else {
+                if (Widgets.ButtonText(oderButtonRect, "AP_OrderNow".Translate()))
+                {
+                    OrderPrefab(null,"");
+                }
+
+            }
+            
 
 
 
         }
 
-        public void OrderPrefab()
+        public void OrderPrefab(StructureLayoutDef layoutVariation,string variationString)
         {
             string reason;
             if (CheckModsSilverAndResearch(out reason)) {
@@ -160,7 +187,13 @@ namespace AlphaPrefabs
                 Thing_Prefab prefabItem = newPrefab as Thing_Prefab;
                 prefabItem.prefab = prefab;
                 prefabItem.newLabel = prefab.LabelCap;
-                TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)prefab.marketvalue, building.Map, null);
+                if (layoutVariation != null)
+                {
+                    prefabItem.variantLayout = layoutVariation;
+                    prefabItem.variationString = variationString;
+
+                }
+                TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), building.Map, null);
                 DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
                 Close();
             }
@@ -200,9 +233,9 @@ namespace AlphaPrefabs
 
             }
             // Checking money
-            if (AmountSendableSilver(building.Map) < prefab.marketvalue)
+            if (AmountSendableSilver(building.Map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
             {              
-                    reason = "AP_NotEnoughMoney".Translate(prefab.marketvalue);
+                    reason = "AP_NotEnoughMoney".Translate((int)(prefab.marketvalue * Constants.SellPriceModifier));
                     return false;              
             }
 

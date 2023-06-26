@@ -100,6 +100,14 @@ namespace AlphaPrefabs
                     {
                         OpenIndividualPrefabWindow(prefabs[i]);
                     }
+
+                    Rect silverIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 128 + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                    GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+
+                    Rect silverDetails = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount)+24, viewRect.y +128+ (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 104, 20);
+                    Widgets.Label(silverDetails, ((int)(prefabs[i].marketvalue * Constants.SellPriceModifier)).ToString());
+
+
                 }
             }
             finally

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using KCSG;
 using RimWorld;
 using UnityEngine;
@@ -14,15 +15,20 @@ namespace AlphaPrefabs
     public class Building_DeployedPrefab : Building
     {
         public PrefabDef prefab;
+        public StructureLayoutDef variantLayout;
         public string newLabel;
         public int tickCounter;
         string cachedLabel = "";
+        public string variationString = "";
 
         public override void ExposeData()
         {
             base.ExposeData();
             Scribe_Defs.Look(ref prefab, "prefab");
+            Scribe_Defs.Look(ref variantLayout, "variantLayout");
             Scribe_Values.Look(ref newLabel, "newLabel");
+            Scribe_Values.Look(ref variationString, "variationString");
+
         }
 
         public override IEnumerable<Gizmo> GetGizmos()
@@ -41,13 +47,22 @@ namespace AlphaPrefabs
             buildPrefab.action = delegate
             {
                 Map map = Map;
-                var cleanCellRect = CellRect.CenteredOn(Position, prefab.layout.Sizes.x, prefab.layout.Sizes.z);
+                StructureLayoutDef layoutToUse;
+                if (variantLayout != null)
+                {
+                    layoutToUse = variantLayout;
+                }
+                else
+                {
+                    layoutToUse = prefab.layout;
+                }
+                var cleanCellRect = CellRect.CenteredOn(Position, layoutToUse.Sizes.x, layoutToUse.Sizes.z);
                 
                 if (CheckNoBuildingsOrWater(cleanCellRect)) {
                     InternalDefOf.AP_BuildPrefab.PlayOneShot(new TargetInfo(Position, map, false));
                     GenOption.GetAllMineableIn(cleanCellRect, map);
-                    LayoutUtils.CleanRect(prefab.layout, map, cleanCellRect, false);
-                    prefab.layout.Generate(cleanCellRect, map);
+                    LayoutUtils.CleanRect(layoutToUse, map, cleanCellRect, false);
+                    layoutToUse.Generate(cleanCellRect, map);
                 }
                    
 
@@ -68,6 +83,11 @@ namespace AlphaPrefabs
                 Thing_Prefab prefabItem = prefab as Thing_Prefab;
                 prefabItem.prefab = this.prefab;
                 prefabItem.newLabel = this.newLabel;
+                if (variantLayout != null)
+                {
+                    prefabItem.variantLayout = this.variantLayout;
+                    prefabItem.variationString = this.variationString;
+                }
                 this.DeSpawn();
             };
             yield return undeployPrefab;
@@ -121,7 +141,19 @@ namespace AlphaPrefabs
 
         public override string GetInspectString()
         {
-            return base.GetInspectString() + "AP_WillTurnInto".Translate(newLabel);
+            StringBuilder sb = new StringBuilder(base.GetInspectString());
+           
+            sb.AppendLine("AP_WillTurnInto".Translate(newLabel));
+            if (variationString != "")
+            {
+                sb.AppendLine("AP_VariantLayout".Translate(variationString));
+            }
+
+
+            return sb.ToString().Trim();
+
+
+           
         }
 
         public override string Label
