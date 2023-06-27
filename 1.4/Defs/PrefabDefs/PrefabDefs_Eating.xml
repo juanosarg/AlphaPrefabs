@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_EatingVFEProduction_1</defName>
+		<label>cozy restaurant</label>
+		<shortLabel>restaurant</shortLabel>
+		<description>A large sized restaurant with sitting space for 34 guests, plus two cooks. Includes dining room, kitchen and refrigerated storeroom, as well as two outside areas to eat and butcher corpses.</description>
+		<priority>1</priority>
+		
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EatingVFEProduction_1_Preview</detailedImage>
+        <layout>AP_Prefab_EatingVFEProduction_1</layout>
+        <marketvalue>9553</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>Smithing</li>
+			<li>SterileMaterials</li>
+			<li MayRequire="VanillaExpanded.VFEProduction">VFE_Manufacturing</li>
+			<li>Batteries</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfeproduction</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+</Defs>

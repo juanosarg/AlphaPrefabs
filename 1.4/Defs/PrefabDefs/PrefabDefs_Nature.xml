@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_1</defName>
+		<label>huge hydroponics bay</label>
+		<shortLabel>hydroponics bay</shortLabel>
+		<labelForDefaultVariation>South-North Orientation</labelForDefaultVariation>
+		<description>A 26x17 hydroponics bay containing 38 hydroponics basins and 2 sun lamps.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_1_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+        <layout>AP_Prefab_Nature_1</layout>
+        <marketvalue>11541</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Hydroponics</li>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>West-East Orientation</name>
+				<layoutVariation>AP_Prefab_Nature_1_east</layoutVariation>
+			</li>
+			
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+	
+</Defs>

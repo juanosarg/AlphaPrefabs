@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_CellWall_Steel</defName>
+		<thing>VFEArch_CellWall</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_CellDoor_Steel</defName>
+		<thing>VFEArch_CellDoor</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+</Defs>

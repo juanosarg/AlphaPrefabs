@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FullHouse_1</defName>
+		<label>small full house</label>
+		<shortLabel>full house Small</shortLabel>
+		<description>A small full house containing a very small 2-person bedroom, a dining room with a kitchen stove and a fermenting barrel and a small animal pen outside</description>
+		<priority>1</priority>
+	
+		<category>AP_Category_FullHouse</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_1_Preview</detailedImage>
+        <layout>AP_Prefab_FullHouse_1</layout>
+        <marketvalue>1513</marketvalue>
+        <researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+</Defs>

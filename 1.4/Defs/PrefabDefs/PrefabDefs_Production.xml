@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_1</defName>
+		<label>full production complex</label>
+		<shortLabel>huge workshop</shortLabel>
+		
+		<description>A huge production complex housing drug labs, smelters, stonecutting tables, biofuel refineries, smithies, tailoring tables, fabrication benches and machining tables, as well as plenty of shelves.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+        <layout>AP_Prefab_Production_1</layout>
+        <marketvalue>17489</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Fabrication</li>
+			<li>Machining</li>
+			<li MayRequire="VanillaExpanded.VFEProduction">VFE_Manufacturing</li>
+			<li>ComplexFurniture</li>
+			<li>BiofuelRefining</li>
+			<li>Firefoam</li>
+			<li>DrugProduction</li>
+			<li>ComplexClothing</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfeproduction</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+</Defs>

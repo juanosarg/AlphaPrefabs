@@ -7,6 +7,7 @@ using Verse.AI.Group;
 using Verse;
 using RimWorld.QuestGen;
 using AlphaPrefabs;
+using System.Security.Cryptography;
 
 namespace AlphaPrefabs
 {
@@ -26,23 +27,74 @@ namespace AlphaPrefabs
             DebugToolsGeneral.GenericRectTool("value", delegate (CellRect rect)
             {
 
+                List<Thing> listThings = new List<Thing>();
+
                 float totalValue = 0;
                 foreach (IntVec3 cell in rect)
                 {
+
+                    
                     foreach (Thing thing in cell.GetThingList(Map))
                     {
-                        if (thing.MarketValue > 0)
+                        if (!listThings.Contains(thing) && thing.MarketValue > 0)
                         {
-                            totalValue += thing.MarketValue;
-                           
+                            listThings.Add(thing);
+                            if (thing.def.Minifiable && thing.def.minifiedDef.tradeability == Tradeability.Sellable)
+                            {
+                                Log.Message("Adding sellable minified " + thing.def + " of value " + thing.MarketValue);
+                                
+                                totalValue += thing.MarketValue;
+
+                            }
+                            
+                            else
+                            {
+                                if (thing.def.CostList != null)
+                                {
+                                    float num = 0;
+                                    foreach (ThingDefCountClass ingredient in thing.def.CostList)
+                                    {
+                                        float count = ingredient.count;
+                                        num += ingredient.thingDef.BaseMarketValue * count;
+
+                                    }
+                                   
+                                    Log.Message("Adding deconstructible " + thing.def + " of value " + num);
+                                    totalValue += num;
+                                }
+                                else if (thing.def.CostStuffCount != 0)
+                                {
+                                    float num = thing.Stuff.BaseMarketValue* thing.def.CostStuffCount;
+                                    Log.Message("Adding stuffed deconstructible " + thing.def + " of value " + num);
+                                    totalValue += num;
+
+
+                                }
+                                else
+                            
+                                {
+                                    Log.Message("Adding plain item " + thing.def + " of value " + thing.MarketValue);
+                                  
+                                    totalValue += thing.MarketValue;
+
+                                }
+
+
+                            }
                         }
+
+                        
 
 
                     }
 
-                    if (cell.GetTerrain(Map)?.GetStatValueAbstract(StatDefOf.MarketValue) > 0)
+                    TerrainDef terrain = cell.GetTerrain(Map);
+
+                    if (terrain?.GetStatValueAbstract(StatDefOf.MarketValue) > 0)
                     {
-                        totalValue += cell.GetTerrain(Map).GetStatValueAbstract(StatDefOf.MarketValue);
+                        Log.Message("Adding terrain " + terrain.LabelCap + " of value " + terrain.GetStatValueAbstract(StatDefOf.MarketValue));
+
+                        totalValue += terrain.GetStatValueAbstract(StatDefOf.MarketValue);
 
                     }
 
@@ -131,7 +183,7 @@ namespace AlphaPrefabs
                         {
                             if (thing.ContentSource.PackageId != "ludeon.rimworld" && !modsUsed.Contains(thing.ContentSource.PackageId))
                             {
-                                modsUsed.Add(thing.ContentSource.PackageId);
+                                modsUsed.Add(thing.ContentSource.PackageId.ToLower());
                             }
 
                         }
@@ -143,14 +195,14 @@ namespace AlphaPrefabs
                     {
                         if (cell.GetTerrain(Map).modContentPack.PackageId != "ludeon.rimworld" && !modsUsed.Contains(cell.GetTerrain(Map).modContentPack.PackageId))
                         {
-                            modsUsed.Add(cell.GetTerrain(Map).modContentPack.PackageId);
+                            modsUsed.Add(cell.GetTerrain(Map).modContentPack.PackageId.ToLower());
                         }
 
                     }
 
                 }
-                Messages.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable()), new LookTargets(rect.CenterCell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NeutralEvent);
-                Log.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable()));
+                Messages.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable().ToLower()), new LookTargets(rect.CenterCell.ToVector3().ToIntVec3(), Map), MessageTypeDefOf.NeutralEvent);
+                Log.Message("AP_PrefabMods".Translate(modsUsed.ToStringSafeEnumerable().ToLower()));
 
             });
 

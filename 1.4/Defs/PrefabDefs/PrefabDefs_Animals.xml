@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_Barn_1</defName>
+		<label>huge barn</label>
+		<shortLabel>huge barn</shortLabel>
+		<description>A huge barn with space for 6 farm animals, plus an exterior pen so herbivores can graze. Includes shelves with hay to feed the animals. Fits a 20x20 tile area</description>
+		<priority>1</priority>
+	
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_1_Preview</detailedImage>
+        <layout>AP_Prefab_Animals_Barn_1</layout>
+        <marketvalue>2298</marketvalue>
+        <researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+</Defs>

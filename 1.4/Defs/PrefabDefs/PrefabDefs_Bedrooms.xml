@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bedroom_1</defName>
 		<label>small 1-person bedroom</label>
+		<shortLabel>small single</shortLabel>
 		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<description>A very small 1-person bedroom ideal for cramped spaces. Its 13 tiles of space classifies it as "rather tight".</description>
 		<priority>1</priority>
-		<icon>UI/Prefabs/AP_Prefab_Bedroom_1</icon>		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
-        <layout>AP_Prefab_Bedroom_1</layout>
-        <marketvalue>630</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Bedroom_1</layout>
+		<marketvalue>436</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 		<variations>
@@ -30,19 +29,51 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_3</defName>
+		<label>small 1-person bedroom</label>
+		<shortLabel>small single 2</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A very small 1-person bedroom ideal for cramped spaces. Its 21 tiles of space classifies it as "rather tight".</description>
+		<priority>1.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_3_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_3</layout>
+		<marketvalue>657</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_east</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bedroom_2</defName>
 		<label>small 2-person bedroom</label>
+		<shortLabel>small double</shortLabel>
 		<labelForDefaultVariation>Facing East</labelForDefaultVariation>
 		<description>A very small 2-person bedroom ideal for cramped spaces. Its 18 tiles of space classifies it as "rather tight".</description>
 		<priority>2</priority>
-		<icon>UI/Prefabs/AP_Prefab_Bedroom_2</icon>		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_2_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
-        <layout>AP_Prefab_Bedroom_2</layout>
-        <marketvalue>1129</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Bedroom_2</layout>
+		<marketvalue>650</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
 		</researchPrerequisites>
@@ -61,21 +92,19 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bedroom_Tribal_1</defName>
 		<label>cozy 2-person tribal hut</label>
+		<shortLabel>tribal double</shortLabel>
 		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<description>A cozy 2-person tribal hut with a passive cooler. Its 18 tiles of space classifies it as "rather tight".</description>
 		<priority>3</priority>
-		<icon>UI/Prefabs/AP_Prefab_Bedroom_Tribal_1</icon>		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Tribal_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
-        <layout>AP_Prefab_Bedroom_Tribal_1</layout>
-        <marketvalue>988</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Bedroom_Tribal_1</layout>
+		<marketvalue>541</marketvalue>
+		<researchPrerequisites>
 			<li>PassiveCooler</li>
-			
 		</researchPrerequisites>
 		<variations>
 			<li>
@@ -92,17 +121,17 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
 		<label>erin's 2-person cottage bedroom</label>
 		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight".</description>
+		<shortLabel>cottage double</shortLabel>
 		<priority>2000</priority>
-		<icon>UI/Prefabs/AP_Prefab_ErinsCottageBedroom_1</icon>		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
-        <layout>AP_Prefab_ErinsCottageBedroom_1</layout>
-        <marketvalue>1953</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_ErinsCottageBedroom_1</layout>
+		<marketvalue>948</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
 		</researchPrerequisites>
@@ -110,18 +139,17 @@
 			<li>erin.cottagecollection</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_2</defName>
 		<label>erin's medium 2-person cottage bedroom</label>
+		<shortLabel>cottage double Mdm</shortLabel>
 		<description>A medium 2-person cottage bedroom using Erin's cottage collection items. Includes a fireplace and a dining room. Its 36 tiles of space classifies it as "average sized".</description>
 		<priority>2001</priority>
-		<icon>UI/Prefabs/AP_Prefab_ErinsCottageBedroom_2</icon>		
 		<category>AP_PrefabCategoryBedrooms</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_2_Preview</detailedImage>
-        <layout>AP_Prefab_ErinsCottageBedroom_2</layout>
-        <marketvalue>4649</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_ErinsCottageBedroom_2</layout>
+		<marketvalue>1444</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
@@ -131,6 +159,83 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Elegant_Bedroom_1</defName>
+		<label>elegant 1-person bedroom</label>
+		<shortLabel>elegant single</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A very small but elegant 1-person bedroom ideal for cramped spaces. Its 15 tiles of space classifies it as "rather tight". Includes an industrial radio for recreation and a steel bin for cleanliness</description>
+		<priority>3000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Elegant_Bedroom_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Elegant_Bedroom_1</layout>
+		<marketvalue>1159</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_ModernFurniture</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Elegant_Bedroom_2</defName>
+		<label>elegant 2-person bedroom</label>
+		<shortLabel>elegant double</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A medium size, elegant 2-person bedroom. Its 45 tiles of space classifies it as "average sized". Includes an industrial radio, chess table, dartboard and television for recreation and a steel bin for cleanliness</description>
+		<priority>3001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Elegant_Bedroom_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Elegant_Bedroom_2</layout>
+		<marketvalue>2520</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li MayRequire="VanillaExpanded.VFECore">MF_ModernFurniture</li>
+			<li>TubeTelevision</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		
+		
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

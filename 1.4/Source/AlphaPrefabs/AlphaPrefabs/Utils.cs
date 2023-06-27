@@ -15,6 +15,7 @@ namespace AlphaPrefabs
 
         public static bool ContainsAllItems(List<string> a, List<string> b)
         {
+          
             return !b.Except(a).Any();
         }
 
@@ -23,7 +24,7 @@ namespace AlphaPrefabs
             foreach (ModMetaData item in ModsConfig.ActiveModsInLoadOrder)
             {
                 if (!allActiveModIds.Contains(item.PackageId))
-                {
+                {                
                     allActiveModIds.Add(item.PackageId);
                 }
             }

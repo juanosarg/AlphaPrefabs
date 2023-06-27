@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Prison_1</defName>
+		<label>large prison</label>
+		<shortLabel>large prison</shortLabel>
+		
+		<description>A large prison with 8 individual cells, a prison yard and a kitchen.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_1_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+        <layout>AP_Prefab_Prison_1</layout>
+        <marketvalue>6952</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+
+	
+</Defs>

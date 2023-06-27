@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFE_LargeBattery_North</defName>
+		<thing>VFE_LargeBattery</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VPE_NuclearGenerator</defName>
+		<thing>VPE_NuclearGenerator</thing>
+	</KCSG.SymbolDef>
+</Defs>

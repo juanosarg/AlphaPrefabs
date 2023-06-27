@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Power_1</defName>
+		<label>solar and chemfuel substation</label>
+		<shortLabel>substation</shortLabel>
+		
+		<description>A small 13x13 solar power and chemfuel power substation with 5 batteries.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Power_1_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_Power_1</layout>
+        <marketvalue>3441</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>SolarPanels</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+	
+</Defs>

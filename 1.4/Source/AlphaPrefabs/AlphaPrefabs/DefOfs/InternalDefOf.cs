@@ -13,7 +13,9 @@ namespace AlphaPrefabs
         public static ThingDef AP_Prefab_MediumHighValue;
         public static ThingDef AP_Prefab_HighValue;
         public static ThingDef AP_DeployedPrefab;
-        
+
+        public static PrefabDef AP_Prefab_Bedroom_1;
+
         public static JobDef AP_UsePrefab;
 
         public static SoundDef AP_BuildPrefab;

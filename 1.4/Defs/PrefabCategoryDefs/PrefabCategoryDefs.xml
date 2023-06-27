@@ -6,76 +6,75 @@
 		<description>Prefabs that include beds, end tables, dressers, etc</description>
 		<priority>1</priority>
 		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms2</defName>
-		<label>poop</label>
+		<defName>AP_Category_Animals</defName>
+		<label>animals</label>
+		<description>Barns, animal rooms, anything that is related to pets, livestock or similar</description>
 		<priority>2</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Animals</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms3</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_FullHouse</defName>
+		<label>full houses</label>
+		<description>Complete houses with a bedroom, a living room / dining room and optionally other accessory rooms, such as a kitchen</description>
+		<priority>2.5</priority>
+		<icon>UI/Categories/AP_Category_FullHouse</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Eating</defName>
+		<label>food</label>
+		<description>Living rooms, kitchens, taverns. Anything having to do with the consumption of food or beverages</description>
 		<priority>3</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Eating</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms4</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_Healthcare</defName>
+		<label>healthcare</label>
+		<description>Hospitals, medicine rooms, triage rooms, drug labs. Anything having to do with colonist health. Note that this category will be more expensive in the USA</description>
 		<priority>4</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Healthcare</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+		<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Research</defName>
+		<label>research</label>
+		<description>Research centers and laboratories</description>
+		<priority>4.5</priority>
+		<icon>UI/Categories/AP_Category_Research</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms5</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_NatureAndCrops</defName>
+		<label>nature</label>
+		<description>Farms, parks, hydroponics facilities. Anything related to either crops or nature</description>
 		<priority>5</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_NatureAndCrops</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms6</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_Power</defName>
+		<label>power</label>
+		<description>Power generation and storage, as well as related things such as gas or chemfuel networks</description>
 		<priority>6</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Power</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms7</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_Prison</defName>
+		<label>prisons</label>
+		<description>Prefabs including ways to handle prisoners</description>
 		<priority>7</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Prison</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms8</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_Production</defName>
+		<label>production</label>
+		<description>Prefabs consisting of production facilities of all kinds</description>
 		<priority>8</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Production</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms9</defName>
-		<label>bedrooms</label>
+		<defName>AP_Category_Vampires</defName>
+		<label>sanguophage</label>
+		<description>Commonly known as vampires</description>
 		<priority>9</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
-	</AlphaPrefabs.PrefabCategoryDef>
-	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms10</defName>
-		<label>bedrooms</label>
-		<priority>10</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
-	</AlphaPrefabs.PrefabCategoryDef>
-	<AlphaPrefabs.PrefabCategoryDef>
-		<defName>AP_PrefabCategoryBedrooms11</defName>
-		<label>bedrooms</label>
-		<priority>11</priority>
-		<icon>UI/Categories/AP_Category_Bedroom</icon>
-		
+		<icon>UI/Categories/AP_Category_Vampires</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 </Defs>

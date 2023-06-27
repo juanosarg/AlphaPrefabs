@@ -21,7 +21,7 @@ namespace AlphaPrefabs
         public Window_PrefabCategories(Building_Catalog building)
         {
             this.building = building;
-         
+            Utils.StoreAllactiveMods();
             closeOnClickedOutside = true;
   
         }
@@ -50,8 +50,9 @@ namespace AlphaPrefabs
                 Close();
             }
 
-            List<PrefabCategoryDef> prefabCategories = (from x in DefDatabase<PrefabCategoryDef>.AllDefsListForReading                                           
-                                            select x).OrderBy(x => x.priority).ToList();
+            List<PrefabCategoryDef> prefabCategories = (from x in DefDatabase<PrefabCategoryDef>.AllDefsListForReading where 
+                                                        (x.modPrerequisites.NullOrEmpty() || (x.modPrerequisites != null && Utils.ContainsAllItems(Utils.allActiveModIds, x.modPrerequisites)))
+                                                        select x).OrderBy(x => x.priority).ToList();
 
            
             var viewRect = new Rect(0f, 0f, outRect.width - 16f, prefabCategories.Sum(opt => 50 + 17f));

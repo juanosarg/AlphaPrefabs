@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Research_1</defName>
+		<label>nuclear research lab</label>
+		<shortLabel>nuclear lab</shortLabel>
+		
+		<description>A large research lab powered by a nuclear power plant. Includes two high-tech research benches with multi-analyzers, comms consoles and a LOT of batteries.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+        <layout>AP_Prefab_Research_1</layout>
+        <marketvalue>17601</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+			<li>SterileMaterials</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>MultiAnalyzer</li>
+			<li MayRequire="VanillaExpanded.VFEPower">VFE_NuclearPower</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+	
+</Defs>

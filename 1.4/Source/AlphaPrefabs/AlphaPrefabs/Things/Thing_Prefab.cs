@@ -29,6 +29,10 @@ namespace AlphaPrefabs
                       where CheckModsAndResearch(x) && x.marketvalue > MarketvalueCutOff(this.def).Item1 && x.marketvalue <= MarketvalueCutOff(this.def).Item2
                       select x).ToList().RandomElement();
 
+            if(prefab == null ) {
+                prefab = InternalDefOf.AP_Prefab_Bedroom_1;
+            }
+
             newLabel = def.label + ": " + prefab.LabelCap;
          
         }
@@ -131,7 +135,7 @@ namespace AlphaPrefabs
                     }
                     else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 1500)
                     {
-                        return base.Graphic;
+                        return GraphicsCache.graphicMediumValue;
                     }
                     else if (prefab?.marketvalue >= 1500 && prefab?.marketvalue < 3000)
                     {

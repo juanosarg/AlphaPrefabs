@@ -74,7 +74,7 @@ namespace AlphaPrefabs
             Rect rectIcon = new Rect(0f, outRect.yMin+20, 128, 128);
             Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
             Rect rectIconInside = rectIcon.ContractedBy(2);
-            GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefab.icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+            GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefab.detailedImage, true), ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
 
             if (!prefab.detailedImage.NullOrEmpty())
             {
@@ -103,11 +103,13 @@ namespace AlphaPrefabs
                 {
                     researchStrings.Add(research.LabelCap);
                 }
+                rectResearchNeeded = new Rect(0, outRect.yMin + 175, 600, Text.CalcHeight("AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()),600));
+
                 Widgets.Label(rectResearchNeeded, "AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()));
             } else Widgets.Label(rectResearchNeeded, "AP_NoResearchNeeded".Translate());
 
 
-            Rect modsNeeded = new Rect(0, outRect.yMin + 200, 600, 25);
+            Rect modsNeeded = new Rect(0, rectResearchNeeded.yMax, 600, 25);
             if (!prefab.modPrerequisites.NullOrEmpty())
             {
                 List<string> modStrings = new List<string>();
@@ -125,20 +127,20 @@ namespace AlphaPrefabs
             }
             else Widgets.Label(modsNeeded, "AP_NoModsNeeded".Translate());
 
-            int optionalModsSpace = 0;
+            Rect dimensionsOptionalMods = new Rect(0, modsNeeded.yMax, 0, 0);
 
             if (!prefab.suggestedMods.NullOrEmpty())
             {
-                Rect dimensionsOptionalMods = new Rect(0, outRect.yMin + 225, 600, 25);
-                optionalModsSpace = 25;
+                dimensionsOptionalMods = new Rect(0, modsNeeded.yMax, 600, 25);
+          
                 
                 Widgets.Label(dimensionsOptionalMods, "AP_SuggestedMods".Translate(prefab.suggestedMods.ToStringSafeEnumerable()));
             }
            
-            Rect dimensionsRect = new Rect(0, outRect.yMin + 225 + optionalModsSpace, 600, 25);
+            Rect dimensionsRect = new Rect(0, dimensionsOptionalMods.yMax, 600, 25);
             Widgets.Label(dimensionsRect, "AP_PrefabDimensions".Translate(prefab.layout.Sizes.x, prefab.layout.Sizes.z));
 
-            Rect totalCost = new Rect(0, outRect.yMin + 250 + optionalModsSpace, 600, 25);
+            Rect totalCost = new Rect(0, dimensionsRect.yMax, 600, 25);
             Widgets.Label(totalCost, ((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " "+ "AP_Silver".Translate());
 
 

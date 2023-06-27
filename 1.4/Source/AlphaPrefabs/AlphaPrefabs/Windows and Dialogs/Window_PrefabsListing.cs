@@ -75,7 +75,8 @@ namespace AlphaPrefabs
             }
 
             outRect.yMin += 20f;
-            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && x.label.ToLower().Contains(searchKey.ToLower())&&
+            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && (x.label.ToLower().Contains(searchKey.ToLower())||
+                                       x.shortLabel.ToLower().Contains(searchKey.ToLower())) &&
                                        (x.modPrerequisites.NullOrEmpty() ||(x.modPrerequisites!=null && Utils.ContainsAllItems(Utils.allActiveModIds,x.modPrerequisites)))
                                        select x).OrderBy(x => x.priority).ToList();
 
@@ -88,12 +89,12 @@ namespace AlphaPrefabs
                 for (var i = 0; i < prefabs.Count; i++)
                 {
 
-                    Rect rectIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 128);
+                    Rect rectIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 128);
 
                     Widgets.DrawBoxSolidWithOutline(rectIcon, fillColor, borderColor, 2);
                     Rect rectIconInside = rectIcon.ContractedBy(2);
 
-                    GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefabs[i].icon, true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                    GUI.DrawTexture(rectIconInside, ContentFinder<Texture2D>.Get(prefabs[i].detailedImage, true), ScaleMode.ScaleAndCrop, alphaBlend: true, 0f, Color.white, 0f, 0f);
 
                     TooltipHandler.TipRegion(rectIcon, prefabs[i].LabelCap + ": " + prefabs[i].description);
                     if (Widgets.ButtonInvisible(rectIcon))
@@ -101,10 +102,14 @@ namespace AlphaPrefabs
                         OpenIndividualPrefabWindow(prefabs[i]);
                     }
 
-                    Rect silverIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 128 + (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                    Text.Font = GameFont.Tiny;
+                    var prefabTextRect = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 128 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 20);
+                    Widgets.Label(prefabTextRect, prefabs[i].shortLabel.CapitalizeFirst());
+                    Text.Font = GameFont.Small;
+                    Rect silverIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 148 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
                     GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
 
-                    Rect silverDetails = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount)+24, viewRect.y +128+ (128 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 104, 20);
+                    Rect silverDetails = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount)+24, viewRect.y +148+ (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 104, 20);
                     Widgets.Label(silverDetails, ((int)(prefabs[i].marketvalue * Constants.SellPriceModifier)).ToString());
 
 

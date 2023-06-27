@@ -173,7 +173,7 @@ namespace AlphaPrefabs
                     }
                     else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 1500)
                     {
-                        return base.Graphic;
+                        return GraphicsCache.graphicMediumValueBuilding;
                     }
                     else if (prefab?.marketvalue >= 1500 && prefab?.marketvalue < 3000)
                     {

@@ -11,9 +11,10 @@ namespace AlphaPrefabs
 {
     public class PrefabDef : Def
     {
-        public string icon;
+       
         public string detailedImage;
         public string labelForDefaultVariation;
+        public string shortLabel;
         public float priority;
         public PrefabCategoryDef category;
         public StructureLayoutDef layout;
