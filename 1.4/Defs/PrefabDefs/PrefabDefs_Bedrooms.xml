@@ -267,4 +267,28 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nursery</defName>
+		<label>small nursery</label>
+		<shortLabel>small nursery</shortLabel>
+	
+		<description>A small nursery with three cribs, toys and a shelf to store baby food.</description>
+		<priority>3002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nursery_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Nursery</layout>
+		<marketvalue>1296</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>			
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>		
+		</researchPrerequisites>
+		
+		
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -35,7 +35,7 @@
 		<priority>4</priority>
 		<icon>UI/Categories/AP_Category_Healthcare</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
-		<AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Research</defName>
 		<label>research</label>
 		<description>Research centers and laboratories</description>
@@ -71,10 +71,34 @@
 		<icon>UI/Categories/AP_Category_Production</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Military</defName>
+		<label>military</label>
+		<description>Offensive and defensive structures such as pillboxes, armories, mortar depots, etc</description>
+		<priority>8.5</priority>
+		<icon>UI/Categories/AP_Category_Military</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Vampires</defName>
 		<label>sanguophage</label>
 		<description>Commonly known as vampires</description>
 		<priority>9</priority>
 		<icon>UI/Categories/AP_Category_Vampires</icon>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_RoadPieces</defName>
+		<label>roads</label>
+		<description>Modular roads to make an urban looking cityscape</description>
+		<priority>10</priority>
+		<icon>UI/Categories/AP_Category_RoadPieces</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_CastlePieces</defName>
+		<label>castle pieces</label>
+		<description>Modular castle pieces to make your own sprawling medieval castle</description>
+		<priority>11</priority>
+		<icon>UI/Categories/AP_Category_CastlePieces</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 </Defs>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road_Straight</defName>
+		<label>straight road</label>
+		<shortLabel>straight road</shortLabel>
+		<labelForDefaultVariation>West-East, curb on the South</labelForDefaultVariation>
+		<description>A straight road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Straight_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+        <layout>AP_Prefab_Road_Straight</layout>
+        <marketvalue>581</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>			
+			<li>Electricity</li>				
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>West-East, curb on the North</name>
+				<layoutVariation>AP_Prefab_Road_Straight_north</layoutVariation>
+			</li>
+			<li>
+				<name>North-South, curb on the West</name>
+				<layoutVariation>AP_Prefab_Road_Straight_west</layoutVariation>
+			</li>
+			<li>
+				<name>North-South, curb on the East</name>
+				<layoutVariation>AP_Prefab_Road_Straight_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road_Corner_northwest</defName>
+		<label>corner road</label>
+		<shortLabel>corner road</shortLabel>
+		<labelForDefaultVariation>Curb on the Northwest</labelForDefaultVariation>
+		<description>A corner road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>2</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Corner_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+        <layout>AP_Prefab_Road_Corner_northwest</layout>
+        <marketvalue>194</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>			
+			<li>Electricity</li>				
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Curb on the Northeast</name>
+				<layoutVariation>AP_Prefab_Road_Corner_northeast</layoutVariation>
+			</li>
+			<li>
+				<name>Curb on the Southwest</name>
+				<layoutVariation>AP_Prefab_Road_Corner_southwest</layoutVariation>
+			</li>
+			<li>
+				<name>Curb on the Southeast</name>
+				<layoutVariation>AP_Prefab_Road_Corner_southeast</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>RE_SpacerTechResearchBench_Steel_West</defName>
+		<thing>RE_SpacerTechResearchBench</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+</Defs>

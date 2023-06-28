@@ -28,6 +28,31 @@
 		</variations>
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_2</defName>
+		<label>artificial ecosystem bay</label>
+		<shortLabel>ecosystem bay</shortLabel>
+	
+		<description>An artificial ecosystem bay containing 47 artificial ecosystems and 4 heaters. Absurdly expensive.</description>
+		<priority>2</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_2_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+        <layout>AP_Prefab_Nature_2</layout>
+        <marketvalue>51707</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li MayRequire="VanillaExpanded.VFEFarming">VFE_Res_AdvancedHydroponics</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfefarming</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 	
 	
 	

@@ -41,7 +41,7 @@ namespace AlphaPrefabs
                             listThings.Add(thing);
                             if (thing.def.Minifiable && thing.def.minifiedDef.tradeability == Tradeability.Sellable)
                             {
-                                Log.Message("Adding sellable minified " + thing.def + " of value " + thing.MarketValue);
+                                //Log.Message("Adding sellable minified " + thing.def + " of value " + thing.MarketValue);
                                 
                                 totalValue += thing.MarketValue;
 
@@ -59,13 +59,13 @@ namespace AlphaPrefabs
 
                                     }
                                    
-                                    Log.Message("Adding deconstructible " + thing.def + " of value " + num);
+                                    //Log.Message("Adding deconstructible " + thing.def + " of value " + num);
                                     totalValue += num;
                                 }
                                 else if (thing.def.CostStuffCount != 0)
                                 {
                                     float num = thing.Stuff.BaseMarketValue* thing.def.CostStuffCount;
-                                    Log.Message("Adding stuffed deconstructible " + thing.def + " of value " + num);
+                                    //Log.Message("Adding stuffed deconstructible " + thing.def + " of value " + num);
                                     totalValue += num;
 
 
@@ -73,7 +73,7 @@ namespace AlphaPrefabs
                                 else
                             
                                 {
-                                    Log.Message("Adding plain item " + thing.def + " of value " + thing.MarketValue);
+                                    //Log.Message("Adding plain item " + thing.def + " of value " + thing.MarketValue);
                                   
                                     totalValue += thing.MarketValue;
 
@@ -92,7 +92,7 @@ namespace AlphaPrefabs
 
                     if (terrain?.GetStatValueAbstract(StatDefOf.MarketValue) > 0)
                     {
-                        Log.Message("Adding terrain " + terrain.LabelCap + " of value " + terrain.GetStatValueAbstract(StatDefOf.MarketValue));
+                        //Log.Message("Adding terrain " + terrain.LabelCap + " of value " + terrain.GetStatValueAbstract(StatDefOf.MarketValue));
 
                         totalValue += terrain.GetStatValueAbstract(StatDefOf.MarketValue);
 

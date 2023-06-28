@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<KCSG.SymbolDef>
+		<defName>VFEM_Wall_Sterile</defName>
+		<thing>VFEM_Wall_Sterile</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Facility_IVDrip</defName>
+		<thing>Facility_IVDrip</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Facility_VitalsCentre_South</defName>
+		<thing>Facility_VitalsCentre</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_OperatingTable_Steel_West</defName>
+		<thing>Bed_OperatingTable</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_OperatingTable_Steel_East</defName>
+		<thing>Bed_OperatingTable</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+</Defs>

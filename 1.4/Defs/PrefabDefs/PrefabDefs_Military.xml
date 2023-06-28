@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Military_1</defName>
+		<label>huge bunker</label>
+		<shortLabel>huge bunker</shortLabel>
+		
+		<description>A huge defensive structure with 8 mini-turrets, 4 auto-cannons, 4 IEDs and 4 mortars, plus space for ammo and a chemfuel generator with batteries to hold out for a while in case it is cut from the electric grid.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Military_1_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+        <layout>AP_Prefab_Military_1</layout>
+        <marketvalue>17253</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Batteries</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+			<li>IEDs</li>
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+</Defs>

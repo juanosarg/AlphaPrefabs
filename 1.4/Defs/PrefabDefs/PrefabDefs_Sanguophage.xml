@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Sanguophage_1</defName>
+		<label>vampire lair</label>
+		<shortLabel>vampire lair</shortLabel>
+		
+		<description>A large sanguophage lair containing a temple (Ideology room), a dining room / draincasket room / art gallery and a bedroom / deathresting room.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_1_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+        <layout>AP_Prefab_Sanguophage_1</layout>
+        <marketvalue>14533</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Deathrest</li>
+			<li>CarpetMaking</li>
+			<li>Batteries</li>
+			<li>SolarPanels</li>			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+</Defs>

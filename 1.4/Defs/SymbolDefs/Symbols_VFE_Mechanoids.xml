@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFE_MechanoidConstructionLamp</defName>
+		<thing>VFE_MechanoidConstructionLamp</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_AutomaticDrill_South</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_AutomaticDrill</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_ElectronicsFabricationFactory_SteelExtractor_South</defName>
+		<thing>VFEM_ElectronicsFabricationFactory_SteelExtractor</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_ElectronicsFabricationFactory_ComponentAssembler_North</defName>
+		<thing>VFEM_ElectronicsFabricationFactory_ComponentAssembler</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_MasonrySaw_North</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_MasonrySaw</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MedicinalCompoundingFactory_NeutroamineInfuser_East</defName>
+		<thing>VFEM_MedicinalCompoundingFactory_NeutroamineInfuser</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+</Defs>

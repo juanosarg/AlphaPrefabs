@@ -75,7 +75,7 @@ namespace AlphaPrefabs
             }
 
             outRect.yMin += 20f;
-            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where x.category == category && (x.label.ToLower().Contains(searchKey.ToLower())||
+            List<PrefabDef> prefabs = (from x in DefDatabase<PrefabDef>.AllDefsListForReading where (x.category == category || x.categories?.Contains(category)==true) && (x.label.ToLower().Contains(searchKey.ToLower())||
                                        x.shortLabel.ToLower().Contains(searchKey.ToLower())) &&
                                        (x.modPrerequisites.NullOrEmpty() ||(x.modPrerequisites!=null && Utils.ContainsAllItems(Utils.allActiveModIds,x.modPrerequisites)))
                                        select x).OrderBy(x => x.priority).ToList();

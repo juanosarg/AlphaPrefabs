@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CastleWall</defName>
+		<label>castle wall</label>
+		<shortLabel>castle wall</shortLabel>
+		<labelForDefaultVariation>West-East Orientation</labelForDefaultVariation>
+		<description>A castle wall. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleWall_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_CastleWall</layout>
+		<marketvalue>638</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>North-South Orientation</name>
+				<layoutVariation>AP_Prefab_CastleWall_north</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CastleCorner_southwest</defName>
+		<label>castle corner</label>
+		<shortLabel>castle corner</shortLabel>
+		<labelForDefaultVariation>Southwest Corner</labelForDefaultVariation>
+		<description>A castle corner. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleCorner_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_CastleCorner_southwest</layout>
+		<marketvalue>638</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Southeast Corner</name>
+				<layoutVariation>AP_Prefab_CastleCorner_southeast</layoutVariation>
+			</li>
+			<li>
+				<name>Northeast Corner</name>
+				<layoutVariation>AP_Prefab_CastleCorner_northeast</layoutVariation>
+			</li>
+			<li>
+				<name>Northwest Corner</name>
+				<layoutVariation>AP_Prefab_CastleCorner_northwest</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CastleEntrance</defName>
+		<label>castle entrance</label>
+		<shortLabel>castle entrance</shortLabel>
+		
+		<description>A castle grand entrance. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleEntrance_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_CastleEntrance</layout>
+		<marketvalue>3964</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CastleWallRoom</defName>
+		<label>castle wall room</label>
+		<shortLabel>castle wall room</shortLabel>
+		
+		<description>A castle wall room. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>4</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleWallRoom_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_CastleWallRoom</layout>
+		<marketvalue>2713</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	
+	</AlphaPrefabs.PrefabDef>
+</Defs>

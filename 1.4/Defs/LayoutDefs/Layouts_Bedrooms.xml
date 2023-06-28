@@ -375,4 +375,45 @@
 			<li>vanillaexpanded.vfecore</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Nursery</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.</li>
+				<li>Wall_WoodLog,Armchair_Cloth_East,.,BabyFood,BabyDecoration_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Armchair_Cloth_East,.,.,.,ToyBox_WoodLog,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Armchair_Cloth_East,.,.,.,.,Door_WoodLog</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Crib_WoodLog_South,Crib_WoodLog_South,Crib_WoodLog_South,StandingLamp,Wall_WoodLog</li>
+				<li>.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
+			</li>
+			<li>
+				<li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.</li>
+				<li>PowerConduit,.,.,ShelfSmall_WoodLog_North,.,PowerConduit,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,PowerConduit,.,.,.,.,PowerConduit</li>
+				<li>.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>1,1,1,1,1,1,.</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>.,1,1,1,1,1,1</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>.,CarpetBlue,.,.,.,.,.</li>
+			<li>.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.</li>
+			<li>.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.</li>
+			<li>.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue</li>
+			<li>.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.</li>
+			<li>.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>ludeon.rimworld.biotech</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 </Defs>

@@ -20,4 +20,10 @@
 		<thing>VFEArch_ArmoredDoor</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>VFEArch_PicketFence_WoodLog</defName>
+		<thing>VFEArch_PicketFence</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
 </Defs>

@@ -31,6 +31,29 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_1</defName>
+		<label>wooden tavern</label>
+		<shortLabel>tavern</shortLabel>
+		<description>A large sized tavern with sitting space for 17 guests, plus two rooms. Includes dining room, kitchen and a bunch of fermenting barrels.</description>
+		<priority>2</priority>
+		
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_1_Preview</detailedImage>
+        <layout>AP_Prefab_Eating_1</layout>
+        <marketvalue>7066</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
 	
 	
 </Defs>

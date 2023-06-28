@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Production_1</defName>
 		<label>full production complex</label>
 		<shortLabel>huge workshop</shortLabel>
-		
 		<description>A huge production complex housing drug labs, smelters, stonecutting tables, biofuel refineries, smithies, tailoring tables, fabrication benches and machining tables, as well as plenty of shelves.</description>
 		<priority>1</priority>
-	
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_1_Preview</detailedImage>
 		<category>AP_Category_Production</category>
-        <layout>AP_Prefab_Production_1</layout>
-        <marketvalue>17489</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Production_1</layout>
+		<marketvalue>17489</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
 			<li>Autodoors</li>
@@ -29,10 +26,166 @@
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfeproduction</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_1</defName>
+		<label>steel factory</label>
+		<shortLabel>steel factory</shortLabel>
+		<description>A medium sized factory that automatically produces steel, with three automatic drills and three steel extractors. Includes a machining table.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_1</layout>
+		<marketvalue>21311</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>Machining</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
+			<li>ComplexFurniture</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ElectronicsFabricationFactory</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_2</defName>
+		<label>components factory</label>
+		<shortLabel>components factory</shortLabel>
+		<description>A medium sized factory that automatically produces components, with two automatic drills, two steel extractors and a components assembler. Includes two fabrication benches and two smelters.</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_2_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_2</layout>
+		<marketvalue>23882</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>Fabrication</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
+			<li>ComplexFurniture</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ElectronicsFabricationFactory</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_3</defName>
+		<label>masonry factory</label>
+		<shortLabel>masonry factory</shortLabel>
+		<description>A medium sized factory that automatically produces stone blocks, with two automatic drills and two masonry saws. Includes two stonecutter tables.</description>
+		<priority>4</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_3_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_3</layout>
+		<marketvalue>14134</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
+			<li>ComplexFurniture</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_4</defName>
+		<label>neutroamine factory</label>
+		<shortLabel>neutroamine factory</shortLabel>
+		<description>A medium sized factory that automatically produces neutroamine from food, with two meat grinders and two neutroamine infusers. Includes two drug labs.</description>
+		<priority>5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_4_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_4</layout>
+		<marketvalue>18850</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
+			<li>ComplexFurniture</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ProvisionsPackagingFactory</li>
+			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MedicinalCompoundingFactory</li>
+			<li>SterileMaterials</li>
+			<li>DrugProduction</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Mechanitor_1</defName>
+		<label>mechanitor lab</label>
+		<shortLabel>mechanitor lab</shortLabel>
+		<description>A medium sized lab hosting facilities suitable for a mechanitor, such as mech gestators, mech chargers, scanners and band nodes.</description>
+		<priority>6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Mechanitor_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Mechanitor_1</layout>
+		<marketvalue>14616</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>BasicMechtech</li>
+			<li>StandardMechtech</li>
+			<li>HighMechtech</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_GeneticsLab</defName>
+		<label>genetics lab</label>
+		<shortLabel>genetics lab</shortLabel>
+		<description>A medium sized genetics lab hosting facilities suitable for a genetic engineering, such as extractors, processors, assemblers and gene banks. Also includes a high-tech research bench</description>
+		<priority>6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_GeneticsLab_Preview</detailedImage>
+		<categories><li>AP_Category_Production</li><li>AP_Category_Research</li></categories>
+		<layout>AP_Prefab_Production_GeneticsLab</layout>
+		<marketvalue>10119</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>Batteries</li>
+			<li>GrowthVats</li>
+			<li>GeneProcessor</li>
+			<li>MultiAnalyzer</li>
+			<li>Xenogermination</li>
+			<li>MicroelectronicsBasics</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 	
 	
 </Defs>

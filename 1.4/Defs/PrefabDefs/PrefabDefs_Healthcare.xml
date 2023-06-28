@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_1</defName>
+		<label>basic hospital</label>
+		<shortLabel>basic hospital</shortLabel>
+		
+		<description>A basic hospital with space for 8 patients, plus shelves to hold medicine.</description>
+		<priority>1</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_1_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_1</layout>
+        <marketvalue>1532</marketvalue>
+        <researchPrerequisites>
+			
+			<li>PassiveCooler</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_2</defName>
+		<label>advanced hospital</label>
+		<shortLabel>advanced hospital</shortLabel>
+		
+		<description>An advanced hospital with space for 8 patients in a common room, plus two operating rooms and a storage room to hold medicine. Includes vitals monitors, vitals centers, IV drips, falt screen televisions for patients and a drugs lab.</description>
+		<priority>2</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_2_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_2</layout>
+        <marketvalue>19056</marketvalue>
+        <researchPrerequisites>
+			
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+			<li>HospitalBed</li>
+			<li>FlatscreenTelevision</li>
+			<li>VitalsMonitor</li>
+			<li>Smithing</li>
+			<li>PenoxycylineProduction</li>
+			<li>DrugProduction</li>
+			<li>MedicineProduction</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfemedical</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
+	
+</Defs>

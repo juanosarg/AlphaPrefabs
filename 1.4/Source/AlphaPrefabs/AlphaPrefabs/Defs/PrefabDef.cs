@@ -17,6 +17,7 @@ namespace AlphaPrefabs
         public string shortLabel;
         public float priority;
         public PrefabCategoryDef category;
+        public List<PrefabCategoryDef> categories;
         public StructureLayoutDef layout;
         public float marketvalue;
         public List<ResearchProjectDef> researchPrerequisites;
