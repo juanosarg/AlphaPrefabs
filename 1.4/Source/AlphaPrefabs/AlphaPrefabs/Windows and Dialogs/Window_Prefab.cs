@@ -157,10 +157,13 @@ namespace AlphaPrefabs
                     }));
                     foreach (LayoutVariationsWithName variation in prefab.variations)
                     {
-                        floatOptions.Add(new FloatMenuOption(variation.name.CapitalizeFirst(), delegate
-                        {
-                            OrderPrefab(variation.layoutVariation,variation.name);
-                        }));
+
+                        if ((variation.modPrerequisites.NullOrEmpty() || (variation.modPrerequisites != null && Utils.ContainsAllItems(Utils.allActiveModIds, variation.modPrerequisites)))) {
+                            floatOptions.Add(new FloatMenuOption(variation.name.CapitalizeFirst(), delegate
+                            {
+                                OrderPrefab(variation.layoutVariation, variation.name);
+                            }));
+                        }                      
                     }
                    
                     Find.WindowStack.Add(new FloatMenu(floatOptions));

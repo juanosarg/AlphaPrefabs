@@ -10,4 +10,14 @@
 		<thing>VFEArch_CellDoor</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_ChainlinkFence_Steel</defName>
+		<thing>VFEArch_ChainlinkFence</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_ArmoredDoor_Steel</defName>
+		<thing>VFEArch_ArmoredDoor</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>

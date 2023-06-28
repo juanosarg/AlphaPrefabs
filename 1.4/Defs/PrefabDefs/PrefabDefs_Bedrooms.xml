@@ -122,6 +122,35 @@
 		</variations>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Tribal_2</defName>
+		<label>cozy 1-person tribal hut</label>
+		<shortLabel>tribal single</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A cozy 1-person tribal hut with a passive cooler. Its 17 tiles of space classifies it as "rather tight".</description>
+		<priority>2.9</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Tribal_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Tribal_2</layout>
+		<marketvalue>379</marketvalue>
+		<researchPrerequisites>
+			<li>PassiveCooler</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
 		<label>erin's 2-person cottage bedroom</label>
 		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight".</description>

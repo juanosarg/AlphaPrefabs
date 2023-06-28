@@ -14,6 +14,7 @@ namespace AlphaPrefabs
 
         public string name;
         public StructureLayoutDef layoutVariation;
+        public List<string> modPrerequisites;
 
     }
 }
