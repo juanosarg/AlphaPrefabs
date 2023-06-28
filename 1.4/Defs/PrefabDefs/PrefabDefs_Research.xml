@@ -72,4 +72,68 @@
 			<li>rimeffect.core</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicResearch_1</defName>
+		<label>basic research lab</label>
+		<shortLabel>basic lab</shortLabel>
+		<description>A small simple research lab.</description>
+		<priority>0.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicResearch_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_BasicResearch_1</layout>
+		<marketvalue>708</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicResearch_2</defName>
+		<label>basic research lab, double</label>
+		<shortLabel>basic lab, double</shortLabel>
+		<description>A small simple research lab with two simple research benches.</description>
+		<priority>0.75</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicResearch_2_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_BasicResearch_2</layout>
+		<marketvalue>937</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HiTechResearchSmall_1</defName>
+		<label>high-tech research lab, small</label>
+		<shortLabel>small hi-tech lab</shortLabel>
+		<description>A small high-tech research lab with a high-tech research bench and a multi-analyzer.</description>
+		<priority>0.8</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HiTechResearchSmall_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_HiTechResearchSmall_1</layout>
+		<marketvalue>3771</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>MultiAnalyzer</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Batteries</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
 </Defs>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>Door_WoodLog_Slate</defName>
+		<thing>Door</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Slate</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>SimpleResearchBench_WoodLog_Slate_East</defName>
+		<thing>SimpleResearchBench</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Slate</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>SimpleResearchBench_WoodLog_Slate_West</defName>
+		<thing>SimpleResearchBench</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Slate</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DiningChair_WoodLog_Slate_East</defName>
+		<thing>DiningChair</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Slate</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DiningChair_WoodLog_Slate_West</defName>
+		<thing>DiningChair</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Slate</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	
+	
+</Defs>
