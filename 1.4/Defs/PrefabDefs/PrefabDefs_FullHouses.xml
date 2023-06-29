@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_FullHouse_1</defName>
 		<label>small full house</label>
 		<shortLabel>full house Small</shortLabel>
 		<description>A small full house containing a very small 2-person bedroom, a dining room with a kitchen stove and a fermenting barrel and a small animal pen outside</description>
 		<priority>1</priority>
-	
 		<category>AP_Category_FullHouse</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_1_Preview</detailedImage>
-        <layout>AP_Prefab_FullHouse_1</layout>
-        <marketvalue>1513</marketvalue>
-        <researchPrerequisites>
-			
+		<layout>AP_Prefab_FullHouse_1</layout>
+		<marketvalue>1513</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Brewing</li>
 			<li>Stonecutting</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
-			
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_FullHouse_Suburban</defName>
 		<label>suburban house</label>
@@ -36,10 +28,9 @@
 		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<category>AP_Category_FullHouse</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_Suburban_Preview</detailedImage>
-        <layout>AP_Prefab_FullHouse_Suburban</layout>
-        <marketvalue>6854</marketvalue>
-        <researchPrerequisites>
-			
+		<layout>AP_Prefab_FullHouse_Suburban</layout>
+		<marketvalue>6854</marketvalue>
+		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
 			<li>Stonecutting</li>
@@ -51,11 +42,9 @@
 			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
 			<li MayRequire="VanillaExpanded.VFECore">MF_ModernFurniture</li>
 			<li MayRequire="VanillaExpanded.VFECore">MF_BasicFurniture</li>
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
-			
 		</modPrerequisites>
 		<variations>
 			<li>
@@ -72,6 +61,32 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FullHouse_NobleMansion</defName>
+		<label>noble mansion</label>
+		<shortLabel>noble mansion</shortLabel>
+		<description>A small mansion fit for a low ranking noble of the Empire. Includes a bedroom, a living room, a dining room, a kitchen, a hall and a bathroom (if you have Dub's Bad Hygiene).</description>
+		<priority>3</priority>
+		<category>AP_Category_FullHouse</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_NobleMansion_Preview</detailedImage>
+		<layout>AP_Prefab_FullHouse_NobleMansion</layout>
+		<marketvalue>10240</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>Harp</li>
+			<li>Brewing</li>
+			<li MayRequire="Dubwise.DubsBadHygiene">Plumbing</li>
+			<li MayRequire="Dubwise.DubsBadHygiene">ModernFixtures</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Dub's Bad Hygiene</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

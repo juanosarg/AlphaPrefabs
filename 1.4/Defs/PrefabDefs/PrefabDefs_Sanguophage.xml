@@ -1,36 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Sanguophage_1</defName>
 		<label>vampire lair</label>
 		<shortLabel>vampire lair</shortLabel>
-		
 		<description>A large sanguophage lair containing a temple (Ideology room), a dining room / draincasket room / art gallery and a bedroom / deathresting room.</description>
 		<priority>1</priority>
-	
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_1_Preview</detailedImage>
 		<category>AP_Category_Vampires</category>
-        <layout>AP_Prefab_Sanguophage_1</layout>
-        <marketvalue>14533</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Sanguophage_1</layout>
+		<marketvalue>14533</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
 			<li>Deathrest</li>
 			<li>CarpetMaking</li>
 			<li>Batteries</li>
-			<li>SolarPanels</li>			
+			<li>SolarPanels</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.ideology</li>
 			<li>ludeon.rimworld.biotech</li>
 			<li>vanillaracesexpanded.sanguophage</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BloodFacility</defName>
+		<label>hemogen extraction facility</label>
+		<shortLabel>hemogen extraction</shortLabel>
+		<labelForDefaultVariation>North-South</labelForDefaultVariation>
+		<description>A blood extraction facility to start using the hemogen network. Includes 6 vats, 4 draincaskets, 2 taps and 2 drains.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BloodFacility_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_BloodFacility</layout>
+		<marketvalue>8087</marketvalue>
+		<researchPrerequisites>
+			<li>Deathrest</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>>East-West</name>
+				<layoutVariation>AP_Prefab_BloodFacility_east</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

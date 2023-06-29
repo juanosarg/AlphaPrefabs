@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VRE_Draincasket_East</defName>
+		<thing>VRE_Draincasket</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+</Defs>
+

@@ -25,4 +25,14 @@
 			</value>
 		</match>
 	</Operation>
+	
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[@Name="AP_PrefabFloorsBase"]</xpath>
+			<value>
+				<designationCategory>AP_AlphaPrefabsTab</designationCategory>
+			</value>
+		</match>
+	</Operation>
+	
 </Patch>

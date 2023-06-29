@@ -66,5 +66,66 @@
 		<defName>VFEPD_MopBucket</defName>
 		<thing>VFEPD_MopBucket</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_GrassLong_North</defName>
+		<thing>VFEPD_GrassLong</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenCupboardPlates_West</defName>
+		<thing>VFEPD_WoodenCupboardPlates</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WineRack_East</defName>
+		<thing>VFEPD_WineRack</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_GrassShort_North</defName>
+		<thing>VFEPD_GrassShort</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenWagon_South</defName>
+		<thing>VFEPD_WoodenWagon</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenBookshelf_East</defName>
+		<thing>VFEPD_WoodenBookshelf</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenLogs_South</defName>
+		<thing>VFEPD_WoodenLogs</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenLogsLarge_South</defName>
+		<thing>VFEPD_WoodenLogsLarge</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WaterTank</defName>
+		<thing>VFEPD_WaterTank</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_Spices</defName>
+		<thing>VFEPD_Spices</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_PersonalConsole_East</defName>
+		<thing>VFEPD_PersonalConsole</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_SteelMirror_South</defName>
+		<thing>VFEPD_SteelMirror</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_FilthBlood_West</defName>
+		<thing>VFEPD_FilthBlood</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

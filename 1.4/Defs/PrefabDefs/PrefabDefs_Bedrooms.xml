@@ -187,7 +187,6 @@
 			<li>ludeon.rimworld.ideology</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Elegant_Bedroom_1</defName>
 		<label>elegant 1-person bedroom</label>
@@ -209,7 +208,6 @@
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
-			
 		</modPrerequisites>
 		<variations>
 			<li>
@@ -246,11 +244,8 @@
 			<li>TubeTelevision</li>
 			<li>Smithing</li>
 		</researchPrerequisites>
-		
-		
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
-			
 		</modPrerequisites>
 		<variations>
 			<li>
@@ -271,7 +266,6 @@
 		<defName>AP_Prefab_Nursery</defName>
 		<label>small nursery</label>
 		<shortLabel>small nursery</shortLabel>
-	
 		<description>A small nursery with three cribs, toys and a shelf to store baby food.</description>
 		<priority>3002</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nursery_Preview</detailedImage>
@@ -279,16 +273,67 @@
 		<layout>AP_Prefab_Nursery</layout>
 		<marketvalue>1296</marketvalue>
 		<researchPrerequisites>
-			<li>Electricity</li>			
+			<li>Electricity</li>
 			<li>ComplexFurniture</li>
-			<li>CarpetMaking</li>		
+			<li>CarpetMaking</li>
 		</researchPrerequisites>
-		
-		
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
-			
 		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Dormitory_1</defName>
+		<label>heated bedroom cluster</label>
+		<shortLabel>bedroom cluster</shortLabel>
+		<labelForDefaultVariation>Entrance on West side</labelForDefaultVariation>
+		<description>A cluster of 4 compact double bedrooms, all connected to a single electric heater via air vents.</description>
+		<priority>4000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Dormitory_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Dormitory_1</layout>
+		<marketvalue>2569</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>>Entrance on East side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_east</layoutVariation>
+			</li>
+			<li>
+				<name>>Entrance on North side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>>Entrance on South side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_south</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Dormitory_2</defName>
+		<label>large barracks</label>
+		<shortLabel>large barracks</shortLabel>
+		<labelForDefaultVariation>North-South Orientation</labelForDefaultVariation>
+		<description>A large barracks with space for 14 people, plus a communal living room / dining room in the center.</description>
+		<priority>4001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Dormitory_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Dormitory_2</layout>
+		<marketvalue>3345</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
 		
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>East-West Orientation</name>
+				<layoutVariation>AP_Prefab_Dormitory_2_east</layoutVariation>
+			</li>
+		
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

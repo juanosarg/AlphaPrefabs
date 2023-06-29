@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>sewagePipeStuff_Steel</defName>
+		<thing>sewagePipeStuff</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BathtubStuff_BlocksLimestone_North</defName>
+		<thing>BathtubStuff</thing>
+		<stuff>BlocksLimestone</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BathMat_Cloth_West</defName>
+		<thing>BathMat</thing>
+		<stuff>Cloth</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BasinStuff_BlocksMarble_North</defName>
+		<thing>BasinStuff</thing>
+		<stuff>BlocksMarble</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ToiletStuff_BlocksMarble_North</defName>
+		<thing>ToiletStuff</thing>
+		<stuff>BlocksMarble</stuff>
+	</KCSG.SymbolDef>
+</Defs>

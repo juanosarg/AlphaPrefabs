@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef Name="AP_PrefabFloorsBase" ParentName="FloorBase" Abstract="true">
+		
+		
+	</TerrainDef>
+
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTile</defName>
+		<label>kitchen tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>A cheap linoleum floor. Perfect for kitchens and bathrooms.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTile</texturePath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		
+		<designationHotKey>Misc5</designationHotKey>
+		
+	</TerrainDef>
+	
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTileDiagonal</defName>
+		<label>diagonal kitchen tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>An elegant linoleum floor. Perfect for kitchens and bathrooms. Prettier than the basic one.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTileDiagonal</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>1</Beauty>
+
+		</statBases>
+	
+		<designationHotKey>Misc5</designationHotKey>
+		
+	</TerrainDef>
+	
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTileBlue</defName>
+		<label>blue sterile linoleum tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>This clean, epoxy treated linoleum floor is ideal for heavy duty surfaces, such as kitchens. Ugly as sin, though.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTileBlue</texturePath>
+		<statBases>
+			<Cleanliness>0.5</Cleanliness>
+			<WorkToBuild>1300</WorkToBuild>
+
+		</statBases>
+		
+		<designationHotKey>Misc5</designationHotKey>
+		
+	</TerrainDef>
+
+	
+
+</Defs>
