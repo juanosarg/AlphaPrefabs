@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Kemetic_1</defName>
+		<label>kemetic temple</label>
+		<shortLabel>kemetic temple</shortLabel>
+		<description>A large temple in the Kemetic style.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Kemetic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Kemetic_1</layout>
+		<marketvalue>7113</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Jewish_1</defName>
+		<label>jewish temple</label>
+		<shortLabel>jewish temple</shortLabel>
+		<description>A large temple in the Jewish style.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Jewish_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Jewish_1</layout>
+		<marketvalue>14945</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

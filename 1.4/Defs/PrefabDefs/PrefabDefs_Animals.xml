@@ -24,6 +24,28 @@
 			
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_Barn_2</defName>
+		<label>small barn</label>
+		<shortLabel>small barn</shortLabel>
+		<description>A small barn with space for 4 farm animals, plus boxes for 3 smaller ones, and an exterior pen so herbivores can graze. Includes shelves with hay to feed the animals.</description>
+		<priority>0.5</priority>
+	
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_2_Preview</detailedImage>
+        <layout>AP_Prefab_Animals_Barn_2</layout>
+        <marketvalue>1508</marketvalue>
+        <researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 	
 	
 	

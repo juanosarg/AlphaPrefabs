@@ -78,6 +78,16 @@
 		<icon>UI/Categories/AP_Category_Military</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Temples</defName>
+		<label>temples</label>
+		<description>Ideology based structures such as temples, churches, and similar</description>
+		<priority>8.75</priority>
+		<icon>UI/Categories/AP_Category_Temples</icon>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Vampires</defName>
 		<label>sanguophage</label>
 		<description>Commonly known as vampires</description>
