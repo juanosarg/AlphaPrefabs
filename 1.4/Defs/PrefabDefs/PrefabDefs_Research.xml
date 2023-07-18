@@ -133,6 +133,32 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Research_RepairedLab</defName>
+		<label>partially repaired ancient biotech lab</label>
+		<shortLabel>repaired bio-lab</shortLabel>
+		<description>An ancient bio-lab that has been partially repaired and repurposed. Comes with some working mechanitor and genetics machines, as well as a bunch of random genepacks and genetics tools.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_RepairedLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_Research_RepairedLab</layout>
+		<marketvalue>7641</marketvalue>
+		<researchPrerequisites>
+			<li>BasicMechtech</li>
+			<li>StandardMechtech</li>
+			<li>Electricity</li>
+			<li>Xenogermination</li>
+			<li>VitalsMonitor</li>
+			<li>HighMechtech</li>
+			<li>GrowthVats</li>
+			
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>sarg.alphagenes</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 	
 	
 	

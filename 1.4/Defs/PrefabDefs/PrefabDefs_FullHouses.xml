@@ -4,7 +4,7 @@
 		<defName>AP_Prefab_FullHouse_1</defName>
 		<label>small full house</label>
 		<shortLabel>full house Small</shortLabel>
-		<description>A small full house containing a very small 2-person bedroom, a dining room with a kitchen stove and a fermenting barrel and a small animal pen outside</description>
+		<description>A small full house containing a very small 2-person bedroom, a dining room with a kitchen stove and a fermenting barrel and a small animal pen outside.</description>
 		<priority>1</priority>
 		<category>AP_Category_FullHouse</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_1_Preview</detailedImage>
@@ -18,6 +18,32 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FullHouse_2</defName>
+		<label>yellow full house</label>
+		<shortLabel>yellow house Small</shortLabel>
+		<description>A yellow and white full house containing a very small 2-person bedroom, a living room / kitchen with a kitchen stove and a small dining room.</description>
+		<priority>1.5</priority>
+		<category>AP_Category_FullHouse</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_2_Preview</detailedImage>
+		<layout>AP_Prefab_FullHouse_2</layout>
+		<marketvalue>5552</marketvalue>
+				
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>FlatscreenTelevision</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_FullHouse_Suburban</defName>

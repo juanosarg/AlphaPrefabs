@@ -140,7 +140,18 @@ namespace AlphaPrefabs
             Rect dimensionsRect = new Rect(0, dimensionsOptionalMods.yMax, 600, 25);
             Widgets.Label(dimensionsRect, "AP_PrefabDimensions".Translate(prefab.layout.Sizes.x, prefab.layout.Sizes.z));
 
-            Rect totalCost = new Rect(0, dimensionsRect.yMax, 600, 25);
+
+            Rect dimensionsAuthor = new Rect(0, dimensionsRect.yMax, 0, 0);
+
+            if (!prefab.author.NullOrEmpty())
+            {
+                dimensionsAuthor = new Rect(0, dimensionsRect.yMax, 600, 25);
+
+
+                Widgets.Label(dimensionsAuthor, "AP_Author".Translate(prefab.author));
+            }
+
+            Rect totalCost = new Rect(0, dimensionsAuthor.yMax, 600, 25);
             Widgets.Label(totalCost, ((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " "+ "AP_Silver".Translate());
 
 

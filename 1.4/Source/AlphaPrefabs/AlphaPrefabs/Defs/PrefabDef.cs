@@ -15,6 +15,7 @@ namespace AlphaPrefabs
         public string detailedImage;
         public string labelForDefaultVariation;
         public string shortLabel;
+        public string author;
         public float priority;
         public PrefabCategoryDef category;
         public List<PrefabCategoryDef> categories;

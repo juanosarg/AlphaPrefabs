@@ -20,10 +20,45 @@
 		<thing>VFEArch_ArmoredDoor</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
-	
 	<KCSG.SymbolDef>
 		<defName>VFEArch_PicketFence_WoodLog</defName>
 		<thing>VFEArch_PicketFence</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_HedgeWall</defName>
+		<thing>VFEArch_HedgeWall</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_SingleDoor_Flipped_WoodLog_White</defName>
+		<thing>VFEArch_SingleDoor_Flipped</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_White</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_SingleDoor_WoodLog_White</defName>
+		<thing>VFEArch_SingleDoor</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_White</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_PicketFence_WoodLog_White</defName>
+		<thing>VFEArch_PicketFence</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_White</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_SingleDoor_WoodLog</defName>
+		<thing>VFEArch_SingleDoor</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_LogWall</defName>
+		<thing>VFEArch_LogWall</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_SingleDoor_Flipped_WoodLog</defName>
+		<thing>VFEArch_SingleDoor_Flipped</thing>
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
 </Defs>

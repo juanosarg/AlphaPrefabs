@@ -127,5 +127,65 @@
 		<thing>VFEPD_FilthBlood</thing>
 		<rotation>West</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BerryBush</defName>
+		<thing>VFEPD_BerryBush</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_CoffeeTable_WoodLog_White_East</defName>
+		<thing>VFEPD_CoffeeTable</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_White</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_Brambles</defName>
+		<thing>VFEPD_Brambles</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WineRack_West</defName>
+		<thing>VFEPD_WineRack</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_Cooker_West</defName>
+		<thing>VFEPD_Cooker</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BinBag</defName>
+		<thing>VFEPD_BinBag</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_Rose</defName>
+		<thing>VFEPD_Rose</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WashingMachine_South</defName>
+		<thing>VFEPD_WashingMachine</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_Daylily</defName>
+		<thing>VFEPD_Daylily</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BucketwithWater</defName>
+		<thing>VFEPD_BucketwithWater</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_TanningRack_South</defName>
+		<thing>VFEPD_TanningRack</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_HayBaleMedium_South</defName>
+		<thing>VFEPD_HayBaleMedium</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BucketEmpty</defName>
+		<thing>VFEPD_BucketEmpty</thing>
+	</KCSG.SymbolDef>
 </Defs>
 

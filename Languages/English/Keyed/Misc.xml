@@ -15,6 +15,7 @@
 	<AP_OrderNowWithVariation>Order now with...</AP_OrderNowWithVariation>
 	<AP_VariantLayout>Variant layout: {0}</AP_VariantLayout>
 	<AP_Silver>silver</AP_Silver>
+	<AP_Author>Prefab designed by: {0}</AP_Author>
 	<AP_ResearchNeeded>Research needed: {0}</AP_ResearchNeeded>
 	<AP_NoResearchNeeded>No research needed</AP_NoResearchNeeded>
 	<AP_ModsNeeded>Mods needed: {0}</AP_ModsNeeded>

@@ -26,6 +26,25 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Sanguophage_2</defName>
+		<label>deathrest room</label>
+		<shortLabel>deathrest room</shortLabel>
+		<description>A deathrest room containing the basic deathresting machinery.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_2_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_Sanguophage_2</layout>
+		<marketvalue>6072</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Deathrest</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_BloodFacility</defName>
 		<label>hemogen extraction facility</label>
 		<shortLabel>hemogen extraction</shortLabel>
