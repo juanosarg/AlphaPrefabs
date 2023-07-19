@@ -22,7 +22,29 @@
 		
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ChemfuelDepot</defName>
+		<label>chemfuel depot</label>
+		<shortLabel>chemfuel depot</shortLabel>
+		
+		<description>A chemfuel depot containing 6 chemfuel powered generators, 8 batteries, and shelves with chemfuel to start powering the generators.</description>
+		<priority>2</priority>
 	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ChemfuelDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_ChemfuelDepot</layout>
+        <marketvalue>5797</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
 	
 	
 	

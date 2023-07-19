@@ -294,4 +294,10 @@
 		<stuff>WoodLog</stuff>
 		<styleCategory>Rustic</styleCategory>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Wall_Steel_Sandstone</defName>
+		<thing>Wall</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_Sandstone</color>
+	</KCSG.SymbolDef>
 </Defs>

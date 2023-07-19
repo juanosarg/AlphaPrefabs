@@ -43,4 +43,46 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Steampunk_1</defName>
+		<label>steampunk temple</label>
+		<shortLabel>steampunk temple</shortLabel>
+		<description>A medium sized temple in the Steampunk style.</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Steampunk_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Steampunk_1</layout>
+		<marketvalue>3331</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>SolarPanels</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Neolithic_1</defName>
+		<label>neolithic circle</label>
+		<shortLabel>neolithic circle</shortLabel>
+		<description>A medium sized temple in the Neolithic style.</description>
+		<priority>4</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Neolithic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Neolithic_1</layout>
+		<marketvalue>2774</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

@@ -326,14 +326,31 @@
 		<researchPrerequisites>
 			<li>Electricity</li>
 			<li>ComplexFurniture</li>
-		
 		</researchPrerequisites>
 		<variations>
 			<li>
 				<name>East-West Orientation</name>
 				<layoutVariation>AP_Prefab_Dormitory_2_east</layoutVariation>
 			</li>
-		
 		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_TwinBarracks</defName>
+		<label>twin barracks</label>
+		<shortLabel>twin barracks</shortLabel>
+		<description>A couple of twin barracks with space for 8 people.</description>
+		<priority>4002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_TwinBarracks_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_TwinBarracks</layout>
+		<marketvalue>3455</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

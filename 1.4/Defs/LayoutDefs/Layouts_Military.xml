@@ -175,4 +175,30 @@
 			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 		</terrainColorGrid>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Military_2</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,Barricade_Steel,Barricade_Steel,Barricade_Steel,Barricade_Steel,Barricade_Steel,Barricade_Steel,Barricade_Steel,.,.,.</li>
+				<li>Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Barricade_Steel,Turret_Autocannon,.,Barricade_Steel,Turret_Autocannon,.,Barricade_Steel,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth</li>
+				<li>TrapIED_HighExplosive,.,TrapIED_HighExplosive,Barricade_Steel,.,.,Barricade_Steel,.,.,Barricade_Steel,TrapIED_HighExplosive,.,TrapIED_HighExplosive</li>
+				<li>Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,Sandbags_Cloth,.,Sandbags_Cloth,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth</li>
+				<li>Sandbags_Cloth,Turret_MiniTurret_Steel,Sandbags_Cloth,.,Sandbags_Cloth,.,.,.,Sandbags_Cloth,.,Sandbags_Cloth,Turret_MiniTurret_Steel,Sandbags_Cloth</li>
+				<li>Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth</li>
+				<li>.,.,PowerConduit,.,.,Sandbags_Cloth,Turret_MiniTurret_Steel,Sandbags_Cloth,.,.,PowerConduit,.,.</li>
+				<li>.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,.</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.</li>
+			</li>
+		</layouts>
+	</KCSG.StructureLayoutDef>
 </Defs>

@@ -42,4 +42,22 @@
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Military_2</defName>
+		<label>simple pillbox</label>
+		<shortLabel>simple pillbox</shortLabel>
+		<description>A simple defensive pillbox with 3 mini-turrets, 2 autocannons and 4 IEDs, protected by sandbags and barricades.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Military_2_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_Military_2</layout>
+		<marketvalue>4031</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>IEDs</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
