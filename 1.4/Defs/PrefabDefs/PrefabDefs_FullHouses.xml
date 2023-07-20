@@ -9,6 +9,7 @@
 		<category>AP_Category_FullHouse</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FullHouse_1_Preview</detailedImage>
 		<layout>AP_Prefab_FullHouse_1</layout>
+		<author>Reel</author>
 		<marketvalue>1513</marketvalue>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
@@ -50,6 +51,7 @@
 		<label>suburban house</label>
 		<shortLabel>full suburban house</shortLabel>
 		<description>A medium sized full suburban house containing a kitchen / living room / dining room, a 1-person bedroom and a garage. Intended to connect to modular prefab road pieces.</description>
+		<author>Reel</author>
 		<priority>2</priority>
 		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<category>AP_Category_FullHouse</category>

@@ -9,6 +9,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_1_Preview</detailedImage>
 		<category>AP_Category_Vampires</category>
 		<layout>AP_Prefab_Sanguophage_1</layout>
+		<author>Reel</author>
 		<marketvalue>14533</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>

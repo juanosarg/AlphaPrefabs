@@ -345,4 +345,59 @@
 			<li>ludeon.rimworld.ideology</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+  <defName>AP_Prefab_Temple_Generic_1</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,.,Column_BlocksMarble_Hedonist,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,.,.,.,Column_BlocksMarble_Hedonist,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,Wall_BlocksLimestone,.,Reliquary_Steel_North,.,Brazier_Steel,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,.,.,Column_BlocksMarble_Hedonist,.,.,.</li>
+      <li>Column_BlocksMarble_Hedonist,Wall_BlocksLimestone,.,.,.,.,.,.,.,TorchLamp,.,.,.,.,Brazier_Steel,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,.,.,.,.,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,.,.,TorchLamp,.,.,Brazier_Steel,.,Wall_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,TorchLamp,Throne_WoodLog_East,.,.,Altar_Grand_WoodLog_West,.,.,Pew_WoodLog_West,.,Pew_WoodLog_West,.,Pew_WoodLog_West,.,Pew_WoodLog_West,.,Pew_WoodLog_West,.,.,.,.,Door_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,.,.,.,.,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,Column_BlocksMarble_Hedonist,.,.,.,TorchLamp,.,.,Brazier_Steel,.,Wall_BlocksLimestone</li>
+      <li>Column_BlocksMarble_Hedonist,Wall_BlocksLimestone,.,.,.,.,.,.,.,TorchLamp,.,.,.,.,Brazier_Steel,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone</li>
+      <li>.,Wall_BlocksLimestone,.,Reliquary_Steel_South,.,Brazier_Steel,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,.,.,Column_BlocksMarble_Hedonist,.,.,.</li>
+      <li>.,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,.,.,.,Column_BlocksMarble_Hedonist,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,Column_BlocksMarble_Hedonist,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.,.,.</li>
+    <li>.,1,1,1,1,1,1,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,TileLimestone,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.,.,.,.,.,.,.,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,TileLimestone,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,CarpetBlue,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetBlue,CarpetBlue</li>
+    <li>.,.,CarpetBlue,TileLimestone,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,CarpetYellowPastel,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,TileLimestone,CarpetBlue,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,TileLimestone,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetFineOliveDark,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.</li>
+    <li>.,.,CarpetBlue,TileLimestone,TileLimestone,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.,.,.,.,.,.,.,.</li>
+    <li>.,.,CarpetBlue,CarpetBlue,CarpetBlue,CarpetBlue,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <modRequirements>
+    <li>ludeon.rimworld.royalty</li>
+    <li>ludeon.rimworld.ideology</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
 </Defs>

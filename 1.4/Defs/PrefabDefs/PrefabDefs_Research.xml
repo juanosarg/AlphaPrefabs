@@ -9,6 +9,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_1_Preview</detailedImage>
 		<category>AP_Category_Research</category>
 		<layout>AP_Prefab_Research_1</layout>
+		<author>Reel</author>
 		<marketvalue>17601</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
@@ -31,6 +32,7 @@
 		<defName>AP_Prefab_Research_3</defName>
 		<label>high-tech research lab</label>
 		<shortLabel>high-tech lab</shortLabel>
+		<author>Reel</author>
 		<description>A medium sized high-tech research lab. Includes three high-tech research benches with multi-analyzers and comms consoles.</description>
 		<priority>1.5</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_3_Preview</detailedImage>
@@ -54,6 +56,7 @@
 		<shortLabel>alliance lab</shortLabel>
 		<description>A large Systems Alliance research lab. Includes six spacer-tech research benches with a multi-analyzer and Alliance terminals, two comms consoles and fusion cells powered by two prefab generators.</description>
 		<priority>2</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_2_Preview</detailedImage>
 		<category>AP_Category_Research</category>
 		<layout>AP_Prefab_Research_2</layout>

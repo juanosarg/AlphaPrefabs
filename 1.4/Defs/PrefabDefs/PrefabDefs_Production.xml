@@ -9,6 +9,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_1_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_1</layout>
+		<author>Reel</author>
 		<marketvalue>17489</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
@@ -33,6 +34,7 @@
 		<label>steel factory</label>
 		<shortLabel>steel factory</shortLabel>
 		<description>A medium sized factory that automatically produces steel, with three automatic drills and three steel extractors. Includes a machining table.</description>
+		<author>Reel</author>
 		<priority>2</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_1_Preview</detailedImage>
 		<category>AP_Category_Production</category>
@@ -61,6 +63,7 @@
 		<shortLabel>components factory</shortLabel>
 		<description>A medium sized factory that automatically produces components, with two automatic drills, two steel extractors and a components assembler. Includes two fabrication benches and two smelters.</description>
 		<priority>3</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_2_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_Factory_2</layout>
@@ -88,6 +91,7 @@
 		<shortLabel>masonry factory</shortLabel>
 		<description>A medium sized factory that automatically produces stone blocks, with two automatic drills and two masonry saws. Includes two stonecutter tables.</description>
 		<priority>4</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_3_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_Factory_3</layout>
@@ -113,6 +117,7 @@
 		<shortLabel>neutroamine factory</shortLabel>
 		<description>A medium sized factory that automatically produces neutroamine from food, with two meat grinders and two neutroamine infusers. Includes two drug labs.</description>
 		<priority>5</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_4_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_Factory_4</layout>
@@ -141,6 +146,7 @@
 		<shortLabel>mechanitor lab</shortLabel>
 		<description>A medium sized lab hosting facilities suitable for a mechanitor, such as mech gestators, mech chargers, scanners and band nodes.</description>
 		<priority>6</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Mechanitor_1_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_Mechanitor_1</layout>
@@ -165,6 +171,7 @@
 		<shortLabel>genetics lab</shortLabel>
 		<description>A medium sized genetics lab hosting facilities suitable for a genetic engineering, such as extractors, processors, assemblers and gene banks. Also includes a high-tech research bench</description>
 		<priority>6</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_GeneticsLab_Preview</detailedImage>
 		<categories><li>AP_Category_Production</li><li>AP_Category_Research</li></categories>
 		<layout>AP_Prefab_Production_GeneticsLab</layout>

@@ -7,6 +7,7 @@
 		<labelForDefaultVariation>West-East Orientation</labelForDefaultVariation>
 		<description>A castle wall. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
 		<priority>1</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleWall_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>
 		<layout>AP_Prefab_CastleWall</layout>
@@ -27,6 +28,7 @@
 		<shortLabel>castle corner</shortLabel>
 		<labelForDefaultVariation>Southwest Corner</labelForDefaultVariation>
 		<description>A castle corner. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<author>Reel</author>
 		<priority>2</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleCorner_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>
@@ -61,6 +63,7 @@
 		<shortLabel>castle entrance</shortLabel>
 		
 		<description>A castle grand entrance. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<author>Reel</author>
 		<priority>3</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleEntrance_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>
@@ -83,6 +86,7 @@
 		<shortLabel>castle wall room</shortLabel>
 		
 		<description>A castle wall room. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<author>Reel</author>
 		<priority>4</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CastleWallRoom_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>

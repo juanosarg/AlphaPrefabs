@@ -8,7 +8,7 @@
 		<labelForDefaultVariation>South-North Orientation</labelForDefaultVariation>
 		<description>A 26x17 hydroponics bay containing 38 hydroponics basins and 2 sun lamps.</description>
 		<priority>1</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_1_Preview</detailedImage>
 		<category>AP_Category_NatureAndCrops</category>
         <layout>AP_Prefab_Nature_1</layout>
@@ -32,7 +32,7 @@
 		<defName>AP_Prefab_Nature_2</defName>
 		<label>artificial ecosystem bay</label>
 		<shortLabel>ecosystem bay</shortLabel>
-	
+		<author>Reel</author>
 		<description>An artificial ecosystem bay containing 47 artificial ecosystems and 4 heaters. Absurdly expensive.</description>
 		<priority>2</priority>
 	

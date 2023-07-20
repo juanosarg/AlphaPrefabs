@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Road_Straight</defName>
 		<label>straight road</label>
@@ -8,19 +7,18 @@
 		<labelForDefaultVariation>West-East, curb on the South</labelForDefaultVariation>
 		<description>A straight road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
 		<priority>1</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Straight_Preview</detailedImage>
 		<category>AP_Category_RoadPieces</category>
-        <layout>AP_Prefab_Road_Straight</layout>
-        <marketvalue>581</marketvalue>
-        <researchPrerequisites>
-			<li>Stonecutting</li>			
-			<li>Electricity</li>				
+		<layout>AP_Prefab_Road_Straight</layout>
+		<marketvalue>581</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
 			<li>vanillaexpanded.vfearchitect</li>
-		
 		</modPrerequisites>
 		<variations>
 			<li>
@@ -37,7 +35,6 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Road_Corner_northwest</defName>
 		<label>corner road</label>
@@ -45,19 +42,18 @@
 		<labelForDefaultVariation>Curb on the Northwest</labelForDefaultVariation>
 		<description>A corner road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
 		<priority>2</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Corner_Preview</detailedImage>
 		<category>AP_Category_RoadPieces</category>
-        <layout>AP_Prefab_Road_Corner_northwest</layout>
-        <marketvalue>194</marketvalue>
-        <researchPrerequisites>
-			<li>Stonecutting</li>			
-			<li>Electricity</li>				
+		<layout>AP_Prefab_Road_Corner_northwest</layout>
+		<marketvalue>194</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
 			<li>vanillaexpanded.vfearchitect</li>
-		
 		</modPrerequisites>
 		<variations>
 			<li>
@@ -74,8 +70,4 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
-	
 </Defs>

@@ -9,6 +9,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_1_Preview</detailedImage>
 		<category>AP_Category_Prison</category>
 		<layout>AP_Prefab_Prison_1</layout>
+		<author>Reel</author>
 		<marketvalue>6952</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>

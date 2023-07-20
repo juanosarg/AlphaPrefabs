@@ -8,7 +8,7 @@
 		
 		<description>A small 13x13 solar power and chemfuel power substation with 5 batteries.</description>
 		<priority>1</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Power_1_Preview</detailedImage>
 		<category>AP_Category_Power</category>
         <layout>AP_Prefab_Power_1</layout>

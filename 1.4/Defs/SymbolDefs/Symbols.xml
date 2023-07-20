@@ -300,4 +300,21 @@
 		<stuff>Steel</stuff>
 		<color>Structure_Sandstone</color>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PlantPot_Steel_Techist</defName>
+		<thing>PlantPot</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_FakeSculptureSmallB_WoodLog</defName>
+		<thing>AP_FakeSculptureSmallB</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Column_BlocksMarble_Hindu</defName>
+		<thing>Column</thing>
+		<stuff>BlocksMarble</stuff>
+		<styleCategory>Hindu</styleCategory>
+	</KCSG.SymbolDef>
 </Defs>

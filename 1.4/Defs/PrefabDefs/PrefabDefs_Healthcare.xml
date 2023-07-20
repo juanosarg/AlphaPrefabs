@@ -8,7 +8,7 @@
 		
 		<description>A basic hospital with space for 8 patients, plus shelves to hold medicine.</description>
 		<priority>1</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_1_Preview</detailedImage>
 		<category>AP_Category_Healthcare</category>
         <layout>AP_Prefab_Healthcare_1</layout>
@@ -29,7 +29,7 @@
 		
 		<description>An advanced hospital with space for 8 patients in a common room, plus two operating rooms and a storage room to hold medicine. Includes vitals monitors, vitals centers, IV drips, falt screen televisions for patients and a drugs lab.</description>
 		<priority>2</priority>
-	
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_2_Preview</detailedImage>
 		<category>AP_Category_Healthcare</category>
         <layout>AP_Prefab_Healthcare_2</layout>

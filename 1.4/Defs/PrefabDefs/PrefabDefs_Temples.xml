@@ -84,5 +84,36 @@
 			<li>sarg.alphamemes</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Generic_1</defName>
+		<label>generic temple</label>
+		<labelForDefaultVariation>Horizontal</labelForDefaultVariation>
+		<shortLabel>generic temple</shortLabel>
+		<description>A medium sized generic temple.</description>
+		<priority>5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Generic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Generic_1</layout>
+		<marketvalue>6509</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Vertical</name>
+				<layoutVariation>AP_Prefab_Temple_Generic_1_vertical</layoutVariation>
+			</li>
+			
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 	
 </Defs>

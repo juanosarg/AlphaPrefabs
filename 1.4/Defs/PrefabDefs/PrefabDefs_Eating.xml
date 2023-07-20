@@ -9,7 +9,7 @@
 		<shortLabel>restaurant</shortLabel>
 		<description>A large sized restaurant with sitting space for 34 guests, plus two cooks. Includes dining room, kitchen and refrigerated storeroom, as well as two outside areas to eat and butcher corpses.</description>
 		<priority>1</priority>
-		
+		<author>Reel</author>
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EatingVFEProduction_1_Preview</detailedImage>
         <layout>AP_Prefab_EatingVFEProduction_1</layout>
@@ -37,7 +37,7 @@
 		<shortLabel>tavern</shortLabel>
 		<description>A large sized tavern with sitting space for 17 guests, plus two rooms. Includes dining room, kitchen and a bunch of fermenting barrels.</description>
 		<priority>2</priority>
-		
+		<author>Reel</author>
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_1_Preview</detailedImage>
         <layout>AP_Prefab_Eating_1</layout>
@@ -53,6 +53,38 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_2</defName>
+		<label>small tavern with brewing room</label>
+		<shortLabel>small tavern</shortLabel>
+		<description>A small sized tavern with sitting space for 12 guests, plus a kitchen and a dark room for brewing vodka, whiskey, tequila and gin.</description>
+		<priority>3</priority>
+		
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_2_Preview</detailedImage>
+        <layout>AP_Prefab_Eating_2</layout>
+        <marketvalue>4340</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>VBE_MixologyResearch</li>
+			<li>VBE_LiquorBrewing</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Core</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
 	
 	
 	

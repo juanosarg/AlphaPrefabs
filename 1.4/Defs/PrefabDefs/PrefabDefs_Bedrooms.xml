@@ -194,6 +194,7 @@
 		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
 		<description>A very small but elegant 1-person bedroom ideal for cramped spaces. Its 15 tiles of space classifies it as "rather tight". Includes an industrial radio for recreation and a steel bin for cleanliness</description>
 		<priority>3000</priority>
+		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Elegant_Bedroom_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
 		<layout>AP_Prefab_Elegant_Bedroom_1</layout>
@@ -235,6 +236,7 @@
 		<category>AP_PrefabCategoryBedrooms</category>
 		<layout>AP_Prefab_Elegant_Bedroom_2</layout>
 		<marketvalue>2520</marketvalue>
+		<author>Reel</author>
 		<researchPrerequisites>
 			<li>Electricity</li>
 			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
@@ -265,6 +267,7 @@
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Nursery</defName>
 		<label>small nursery</label>
+		<author>Reel</author>
 		<shortLabel>small nursery</shortLabel>
 		<description>A small nursery with three cribs, toys and a shelf to store baby food.</description>
 		<priority>3002</priority>

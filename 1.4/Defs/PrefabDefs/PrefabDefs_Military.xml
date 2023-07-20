@@ -9,6 +9,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Military_1_Preview</detailedImage>
 		<category>AP_Category_Military</category>
 		<layout>AP_Prefab_Military_1</layout>
+		<author>Reel</author>
 		<marketvalue>17253</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
