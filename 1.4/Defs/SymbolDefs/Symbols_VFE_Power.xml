@@ -8,4 +8,8 @@
 		<defName>VPE_NuclearGenerator</defName>
 		<thing>VPE_NuclearGenerator</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_AdvancedSolarGenerator</defName>
+		<thing>VFE_AdvancedSolarGenerator</thing>
+	</KCSG.SymbolDef>
 </Defs>

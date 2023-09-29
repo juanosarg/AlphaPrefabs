@@ -84,6 +84,35 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_Brewery1</defName>
+		<label>small brewery</label>
+		<shortLabel>small brewery</shortLabel>
+		<description>A small sized brewery with a bar and vrewing stations for beer, tequila, vodka, whiskey and ambrandy, as well as ample storage space for the finished liquors.</description>
+		<priority>3</priority>
+		
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_Brewery1_Preview</detailedImage>
+        <layout>AP_Prefab_Eating_Brewery1</layout>
+        <marketvalue>5092</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+			<li>VBE_MixologyResearch</li>
+			<li>VBE_LiquorBrewing</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 	
 	
 	

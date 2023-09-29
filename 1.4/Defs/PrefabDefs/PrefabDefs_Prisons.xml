@@ -53,4 +53,34 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Prison_Small_1</defName>
+		<label>small prison</label>
+		<shortLabel>small prison</shortLabel>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<description>A very small prison with 3 individual cells. With Vanilla Furniture Expanded: Architect you get access to a variant using prison walls and prison doors</description>
+		<priority>0</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_Small_1_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_Prison_Small_1</layout>
+		<marketvalue>1147</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>VFE - Architect</name>
+				<layoutVariation>AP_Prefab_Prison_Small_1_Variant</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vfearchitect</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

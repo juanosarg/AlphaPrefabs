@@ -270,4 +270,46 @@
 			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 		</terrainColorGrid>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Prison_Small_1</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,.,.,.</li>
+				<li>.,Wall_WoodLog_Granite,.,.,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,Shelf_WoodLog_East,.,TorchLamp,.,.,.,.,.,.,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,Bed_WoodLog_South,EndTable_WoodLog_South,Wall_WoodLog_Granite,Bed_WoodLog_South,EndTable_WoodLog_South,Wall_WoodLog_Granite,Bed_WoodLog_South,EndTable_WoodLog_South,.,Wall_WoodLog_Granite,.</li>
+				<li>.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,1,1,1,1,1,1,.,.,.,.,.,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,1,1,1,1,1,1,1,1,1,1,1,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.,.,.,.,.</li>
+			<li>FlagstoneMarble,.,.,.,WoodPlankFloor,.,.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.</li>
+			<li>FlagstoneMarble,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.,.,.,.,.,FlagstoneMarble</li>
+			<li>FlagstoneMarble,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,FlagstoneMarble</li>
+			<li>FlagstoneMarble,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,FlagstoneMarble</li>
+			<li>FlagstoneMarble,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,FlagstoneMarble</li>
+			<li>FlagstoneMarble,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,FlagstoneMarble</li>
+			<li>FlagstoneMarble,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,FlagstoneMarble,FlagstoneMarble</li>
+			<li>.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.,FlagstoneMarble,FlagstoneMarble,.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble</li>
+		</terrainGrid>
+	</KCSG.StructureLayoutDef>
 </Defs>

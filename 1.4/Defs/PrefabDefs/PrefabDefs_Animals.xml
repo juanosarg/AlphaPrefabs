@@ -54,4 +54,22 @@
 			<li>vanillaexpanded.vfearchitect</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_AnimalProcessing</defName>
+		<label>animal processing</label>
+		<shortLabel>animal processing</shortLabel>
+		<description>A integrated animal processing center with a small outdoors pen, a butchery and two stoves.</description>
+		<priority>2</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_AnimalProcessing_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_AnimalProcessing</layout>
+		<marketvalue>1999</marketvalue>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

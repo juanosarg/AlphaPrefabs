@@ -29,7 +29,9 @@ namespace AlphaPrefabs
 
         public void OpenPrefabListWindow()
         {
-            Window_PrefabsListing prefabWindow = new Window_PrefabsListing(prefab.category, building);
+            Window_PrefabsListing prefabWindow=null;
+            if (prefab.category != null) { prefabWindow = new Window_PrefabsListing(prefab.category, building); }
+            if (prefab.categories != null) { prefabWindow = new Window_PrefabsListing(prefab.categories[0], building); }
             Find.WindowStack.Add(prefabWindow);
             Close();
         }

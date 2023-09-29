@@ -55,7 +55,7 @@ namespace AlphaPrefabs
                                                         select x).OrderBy(x => x.priority).ToList();
 
            
-            var viewRect = new Rect(0f, 0f, outRect.width - 16f, prefabCategories.Sum(opt => 50 + 17f));
+            var viewRect = new Rect(0f, 0f, outRect.width - 16f, 180*(float)prefabCategories.Count/4);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
             try
             {

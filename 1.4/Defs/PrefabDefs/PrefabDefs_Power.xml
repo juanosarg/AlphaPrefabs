@@ -45,6 +45,27 @@
 		</suggestedMods>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Power_SolarFarm</defName>
+		<label>solar farm</label>
+		<shortLabel>solar farm</shortLabel>
+		
+		<description>A simple solar farm containing 4 solar panels, an advanced solar panels, 4 protected batteries and a power switch.</description>
+		<priority>3</priority>
+	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Power_SolarFarm_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_Power_SolarFarm</layout>
+        <marketvalue>3305</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>VFE_AdvancedPowerSources</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		
+		
+	</AlphaPrefabs.PrefabDef>
 	
 	
 	
