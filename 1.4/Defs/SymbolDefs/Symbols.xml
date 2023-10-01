@@ -317,4 +317,48 @@
 		<stuff>BlocksMarble</stuff>
 		<styleCategory>Hindu</styleCategory>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_WoodLog_Darkgrey_East</defName>
+		<thing>Shelf</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>TableButcher_WoodLog_Darkgrey_West</defName>
+		<thing>TableButcher</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>TableButcher_WoodLog_Darkgrey_North</defName>
+		<thing>TableButcher</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ShelfSmall_WoodLog_Darkgrey_South</defName>
+		<thing>ShelfSmall</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>StandingLamp_Techist</defName>
+		<thing>StandingLamp</thing>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_Steel_Techist_North</defName>
+		<thing>Shelf</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Autodoor_Steel_Techist</defName>
+		<thing>Autodoor</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
 </Defs>

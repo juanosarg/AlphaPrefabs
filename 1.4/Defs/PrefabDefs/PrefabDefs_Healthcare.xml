@@ -54,7 +54,63 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
-	
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_3</defName>
+		<label>transhumanist hospital</label>
+		<shortLabel>transhumanist hospital</shortLabel>
+		
+		<description>An advanced hospital with space for 4 patients in a common room, plus a drugs lab, a neural supercharger room, a biosculpter pod room and a walk-in freezer for medicines.</description>
+		<priority>3</priority>
+		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_3_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_3</layout>
+        <marketvalue>10017</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+			<li>HospitalBed</li>
+			<li>MicroelectronicsBasics</li>
+			<li>VitalsMonitor</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+			<li>DrugProduction</li>
+			<li>NeuralSupercharger</li>
+			<li>Biosculpting</li>
+		
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>Ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_Small_1</defName>
+		<label>small modern hospital</label>
+		<shortLabel>small modern hospital</shortLabel>
+		
+		<description>A basic modern hospital with space for 5 patients, plus shelves to hold medicine. Floored with sterile tiles.</description>
+		<priority>4</priority>
+		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_Small_1_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_Small_1</layout>
+        <marketvalue>6140</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>VitalsMonitor</li>
+			<li>HospitalBed</li>
+			
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 	
 	
 </Defs>

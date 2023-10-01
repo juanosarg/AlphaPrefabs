@@ -28,7 +28,6 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_2_Preview</detailedImage>
 		<layout>AP_Prefab_Animals_Barn_2</layout>
 		<marketvalue>1508</marketvalue>
-		
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
@@ -58,7 +57,7 @@
 		<defName>AP_Prefab_Animals_AnimalProcessing</defName>
 		<label>animal processing</label>
 		<shortLabel>animal processing</shortLabel>
-		<description>A integrated animal processing center with a small outdoors pen, a butchery and two stoves.</description>
+		<description>An integrated animal processing center with a small outdoors pen, a butchery and two stoves.</description>
 		<priority>2</priority>
 		<category>AP_Category_Animals</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_AnimalProcessing_Preview</detailedImage>
@@ -70,6 +69,24 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Brewing</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_AnimalProcessing_Modern</defName>
+		<label>animal processing, modern</label>
+		<shortLabel>animal processing</shortLabel>
+		<description>A modern, integrated animal processing center with a small outdoors pen, butchery tables, two electric stoves and a walk-in freezer.</description>
+		<priority>3</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_AnimalProcessing_Modern_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_AnimalProcessing</layout>
+		<marketvalue>2560</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Smithing</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 </Defs>
