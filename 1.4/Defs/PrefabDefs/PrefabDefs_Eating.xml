@@ -113,7 +113,36 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DiningRoom</defName>
+		<label>dining room</label>
+		<shortLabel>dining room</shortLabel>
+		<labelForDefaultVariation>Vertical Orientation</labelForDefaultVariation>
+		<description>A regal dining room with space for 16 people, with a chess table and several animal sleeping boxes.</description>
+		<priority>4</priority>
 	
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DiningRoom_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+        <layout>AP_Prefab_DiningRoom</layout>
+        <marketvalue>3020</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Horizontal Orientation</name>
+				<layoutVariation>AP_Prefab_DiningRoom_Horizontal</layoutVariation>
+			</li>
+			
+		</variations>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 	
 	
 	

@@ -111,6 +111,55 @@
 		</researchPrerequisites>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_Large_1</defName>
+	<label>medium modern hospital</label>
+		<shortLabel>medium modern hospital</shortLabel>
+		
+		<description>A medium modern hospital with space for 7 patients, plus shelves to hold medicine and a single drug lab. Floored with sterile tiles and paved tiles. Refrigerated rooms.</description>
+		<priority>4.5</priority>
+		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_Large_1_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_Large_1</layout>
+        <marketvalue>12108</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>VitalsMonitor</li>
+			<li>HospitalBed</li>
+			<li>MedicineProduction</li>
+			<li>DrugProduction</li>
+			<li>CarpetMaking</li>
 	
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DrugLab</defName>
+		<label>drug lab</label>
+		<shortLabel>drug lab</shortLabel>
+		
+		<description>A small production room with 5 drug labs plus shelf space to store the finished products.</description>
+		<priority>5</priority>
+		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DrugLab_Preview</detailedImage>
+		
+		<categories><li>AP_Category_Production</li><li>AP_Category_Healthcare</li></categories>
+        <layout>AP_Prefab_DrugLab</layout>
+        <marketvalue>4430</marketvalue>
+        <researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>DrugProduction</li>
+			
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 </Defs>

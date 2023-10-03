@@ -26,4 +26,25 @@
 		<thing>ToiletStuff</thing>
 		<stuff>BlocksMarble</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BathtubStuff_BlocksMarble_North</defName>
+		<thing>BathtubStuff</thing>
+		<stuff>BlocksMarble</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BasinStuff_Steel_East</defName>
+		<thing>BasinStuff</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>BathMat_Cloth_North</defName>
+		<thing>BathMat</thing>
+		<stuff>Cloth</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ToiletStuff_Steel_North</defName>
+		<thing>ToiletStuff</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>

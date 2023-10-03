@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef Name="AP_BuildingBase" ParentName="BuildingBase" Abstract="true">
+		
+		
+	</ThingDef>
+  
+    <ThingDef ParentName="AP_BuildingBase">
+    <defName>AP_FilledCupboard</defName>
+    <label>filled cupboard</label>
+    <description>A cupboard filled with a plethora of drinks of all kinds.</description>
+    <graphicData>	
+      <texPath>Things/Building/AP_FilledCupboard</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+   
+    <uiIconScale>1</uiIconScale>
+
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+  
+    <ThingDef ParentName="AP_BuildingBase">
+    <defName>AP_FilledCupboard_Alternate</defName>
+    <label>filled cupboard</label>
+    <description>A cupboard filled with a plethora of drinks of all kinds.</description>
+    <graphicData>	
+      <texPath>Things/Building/AP_FilledCupboard2</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <drawSize>(3.55,3.45)</drawSize>
+      <shadowData>
+        <volume>(0.30, 0.30, 0.40)</volume>
+      </shadowData>
+		
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <castEdgeShadows>False</castEdgeShadows>
+    <blockWind>true</blockWind>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <repairEffect>ConstructMetal</repairEffect>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>100</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <WoodLog>1</WoodLog>
+    </costList>
+   
+    <uiIconScale>1</uiIconScale>
+
+	<building>
+		      <isInert>true</isInert>
+	</building>
+  </ThingDef>
+ 
+ 
+ 
+
+</Defs>

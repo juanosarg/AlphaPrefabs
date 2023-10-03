@@ -356,4 +356,48 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallBedroomWithBathroom</defName>
+		<label>small bedroom with bathroom</label>
+		<shortLabel>small bedroom</shortLabel>
+		<description>A very small bedroom with an attached bathroom.</description>
+		<priority>4003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallBedroomWithBathroom_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_SmallBedroomWithBathroom</layout>
+		<marketvalue>645</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ModernFixtures</li>
+			<li>ComplexFurniture</li>
+			<li>Plumbing</li>
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>Dubwise.dubsbadhygiene</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Residential_1</defName>
+		<label>large residential plaza</label>
+		<shortLabel>residential plaza</shortLabel>
+		<labelForDefaultVariation>Entrance West</labelForDefaultVariation>
+		<description>A large residential plaza with a central outdoors area, 8 single bedrooms and 3 larger double bedrooms, arranged in a circle.</description>
+		<priority>4004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Residential_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Residential_1</layout>
+		<marketvalue>6275</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Entrance East</name>
+				<layoutVariation>AP_Prefab_Residential_1_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

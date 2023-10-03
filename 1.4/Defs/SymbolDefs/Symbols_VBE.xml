@@ -43,6 +43,19 @@
 	<KCSG.SymbolDef>
 		<defName>VBE_VodkaDrum_North</defName>
 		<thing>VBE_VodkaDrum</thing>
+		
 	</KCSG.SymbolDef>
+		<KCSG.SymbolDef>
+		<defName>VBE_VodkaDrum_South</defName>
+		<thing>VBE_VodkaDrum</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_AmbrandyDistillery_North</defName>
+		<thing>VBE_AmbrandyDistillery</thing>
+	</KCSG.SymbolDef>
+	
+	
+	
 </Defs>
 

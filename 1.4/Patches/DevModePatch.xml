@@ -35,4 +35,13 @@
 		</match>
 	</Operation>
 	
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="AP_BuildingBase"]</xpath>
+			<value>
+				<designationCategory>AP_AlphaPrefabsTab</designationCategory>
+			</value>
+		</match>
+	</Operation>
+	
 </Patch>

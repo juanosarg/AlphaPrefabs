@@ -311,28 +311,28 @@
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,.,.,.,.,.,.,.,.</li>
 				<li>.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_BlocksSlate,Wall_BlocksSlate,Door_WoodLog_Granite,Wall_BlocksSlate,.,.,Wall_BlocksSlate,.,.,.,.,.,.,.,.</li>
-				<li>.,.,Wall_WoodLog_Granite,.,Shelf_WoodLog_Granite_North,.,.,Shelf_WoodLog_Granite_North,.,.,Wall_BlocksSlate,.,.,.,.,.,Wall_BlocksSlate,.,.,.,.,.,.,.,.</li>
+				<li>.,.,Wall_WoodLog_Granite,.,VBE_Tequila,.,.,.,PsychiteTea,.,Wall_BlocksSlate,.,.,.,.,.,Wall_BlocksSlate,.,.,.,.,.,.,.,.</li>
 				<li>.,.,Wall_WoodLog_Granite,.,.,.,.,.,.,.,Wall_BlocksSlate,Table1x2c_WoodLog_North,DiningChair_WoodLog_West,DiningChair_WoodLog_East,Table1x2c_WoodLog_North,DiningChair_WoodLog_West,Wall_BlocksSlate,Wall_BlocksSlate,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.</li>
 				<li>.,.,Wall_WoodLog_Granite,.,.,Shelf_WoodLog_Granite_South,.,.,Shelf_WoodLog_Granite_South,.,Wall_BlocksSlate,.,DiningChair_WoodLog_West,DiningChair_WoodLog_East,.,DiningChair_WoodLog_West,TorchLamp,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,.,Shelf_WoodLog_Granite_West,Wall_WoodLog_Granite,.</li>
 				<li>.,.,Wall_WoodLog_Granite,.,.,.,TorchLamp,.,.,.,Wall_BlocksSlate,.,.,.,.,.,.,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
 				<li>.,.,Wall_WoodLog_Granite,.,.,Shelf_WoodLog_Granite_South,.,.,Shelf_WoodLog_Granite_South,.,Wall_BlocksSlate,.,.,VBE_Bar_WoodLog_South,.,.,Table1x2c_WoodLog_West,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
 				<li>.,.,Wall_WoodLog_Granite,.,.,.,.,.,.,.,Wall_BlocksSlate,.,.,DiningChair_WoodLog_South,.,.,.,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,VBE_AmbrandyDistillery_North,.,Wall_WoodLog_Granite,.</li>
-				<li>.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_BlocksSlate,.,.,VFEPD_WoodenCupboardPlates_South,VFEPD_WoodenCupboardNarrow_South,.,Dresser_WoodLog_South,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
+				<li>.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Door_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_BlocksSlate,.,.,AP_FilledCupboard_South,VFEPD_WoodenCupboardNarrow_South,.,AP_FilledCupboard_Alternate_South,Wall_BlocksSlate,.,Wall_WoodLog_Granite,.,.,.,Wall_WoodLog_Granite,.</li>
 				<li>.,.,.,.,Wall_WoodLog_Granite,.,.,.,VBE_VodkaDrum_South,VBE_VodkaDrum_South,Wall_BlocksSlate,Door_WoodLog_Granite,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.</li>
-				<li>.,.,.,.,Wall_WoodLog_Granite,Brewery_West,Stool_WoodLog_West,.,.,.,.,.,Wall_WoodLog_Granite,Plant_Grass,.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,Wall_WoodLog_Granite,.,.,FermentingBarrel_West,FermentingBarrel_West,FermentingBarrel_West,FermentingBarrel_West,.,Door_WoodLog_Granite,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,Plant_Grass</li>
-				<li>.,.,.,.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,Plant_Grass,Door_WoodLog_Granite,.,FermentingBarrel_West,FermentingBarrel_West,.,Door_WoodLog_Granite,.,Plant_Grass,.,.</li>
-				<li>.,.,.,.,Wall_WoodLog_Granite,VBE_TequilaBarrel_North,VBE_TequilaBarrel_North,Wall_WoodLog_Granite,.,.,.,.,Plant_Grass,.,Plant_Grass,Wall_WoodLog_Granite,.,.,.,.,Wall_WoodLog_Granite,.,Plant_Dandelion,Plant_Grass,Plant_TallGrass</li>
-				<li>.,.,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,Plant_Grass,Plant_Dandelion,Plant_Grass,.,Wall_WoodLog_Granite,VBE_WhiskeyCask_North,.,VBE_WhiskeyCask_North,.,Wall_WoodLog_Granite,Plant_Grass,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.,.,Plant_Grass,.,.,Wall_WoodLog_Granite,.,.,.,.,Wall_WoodLog_Granite,.,Plant_Grass,Plant_Grass,.</li>
-				<li>.,.,.,.,.,.,.,.,Plant_Grass,.,Plant_Bush,.,Plant_Bush,Plant_Grass,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Plant_TallGrass,Plant_Grass,Plant_Grass,.</li>
-				<li>.,.,.,.,.,.,.,.,Plant_Grass,Plant_Grass,Plant_TallGrass,Plant_Grass,.,Plant_TallGrass,Plant_TallGrass,Plant_HealrootWild,.,Plant_Grass,.,.,.,.,Plant_TreePoplar,Plant_Grass,Plant_Bush</li>
+				<li>.,.,.,.,Wall_WoodLog_Granite,Brewery_West,Stool_WoodLog_West,.,.,.,.,.,Wall_WoodLog_Granite,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,Wall_WoodLog_Granite,.,.,FermentingBarrel_West,FermentingBarrel_West,FermentingBarrel_West,FermentingBarrel_West,.,Door_WoodLog_Granite,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,Wall_WoodLog_Granite,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,Door_WoodLog_Granite,.,FermentingBarrel_West,FermentingBarrel_West,.,Door_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,Wall_WoodLog_Granite,VBE_TequilaBarrel_North,VBE_TequilaBarrel_North,Wall_WoodLog_Granite,.,.,.,.,.,.,.,Wall_WoodLog_Granite,.,.,.,.,Wall_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,.,.,.,.,Wall_WoodLog_Granite,VBE_WhiskeyCask_North,.,VBE_WhiskeyCask_North,.,Wall_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog_Granite,.,.,.,.,Wall_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,Wall_WoodLog_Granite,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 			</li>
 			<li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,VBE_Tequila,.,.,.,PsychiteTea,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,Beer,.,VBE_Vodka,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
@@ -394,7 +394,77 @@
 		</terrainGrid>
 		<modRequirements>
 			<li>vanillaexpanded.vbrewe</li>
+			<li>sarg.alphaprefabs</li>
 			<li>vanillaexpanded.vfepropsanddecor</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_DiningRoom</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Door_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Door_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,.</li>
+				<li>Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,.,.,.,.,.,.,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,Brazier_Steel_Burntumber,.,.,DiningChair_WoodLog_Burntumber_North,DiningChair_WoodLog_Burntumber_North,.,.,Brazier_Steel_Burntumber,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,AnimalSleepingBox_WoodLog_Burntumber,.,DiningChair_WoodLog_Burntumber_East,Table2x2c_WoodLog_Burntumber_Rustic,.,DiningChair_WoodLog_Burntumber_West,.,.,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,AnimalSleepingBox_WoodLog_Burntumber,.,DiningChair_WoodLog_Burntumber_East,.,.,DiningChair_WoodLog_Burntumber_West,.,.,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,AnimalSleepingBox_WoodLog_Burntumber,.,.,DiningChair_WoodLog_Burntumber_South,DiningChair_WoodLog_Burntumber_South,.,.,DiningChair_WoodLog_Burntumber_North,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,.,.,.,.,.,.,.,ChessTable_WoodLog_Burntumber,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,.,.,.,DiningChair_WoodLog_Burntumber_North,DiningChair_WoodLog_Burntumber_North,.,.,DiningChair_WoodLog_Burntumber_South,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,.,.,DiningChair_WoodLog_Burntumber_East,Table2x2c_WoodLog_Burntumber_Rustic,.,DiningChair_WoodLog_Burntumber_West,.,.,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,ShelfSmall_WoodLog_Burntumber_East,.,DiningChair_WoodLog_Burntumber_East,.,.,DiningChair_WoodLog_Burntumber_West,.,ShelfSmall_WoodLog_Burntumber_West,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,Brazier_Steel_Burntumber,.,.,Throne_WoodLog_Burntumber_South,Throne_WoodLog_Burntumber_South,.,.,Brazier_Steel_Burntumber,Wall_WoodLog_Burntumber</li>
+				<li>Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,.,.,.,.,.,.,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber</li>
+				<li>.,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Door_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Door_WoodLog_Burntumber,Wall_WoodLog_Burntumber,Wall_WoodLog_Burntumber,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>.,1,1,1,1,1,1,1,1,.</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1,1</li>
+			<li>.,1,1,1,1,1,1,1,1,.</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>.,.,.,WoodPlankFloor,.,.,WoodPlankFloor,.,.,.</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.</li>
+			<li>.,WoodPlankFloor,WoodPlankFloor,PavedTile,PavedTile,PavedTile,PavedTile,WoodPlankFloor,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,PavedTile,CarpetRedSubtle,CarpetRedSubtle,PavedTile,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,CarpetFineRedSubtle,CarpetFineRedSubtle,CarpetFineRedSubtle,CarpetFineRedSubtle,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,CarpetRedSubtle,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,PavedTile,PavedTile,CarpetRedSubtle,CarpetRedSubtle,PavedTile,PavedTile,WoodPlankFloor,.</li>
+			<li>.,WoodPlankFloor,WoodPlankFloor,PavedTile,PavedTile,PavedTile,PavedTile,WoodPlankFloor,WoodPlankFloor,.</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.</li>
+			<li>.,.,.,WoodPlankFloor,.,.,WoodPlankFloor,.,.,.</li>
+		</terrainGrid>
+		<terrainColorGrid>
+			<li>.,.,.,Structure_UmberBurnt,.,.,Structure_UmberBurnt,.,.,.</li>
+			<li>.,.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.,.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,.,.,.,.,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,.,.,.,.,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,.,.,.,.,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,.,.,.,.,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,.,.,.,.,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.,.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.</li>
+			<li>.,.,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,Structure_UmberBurnt,.,.</li>
+			<li>.,.,.,Structure_UmberBurnt,.,.,Structure_UmberBurnt,.,.,.</li>
+		</terrainColorGrid>
+		<modRequirements>
+			<li>ludeon.rimworld.royalty</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 </Defs>
