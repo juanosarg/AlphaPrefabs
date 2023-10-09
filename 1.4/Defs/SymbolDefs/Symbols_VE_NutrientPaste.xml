@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteTap_South</defName>
+		<thing>VNPE_NutrientPasteTap</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPastePipe</defName>
+		<thing>VNPE_NutrientPastePipe</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteVat</defName>
+		<thing>VNPE_NutrientPasteVat</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteGrinder</defName>
+		<thing>VNPE_NutrientPasteGrinder</thing>
+	</KCSG.SymbolDef>
+</Defs>
+

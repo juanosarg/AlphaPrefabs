@@ -100,6 +100,13 @@ namespace AlphaPrefabs
 
             foreach(IntVec3 cell in cellRect.Cells)
             {
+
+                if (!cell.InBounds(Map))
+                {
+                    Messages.Message("AP_OutsideMapBounds".Translate(), this, MessageTypeDefOf.NegativeEvent);
+                    return false;
+
+                }
                 if (cell.GetEdifice(Map)!=null && cell.GetEdifice(Map)?.def!=InternalDefOf.AP_DeployedPrefab )
                 {
                     Messages.Message("AP_OccupiedBy".Translate(cell.GetEdifice(Map)?.LabelCap), cell.GetEdifice(Map), MessageTypeDefOf.NegativeEvent);

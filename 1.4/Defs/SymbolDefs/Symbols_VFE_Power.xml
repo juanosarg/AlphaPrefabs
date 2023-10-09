@@ -12,4 +12,8 @@
 		<defName>VFE_AdvancedSolarGenerator</defName>
 		<thing>VFE_AdvancedSolarGenerator</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>VFE_PortableWoodFiredGenerator</defName>
+  <thing>VFE_PortableWoodFiredGenerator</thing>
+</KCSG.SymbolDef>
 </Defs>

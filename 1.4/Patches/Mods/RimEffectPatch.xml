@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Rim-Effect: Core</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Alliance_Research_2"]/researchPrerequisites</xpath>
+					<value>
+						<li>RE_BasicPrefabrication</li>
+						<li>RE_MassEffectFieldManipulation</li>
+						<li>RE_AllianceCooperation</li>
+						<li>RE_FusionReactor</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

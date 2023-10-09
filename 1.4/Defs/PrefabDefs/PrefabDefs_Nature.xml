@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_Hydroponics</defName>
+		<label>small hydroponics bay</label>
+		<shortLabel>small hydroponics bay</shortLabel>
+		<labelForDefaultVariation>Efficient Variation</labelForDefaultVariation>
+		<description>A small hydroponics bay containing 24 hydroponics basins centered around a sun lamp, as well as 2 heaters.</description>
+		<priority>0.5</priority>
+		<author>Eragon</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_Hydroponics_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_Nature_Hydroponics</layout>
+		<marketvalue>6337</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Clean Variation</name>
+				<layoutVariation>AP_Prefab_Nature_Hydroponics_Variation</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Nature_1</defName>
 		<label>huge hydroponics bay</label>
@@ -11,23 +33,20 @@
 		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_1_Preview</detailedImage>
 		<category>AP_Category_NatureAndCrops</category>
-        <layout>AP_Prefab_Nature_1</layout>
-        <marketvalue>11541</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Nature_1</layout>
+		<marketvalue>11541</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
 			<li>Hydroponics</li>
-			
 		</researchPrerequisites>
 		<variations>
 			<li>
 				<name>West-East Orientation</name>
 				<layoutVariation>AP_Prefab_Nature_1_east</layoutVariation>
 			</li>
-			
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Nature_2</defName>
 		<label>artificial ecosystem bay</label>
@@ -35,26 +54,19 @@
 		<author>Reel</author>
 		<description>An artificial ecosystem bay containing 47 artificial ecosystems and 4 heaters. Absurdly expensive.</description>
 		<priority>2</priority>
-	
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_2_Preview</detailedImage>
 		<category>AP_Category_NatureAndCrops</category>
-        <layout>AP_Prefab_Nature_2</layout>
-        <marketvalue>51707</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Nature_2</layout>
+		<marketvalue>51707</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
 			<li>Autodoors</li>
 			<li>Smithing</li>
-			<li MayRequire="VanillaExpanded.VFEFarming">VFE_Res_AdvancedHydroponics</li>
-		
+			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfefarming</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
-	
-	
 </Defs>

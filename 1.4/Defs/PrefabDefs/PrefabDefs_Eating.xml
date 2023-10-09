@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Food_Freezer</defName>
+		<label>small freezer</label>
+		<shortLabel>small freezer</shortLabel>
+		<description>A small walk-in freezer with plenty of space for food.</description>
+		<priority>0.5</priority>
+		<author>Eragon</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Food_Freezer_Preview</detailedImage>
+		<layout>AP_Prefab_Food_Freezer</layout>
+		<marketvalue>1299</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_EatingVFEProduction_1</defName>
 		<label>cozy restaurant</label>
@@ -12,25 +26,23 @@
 		<author>Reel</author>
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EatingVFEProduction_1_Preview</detailedImage>
-        <layout>AP_Prefab_EatingVFEProduction_1</layout>
-        <marketvalue>9553</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_EatingVFEProduction_1</layout>
+		<marketvalue>9553</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
 			<li>Smithing</li>
 			<li>SterileMaterials</li>
-			<li MayRequire="VanillaExpanded.VFEProduction">VFE_Manufacturing</li>
+			
 			<li>Batteries</li>
 			<li>AirConditioning</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfeproduction</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Eating_1</defName>
 		<label>wooden tavern</label>
@@ -40,38 +52,33 @@
 		<author>Reel</author>
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_1_Preview</detailedImage>
-        <layout>AP_Prefab_Eating_1</layout>
-        <marketvalue>7066</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Eating_1</layout>
+		<marketvalue>7066</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>CarpetMaking</li>
 			<li>ComplexFurniture</li>
 			<li>Brewing</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Eating_2</defName>
 		<label>small tavern with brewing room</label>
 		<shortLabel>small tavern</shortLabel>
 		<description>A small sized tavern with sitting space for 12 guests, plus a kitchen and a dark room for brewing vodka, whiskey, tequila and gin.</description>
 		<priority>3</priority>
-		
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_2_Preview</detailedImage>
-        <layout>AP_Prefab_Eating_2</layout>
-        <marketvalue>4340</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Eating_2</layout>
+		<marketvalue>4340</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>CarpetMaking</li>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
-			<li>VBE_MixologyResearch</li>
-			<li>VBE_LiquorBrewing</li>
 			
 		</researchPrerequisites>
 		<suggestedMods>
@@ -80,39 +87,31 @@
 		</suggestedMods>
 		<modPrerequisites>
 			<li>vanillaexpanded.vbrewe</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Eating_Brewery1</defName>
 		<label>small brewery</label>
 		<shortLabel>small brewery</shortLabel>
 		<description>A small sized brewery with a bar and vrewing stations for beer, tequila, vodka, whiskey and ambrandy, as well as ample storage space for the finished liquors.</description>
 		<priority>3</priority>
-		
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_Brewery1_Preview</detailedImage>
-        <layout>AP_Prefab_Eating_Brewery1</layout>
-        <marketvalue>5092</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_Eating_Brewery1</layout>
+		<marketvalue>5092</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>Brewing</li>
-			<li>VBE_MixologyResearch</li>
-			<li>VBE_LiquorBrewing</li>
-			
+		
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
-			
 		</suggestedMods>
 		<modPrerequisites>
 			<li>vanillaexpanded.vbrewe</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_DiningRoom</defName>
 		<label>dining room</label>
@@ -120,30 +119,50 @@
 		<labelForDefaultVariation>Vertical Orientation</labelForDefaultVariation>
 		<description>A regal dining room with space for 16 people, with a chess table and several animal sleeping boxes.</description>
 		<priority>4</priority>
-	
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DiningRoom_Preview</detailedImage>
 		<category>AP_Category_NatureAndCrops</category>
-        <layout>AP_Prefab_DiningRoom</layout>
-        <marketvalue>3020</marketvalue>
-        <researchPrerequisites>
+		<layout>AP_Prefab_DiningRoom</layout>
+		<marketvalue>3020</marketvalue>
+		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
-			
 		</researchPrerequisites>
 		<variations>
 			<li>
 				<name>Horizontal Orientation</name>
 				<layoutVariation>AP_Prefab_DiningRoom_Horizontal</layoutVariation>
 			</li>
-			
 		</variations>
 		<modPrerequisites>
 			<li>ludeon.rimworld.royalty</li>
-			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_NutrientPasteDepot</defName>
+		<label>nutrient paste depot</label>
+		<shortLabel>nutrient paste depot</shortLabel>
+		<description>A nutrient paste depot with a grinder, paste vats and a tap, as well as a small butchery room and a dining room with space for 16 guests.</description>
+		<priority>10</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_NutrientPasteDepot_Preview</detailedImage>
+		<layout>AP_Prefab_NutrientPasteDepot</layout>
+		<marketvalue>11434</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+			
+		</researchPrerequisites>
+		<author>Heretic</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>VanillaExpanded.VNutrientE</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

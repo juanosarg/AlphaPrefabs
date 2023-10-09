@@ -477,4 +477,46 @@
 			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 		</terrainGrid>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Healthcare_TinyHospital</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Wall_BlocksSlate,Autodoor_Plasteel,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Autodoor_Plasteel,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,.,.,.,.,.,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,.,HospitalBed_Steel_South,HospitalBed_Steel_South,HospitalBed_Steel_South,.,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,.,HospitalBed_Steel_West,VitalsMonitor_South,HospitalBed_Steel_East,.,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,.,HospitalBed_Steel_North,HospitalBed_Steel_North,HospitalBed_Steel_North,.,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,StandingLamp,.,.,.,StandingLamp,Wall_BlocksSlate</li>
+				<li>Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate</li>
+			</li>
+			<li>
+				<li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>.,SterileTile,.,.,.,SterileTile,.</li>
+			<li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+			<li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+			<li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+			<li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+			<li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+			<li>.,.,.,.,.,.,.</li>
+		</terrainGrid>
+	</KCSG.StructureLayoutDef>
 </Defs>

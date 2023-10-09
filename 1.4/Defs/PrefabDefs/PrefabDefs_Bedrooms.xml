@@ -201,10 +201,10 @@
 		<marketvalue>1159</marketvalue>
 		<researchPrerequisites>
 			<li>Electricity</li>
-			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
+			
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
-			<li MayRequire="VanillaExpanded.VFECore">MF_ModernFurniture</li>
+
 			<li>TubeTelevision</li>
 		</researchPrerequisites>
 		<modPrerequisites>
@@ -239,10 +239,10 @@
 		<author>Reel</author>
 		<researchPrerequisites>
 			<li>Electricity</li>
-			<li MayRequire="VanillaExpanded.VFECore">MF_WasteDisposal</li>
+		
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
-			<li MayRequire="VanillaExpanded.VFECore">MF_ModernFurniture</li>
+
 			<li>TubeTelevision</li>
 			<li>Smithing</li>
 		</researchPrerequisites>
@@ -368,11 +368,10 @@
 		<marketvalue>645</marketvalue>
 		<researchPrerequisites>
 			<li>Electricity</li>
-			<li>ModernFixtures</li>
-			<li>ComplexFurniture</li>
-			<li>Plumbing</li>
-			<li>Stonecutting</li>
 			
+			<li>ComplexFurniture</li>
+			
+			<li>Stonecutting</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>Dubwise.dubsbadhygiene</li>
@@ -399,5 +398,167 @@
 				<layoutVariation>AP_Prefab_Residential_1_East</layoutVariation>
 			</li>
 		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Circular_1</defName>
+		<label>circular bedroom</label>
+		<shortLabel>circular bedroom</shortLabel>
+		<description>A circular 1-person bedroom. Its 40 tiles of space classifies it as "average-sized".</description>
+		<priority>5000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Circular_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Circular_1</layout>
+		<marketvalue>1012</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Pillbox_Dormitory</defName>
+		<label>armored barracks</label>
+		<shortLabel>armored barracks</shortLabel>
+		<description>Barracks with space for eight people, surreounded by walls and a layer of sandbags.</description>
+		<priority>5001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Pillbox_Dormitory_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Pillbox_Dormitory</layout>
+		<marketvalue>1330</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Medium_1</defName>
+		<label>medium bedroom</label>
+		<shortLabel>medium bedroom</shortLabel>
+		<description>A medium 1-person bedroom. Its 45 tiles of space classifies it as "average-sized".</description>
+		<priority>5002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Medium_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Medium_1</layout>
+		<marketvalue>949</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Large_1</defName>
+		<label>large double bedroom</label>
+		<shortLabel>large bedroom</shortLabel>
+		<description>A large 2-person bedroom. Includes a flatscreen TV and 4 seating spaces to eat. Its 91 tiles of space classifies it as "quite spacious".</description>
+		<priority>5003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Large_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Large_1</layout>
+		<marketvalue>4074</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>FlatscreenTelevision</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Rustic_Variations_1</defName>
+		<label>medium rustic bedroom</label>
+		<shortLabel>rustic bedroom</shortLabel>
+		<labelForDefaultVariation>Variation 1</labelForDefaultVariation>
+		<description>Four variations of medium 1 or 2-person bedrooms. They are all classified as "average-sized".</description>
+		<priority>5004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Rustic_Variations_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Rustic_Variations_1</layout>
+		<marketvalue>561</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Variation 2</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_2</layoutVariation>
+			</li>
+			<li>
+				<name>Variation 3</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_3</layoutVariation>
+			</li>
+			<li>
+				<name>Variation 4</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_4</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_CircleOfBedrooms</defName>
+		<label>circle of bedrooms</label>
+		<shortLabel>circle of bedrooms</shortLabel>
+		<description>A huge circular structure containing 6 bedrooms, as well as a common room in the centre. Bedrooms go from "average-sized" to "quite spacious".</description>
+		<priority>5005</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_CircleOfBedrooms_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_CircleOfBedrooms</layout>
+		<marketvalue>11083</marketvalue>
+		<author>Eragon</author>
+		<researchPrerequisites>
+			
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Bath</defName>
+		<label>double bedroom with bathroom</label>
+		<shortLabel>double with bathroom</shortLabel>
+		<labelForDefaultVariation>Entrance SW</labelForDefaultVariation>
+		<description>A 2-person bedroom with an attached bathroom. Its 26 tiles of size classifies it as "rather tight". Without Dub's Bad Hygiene the bedroom will just have an empty attached room.</description>
+		<priority>5010</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Bath_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Bath</layout>
+		<marketvalue>922</marketvalue>
+		<author>OpGamer97</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Entrance SE (mirrored)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_2</layoutVariation>
+			</li>
+			<li>
+				<name>Entrance SE (vertical)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_3</layoutVariation>
+			</li>
+			<li>
+				<name>Entrance SW (vertical, mirrored)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_4</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Dub's Bad Hygiene</li>
+		</suggestedMods>
+		
 	</AlphaPrefabs.PrefabDef>
 </Defs>

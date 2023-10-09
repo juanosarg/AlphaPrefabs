@@ -23,6 +23,29 @@
 	</AlphaPrefabs.PrefabDef>
 	
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Healthcare_TinyHospital</defName>
+		<label>tiny hospital</label>
+		<shortLabel>tiny hospital</shortLabel>
+		
+		<description>A tiny modern hospital with space for 8 patients.</description>
+		<priority>1.5</priority>
+		<author>Eragon</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Healthcare_TinyHospital_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_Healthcare_TinyHospital</layout>
+        <marketvalue>3821</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HospitalBed</li>
+			<li>VitalsMonitor</li>
+			<li>SterileMaterials</li>
+		
+		</researchPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Healthcare_2</defName>
 		<label>advanced hospital</label>
 		<shortLabel>advanced hospital</shortLabel>
@@ -77,8 +100,7 @@
 			<li>Autodoors</li>
 			<li>AirConditioning</li>
 			<li>DrugProduction</li>
-			<li>NeuralSupercharger</li>
-			<li>Biosculpting</li>
+			
 		
 		
 		</researchPrerequisites>

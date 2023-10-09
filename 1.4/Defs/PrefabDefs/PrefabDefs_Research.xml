@@ -21,7 +21,6 @@
 			<li>Batteries</li>
 			<li>ComplexFurniture</li>
 			<li>MultiAnalyzer</li>
-			<li MayRequire="VanillaExpanded.VFEPower">VFE_NuclearPower</li>
 			<li>AirConditioning</li>
 		</researchPrerequisites>
 		<modPrerequisites>
@@ -66,10 +65,6 @@
 			<li>MicroelectronicsBasics</li>
 			<li>SterileMaterials</li>
 			<li>MultiAnalyzer</li>
-			<li MayRequire="RimEffect.Core">RE_BasicPrefabrication</li>
-			<li MayRequire="RimEffect.Core">RE_MassEffectFieldManipulation</li>
-			<li MayRequire="RimEffect.Core">RE_AllianceCooperation</li>
-			<li MayRequire="RimEffect.Core">RE_FusionReactor</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>rimeffect.core</li>
@@ -87,7 +82,6 @@
 		<marketvalue>708</marketvalue>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -106,7 +100,6 @@
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -130,7 +123,6 @@
 			<li>SterileMaterials</li>
 			<li>MicroelectronicsBasics</li>
 			<li>Batteries</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -147,22 +139,12 @@
 		<layout>AP_Prefab_Research_RepairedLab</layout>
 		<marketvalue>7641</marketvalue>
 		<researchPrerequisites>
-			<li>BasicMechtech</li>
-			<li>StandardMechtech</li>
 			<li>Electricity</li>
-			<li>Xenogermination</li>
 			<li>VitalsMonitor</li>
-			<li>HighMechtech</li>
-			<li>GrowthVats</li>
-			
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>sarg.alphagenes</li>
 			<li>ludeon.rimworld.biotech</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
 </Defs>

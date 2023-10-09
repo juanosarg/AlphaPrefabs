@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEP_Box_Autorifle</defName>
+		<thing>VFEP_Box_Autorifle</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEP_WarcasketFoundry</defName>
+		<thing>VFEP_WarcasketFoundry</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEP_Box_Slugthrower</defName>
+		<thing>VFEP_Box_Slugthrower</thing>
+	</KCSG.SymbolDef>
+
+</Defs>

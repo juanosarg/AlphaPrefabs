@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
+	<AP_OutsideMapBounds>Prefab can't be built, it falls outside the map's bounds.</AP_OutsideMapBounds>
 	<AP_OccupiedBy>Prefab can't be built. {0} is blocking construction.</AP_OccupiedBy>
 	<AP_ImpassableTerrain>Prefab can't be built. Impassable terrain, "{0}" is blocking construction.</AP_ImpassableTerrain>
 	<AP_GeyserAt>Prefab can't be built over a steam geyser</AP_GeyserAt>

@@ -102,4 +102,30 @@
 		</suggestedMods>
 	
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Castle_ThroneRoom</defName>
+		<label>castle throne room</label>
+		<shortLabel>castle throne room</shortLabel>
+		
+		<description>A castle throne room. Includes a grand throne, space to dine for 16 guests and musical instruments.</description>
+		<author>Stelfer</author>
+		<priority>5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Castle_ThroneRoom_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_Castle_ThroneRoom</layout>
+		<marketvalue>14481</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			
+
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

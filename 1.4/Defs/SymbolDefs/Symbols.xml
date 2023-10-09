@@ -756,4 +756,36 @@
 		<color>Structure_White</color>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Wall_BlocksLimestone_Fadedgreen</defName>
+		<thing>Wall</thing>
+		<stuff>BlocksLimestone</stuff>
+		<color>Structure_GreenFaded</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Door_BlocksLimestone_Fadedgreen</defName>
+		<thing>Door</thing>
+		<stuff>BlocksLimestone</stuff>
+		<color>Structure_GreenFaded</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Table2x4c_Steel_Techist_West</defName>
+		<thing>Table2x4c</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ShelfSmall_Steel_Techist_North</defName>
+		<thing>ShelfSmall</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_Steel_Techist_East</defName>
+		<thing>Shelf</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

@@ -15,7 +15,7 @@
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
-			<li>Deathrest</li>
+			
 			<li>CarpetMaking</li>
 			<li>Batteries</li>
 			<li>SolarPanels</li>
@@ -39,7 +39,7 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
-			<li>Deathrest</li>
+		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
@@ -57,7 +57,7 @@
 		<layout>AP_Prefab_BloodFacility</layout>
 		<marketvalue>8087</marketvalue>
 		<researchPrerequisites>
-			<li>Deathrest</li>
+		
 			<li>Stonecutting</li>
 		</researchPrerequisites>
 		<variations>

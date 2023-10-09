@@ -18,7 +18,6 @@
 			<li>Smithing</li>
 			<li>Fabrication</li>
 			<li>Machining</li>
-			<li MayRequire="VanillaExpanded.VFEProduction">VFE_Manufacturing</li>
 			<li>ComplexFurniture</li>
 			<li>BiofuelRefining</li>
 			<li>Firefoam</li>
@@ -47,11 +46,7 @@
 			<li>Smithing</li>
 			<li>Batteries</li>
 			<li>Machining</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
 			<li>ComplexFurniture</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ElectronicsFabricationFactory</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>oskarpotocki.vfe.mechanoid</li>
@@ -75,11 +70,7 @@
 			<li>Smithing</li>
 			<li>Batteries</li>
 			<li>Fabrication</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
 			<li>ComplexFurniture</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ElectronicsFabricationFactory</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>oskarpotocki.vfe.mechanoid</li>
@@ -102,10 +93,7 @@
 			<li>Autodoors</li>
 			<li>Smithing</li>
 			<li>Batteries</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
 			<li>ComplexFurniture</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MasonryandMetallicsFactory</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>oskarpotocki.vfe.mechanoid</li>
@@ -128,11 +116,7 @@
 			<li>Autodoors</li>
 			<li>Smithing</li>
 			<li>Batteries</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_FactoryBasics</li>
 			<li>ComplexFurniture</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MechanoidStructures</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_ProvisionsPackagingFactory</li>
-			<li MayRequire="OskarPotocki.VFE.Mechanoid">VFE_MedicinalCompoundingFactory</li>
 			<li>SterileMaterials</li>
 			<li>DrugProduction</li>
 		</researchPrerequisites>
@@ -157,9 +141,6 @@
 			<li>Autodoors</li>
 			<li>Smithing</li>
 			<li>Batteries</li>
-			<li>BasicMechtech</li>
-			<li>StandardMechtech</li>
-			<li>HighMechtech</li>
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
@@ -173,7 +154,10 @@
 		<priority>6</priority>
 		<author>Reel</author>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_GeneticsLab_Preview</detailedImage>
-		<categories><li>AP_Category_Production</li><li>AP_Category_Research</li></categories>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Research</li>
+		</categories>
 		<layout>AP_Prefab_Production_GeneticsLab</layout>
 		<marketvalue>10119</marketvalue>
 		<researchPrerequisites>
@@ -182,10 +166,7 @@
 			<li>Autodoors</li>
 			<li>SterileMaterials</li>
 			<li>Batteries</li>
-			<li>GrowthVats</li>
-			<li>GeneProcessor</li>
 			<li>MultiAnalyzer</li>
-			<li>Xenogermination</li>
 			<li>MicroelectronicsBasics</li>
 			<li>ComplexFurniture</li>
 		</researchPrerequisites>
@@ -193,6 +174,30 @@
 			<li>ludeon.rimworld.biotech</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WarcasketFoundry</defName>
+		<label>warcasket foundry</label>
+		<shortLabel>warcasket foundry</shortLabel>
+		<description>A medium sized warcasket foundry with some ready to go materials and weapons.</description>
+		<priority>10</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WarcasketFoundry_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_WarcasketFoundry</layout>
+		<marketvalue>7506</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			<li>Machining</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
