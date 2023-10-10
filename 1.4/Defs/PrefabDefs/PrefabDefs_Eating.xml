@@ -165,4 +165,33 @@
 			<li>VanillaExpanded.VNutrientE</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Disco</defName>
+		<label>disco</label>
+		<shortLabel>disco</shortLabel>
+		<description>Burn, baby, burn!</description>
+		<priority>11</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Disco_Preview</detailedImage>
+		<layout>AP_Prefab_Disco</layout>
+		<marketvalue>3897</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			
+		</researchPrerequisites>
+		<author>Heretic</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Production</li>
+			<li>Vanilla Factions Expanded: Ancients</li>
+			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VHGE_IndustrialHelixienGenerator</defName>
+		<thing>VHGE_IndustrialHelixienGenerator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasPipeValve</defName>
+		<thing>VHGE_GasPipeValve</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasWallLamp_West</defName>
+		<thing>VHGE_GasWallLamp</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasWallLamp_East</defName>
+		<thing>VHGE_GasWallLamp</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_SubterraneanHelixienPipe</defName>
+		<thing>VHGE_SubterraneanHelixienPipe</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasTank_North</defName>
+		<thing>VHGE_GasTank</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasWallLamp_North</defName>
+		<thing>VHGE_GasWallLamp</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VHGE_GasWallLamp_South</defName>
+		<thing>VHGE_GasWallLamp</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+</Defs>

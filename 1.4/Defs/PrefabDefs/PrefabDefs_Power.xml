@@ -70,6 +70,28 @@
 		
 	</AlphaPrefabs.PrefabDef>
 	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GasDepot</defName>
+		<label>helixien gas depot</label>
+		<shortLabel>helixien gas depot</shortLabel>
+		
+		<description>A gas depot with two industrial gas generators and 10 gas tanks.</description>
+		<priority>10</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_GasDepot</layout>
+        <marketvalue>4625</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>			
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.helixiengas</li>
+			
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 	
 </Defs>

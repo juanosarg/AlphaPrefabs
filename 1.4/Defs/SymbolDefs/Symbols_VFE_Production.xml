@@ -69,4 +69,14 @@
 		<thing>VFE_TableTailorLarge</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_KitchenSinkCabinet_South</defName>
+		<thing>VFE_KitchenSinkCabinet</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>VFE_KitchenSinkCabinet_West</defName>
+  <thing>VFE_KitchenSinkCabinet</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
 </Defs>

@@ -2,22 +2,23 @@
 <Patch>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Royalty</li>
+			<li>Vanilla Factions Expanded - Empire</li>
 		</mods>
 		<match Class="PatchOperationSequence">
 			<operations>
 				<li Class="PatchOperationAdd">
-					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Castle_ThroneRoom"]/researchPrerequisites</xpath>
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BallRoom"]/researchPrerequisites</xpath>
 					<value>
-						<li>Harpsichord</li>
-						<li>Harp</li>
+						<li>VFEE_NobleDecorations</li>
+						<li>VFEE_PipeOrgans</li>
 					</value>
 				</li>
 				<li Class="PatchOperationAdd">
 					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_GrandThrone"]/researchPrerequisites</xpath>
 					<value>
-						<li>Piano</li>
-						
+						<li>VFEE_NobleDecorations</li>
+						<li>VFEE_PipeOrgans</li>
+						<li>VFEE_StellicThrone</li>
 					</value>
 				</li>
 			</operations>

@@ -184,4 +184,33 @@
 		</researchPrerequisites>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BiosculpterDepot</defName>
+		<label>biosculpter depot</label>
+		<shortLabel>biosculpter depot</shortLabel>
+		
+		<description>A biosculpter depot with space for 4 patients. If you have VE Nutrient Paste, it will include 2 nutrient paste vats and the pods will be fueled by nutrient paste.</description>
+		<priority>10</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BiosculpterDepot_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+        <layout>AP_Prefab_BiosculpterDepot</layout>
+        <marketvalue>5132</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+		
+			<li>SterileMaterials</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>Ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>			
+			<li>Vanilla Nutrient Paste Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

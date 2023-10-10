@@ -27,4 +27,48 @@
 		<thing>VFEM_MedicinalCompoundingFactory_NeutroamineInfuser</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MunitionsAndArmamentFactory_ChemfuelClarifier_West</defName>
+		<thing>VFEM_MunitionsAndArmamentFactory_ChemfuelClarifier</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MedicinalCompoundingFactory_DrugPowderizer_East</defName>
+		<thing>VFEM_MedicinalCompoundingFactory_DrugPowderizer</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MedicinalCompoundingFactory_DrugPowderizer_West</defName>
+		<thing>VFEM_MedicinalCompoundingFactory_DrugPowderizer</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_ProvisionsPackagingFactory_Cannery_South</defName>
+		<thing>VFEM_ProvisionsPackagingFactory_Cannery</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_ProvisionsPackagingFactory_Cannery_East</defName>
+		<thing>VFEM_ProvisionsPackagingFactory_Cannery</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_ProvisionsPackagingFactory_MeatGrinder_South</defName>
+		<thing>VFEM_ProvisionsPackagingFactory_MeatGrinder</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MunitionsAndArmamentFactory_ArtilleryFoundry_East</defName>
+		<thing>VFEM_MunitionsAndArmamentFactory_ArtilleryFoundry</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_ComponentMechanoid</defName>
+		<thing>VFE_ComponentMechanoid</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Turret_AutoMortar_Steel_North</defName>
+		<thing>VFE_Turret_AutoMortar</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>

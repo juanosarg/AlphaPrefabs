@@ -61,7 +61,6 @@
 		<defName>AP_Prefab_CastleEntrance</defName>
 		<label>castle entrance</label>
 		<shortLabel>castle entrance</shortLabel>
-		
 		<description>A castle grand entrance. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
 		<author>Reel</author>
 		<priority>3</priority>
@@ -77,14 +76,11 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-	
 	</AlphaPrefabs.PrefabDef>
-	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_CastleWallRoom</defName>
 		<label>castle wall room</label>
 		<shortLabel>castle wall room</shortLabel>
-		
 		<description>A castle wall room. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
 		<author>Reel</author>
 		<priority>4</priority>
@@ -100,13 +96,11 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Castle_ThroneRoom</defName>
 		<label>castle throne room</label>
 		<shortLabel>castle throne room</shortLabel>
-		
 		<description>A castle throne room. Includes a grand throne, space to dine for 16 guests and musical instruments.</description>
 		<author>Stelfer</author>
 		<priority>5</priority>
@@ -118,14 +112,56 @@
 			<li>Stonecutting</li>
 			<li>CarpetMaking</li>
 			<li>ComplexFurniture</li>
-			
-
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 		<modPrerequisites>
 			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BallRoom</defName>
+		<label>ball room</label>
+		<shortLabel>ball room</shortLabel>
+		<description>A majestic ball room with a giant pipe organ.</description>
+		<author>Heretic</author>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BallRoom_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_BallRoom</layout>
+		<marketvalue>17675</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GrandThrone</defName>
+		<label>grand throne</label>
+		<shortLabel>grand throne</shortLabel>
+		<description>A majestic grand throne with a stellic meditation throne, a pipe organ, a piano and dining space for 14 guests.</description>
+		<author>Heretic</author>
+		<priority>11</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GrandThrone_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_GrandThrone</layout>
+		<marketvalue>38889</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

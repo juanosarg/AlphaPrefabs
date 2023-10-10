@@ -788,4 +788,10 @@
 		<styleCategory>Techist</styleCategory>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_FakeSculptureGrandE_WoodLog</defName>
+		<thing>AP_FakeSculptureGrandE</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	
 </Defs>

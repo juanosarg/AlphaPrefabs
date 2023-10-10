@@ -28,7 +28,6 @@
 					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Production_Factory_3"]/researchPrerequisites</xpath>
 					<value>
 						<li>VFE_FactoryBasics</li>
-
 						<li>VFE_MechanoidStructures</li>
 						<li>VFE_MasonryandMetallicsFactory</li>
 					</value>
@@ -40,6 +39,60 @@
 						<li>VFE_ProvisionsPackagingFactory</li>
 						<li>VFE_MechanoidStructures</li>
 						<li>VFE_MedicinalCompoundingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ArtilleryFoundry"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PsychoidFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MedicinalCompoundingFactory</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CanningFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MeatCannery"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_NutrientFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AdvancedArtilleryFoundry"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_AutomatedDefensiveMeasures</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+						
+						
+					
 					</value>
 				</li>
 			</operations>

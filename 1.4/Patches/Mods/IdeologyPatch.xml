@@ -13,6 +13,13 @@
 						<li>Biosculpting</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BiosculpterDepot"]/researchPrerequisites</xpath>
+					<value>
+						<li>Biosculpting</li>
+					
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

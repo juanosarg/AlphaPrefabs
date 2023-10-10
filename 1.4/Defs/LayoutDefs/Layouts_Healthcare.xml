@@ -519,4 +519,65 @@
 			<li>.,.,.,.,.,.,.</li>
 		</terrainGrid>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+  <defName>AP_Prefab_BiosculpterDepot</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,Plant_TreePoplar,.,.,.,.,.,.,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,.,.,.,.,.,.,Plant_TreeOak,.</li>
+      <li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,PowerConduit,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,.,VFEPD_SpacerStorage_North,.,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,PowerConduit,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
+      <li>Wall_BlocksMarble,VFEPD_SpacerContainer_South,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksMarble</li>
+      <li>Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEPD_SpacerContainerLarge_East,Wall_BlocksMarble</li>
+      <li>Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,VFEPD_DataConsole_South,.,.,.,.,.,.,.,.,.,VNPE_NutrientPastePipe</li>
+      <li>Wall_BlocksMarble,.,.,.,StandingLamp,.,.,.,VNPE_NutrientPasteVat,.,Wall_BlocksMarble,VNPE_NutrientPasteVat,.,.,.,.,StandingLamp,.,.,.,Wall_BlocksMarble</li>
+      <li>Wall_BlocksMarble,.,BiosculpterPod_South,.,VNPE_NutrientPastePipe,.,BiosculpterPod_South,.,.,.,Wall_BlocksMarble,.,.,.,BiosculpterPod_South,.,Wall_BlocksMarble,.,BiosculpterPod_South,.,Wall_BlocksMarble</li>
+      <li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,.,.,.,.,.,.</li>
+      <li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,Autodoor_Plasteel,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,Autodoor_Plasteel,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>VNPE_NutrientPastePipe,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>VNPE_NutrientPastePipe,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VNPE_NutrientPastePipe</li>
+      <li>VNPE_NutrientPastePipe,.,.,.,Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VNPE_NutrientPastePipe</li>
+      <li>VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe,VNPE_NutrientPastePipe</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksMarble</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,.,.,.,.,.,.,.,1,1,1,1,1,.,.,.,.,.,.,.,.</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,.,.,SterileTile,SterileTile,.,.,.,SterileTile,SterileTile,SterileTile,.,.,.,.,SterileTile,.,.,.,.</li>
+    <li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+    <li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+    <li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+    <li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+    <li>.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <modRequirements>
+    <li>vanillaexpanded.vfepropsanddecor</li>
+    <li>vanillaexpanded.vnutriente</li>
+    <li>ludeon.rimworld.ideology</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
 </Defs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Helixien Gas Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_GasDepot"]/researchPrerequisites</xpath>
+				<value>
+					<li>VFE_IndustrialGenerators</li>
+					<li>VHGE_GasExtraction</li>
+				</value>
+			</li>
+
+
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
