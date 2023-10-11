@@ -101,7 +101,7 @@
 		<defName>AP_Prefab_Castle_ThroneRoom</defName>
 		<label>castle throne room</label>
 		<shortLabel>castle throne room</shortLabel>
-		<description>A castle throne room. Includes a grand throne, space to dine for 16 guests and musical instruments.</description>
+		<description>A castle throne room. Includes a grand throne, space to dine for 16 guests and musical instruments. Satisfies Praetor rank.</description>
 		<author>Stelfer</author>
 		<priority>5</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Castle_ThroneRoom_Preview</detailedImage>
@@ -145,7 +145,7 @@
 		<defName>AP_Prefab_GrandThrone</defName>
 		<label>grand throne</label>
 		<shortLabel>grand throne</shortLabel>
-		<description>A majestic grand throne with a stellic meditation throne, a pipe organ, a piano and dining space for 14 guests.</description>
+		<description>A majestic grand throne with a stellic meditation throne, a pipe organ, a piano and dining space for 14 guests. Satisfies Despot rank.</description>
 		<author>Heretic</author>
 		<priority>11</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GrandThrone_Preview</detailedImage>

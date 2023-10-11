@@ -62,4 +62,24 @@
 		<thing>PS_ChemfuelTank</thing>
 		<rotation>West</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PS_DeepchemTank_East</defName>
+		<thing>PS_DeepchemTank</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PS_ChemfuelTank_South</defName>
+		<thing>PS_ChemfuelTank</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PS_DeepchemTank_South</defName>
+		<thing>PS_DeepchemTank</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PS_DeepchemTank_West</defName>
+		<thing>PS_DeepchemTank</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
 </Defs>

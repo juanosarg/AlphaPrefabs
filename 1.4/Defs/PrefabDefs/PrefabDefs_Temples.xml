@@ -77,7 +77,6 @@
 		<marketvalue>2774</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.ideology</li>
@@ -102,7 +101,6 @@
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.ideology</li>
-		
 		</modPrerequisites>
 		<suggestedMods>
 			<li>Royalty</li>
@@ -112,8 +110,32 @@
 				<name>Vertical</name>
 				<layoutVariation>AP_Prefab_Temple_Generic_1_vertical</layoutVariation>
 			</li>
-			
 		</variations>
 	</AlphaPrefabs.PrefabDef>
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DreadnoughtChurch</defName>
+		<label>dreadnought church</label>
+		<shortLabel>dreadnought church</shortLabel>
+		<description>A temple dedicated to Warcasket worship and Warcasket funerals (if you have Alpha Memes).</description>
+		<priority>6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DreadnoughtChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_DreadnoughtChurch</layout>
+		<marketvalue>5393</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

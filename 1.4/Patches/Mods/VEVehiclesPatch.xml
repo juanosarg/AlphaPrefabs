@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Vehicles Expanded</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AirplaneHangar"]/researchPrerequisites</xpath>
+				<value>
+					<li>VVE_BasicVehicles</li>
+					
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SimpleGarage"]/researchPrerequisites</xpath>
+				<value>
+					<li>VVE_BasicVehicles</li>
+					
+				</value>
+			</li>
+
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+

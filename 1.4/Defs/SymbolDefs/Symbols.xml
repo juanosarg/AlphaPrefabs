@@ -793,5 +793,33 @@
 		<thing>AP_FakeSculptureGrandE</thing>
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
-	
+	<KCSG.SymbolDef>
+		<defName>Shelf_WoodLog_Darkgrey_South</defName>
+		<thing>Shelf</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_WoodLog_Darkgrey_West</defName>
+		<thing>Shelf</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_GreyDark</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ShelfSmall_Steel_Techist_East</defName>
+		<thing>ShelfSmall</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ShelfSmall_Steel_Techist_West</defName>
+		<thing>ShelfSmall</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Techist</styleCategory>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
 </Defs>
+

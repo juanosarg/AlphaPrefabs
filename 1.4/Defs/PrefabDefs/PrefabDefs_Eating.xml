@@ -1,6 +1,55 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleKitchen</defName>
+		<label>simple kitchen</label>
+		<shortLabel>simple kitchen</shortLabel>
+		<description>A simple kitchen containing three separate rooms for butchering, cooking on an electric stove, and a walk-in freezer to store food.</description>
+		<priority>0.25</priority>
+		<author>Kad</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleKitchen_Preview</detailedImage>
+		<layout>AP_Prefab_SimpleKitchen</layout>
+		<marketvalue>3207</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeKitchen</defName>
+		<label>large kitchen</label>
+		<shortLabel>large kitchen</shortLabel>
+		<description>A large kitchen containing five separate rooms for butchering, cooking, two walk-in freezers to store food and a storage room for things that don't need refrigeration. If you have VE Cooking, Brewing and Coffees and Teas mods the kitchen will include more workbenches and machines.</description>
+		<priority>0.3</priority>
+		<author>Kad</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeKitchen_Preview</detailedImage>
+		<layout>AP_Prefab_LargeKitchen</layout>
+		<marketvalue>14062</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Cooking Expanded</li>
+			<li>Vanilla Brewing Expanded</li>
+			<li>Vanilla Brewing Expanded: Coffees and Teas</li>
+			<li>Vanilla Furniture Expanded: Production</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Food_Freezer</defName>
 		<label>small freezer</label>
 		<shortLabel>small freezer</shortLabel>
@@ -35,7 +84,6 @@
 			<li>CarpetMaking</li>
 			<li>Smithing</li>
 			<li>SterileMaterials</li>
-			
 			<li>Batteries</li>
 			<li>AirConditioning</li>
 		</researchPrerequisites>
@@ -79,7 +127,6 @@
 			<li>CarpetMaking</li>
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -103,7 +150,6 @@
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>Brewing</li>
-		
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -120,7 +166,7 @@
 		<description>A regal dining room with space for 16 people, with a chess table and several animal sleeping boxes.</description>
 		<priority>4</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DiningRoom_Preview</detailedImage>
-		<category>AP_Category_NatureAndCrops</category>
+		<category>AP_Category_Eating</category>
 		<layout>AP_Prefab_DiningRoom</layout>
 		<marketvalue>3020</marketvalue>
 		<researchPrerequisites>
@@ -155,18 +201,43 @@
 			<li>Autodoors</li>
 			<li>NutrientPaste</li>
 			<li>AirConditioning</li>
-			
 		</researchPrerequisites>
 		<author>Heretic</author>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 		<modPrerequisites>
-			<li>VanillaExpanded.VNutrientE</li>
+			<li>vanillaexpanded.vnutriente</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
-		<AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_NutrientPasteDepot2</defName>
+		<label>nutrient paste depot</label>
+		<shortLabel>nutrient paste depot</shortLabel>
+		<description>A nutrient paste depot with a grinder, paste vats and a tap, as well as a very small dining room with space for 2 guests.</description>
+		<priority>10.5</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_NutrientPasteDepot2_Preview</detailedImage>
+		<layout>AP_Prefab_NutrientPasteDepot2</layout>
+		<marketvalue>4536</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Disco</defName>
 		<label>disco</label>
 		<shortLabel>disco</shortLabel>
@@ -181,7 +252,6 @@
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
 			<li>CarpetMaking</li>
-			
 		</researchPrerequisites>
 		<author>Heretic</author>
 		<suggestedMods>
@@ -193,5 +263,40 @@
 		<modPrerequisites>
 			<li>ludeon.rimworld.ideology</li>
 		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RaiderProccesingWorkshop</defName>
+		<label>raider proccesing workshop</label>
+		<shortLabel>raider proccesing workshop</shortLabel>
+		<labelForDefaultVariation>Base game nutrient paste</labelForDefaultVariation>
+		<description>A medium-sized complex designed to turn dead raiders into organs and food, it also trains your doctors too! You will need Harvest Organs Post Mortem mod for the autopsy tables.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RaiderProccesingWorkshop_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_RaiderProccesingWorkshop</layout>
+		<marketvalue>8355</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_RaiderProccesingWorkshop_VE</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Harvest Organs Post Mortem</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

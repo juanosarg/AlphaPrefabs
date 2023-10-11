@@ -561,4 +561,29 @@
 		</suggestedMods>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ApartmentComplex</defName>
+		<label>apartment complex</label>
+		<shortLabel>apartment complex</shortLabel>
+		<description>A gigantic apartment complex containing 18 "rather tight" single bedrooms, as well as a common room in the centre.</description>
+		<priority>6000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ApartmentComplex_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_ApartmentComplex</layout>
+		<marketvalue>19001</marketvalue>
+		<author>Kad</author>
+		<researchPrerequisites>
+			
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

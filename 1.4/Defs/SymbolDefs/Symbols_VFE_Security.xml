@@ -4,4 +4,14 @@
 		<defName>VFES_AmmoCrate</defName>
 		<thing>VFES_AmmoCrate</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_Artillery_Steel_South</defName>
+		<thing>VFES_Turret_Artillery</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_AutocannonDouble</defName>
+		<thing>VFES_Turret_AutocannonDouble</thing>
+	</KCSG.SymbolDef>
 </Defs>

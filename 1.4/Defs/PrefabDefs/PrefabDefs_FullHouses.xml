@@ -219,4 +219,26 @@
 			<li>TubeTelevision</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SelfSuficientHut</defName>
+		<label>self sufficient hut</label>
+		<shortLabel>self sufficient hut</shortLabel>
+		<description>A self sufficient hut prepared for living off the grid. Includes three bedrooms, a living room, a kitchen, a walk-in freezer, storage and a solar panel plus batteries.</description>
+		<priority>105</priority>
+		<category>AP_Category_FullHouse</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SelfSuficientHut_Preview</detailedImage>
+		<layout>AP_Prefab_SelfSuficientHut</layout>
+		<author>Heretic</author>
+		<marketvalue>5032</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>SolarPanels</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

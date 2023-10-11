@@ -71,4 +71,27 @@
 		<thing>VFE_Turret_AutoMortar</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MunitionsAndArmamentFactory_ChemfuelClarifier_North</defName>
+		<thing>VFEM_MunitionsAndArmamentFactory_ChemfuelClarifier</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_PlasteelForge_North</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_PlasteelForge</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_MasonrySaw_West</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_MasonrySaw</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_AutomaticDrill_West</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_AutomaticDrill</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_MasonryAndMetallicsFactory_AutomaticDrill_East</defName>
+		<thing>VFEM_MasonryAndMetallicsFactory_AutomaticDrill</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

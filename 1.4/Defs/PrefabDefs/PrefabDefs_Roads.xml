@@ -70,4 +70,81 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AirplaneHangar</defName>
+		<label>airplane hangars</label>
+		<shortLabel>airplane hangars</shortLabel>
+		
+		<description>Airplane hangars with space for planes and helicopters, plus a garage workshop.</description>
+		<priority>5</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AirplaneHangar_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_AirplaneHangar</layout>
+		<marketvalue>15120</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+			  
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MosquitoHelipad</defName>
+		<label>simple helipad</label>
+		<shortLabel>simple helipad</shortLabel>
+		
+		<description>A simple helipad.</description>
+		<priority>10</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MosquitoHelipad_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_MosquitoHelipad</layout>
+		<marketvalue>701</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepropsanddecor</li>
+			  
+		</modPrerequisites>
+		<suggestedMods>
+			
+			<li>Royalty</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleGarage</defName>
+		<label>simple garage</label>
+		<shortLabel>simple garage</shortLabel>
+		
+		<description>A structure containing a garage bench, two garage cabinets, plenty of space to store components and two garage bays with garage doors to store vehicles.</description>
+		<priority>11</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleGarage_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_SimpleGarage</layout>
+		<marketvalue>3988</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+				<li>oskarpotocki.vanillavehiclesexpanded</li>
+			  
+		</modPrerequisites>
+	
+	</AlphaPrefabs.PrefabDef>
 </Defs>

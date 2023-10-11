@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEU_SleeveIncubator_West</defName>
+		<thing>VFEU_SleeveIncubator</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEU_SleeveIncubator_East</defName>
+		<thing>VFEU_SleeveIncubator</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEU_SleeveCasket_South</defName>
+		<thing>VFEU_SleeveCasket</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_StackArray_South</defName>
+		<thing>AC_StackArray</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+</Defs>
+

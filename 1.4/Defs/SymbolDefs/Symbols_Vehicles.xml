@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageCabinet_North</defName>
+		<thing>VVE_GarageCabinet</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageBench_West</defName>
+		<thing>VVE_GarageBench</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageDoorLarge_Steel_South</defName>
+		<thing>VVE_GarageDoorLarge</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageCabinet_West</defName>
+		<thing>VVE_GarageCabinet</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageBench_North</defName>
+		<thing>VVE_GarageBench</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageCabinet_East</defName>
+		<thing>VVE_GarageCabinet</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+</Defs>
+

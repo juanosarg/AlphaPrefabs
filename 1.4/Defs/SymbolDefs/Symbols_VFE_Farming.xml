@@ -4,4 +4,8 @@
 		<defName>VFE_Ecosystem_North</defName>
 		<thing>VFE_Ecosystem</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Sprinkler</defName>
+		<thing>VFE_Sprinkler</thing>
+	</KCSG.SymbolDef>
 </Defs>

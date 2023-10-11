@@ -193,4 +193,15 @@
 		<stuff>WoodLog</stuff>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bin_Large_Steel_South</defName>
+		<thing>Bin_Large</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_KitchenSinkCabinet_East</defName>
+		<thing>VFE_KitchenSinkCabinet</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

@@ -64,9 +64,38 @@
 			<li>Batteries</li>
 		</researchPrerequisites>
 		<modPrerequisites>
-			<li>VanillaExpanded.VFEPower</li>
+			<li>vanillaexpanded.vfepower</li>
 			
 		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PowerAdvanced</defName>
+		<label>advanced power farm</label>
+		<shortLabel>advanced power farm</shortLabel>
+		
+		<description>A large solar farm containing 6 advanced solar panels, 2 advanced wind turbines, and 4 protected large advanced batteries.</description>
+		<priority>4</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PowerAdvanced_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_PowerAdvanced</layout>
+        <marketvalue>14324</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>Stonecutting</li>
+			<li>Firefoam</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
 		
 	</AlphaPrefabs.PrefabDef>
 	
@@ -92,6 +121,33 @@
 			
 		</modPrerequisites>
 		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WasteToEnergy</defName>
+		<label>waste to energy plant</label>
+		<shortLabel>waste to energy plant</shortLabel>
+		
+		<description>A waste to energy power plant. Designed to have an 1:1 ratio between pollution produced and pollution cleaned by pumps. Includes refrigerated space for wastepacks.</description>
+		<priority>11</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WasteToEnergy_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_WasteToEnergy</layout>
+        <marketvalue>8925</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>			
+			<li>Stonecutting</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	
 </Defs>

@@ -61,4 +61,14 @@
 		<thing>VFEArch_SingleDoor_Flipped</thing>
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_AnimalGate_WoodLog</defName>
+		<thing>VFEArch_AnimalGate</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_AnimalGate_Steel</defName>
+		<thing>VFEArch_AnimalGate</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>

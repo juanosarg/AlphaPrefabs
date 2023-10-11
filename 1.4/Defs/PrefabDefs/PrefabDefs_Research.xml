@@ -147,4 +147,26 @@
 			<li>ludeon.rimworld.biotech</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LibraryComplex</defName>
+		<label>library complex</label>
+		<shortLabel>library complex</shortLabel>
+		<description>A large library distributed in two different buildings. Highly recommended to be used alongside Vanilla Books Expanded, although it is not mandatory.</description>
+		<priority>100</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LibraryComplex_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_LibraryComplex</layout>
+		<author>Kad</author>
+		<marketvalue>13484</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Books Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

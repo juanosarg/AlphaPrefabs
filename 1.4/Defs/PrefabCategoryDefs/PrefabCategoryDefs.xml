@@ -99,8 +99,8 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_RoadPieces</defName>
-		<label>roads</label>
-		<description>Modular roads to make an urban looking cityscape</description>
+		<label>transportation</label>
+		<description>Modular roads to make an urban looking cityscape and vehicle related buildings</description>
 		<priority>10</priority>
 		<icon>UI/Categories/AP_Category_RoadPieces</icon>
 	</AlphaPrefabs.PrefabCategoryDef>

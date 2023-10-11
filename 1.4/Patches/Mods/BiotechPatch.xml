@@ -50,6 +50,12 @@
 						<li>Deathrest</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_WasteToEnergy"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

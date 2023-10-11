@@ -89,4 +89,26 @@
 			<li>Smithing</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_RoundBarn</defName>
+		<label>circle barn</label>
+		<shortLabel>circle barn</shortLabel>
+		<description>A medium sized animal barn for square haters, surrounded by walls to keep your animals safe and comes with a warm place for your animals to sleep during cold days.</description>
+		<author>Kolopo</author>
+		<priority>10</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_RoundBarn_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_RoundBarn</layout>
+		<marketvalue>3174</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Electricity</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -1,14 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Reflection.Emit;
-using System.Security.Cryptography;
-using HarmonyLib;
+using System.Text;
 using KCSG;
 using RimWorld;
 using UnityEngine;
 using Verse;
-using Verse.Noise;
-using static System.Collections.Specialized.BitVector32;
+
 
 namespace AlphaPrefabs
 {
@@ -97,7 +94,10 @@ namespace AlphaPrefabs
             Rect rectDescription = new Rect(150, outRect.yMin + 50, 400, 100);
             Widgets.Label(rectDescription, prefab.description);
 
-            Rect rectResearchNeeded = new Rect(0, outRect.yMin + 175, 600, 25);
+            Rect rectPrefabDetails = new Rect(0, outRect.yMin + 175, 550, 300);
+
+            StringBuilder textForDetails = new StringBuilder();
+
             if (!prefab.researchPrerequisites.NullOrEmpty())
             {
                 List<string> researchStrings = new List<string>();
@@ -105,13 +105,13 @@ namespace AlphaPrefabs
                 {
                     researchStrings.Add(research.LabelCap);
                 }
-                rectResearchNeeded = new Rect(0, outRect.yMin + 175, 600, Text.CalcHeight("AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()),600));
-
-                Widgets.Label(rectResearchNeeded, "AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()));
-            } else Widgets.Label(rectResearchNeeded, "AP_NoResearchNeeded".Translate());
+                textForDetails.Append("AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()));
+               
 
 
-            Rect modsNeeded = new Rect(0, rectResearchNeeded.yMax, 600, 25);
+            } else textForDetails.Append("AP_NoResearchNeeded".Translate());
+            textForDetails.AppendInNewLine(" ");
+
             if (!prefab.modPrerequisites.NullOrEmpty())
             {
                 List<string> modStrings = new List<string>();
@@ -125,37 +125,35 @@ namespace AlphaPrefabs
                         }
                     }
                 }
-                Widgets.Label(modsNeeded, "AP_ModsNeeded".Translate(modStrings.ToStringSafeEnumerable()));
+                textForDetails.AppendInNewLine("AP_ModsNeeded".Translate(modStrings.ToStringSafeEnumerable()));
+               
             }
-            else Widgets.Label(modsNeeded, "AP_NoModsNeeded".Translate());
+            else textForDetails.AppendInNewLine("AP_NoModsNeeded".Translate());
+           
 
-            Rect dimensionsOptionalMods = new Rect(0, modsNeeded.yMax, 0, 0);
 
             if (!prefab.suggestedMods.NullOrEmpty())
             {
-                dimensionsOptionalMods = new Rect(0, modsNeeded.yMax, 600, 25);
-          
-                
-                Widgets.Label(dimensionsOptionalMods, "AP_SuggestedMods".Translate(prefab.suggestedMods.ToStringSafeEnumerable()));
+                textForDetails.AppendInNewLine("AP_SuggestedMods".Translate(prefab.suggestedMods.ToStringSafeEnumerable()));
+               
             }
-           
-            Rect dimensionsRect = new Rect(0, dimensionsOptionalMods.yMax, 600, 25);
-            Widgets.Label(dimensionsRect, "AP_PrefabDimensions".Translate(prefab.layout.Sizes.x, prefab.layout.Sizes.z));
+            textForDetails.AppendInNewLine(" ");
+            textForDetails.AppendInNewLine("AP_PrefabDimensions".Translate(prefab.layout.Sizes.x, prefab.layout.Sizes.z));
+         
 
-
-            Rect dimensionsAuthor = new Rect(0, dimensionsRect.yMax, 0, 0);
 
             if (!prefab.author.NullOrEmpty())
             {
-                dimensionsAuthor = new Rect(0, dimensionsRect.yMax, 600, 25);
 
+                textForDetails.AppendInNewLine("AP_Author".Translate(prefab.author));
 
-                Widgets.Label(dimensionsAuthor, "AP_Author".Translate(prefab.author));
+               
             }
+            
+            textForDetails.AppendInNewLine(((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " " + "AP_Silver".Translate());
 
-            Rect totalCost = new Rect(0, dimensionsAuthor.yMax, 600, 25);
-            Widgets.Label(totalCost, ((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " "+ "AP_Silver".Translate());
-
+           
+            Widgets.Label(rectPrefabDetails, textForDetails.ToString());
 
             Text.Font = GameFont.Small;
             Rect oderButtonRect = new Rect(outRect.width / 2f - CloseButSize.x / 2f, outRect.height + 30, CloseButSize.x, CloseButSize.y);

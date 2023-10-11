@@ -90,9 +90,24 @@
 						<li>VFE_AutomatedDefensiveMeasures</li>
 						<li>VFE_MechanoidStructures</li>
 						<li>VFE_MasonryandMetallicsFactory</li>
-						
-						
-					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PlasteelForge"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_FoodFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
 					</value>
 				</li>
 			</operations>

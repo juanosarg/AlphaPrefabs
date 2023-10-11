@@ -18,6 +18,13 @@
 						<li>VFE_NuclearPower</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PowerAdvanced"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_AdvancedPowerSources</li>
+						<li>VFE_AdvancedBatteries</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

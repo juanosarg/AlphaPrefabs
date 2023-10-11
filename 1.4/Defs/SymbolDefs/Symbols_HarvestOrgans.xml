@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>TableAutopsy_Steel_North</defName>
+		<thing>TableAutopsy</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+</Defs>
+
