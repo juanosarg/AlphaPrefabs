@@ -832,10 +832,48 @@
 		<styleCategory>Morbid</styleCategory>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-  <defName>Column_BlocksSlate_Techist</defName>
-  <thing>Column</thing>
-  <stuff>BlocksSlate</stuff>
-  <styleCategory>Techist</styleCategory>
-</KCSG.SymbolDef>
+		<defName>Column_BlocksSlate_Techist</defName>
+		<thing>Column</thing>
+		<stuff>BlocksSlate</stuff>
+		<styleCategory>Techist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Column_WoodLog_Cream</defName>
+		<thing>Column</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PlantPot_WoodLog_Cream</defName>
+		<thing>PlantPot</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_WoodLog_Cream_North</defName>
+		<thing>Shelf</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DiningChair_WoodLog_Cream_West</defName>
+		<thing>DiningChair</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DiningChair_WoodLog_Cream_East</defName>
+		<thing>DiningChair</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Table1x2c_WoodLog_Cream_North</defName>
+		<thing>Table1x2c</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+	</KCSG.SymbolDef>
 </Defs>
 

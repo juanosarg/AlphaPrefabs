@@ -118,4 +118,55 @@
 		
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallHedgeMaze</defName>
+		<label>small hedge maze</label>
+		<shortLabel>small hedge maze</shortLabel>
+		
+		<description>A small hedge maze used as a gathering space.</description>
+		<priority>20</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallHedgeMaze_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_SmallHedgeMaze</layout>
+		<marketvalue>919</marketvalue>
+		<researchPrerequisites>
+			<li>Smithing</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+	
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeHedgeMaze</defName>
+		<label>large hedge maze</label>
+		<shortLabel>large hedge maze</shortLabel>
+		
+		<description>A large hedge maze used as a gathering space.</description>
+		<priority>21</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeHedgeMaze_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_LargeHedgeMaze</layout>
+		<marketvalue>2460</marketvalue>
+		<researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+	
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
