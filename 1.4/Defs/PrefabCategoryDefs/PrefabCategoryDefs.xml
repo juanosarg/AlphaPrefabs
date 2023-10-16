@@ -23,8 +23,8 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Eating</defName>
-		<label>food</label>
-		<description>Living rooms, kitchens, taverns. Anything having to do with the consumption of food or beverages</description>
+		<label>food &amp; rec</label>
+		<description>Living rooms, kitchens, taverns. Anything having to do with the consumption of food or beverages or colonist recreation</description>
 		<priority>3</priority>
 		<icon>UI/Categories/AP_Category_Eating</icon>
 	</AlphaPrefabs.PrefabCategoryDef>

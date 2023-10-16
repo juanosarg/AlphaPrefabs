@@ -68,7 +68,6 @@
 			<li>Stonecutting</li>
 			<li>Smithing</li>
 			<li>ComplexFurniture</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Architect</li>
@@ -82,5 +81,96 @@
 				</modPrerequisites>
 			</li>
 		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HugePrison</defName>
+		<label>huge prison</label>
+		<shortLabel>huge prison</shortLabel>
+		<description>A huge prison complex housing up to 50 inmates. All cells are equipped with nutrient paste taps so wardens don't have to spend time feeding the prisoners. Includes warden recreation areas and security turrets.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugePrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_HugePrison</layout>
+		<author>Kolopo</author>
+		<marketvalue>29128</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>FlatscreenTelevision</li>
+			<li>GunTurrets</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PrisonHospital</defName>
+		<label>prison hospital</label>
+		<shortLabel>prison hospital</shortLabel>
+		<description>A medium sized prison with 20 hospital beds linked with autofeeders. Bear in mind the beds won't be automatically spawned as prison beds, you'll need to set them up.</description>
+		<priority>11</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PrisonHospital_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Prison</li>
+			<li>AP_Category_Healthcare</li>
+		</categories>
+		<layout>AP_Prefab_PrisonHospital</layout>
+		<author>Kolopo</author>
+		<marketvalue>25262</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+			<li>SterileMaterials</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+			<li>HospitalBed</li>
+			<li>VitalsMonitor</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfemedical</li>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStylePrison</defName>
+		<label>old style prison</label>
+		<shortLabel>old style prison</shortLabel>
+		<description>An old style prison straight from the Wild West.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStylePrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_OldStylePrison</layout>
+		<author>Robosium</author>
+		<marketvalue>1627</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -217,6 +217,50 @@
 		<marketvalue>464</marketvalue>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MediumGraveyard</defName>
+		<label>medium graveyard</label>
+		<shortLabel>medium graveyard</shortLabel>
+		<description>A medium graveyard with graves for 32 people.</description>
+		<priority>100.05</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MediumGraveyard_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+		<layout>AP_Prefab_MediumGraveyard</layout>
+		<marketvalue>673</marketvalue>
+		<researchPrerequisites>
+
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>		
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeGraveyard</defName>
+		<label>large graveyard</label>
+		<shortLabel>large graveyard</shortLabel>
+		<description>A large graveyard with graves for 64 people.</description>
+		<priority>100.1</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeGraveyard_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+		<layout>AP_Prefab_LargeGraveyard</layout>
+		<marketvalue>2014</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>		
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_MassBurial</defName>
 		<label>mass burial</label>
 		<shortLabel>mass burial</shortLabel>
@@ -320,6 +364,28 @@
 		<modPrerequisites>
 			<li>ludeon.rimworld.ideology</li>
 		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallCrematory</defName>
+		<label>small crematory</label>
+		<shortLabel>small crematory</shortLabel>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>AirConditioning</li>
+
+		</researchPrerequisites>
+		<description>A small crematory containing an electric crematorium plus a walk-in freezer to store corpses.</description>
+		<priority>106.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallCrematory_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+		<layout>AP_Prefab_SmallCrematory</layout>
+		<marketvalue>1937</marketvalue>
+		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Crematory</defName>

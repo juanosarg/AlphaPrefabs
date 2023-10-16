@@ -169,4 +169,46 @@
 			<li>Vanilla Books Expanded</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HugeGeneticsLab</defName>
+		<label>huge genetics lab</label>
+		<shortLabel>huge genetics lab</shortLabel>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<description>A huge genetics lab for animal genetics experimentation. Includes a majority of the Vanilla Genetics Expanded workbenches, plus if you have Vanilla Factions Expanded - Insectoids it will also include a Bio-engineering incubator.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugeGeneticsLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_HugeGeneticsLab</layout>
+		<author>Kolopo</author>
+		<marketvalue>37647</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_HugeGeneticsLab_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vgeneticse</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Factions Expanded - Insectoids</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	
 </Defs>

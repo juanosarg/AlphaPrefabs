@@ -138,4 +138,37 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TranshumanistChurch</defName>
+		<label>transhumanist church</label>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<shortLabel>transhumanist church</shortLabel>
+		<description>A medium sized transhumanist church with biosculpter pods and neural superchargers, as well as an ideology room.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TranshumanistChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_TranshumanistChurch</layout>
+		<marketvalue>16803</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_TranshumanistChurch_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

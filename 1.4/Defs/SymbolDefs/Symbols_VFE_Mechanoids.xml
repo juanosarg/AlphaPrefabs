@@ -94,4 +94,22 @@
 		<thing>VFEM_MasonryAndMetallicsFactory_AutomaticDrill</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_Autoharvester_North</defName>
+		<thing>VFE_Mechanoids_Autoharvester</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_Autosower_North</defName>
+		<thing>VFE_Mechanoids_Autosower</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_Autosower_South</defName>
+		<thing>VFE_Mechanoids_Autosower</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_Autoharvester_South</defName>
+		<thing>VFE_Mechanoids_Autoharvester</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>

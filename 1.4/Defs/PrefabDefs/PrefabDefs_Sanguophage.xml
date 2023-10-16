@@ -74,4 +74,59 @@
 			<li>vanillaracesexpanded.sanguophage</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageColosseum</defName>
+		<label>sanguophage colosseum</label>
+		<shortLabel>sanguophage colosseum</shortLabel>
+		<description>A cave structure containing a ritual room for sanguophage death matches and gladiator duels.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageColosseum_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageColosseum</layout>
+		<author>Kolopo</author>
+		<marketvalue>10150</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Races Expanded: Sanguophage</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>ludeon.rimworld.royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageLair</defName>
+		<label>sanguophage lair</label>
+		<shortLabel>sanguophage lair</shortLabel>
+		<description>A throne-like Sanguophage lair with deathrest devices.</description>
+		<priority>11</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageLair_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageLair</layout>
+		<author>Robosium</author>
+		<marketvalue>24329</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>van.dacrypts</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Races Expanded: Sanguophage</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

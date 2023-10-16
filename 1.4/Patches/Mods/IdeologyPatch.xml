@@ -20,6 +20,13 @@
 					
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_TranshumanistChurch"]/researchPrerequisites</xpath>
+					<value>
+						<li>NeuralSupercharger</li>
+						<li>Biosculpting</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

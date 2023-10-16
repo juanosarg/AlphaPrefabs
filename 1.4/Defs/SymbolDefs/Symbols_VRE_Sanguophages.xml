@@ -5,5 +5,39 @@
 		<thing>VRE_Draincasket</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenPipe</defName>
+		<thing>VRE_HemogenPipe</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenTap</defName>
+		<thing>VRE_HemogenTap</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenVat</defName>
+		<thing>VRE_HemogenVat</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenSolidifier_East</defName>
+		<thing>VRE_HemogenSolidifier</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_UndergroundHemogenPipe</defName>
+		<thing>VRE_UndergroundHemogenPipe</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemodynamicAccelerator</defName>
+		<thing>VRE_HemodynamicAccelerator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_PsychofluidWell</defName>
+		<thing>VRE_PsychofluidWell</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_Draincasket_South</defName>
+		<thing>VRE_Draincasket</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

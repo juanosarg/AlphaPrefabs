@@ -299,4 +299,91 @@
 			<li>Harvest Organs Post Mortem</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Arcade</defName>
+		<label>arcade</label>
+		<shortLabel>arcade</shortLabel>
+	
+		<description>A recreation center with several different ammenities.</description>
+		<priority>13</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Arcade_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_Arcade</layout>
+		<marketvalue>14618</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+			<li>Smithing</li>
+			<li>FlatscreenTelevision</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+	
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStyleBar</defName>
+		<label>old style bar</label>
+		<shortLabel>old style bar</shortLabel>
+	
+		<description>An old style bar straight from the Wild West.</description>
+		<priority>14</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleBar_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_OldStyleBar</layout>
+		<marketvalue>2947</marketvalue>
+		<researchPrerequisites>
+		
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<author>Kolopo</author>
+	
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStyleTavern</defName>
+		<label>old style tavern</label>
+		<shortLabel>old style tavern</shortLabel>
+	
+		<description>An old style tavern with brewing facilities, straight from the Wild West.</description>
+		<priority>15</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleTavern_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_OldStyleTavern</layout>
+		<marketvalue>4343</marketvalue>
+		<researchPrerequisites>
+		
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Brewing</li>
+			
+		</researchPrerequisites>
+		<author>Robosium</author>
+	
+		<suggestedMods>
+			<li>Vanilla Brewing Expanded</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

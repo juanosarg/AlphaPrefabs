@@ -34,5 +34,30 @@
 		<defName>VNPE_UndergroundNutrientPastePipe</defName>
 		<thing>VNPE_UndergroundNutrientPastePipe</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteTap_East</defName>
+		<thing>VNPE_NutrientPasteTap</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteDripper_North</defName>
+		<thing>VNPE_NutrientPasteDripper</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteDripper_West</defName>
+		<thing>VNPE_NutrientPasteDripper</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteDripper_East</defName>
+		<thing>VNPE_NutrientPasteDripper</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VNPE_NutrientPasteDripper_South</defName>
+		<thing>VNPE_NutrientPasteDripper</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+
 </Defs>
 

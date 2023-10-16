@@ -821,5 +821,21 @@
 		<styleCategory>Techist</styleCategory>
 		<rotation>West</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Ideogram_Buddhist_North</defName>
+		<thing>Ideogram</thing>
+		<styleCategory>Buddhist</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Ideogram_Morbid_North</defName>
+		<thing>Ideogram</thing>
+		<styleCategory>Morbid</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>Column_BlocksSlate_Techist</defName>
+  <thing>Column</thing>
+  <stuff>BlocksSlate</stuff>
+  <styleCategory>Techist</styleCategory>
+</KCSG.SymbolDef>
 </Defs>
 

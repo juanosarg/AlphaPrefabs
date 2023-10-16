@@ -54,7 +54,19 @@
 		<defName>VBE_AmbrandyDistillery_North</defName>
 		<thing>VBE_AmbrandyDistillery</thing>
 	</KCSG.SymbolDef>
-	
+	<KCSG.SymbolDef>
+  <defName>VBE_TequilaBarrel_South</defName>
+  <thing>VBE_TequilaBarrel</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBE_TequilaBarrel_West</defName>
+  <thing>VBE_TequilaBarrel</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+
 	
 	
 </Defs>

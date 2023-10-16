@@ -441,4 +441,28 @@
 		
 	
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GasKillBox</defName>
+		<label>gas killbox</label>
+		<shortLabel>gas killbox</shortLabel>
+		<description>Kill box designed to kill down your enemies with either tox gas or rot gas. Fill with bodies and wastepacks and install more pollution pumps if needed.</description>
+		<priority>100</priority>
+		
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasKillBox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_GasKillBox</layout>
+		<author>Kolopo</author>
+		<marketvalue>6650</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>	
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -69,4 +69,53 @@
 			<li>vanillaexpanded.vfefarming</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MechFarm</defName>
+		<label>auto farm</label>
+		<shortLabel>auto farm</shortLabel>
+		<author>Kolopo</author>
+		<description>A setup of 3 autosowers and 3 autoharvesters to create a mechanized auto farm.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MechFarm_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_MechFarm</layout>
+		<marketvalue>11090</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HedgePark</defName>
+		<label>hedge park</label>
+		<shortLabel>hedge park</shortLabel>
+		<author>Robosium</author>
+		<description>A peaceful hedge park used as a gathering space.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HedgePark_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_HedgePark</layout>
+		<marketvalue>2249</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+			<li>Vanilla Furniture Expanded</li>
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -204,4 +204,59 @@
 		<thing>VFE_KitchenSinkCabinet</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_Piano_WoodLog_North</defName>
+		<thing>Joy_Piano</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_PunchingBag_Cloth</defName>
+		<thing>Joy_PunchingBag</thing>
+		<stuff>Cloth</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Radio_Spacer_South</defName>
+		<thing>Radio_Spacer</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_ModernComputer_WoodLog_South</defName>
+		<thing>Joy_ModernComputer</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_Arcade_Steel_South</defName>
+		<thing>Joy_Arcade</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Shelf_WeaponRack_Steel_East</defName>
+		<thing>Shelf_WeaponRack</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Seat_SquareChair_WoodLog_East</defName>
+		<thing>Seat_SquareChair</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_Simple_WoodLog_South</defName>
+		<thing>Bed_Simple</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_Simple_WoodLog_North</defName>
+		<thing>Bed_Simple</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>Table_1x1c_WoodLog</defName>
+  <thing>Table_1x1c</thing>
+  <stuff>WoodLog</stuff>
+</KCSG.SymbolDef>
 </Defs>

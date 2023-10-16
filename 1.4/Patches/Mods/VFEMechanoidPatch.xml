@@ -110,6 +110,13 @@
 						<li>VFE_ProvisionsPackagingFactory</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MechFarm"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicDroneAssembly</li>
+						
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

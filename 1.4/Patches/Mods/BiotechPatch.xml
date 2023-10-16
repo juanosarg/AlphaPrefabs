@@ -56,6 +56,12 @@
 						<li>ToxifierGenerator</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SanguophageLair"]/researchPrerequisites</xpath>
+					<value>
+						<li>Deathrest</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

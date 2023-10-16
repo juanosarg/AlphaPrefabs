@@ -149,5 +149,29 @@
 			
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CleanEnergyPlant</defName>
+		<label>clean energy plant</label>
+		<shortLabel>clean energy plant</shortLabel>
+		
+		<description>A big clean energy plant containing 24 solar panels and 8 wind turbines.</description>
+		<priority>12</priority>
+		<author>Robosium</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CleanEnergyPlant_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+        <layout>AP_Prefab_CleanEnergyPlant</layout>
+        <marketvalue>10208</marketvalue>
+        <researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>			
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>	
 </Defs>

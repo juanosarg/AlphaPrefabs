@@ -185,7 +185,7 @@
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
-		<defName>AP_Prefab_AirplaneHangar</defName>
+		<defName>AP_Prefab_MosquitoHelipad</defName>
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
