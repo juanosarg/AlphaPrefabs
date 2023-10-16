@@ -465,4 +465,27 @@
 		</modPrerequisites>
 	
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bunker</defName>
+		<label>bunker</label>
+		<shortLabel>bunker</shortLabel>
+		<description>A bunker inspired by designs used by Empire deserters.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bunker_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_Bunker</layout>
+		<author>Reel</author>
+		<marketvalue>5148</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			
+			<li>GunTurrets</li>
+			<li>Smithing</li>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

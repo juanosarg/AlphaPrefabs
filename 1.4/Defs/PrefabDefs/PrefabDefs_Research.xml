@@ -208,7 +208,30 @@
 			<li>Vanilla Factions Expanded - Insectoids</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
-	
-	
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DefendedLab</defName>
+		<label>armoured lab</label>
+		<shortLabel>armoured lab</shortLabel>
+		<description>A large armoured lab protected by defensive layers.</description>
+		<priority>201</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DefendedLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_DefendedLab</layout>
+		<author>Reel</author>
+		<marketvalue>11277</marketvalue>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Batteries</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+			<li>CarpetMaking</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
