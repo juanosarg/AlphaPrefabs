@@ -173,4 +173,68 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GeneDungeon</defName>
+		<label>gene dungeon</label>
+		<shortLabel>gene dungeon</shortLabel>
+		<description>A small prison with space for 8 plus a small room for gene extraction purposes. With Vanilla Furniture Expanded: Architect you get access to a variant using prison walls and prison doors</description>
+		<priority>13</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GeneDungeon_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_GeneDungeon</layout>
+		<author>Robosium</author>
+		<marketvalue>9409</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>SterileMaterials</li>
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>VFE - Architect</name>
+				<layoutVariation>AP_Prefab_GeneDungeon_Architect</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vfearchitect</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WarcasketPrison</defName>
+		<label>warcasket prison</label>
+		<shortLabel>warcasket prison</shortLabel>
+		<description>A small prison to store up to six prisoners or slaves who will be forcefully emtombed in a warcasket.</description>
+		<priority>14</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WarcasketPrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_WarcasketPrison</layout>
+		<author>Robosium</author>
+		<marketvalue>4008</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	 
 </Defs>

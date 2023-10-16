@@ -19,6 +19,12 @@
 						<li>VFEP_Warcaskets</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_WarcasketPrison"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEP_Warcaskets</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

@@ -71,6 +71,9 @@
 		<thing>VFEArch_AnimalGate</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
-	
-	
+	<KCSG.SymbolDef>
+		<defName>VFEArch_ArmoredWall_Steel</defName>
+		<thing>VFEArch_ArmoredWall</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>
