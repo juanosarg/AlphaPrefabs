@@ -4,7 +4,9 @@ using System.Text;
 using KCSG;
 using RimWorld;
 using UnityEngine;
+using UnityEngine.UIElements;
 using Verse;
+using Verse.Noise;
 
 
 namespace AlphaPrefabs
@@ -185,6 +187,10 @@ namespace AlphaPrefabs
                 if (Widgets.ButtonText(oderButtonRect, "AP_OrderNow".Translate()))
                 {
                     OrderPrefab(null,"");
+                    /*ThingDef thing = ThingDefOf.Bed;
+                    Designator_Build designator = new Designator_Build(thing);                
+                    Find.DesignatorManager.Select(designator);
+                    Close();*/
                 }
 
             }
@@ -209,15 +215,32 @@ namespace AlphaPrefabs
                     prefabItem.variationString = variationString;
 
                 }
+                Map map;
+                IntVec3 position;
+                if (building == null)
+                {
+                    map = Find.CurrentMap;
+                    position = Find.CameraDriver.MapPosition;
+                }
+                else
+                {
+                    map = building.Map;
+                    position = building.Position;
+                }
                 if (!AlphaPrefabs_Settings.noSilverMode) {
-                    TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), building.Map, null);
+                   
+                    TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), map, null);
                 }
                 
-                DropPodUtility.DropThingsNear(building.Position, building.Map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
+                DropPodUtility.DropThingsNear(position, map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
                 Close();
             }
             else
             {
+                if (building == null)
+                {
+                    Messages.Message(reason, null, MessageTypeDefOf.RejectInput);
+                } else
                 Messages.Message(reason, building, MessageTypeDefOf.RejectInput);
 
 

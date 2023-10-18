@@ -302,11 +302,13 @@
     <Compile Include="Defs\LayoutVariationsWithName.cs" />
     <Compile Include="Defs\PrefabCategoryDef.cs" />
     <Compile Include="Defs\PrefabDef.cs" />
+    <Compile Include="Designators\Designator_Prefabs.cs" />
     <Compile Include="Dev Mode\DebugActions.cs" />
     <Compile Include="GraphicsCache\GraphicsCache.cs" />
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Mod Options\Mod.cs" />
     <Compile Include="Mod Options\Settings.cs" />
+    <Compile Include="PatchOperations\PatchOperationNoCatalogMode.cs" />
     <Compile Include="PatchOperations\PatchOperationModOption.cs" />
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBox.cs" />
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBoxAsItem.cs" />

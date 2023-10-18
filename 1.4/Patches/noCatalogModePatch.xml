@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="AlphaPrefabs.PatchOperationNoCatalogMode">
+		<match Class="PatchOperationRemove">
+			<xpath>/Defs/ThingDef[defName= "AP_PrefabCatalogBuilding"]/designationCategory</xpath>
+			
+		</match>
+	</Operation>
+	
+	
+</Patch>

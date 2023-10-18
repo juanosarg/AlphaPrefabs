@@ -44,6 +44,8 @@
 	<AP_NoSilverModeDescription>With this mode prefabs can be acquired on the catalog without paying for them. Intended for basebuilding and creative playthroughs.</AP_NoSilverModeDescription>
 	<AP_NoResearchLockingMode>No research locking mode</AP_NoResearchLockingMode>
 	<AP_NoResearchLockingModeDescription>With this mode prefabs can be acquired on the catalog even if the player doesn't have the required research projects finished. Not intended for a normal playthrough as it will get players access to non-researched items.</AP_NoResearchLockingModeDescription>
+	<AP_NoPrefabCatalog>No prefab catalog mode (requires game restart)</AP_NoPrefabCatalog>
+	<AP_NoPrefabCatalogDescription>With this mode the prefab choosing dialog will be accessed via a designator in the Furniture architect menu, instead of having access to a prefab catalog building.</AP_NoPrefabCatalogDescription>
 	
 	
 </LanguageData>

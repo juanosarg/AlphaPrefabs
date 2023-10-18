@@ -13,6 +13,7 @@ namespace AlphaPrefabs
 
 
         public static bool devMode = false;
+        public static bool noPrefabCatalog = false;
         public static bool noSilverMode = false;
         public static bool noResearchLockingMode = false;
 
@@ -20,6 +21,7 @@ namespace AlphaPrefabs
         {
             base.ExposeData();
             Scribe_Values.Look(ref devMode, "devMode", false);
+            Scribe_Values.Look(ref noPrefabCatalog, "noPrefabCatalog", false);
             Scribe_Values.Look(ref noSilverMode, "noSilverMode", false);
             Scribe_Values.Look(ref noResearchLockingMode, "noResearchLockingMode", false);
 
@@ -34,6 +36,8 @@ namespace AlphaPrefabs
             ls.Begin(inRect);
 
             ls.CheckboxLabeled("AP_DevMode".Translate(), ref devMode, "AP_DevModeDescription".Translate());
+            ls.Gap(12f);
+            ls.CheckboxLabeled("AP_NoPrefabCatalog".Translate(), ref noPrefabCatalog, "AP_NoPrefabCatalogDescription".Translate());
             ls.Gap(12f);
             ls.CheckboxLabeled("AP_NoSilverMode".Translate(), ref noSilverMode, "AP_NoSilverModeDescription".Translate());
             ls.Gap(12f);
