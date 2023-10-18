@@ -128,4 +128,9 @@
 		<stuff>BlocksGranite</stuff>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>CCot_CottageTableBlanket2x2a_WoodLog</defName>
+		<thing>CCot_CottageTableBlanket2x2a</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
 </Defs>

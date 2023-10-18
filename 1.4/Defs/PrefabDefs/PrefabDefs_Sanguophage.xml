@@ -129,4 +129,35 @@
 			
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageCrypt</defName>
+		<label>sanguophage crypt</label>
+		<shortLabel>sanguophage crypt</shortLabel>
+		<description>A Sanguophage crypt disguised as a long abandoned tomb under a mountain.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageCrypt_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageCrypt</layout>
+		<author>Robosium</author>
+		<marketvalue>19927</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+			
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Dark Ages: Crypts and Tombs</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

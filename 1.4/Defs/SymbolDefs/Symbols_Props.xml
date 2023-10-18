@@ -187,5 +187,41 @@
 		<defName>VFEPD_BucketEmpty</defName>
 		<thing>VFEPD_BucketEmpty</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_Subtleblue</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_BlueSubtle</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_White</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_White</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_Lightbrown</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_BrownLight</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_Darkolive</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_OliveDark</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_Pastelblue</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_BluePastel</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrazierEmpty_Steel_Subtlered</defName>
+		<thing>VFEPD_BrazierEmpty</thing>
+		<stuff>Steel</stuff>
+		<color>Structure_RedSubtle</color>
+	</KCSG.SymbolDef>
 </Defs>
 

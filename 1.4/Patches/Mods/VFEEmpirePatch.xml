@@ -21,6 +21,48 @@
 						<li>VFEE_StellicThrone</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank6"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank7"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank8"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank9"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank10"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank11"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEE_NobleDecorations</li>
+						<li>VFEE_StellicThrone</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

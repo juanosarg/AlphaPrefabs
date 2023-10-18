@@ -153,8 +153,9 @@
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
 		<label>erin's 2-person cottage bedroom</label>
-		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight".</description>
+		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight". You also get a cottage using vanilla items, but it's recommended to get the mod for optimal aesthetics.</description>
 		<shortLabel>cottage double</shortLabel>
+		<labelForDefaultVariation>Using Erin's mod</labelForDefaultVariation>
 		<priority>2000</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_1_Preview</detailedImage>
 		<category>AP_PrefabCategoryBedrooms</category>
@@ -164,15 +165,23 @@
 			<li>ComplexFurniture</li>
 			<li>Electricity</li>
 		</researchPrerequisites>
-		<modPrerequisites>
-			<li>erin.cottagecollection</li>
-		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Variation</name>
+				<layoutVariation>AP_Prefab_ErinsCottageBedroom_1_NoErin</layoutVariation>
+			</li>
+			
+		</variations>
+		<suggestedMods>
+			<li>Erin's Cottage Collection</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ErinsCottageBedroom_2</defName>
 		<label>erin's medium 2-person cottage bedroom</label>
 		<shortLabel>cottage double Mdm</shortLabel>
-		<description>A medium 2-person cottage bedroom using Erin's cottage collection items. Includes a fireplace and a dining room. Its 36 tiles of space classifies it as "average sized".</description>
+		<description>A medium 2-person cottage bedroom using Erin's cottage collection items. Includes a fireplace and a dining room. Its 36 tiles of space classifies it as "average sized". You also get a cottage using vanilla items, but it's recommended to get the mod for optimal aesthetics.</description>
+		<labelForDefaultVariation>Using Erin's mod</labelForDefaultVariation>
 		<priority>2001</priority>
 		<category>AP_PrefabCategoryBedrooms</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_2_Preview</detailedImage>
@@ -182,10 +191,16 @@
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
-		<modPrerequisites>
-			<li>erin.cottagecollection</li>
-			<li>ludeon.rimworld.ideology</li>
-		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Variation</name>
+				<layoutVariation>AP_Prefab_ErinsCottageBedroom_2_NoErin</layoutVariation>
+			</li>
+			
+		</variations>
+		<suggestedMods>
+			<li>Erin's Cottage Collection</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Elegant_Bedroom_1</defName>
@@ -584,6 +599,31 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RepurposedDanger</defName>
+		<label>repurposed ancient danger</label>
+		<shortLabel>repurposed ancient danger</shortLabel>
+		<description>A former ancient danger converted into a very simple barracks.</description>
+		<priority>6001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RepurposedDanger_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_RepurposedDanger</layout>
+		<marketvalue>2579</marketvalue>
+	
+		<researchPrerequisites>
+			
+		
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			
+			<li>Smithing</li>
+		
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Ideology</li>
+		
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

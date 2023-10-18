@@ -161,30 +161,19 @@
 		</terrainGrid>
 	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
-		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
+		<defName>AP_Prefab_ErinsCottageBedroom_1_NoErin</defName>
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
 				<li>.,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-				<li>Wall_WoodLog,Wall_WoodLog,.,.,CCol_CottageLamp,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,.,CCot_Basket_Cloth_South,Wall_WoodLog</li>
-				<li>Wall_WoodLog,CCot_CottageDresser_WoodLog_East,.,.,CCol_QuiltedDoubleBed_WoodLog_West,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Wall_WoodLog,.,.,TorchLamp,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,AnimalSleepingBox_WoodLog,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Dresser_WoodLog_East,.,.,DoubleBed_WoodLog_West,Wall_WoodLog</li>
 				<li>Wall_WoodLog,.,.,.,.,Wall_WoodLog</li>
-				<li>Wall_WoodLog,CCol_WoodStove_South,.,.,CCot_CottageEndTable_WoodLog_East,Wall_WoodLog</li>
-				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,CCot_CottageArmchair_Cloth_North,.,Wall_WoodLog</li>
-				<li>.,.,Wall_WoodLog,.,CCot_CottageTable1x2a_WoodLog_South,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Heater,.,.,EndTable_WoodLog_East,Wall_WoodLog</li>
+				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Armchair_Cloth_North,.,Wall_WoodLog</li>
+				<li>.,.,Wall_WoodLog,.,Table1x2c_WoodLog_West,Wall_WoodLog</li>
 				<li>.,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
-			</li>
-			<li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.</li>
-				<li>.,.,.,CCol_PottedPlantA_WoodLog,.,.</li>
-				<li>.,.,.,.,.,.</li>
 			</li>
 		</layouts>
 		<roofGrid>
@@ -199,70 +188,52 @@
 			<li>.,.,1,1,1,1</li>
 		</roofGrid>
 		<terrainGrid>
-			<li>.,.,.,CCot_RusticPlankFloor,.,.</li>
-			<li>.,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,.,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,.,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.</li>
-			<li>.,.,.,.,.,.</li>
+			<li>.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
+			<li>.,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor</li>
 		</terrainGrid>
-		<modRequirements>
-			<li>erin.cottagecollection</li>
-		</modRequirements>
 	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
-		<defName>AP_Prefab_ErinsCottageBedroom_2</defName>
+		<defName>AP_Prefab_ErinsCottageBedroom_2_NoErin</defName>
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
 				<li>.,.,Column_WoodLog,.,Column_WoodLog,.,.,.,.,.,.</li>
 				<li>.,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Door_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.,.,.,.</li>
-				<li>.,Wall_WoodLog_Burgundy,.,.,.,CCot_Basket_Cloth_South,Wall_WoodLog_Burgundy,.,.,.,.</li>
-				<li>.,Wall_WoodLog_Burgundy,.,.,.,CCol_BucketPlantPot_Steel,Wall_WoodLog_Burgundy,.,.,.,.</li>
-				<li>.,Wall_WoodLog_Burgundy,CCot_CottageDresser_WoodLog_East,.,.,.,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.</li>
-				<li>.,Wall_WoodLog_Burgundy,.,.,.,.,CCot_CottageDiningChair_WoodLog_East,.,.,Wall_WoodLog_Burgundy,.</li>
-				<li>.,Wall_WoodLog_Burgundy,.,CCol_QuiltedDoubleBed_WoodLog_Burgundy_South,CCot_CottageEndTable_WoodLog_Burgundy_South,.,CCot_CottageDiningChair_WoodLog_East,.,CCot_CottageTableBlanket2x2a_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.</li>
-				<li>.,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.,.,CCot_CottageDiningChair_WoodLog_South,CCot_CottageDiningChair_WoodLog_South,Wall_WoodLog_Burgundy,.</li>
-				<li>.,Fence_WoodLog_Burgundy,CCol_WheelBarrow_WoodLog,.,Wall_WoodLog_Burgundy,.,.,.,.,Wall_WoodLog_Burgundy,.</li>
-				<li>.,FenceGate_WoodLog_Burgundy,.,.,Wall_WoodLog_Burgundy,.,CCot_Fireplace_BlocksGranite_South,.,CCot_SmallBookshelf_WoodLog_Burgundy_South,Wall_WoodLog_Burgundy,.</li>
+				<li>.,Wall_WoodLog_Burgundy,.,.,.,AnimalSleepingBox_WoodLog,Wall_WoodLog_Burgundy,.,.,.,.</li>
+				<li>.,Wall_WoodLog_Burgundy,.,.,.,PlantPot_WoodLog,Wall_WoodLog_Burgundy,.,.,.,.</li>
+				<li>.,Wall_WoodLog_Burgundy,Dresser_WoodLog_East,.,.,.,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.</li>
+				<li>.,Wall_WoodLog_Burgundy,.,.,.,.,DiningChair_WoodLog_East,Table2x2c_WoodLog,.,Wall_WoodLog_Burgundy,.</li>
+				<li>.,Wall_WoodLog_Burgundy,.,DoubleBed_WoodLog_South,EndTable_WoodLog_South,.,DiningChair_WoodLog_East,.,.,Wall_WoodLog_Burgundy,.</li>
+				<li>.,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.,.,DiningChair_WoodLog_South,DiningChair_WoodLog_South,Wall_WoodLog_Burgundy,.</li>
+				<li>.,Fence_WoodLog_Burgundy,.,VFEPD_HayBaleMedium_South,Wall_WoodLog_Burgundy,.,.,.,.,Wall_WoodLog_Burgundy,.</li>
+				<li>.,FenceGate_WoodLog_Burgundy,.,.,Wall_WoodLog_Burgundy,.,Campfire_North,.,VFEPD_WoodenCupboard_South,Wall_WoodLog_Burgundy,.</li>
 				<li>.,Fence_WoodLog_Burgundy,Fence_WoodLog_Burgundy,Fence_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,Wall_WoodLog_Burgundy,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-			</li>
-			<li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,RusticRug_Medium_South,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 			</li>
 		</layouts>
 		<terrainGrid>
 			<li>FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,.,.,.</li>
-			<li>FlagstoneSandstone,.,.,WoodPlankFloor,.,.,.,FlagstoneSandstone,.,.,.</li>
-			<li>FlagstoneSandstone,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,FlagstoneSandstone,.,.,.</li>
-			<li>FlagstoneSandstone,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,.,.,.,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,.,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,.,.,.,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,FlagstoneSandstone,StrawMatting,StrawMatting,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,FlagstoneSandstone,StrawMatting,StrawMatting,.,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,CCot_RusticPlankFloor,.,FlagstoneSandstone</li>
-			<li>FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,.,.,.,.,.,.,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone,.,.,.</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone,.,.,.</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,CarpetWhite,CarpetWhite,CarpetWhite,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,CarpetWhite,CarpetWhite,CarpetWhite,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,CarpetWhite,CarpetWhite,CarpetWhite,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,FlagstoneSandstone,StrawMatting,StrawMatting,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,FlagstoneSandstone,StrawMatting,StrawMatting,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
+			<li>FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,WoodPlankFloor,FlagstoneSandstone</li>
 			<li>FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone,FlagstoneSandstone</li>
 		</terrainGrid>
 		<modRequirements>
-			<li>erin.cottagecollection</li>
-			<li>ludeon.rimworld.ideology</li>
+			<li>vanillaexpanded.vfepropsanddecor</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
@@ -1486,6 +1457,83 @@
 		<modRequirements>
 			<li>vanillaexpanded.vfepropsanddecor</li>
 			<li>vanillaexpanded.vfecore</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_RepurposedDanger</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,Limestone,.,.,.,Limestone,.,.,.,.,.,.,.,.,Limestone,Limestone,Limestone,Limestone,.,.,.,.,.,.</li>
+				<li>.,Limestone,Limestone,Limestone,Limestone,Limestone,Wall_BlocksLimestone,.,.,.,.,Column_BlocksSlate,.,.,.,Limestone,Wall_BlocksLimestone,MineableSteel,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone</li>
+				<li>.,.,Limestone,Limestone,Limestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,.,.,SignalAction_Letter_North,.,.,.,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,MineableSteel,MineableSteel,Limestone,Limestone,Limestone,Limestone,Limestone,.</li>
+				<li>.,.,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,.,Wall_BlocksLimestone,Wall_BlocksLimestone,Door_WoodLog,Wall_BlocksLimestone,.,Wall_BlocksLimestone,Door_WoodLog,Wall_BlocksLimestone,Wall_BlocksLimestone,.,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Limestone,Limestone,.,Limestone,.</li>
+				<li>Plant_Grass,Limestone,Wall_BlocksLimestone,.,.,.,Filth_Slime,.,.,.,Wall_BlocksLimestone,Door_WoodLog,Wall_BlocksLimestone,.,.,.,.,.,DiningChair_WoodLog_East,Table1x2c_Steel_North,Wall_BlocksLimestone,Limestone,Limestone,Limestone,Limestone,.</li>
+				<li>.,Limestone,Wall_BlocksLimestone,.,AncientBarrel,Filth_Slime,.,.,Filth_Dirt,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone,Limestone,Limestone,Limestone,.,.</li>
+				<li>.,.,Filth_RubbleBuilding,Filth_Slime,Table2x2c_Steel,.,Filth_Dirt,.,AncientHermeticCrate_West,Filth_Slime,Bed_WoodLog_East,.,.,TorchLamp,.,.,Bed_WoodLog_East,.,.,.,Wall_BlocksLimestone,Limestone,.,.,.,.</li>
+				<li>.,Plant_Bush,Wall_BlocksLimestone,Filth_Slime,.,.,Filth_Slime,.,.,Filth_Slime,.,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone,Limestone,.,.,.,.</li>
+				<li>Limestone,Limestone,Wall_BlocksLimestone,Sarcophagus_Steel_North,DiningChair_WoodLog_South,DiningChair_WoodLog_South,Filth_Slime,Bed_WoodLog_East,.,Filth_Dirt,Bed_WoodLog_East,.,.,Bed_WoodLog_East,.,.,Bed_WoodLog_East,.,DiningChair_WoodLog_East,TableStonecutter_WoodLog_East,Wall_BlocksLimestone,Limestone,Limestone,.,.,.</li>
+				<li>.,Plant_Grass,Wall_BlocksLimestone,.,Filth_Dirt,.,.,.,.,.,Filth_Slime,.,.,.,.,.,.,.,.,.,Wall_BlocksLimestone,Limestone,Limestone,.,.,Plant_TreeOak</li>
+				<li>.,Limestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Wall_BlocksLimestone,Limestone,.,Plant_Grass,.,Plant_Grass</li>
+				<li>Plant_TallGrass,.,Limestone,Limestone,Limestone,Limestone,.,Limestone,Limestone,Limestone,.,Limestone,Plant_Grass,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Limestone,Plant_Grass,Plant_Grass,Plant_TallGrass,.</li>
+				<li>.,.,.,Plant_Dandelion,Limestone,Filth_Dirt,Limestone,.,Limestone,Limestone,Limestone,.,.,Limestone,Limestone,Limestone,Limestone,Limestone,Plant_Dandelion,Limestone,Limestone,.,.,Plant_TreeOak,Plant_Grass,.</li>
+				<li>Plant_TreePoplar,.,.,.,.,.,Plant_Grass,Filth_Slime,.,.,.,.,.,.,Limestone,Limestone,Limestone,Plant_Grass,Plant_TallGrass,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Grass,Plant_Bush,.</li>
+				<li>Plant_Bush,.,.,.,.,.,.,.,.,.,Plant_Grass,.,.,.,.,.,.,Plant_Grass,Limestone,.,.,Plant_TallGrass,.,.,Plant_TreeOak,Plant_Grass</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,Door_WoodLog,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,Filth_AnimalFilth,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,2,2,2,2,2,2,2,2,2,2,3,3,2,2,2,2,2,2,.,.</li>
+			<li>.,.,.,.,.,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,.,.,.</li>
+			<li>.,.,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,2,2,2,2,2,2,2,2,2,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,2,2,2,2,2,2,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,FlagstoneLimestone,.,.,.,.,.,FlagstoneLimestone,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,MetalTile,MetalTile,MetalTile,MetalTile,FlagstoneLimestone,FlagstoneLimestone,MetalTile,MetalTile,MetalTile,MetalTile,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,Limestone_RoughHewn,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,MetalTile,Concrete,Concrete,MetalTile,FlagstoneLimestone,FlagstoneLimestone,MetalTile,Concrete,Concrete,MetalTile,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>Limestone_RoughHewn,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,MetalTile,Concrete,Concrete,MetalTile,Concrete,Concrete,MetalTile,Concrete,Concrete,MetalTile,Concrete,Concrete,MetalTile,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,FlagstoneLimestone,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,FlagstoneLimestone,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>ludeon.rimworld.ideology</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 </Defs>

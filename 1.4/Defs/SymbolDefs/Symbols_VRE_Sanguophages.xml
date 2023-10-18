@@ -39,5 +39,22 @@
 		<thing>VRE_Draincasket</thing>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenSolidifier_South</defName>
+		<thing>VRE_HemogenSolidifier</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_SmallHemopump</defName>
+		<thing>VRE_SmallHemopump</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_HemogenDrain</defName>
+		<thing>VRE_HemogenDrain</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_SmallHemogenAmplifier</defName>
+		<thing>VRE_SmallHemogenAmplifier</thing>
+	</KCSG.SymbolDef>
 </Defs>
 

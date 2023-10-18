@@ -98,12 +98,292 @@
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BallRoom</defName>
+		<label>ball room</label>
+		<shortLabel>ball room</shortLabel>
+		<description>A majestic ball room with a giant pipe organ.</description>
+		<author>Heretic</author>
+		<priority>5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BallRoom_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_BallRoom</layout>
+		<marketvalue>17675</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank1</defName>
+		<label>acolyte throne room</label>
+		<shortLabel>acolyte throne room</shortLabel>
+		<description>A simple throne room with a meditation throne and two braziers. Satisfies Acolyte rank.</description>
+		<author>Heretic</author>
+		<priority>100</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank1_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank1</layout>
+		<marketvalue>1135</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank2</defName>
+		<label>knight throne room</label>
+		<shortLabel>knight throne room</shortLabel>
+		<description>A simple throne room with a meditation throne, two braziers and a harp. Satisfies Knight / Dame rank.</description>
+		<author>Heretic</author>
+		<priority>101</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank2_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank2</layout>
+		<marketvalue>2031</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank3</defName>
+		<label>praetor throne room</label>
+		<shortLabel>praetor throne room</shortLabel>
+		<description>A simple throne room with a meditation throne, two braziers and a harp. Satisfies Praetor rank.</description>
+		<author>Heretic</author>
+		<priority>102</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank3_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank3</layout>
+		<marketvalue>2234</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank4</defName>
+		<label>baron throne room</label>
+		<shortLabel>baron throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, two braziers and a harpsichord. Satisfies Baron / Baroness rank.</description>
+		<author>Heretic</author>
+		<priority>103</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank4_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank4</layout>
+		<marketvalue>5288</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank5</defName>
+		<label>count throne room</label>
+		<shortLabel>count throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, four braziers and a piano. Satisfies Count / Countess rank.</description>
+		<author>Heretic</author>
+		<priority>104</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank5_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank5</layout>
+		<marketvalue>9590</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank6</defName>
+		<label>archcount throne room</label>
+		<shortLabel>archcount throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, four braziers, a grand table and a piano. Satisfies Archcount / Archcountess rank.</description>
+		<author>Heretic</author>
+		<priority>105</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank6_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank6</layout>
+		<marketvalue>14086</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank7</defName>
+		<label>marquess throne room</label>
+		<shortLabel>marquess throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, six braziers, a grand table and a piano. Satisfies Marquess / Marchioness rank.</description>
+		<author>Heretic</author>
+		<priority>106</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank7_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank7</layout>
+		<marketvalue>16878</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank8</defName>
+		<label>duke throne room</label>
+		<shortLabel>duke throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, eight braziers, a grand chair, a grand table and a piano. Satisfies Duke / Duchess rank.</description>
+		<author>Heretic</author>
+		<priority>107</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank8_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank8</layout>
+		<marketvalue>21030</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank9</defName>
+		<label>archduke throne room</label>
+		<shortLabel>archduke throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, ten braziers, four grand chairs, a grand table and a piano. Satisfies Archduke / Archduchess rank.</description>
+		<author>Heretic</author>
+		<priority>108</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank9_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank9</layout>
+		<marketvalue>31524</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank10</defName>
+		<label>consul throne room</label>
+		<shortLabel>consul throne room</shortLabel>
+		<description>A throne room with a grand meditation throne, ten braziers, six grand chairs, a grand table and a piano. Satisfies Consul rank.</description>
+		<author>Heretic</author>
+		<priority>109</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank10_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank10</layout>
+		<marketvalue>36606</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ThroneRank11</defName>
+		<label>magister throne room</label>
+		<shortLabel>magister throne room</shortLabel>
+		<description>A throne room with a stellic meditation throne, ten braziers, eight grand chairs, a grand table and two pianos. Satisfies Magister rank.</description>
+		<author>Heretic</author>
+		<priority>110</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ThroneRank11_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ThroneRank11</layout>
+		<marketvalue>44891</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+			<li>oskarpotocki.vfe.empire</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Castle_ThroneRoom</defName>
-		<label>castle throne room</label>
-		<shortLabel>castle throne room</shortLabel>
+		<label>elegant throne room</label>
+		<shortLabel>elegant throne room</shortLabel>
 		<description>A castle throne room. Includes a grand throne, space to dine for 16 guests and musical instruments. Satisfies Praetor rank.</description>
 		<author>Stelfer</author>
-		<priority>5</priority>
+		<priority>200</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Castle_ThroneRoom_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>
 		<layout>AP_Prefab_Castle_ThroneRoom</layout>
@@ -121,37 +401,16 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
-		<defName>AP_Prefab_BallRoom</defName>
-		<label>ball room</label>
-		<shortLabel>ball room</shortLabel>
-		<description>A majestic ball room with a giant pipe organ.</description>
-		<author>Heretic</author>
-		<priority>10</priority>
-		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BallRoom_Preview</detailedImage>
-		<category>AP_Category_CastlePieces</category>
-		<layout>AP_Prefab_BallRoom</layout>
-		<marketvalue>17675</marketvalue>
-		<researchPrerequisites>
-			<li>Stonecutting</li>
-			<li>Electricity</li>
-			<li>ComplexFurniture</li>
-		</researchPrerequisites>
-		<modPrerequisites>
-			<li>ludeon.rimworld.royalty</li>
-			<li>oskarpotocki.vfe.empire</li>
-		</modPrerequisites>
-	</AlphaPrefabs.PrefabDef>
-	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_GrandThrone</defName>
-		<label>grand throne</label>
-		<shortLabel>grand throne</shortLabel>
+		<label>despot throne room</label>
+		<shortLabel>despot throne room</shortLabel>
 		<description>A majestic grand throne with a stellic meditation throne, a pipe organ, a piano and dining space for 14 guests. Satisfies Despot rank.</description>
 		<author>Heretic</author>
-		<priority>11</priority>
+		<priority>150</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GrandThrone_Preview</detailedImage>
 		<category>AP_Category_CastlePieces</category>
 		<layout>AP_Prefab_GrandThrone</layout>
-		<marketvalue>38889</marketvalue>
+		<marketvalue>46000</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>

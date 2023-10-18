@@ -70,6 +70,12 @@
 						<li>StandardMechtech</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SanguophageCrypt"]/researchPrerequisites</xpath>
+					<value>
+						<li>Deathrest</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

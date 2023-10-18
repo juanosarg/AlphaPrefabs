@@ -20,6 +20,76 @@
 						
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank2"]/researchPrerequisites</xpath>
+					<value>
+						<li>Harp</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank3"]/researchPrerequisites</xpath>
+					<value>
+						<li>Harp</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank4"]/researchPrerequisites</xpath>
+					<value>
+						<li>Harpsichord</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank5"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank6"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank7"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank8"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank9"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank10"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ThroneRank11"]/researchPrerequisites</xpath>
+					<value>
+						<li>Piano</li>
+						
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
