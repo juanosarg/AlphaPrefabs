@@ -23,8 +23,9 @@ namespace AlphaPrefabs
         {
             this.building = building;
             this.prefab = prefab;
-
+            draggable = true;
             closeOnClickedOutside = true;
+            resizeable = true;
 
         }
 
@@ -32,6 +33,7 @@ namespace AlphaPrefabs
         {
             Window_Prefab specificPrefabWindow = new Window_Prefab(prefab, building);
             Find.WindowStack.Add(specificPrefabWindow);
+            specificPrefabWindow.windowRect = this.windowRect;
             Close();
         }
 

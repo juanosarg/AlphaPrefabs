@@ -23,13 +23,19 @@ namespace AlphaPrefabs
             this.building = building;
             Utils.StoreAllactiveMods();
             closeOnClickedOutside = true;
-  
+            draggable = true;
+            resizeable = true;
+
+
         }
 
         public void OpenPrefabListWindow(PrefabCategoryDef category)
         {
             Window_PrefabsListing prefabWindow = new Window_PrefabsListing(category, building);
+            
             Find.WindowStack.Add(prefabWindow);
+            prefabWindow.windowRect = this.windowRect;
+          
             Close();
         }
 

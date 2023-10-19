@@ -26,12 +26,15 @@ namespace AlphaPrefabs
             this.building = building;
             this.category = category;           
             closeOnClickedOutside = true;
+            draggable = true;
+            resizeable = true;
         }
 
         public void OpenCategoriesWindow()
         {
             Window_PrefabCategories categoriesWindow = new Window_PrefabCategories(building);
             Find.WindowStack.Add(categoriesWindow);
+            categoriesWindow.windowRect = this.windowRect;
             Close();
         }
 
@@ -39,6 +42,7 @@ namespace AlphaPrefabs
         {
             Window_Prefab specificPrefabWindow = new Window_Prefab(prefab, building);
             Find.WindowStack.Add(specificPrefabWindow);
+            specificPrefabWindow.windowRect = this.windowRect;
             Close();
         }
 
@@ -106,11 +110,12 @@ namespace AlphaPrefabs
                     var prefabTextRect = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 128 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 128, 20);
                     Widgets.Label(prefabTextRect, prefabs[i].shortLabel.CapitalizeFirst());
                     Text.Font = GameFont.Small;
-                    Rect silverIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 148 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
-                    GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
-
-                    Rect silverDetails = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount)+24, viewRect.y +148+ (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 104, 20);
-                    Widgets.Label(silverDetails, ((int)(prefabs[i].marketvalue * Constants.SellPriceModifier)).ToString());
+                    if (!AlphaPrefabs_Settings.noSilverMode) {
+                        Rect silverIcon = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount), viewRect.y + 148 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 20, 20);
+                        GUI.DrawTexture(silverIcon, ContentFinder<Texture2D>.Get("Things/Item/Resource/Silver/Silver_c", true), ScaleMode.ScaleToFit, alphaBlend: true, 0f, Color.white, 0f, 0f);
+                        Rect silverDetails = new Rect((128 * (i % columnCount)) + 10 * (i % columnCount) + 24, viewRect.y + 148 + (148 * (i / columnCount) + 20 * ((i / columnCount) + 1)), 104, 20);
+                        Widgets.Label(silverDetails, ((int)(prefabs[i].marketvalue * Constants.SellPriceModifier)).ToString());
+                    }
 
 
                 }

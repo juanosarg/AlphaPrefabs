@@ -24,6 +24,8 @@ namespace AlphaPrefabs
             this.building = building;
             this.prefab = prefab;          
             closeOnClickedOutside = true;
+            draggable = true;
+            resizeable = true;
         }
 
         public void OpenPrefabListWindow()
@@ -32,6 +34,7 @@ namespace AlphaPrefabs
             if (prefab.category != null) { prefabWindow = new Window_PrefabsListing(prefab.category, building); }
             if (prefab.categories != null) { prefabWindow = new Window_PrefabsListing(prefab.categories[0], building); }
             Find.WindowStack.Add(prefabWindow);
+            prefabWindow.windowRect = this.windowRect;
             Close();
         }
 
@@ -39,6 +42,7 @@ namespace AlphaPrefabs
         {
             Window_PrefabImage prefabImageWindow = new Window_PrefabImage(prefab, building);
             Find.WindowStack.Add(prefabImageWindow);
+            prefabImageWindow.windowRect = this.windowRect;
             Close();
         }
 
@@ -99,20 +103,25 @@ namespace AlphaPrefabs
             Rect rectPrefabDetails = new Rect(0, outRect.yMin + 175, 550, 300);
 
             StringBuilder textForDetails = new StringBuilder();
-
-            if (!prefab.researchPrerequisites.NullOrEmpty())
+            if (!AlphaPrefabs_Settings.noResearchLockingMode)
             {
-                List<string> researchStrings = new List<string>();
-                foreach (ResearchProjectDef research in prefab.researchPrerequisites)
+                if (!prefab.researchPrerequisites.NullOrEmpty())
                 {
-                    researchStrings.Add(research.LabelCap);
+                    List<string> researchStrings = new List<string>();
+                    foreach (ResearchProjectDef research in prefab.researchPrerequisites)
+                    {
+                        researchStrings.Add(research.LabelCap);
+                    }
+                    textForDetails.Append("AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()));
+
+
+
                 }
-                textForDetails.Append("AP_ResearchNeeded".Translate(researchStrings.ToStringSafeEnumerable()));
-               
-
-
-            } else textForDetails.Append("AP_NoResearchNeeded".Translate());
-            textForDetails.AppendInNewLine(" ");
+                else textForDetails.Append("AP_NoResearchNeeded".Translate());
+                textForDetails.AppendInNewLine(" ");
+            }
+            
+            
 
             if (!prefab.modPrerequisites.NullOrEmpty())
             {
@@ -151,10 +160,12 @@ namespace AlphaPrefabs
 
                
             }
-            
-            textForDetails.AppendInNewLine(((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " " + "AP_Silver".Translate());
+            if (!AlphaPrefabs_Settings.noSilverMode) {
+                textForDetails.AppendInNewLine(((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " " + "AP_Silver".Translate());
 
-           
+            }
+
+
             Widgets.Label(rectPrefabDetails, textForDetails.ToString());
 
             Text.Font = GameFont.Small;
