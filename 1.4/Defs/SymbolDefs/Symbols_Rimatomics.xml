@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>RadarDish_Steel</defName>
+		<thing>RadarDish</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPC_Steel_East</defName>
+		<thing>PPC</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCWeaponsConsole_West</defName>
+		<thing>PPCWeaponsConsole</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>ResearchReactor</defName>
+		<thing>ResearchReactor</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>WeaponsBench_West</defName>
+		<thing>WeaponsBench</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>NuclearResearchBench_North</defName>
+		<thing>NuclearResearchBench</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCHEL_Steel</defName>
+		<thing>PPCHEL</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCTeslaCoil_Steel</defName>
+		<thing>PPCTeslaCoil</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCObelisk_Steel_West</defName>
+		<thing>PPCObelisk</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCADS_Steel</defName>
+		<thing>PPCADS</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+</Defs>
+

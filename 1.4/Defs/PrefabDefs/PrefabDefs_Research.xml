@@ -234,4 +234,35 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsResearch</defName>
+		<label>rimatomics lab</label>
+		<shortLabel>rimatomics lab</shortLabel>
+		<description>Room with all necessary buildings for Rimatomics research.</description>
+		<priority>202</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsResearch_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_RimatomicsResearch</layout>
+		<author>Kolopo</author>
+		<marketvalue>5932</marketvalue>
+		<researchPrerequisites>
+		
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>MultiAnalyzer</li>
+			
+			
+			
+		 
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

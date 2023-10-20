@@ -15,7 +15,13 @@
 					<li>VHGE_GasExtraction</li>
 				</value>
 			</li>
-
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_HelixienCentre"]/researchPrerequisites</xpath>
+				<value>
+					<li>VFE_IndustrialGenerators</li>
+					<li>VHGE_GasExtraction</li>
+				</value>
+			</li>
 
 
 

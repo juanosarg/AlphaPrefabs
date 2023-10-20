@@ -626,4 +626,45 @@
 		
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ResearchQuarters</defName>
+		<label>research quarters</label>
+		<shortLabel>research quarters</shortLabel>
+		<description>A gigantic apartment complex containing 18 "rather tight" single bedrooms, as well as a common room in the centre.</description>
+		<priority>6002</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ResearchQuarters_Preview</detailedImage>
+		<categories><li>AP_PrefabCategoryBedrooms</li><li>AP_Category_Research</li></categories>
+		<layout>AP_Prefab_ResearchQuarters</layout>
+		<marketvalue>5849</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+			<li>Batteries</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+			<li>SolarPanels</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_ResearchQuarters_Variation</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Medical</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

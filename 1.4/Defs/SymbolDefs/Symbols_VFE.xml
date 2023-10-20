@@ -255,8 +255,12 @@
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-  <defName>Table_1x1c_WoodLog</defName>
-  <thing>Table_1x1c</thing>
-  <stuff>WoodLog</stuff>
-</KCSG.SymbolDef>
+		<defName>Table_1x1c_WoodLog</defName>
+		<thing>Table_1x1c</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Facility_ResearchCounter</defName>
+		<thing>Facility_ResearchCounter</thing>
+	</KCSG.SymbolDef>
 </Defs>

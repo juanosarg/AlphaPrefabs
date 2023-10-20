@@ -488,4 +488,54 @@
 			<li>Vanilla Furniture Expanded: Security</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HELNest</defName>
+		<label>HEL nest</label>
+		<shortLabel>HEL nest</shortLabel>
+		<description>A small High Energy Laser nest powered by a PPC.</description>
+		<priority>300</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HELNest_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_HELNest</layout>
+		<author>Kolopo</author>
+		<marketvalue>1845</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TeslaEmplacement</defName>
+		<label>tesla emplacement</label>
+		<shortLabel>tesla emplacement</shortLabel>
+		<description>A small defense building with 4 tesla coils, an obelisk an ADS and two mini-turrets.</description>
+		<priority>301</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TeslaEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TeslaEmplacement</layout>
+		<author>Kolopo</author>
+		<marketvalue>6396</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Autodoors</li>
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+	
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -622,4 +622,115 @@
 		</modPrerequisites>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HelixienCentre</defName>
+		<label>helixien facility</label>
+		<shortLabel>helixien facility</shortLabel>
+		<description>A small Helixien gas complex that has all the apliances and stuff needed in a case of a power outtage or solar flare.</description>
+		<priority>100</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HelixienCentre_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_HelixienCentre</layout>
+		<marketvalue>6647</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>TransportPod</li>
+			<li>BiofuelRefining</li>
+			
+	
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.helixiengas</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SACSRoom</defName>
+		<label>SACS control room</label>
+		<shortLabel>SACS control room</shortLabel>
+		<description>Rimatomics SACS control room with all necessary buildings for weapon control.</description>
+		<priority>101</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SACSRoom_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SACSRoom</layout>
+		<marketvalue>7650</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MiniGestator</defName>
+		<label>compact mech gestator</label>
+		<shortLabel>compact mech gestator</shortLabel>
+		<description>A compact facility containing two mech gestators and a large mech gestator, plus a subcore encoder.</description>
+		<priority>102</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MiniGestator_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MiniGestator</layout>
+		<marketvalue>3064</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MechCharger</defName>
+		<label>mech charge facility</label>
+		<shortLabel>mech charge facility</shortLabel>
+		<description>A facility containing six mech chargers and three large mech chargers, plus refrigerated shelving space to store wastepacks produced.</description>
+		<priority>103</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MechCharger_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MechCharger</layout>
+		<marketvalue>7005</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
 </Defs>

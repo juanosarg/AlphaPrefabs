@@ -76,6 +76,22 @@
 						<li>Deathrest</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MiniGestator"]/researchPrerequisites</xpath>
+					<value>
+						<li>BasicMechtech</li>
+						<li>StandardMechtech</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MechCharger"]/researchPrerequisites</xpath>
+					<value>
+						<li>BasicMechtech</li>
+						<li>StandardMechtech</li>
+					</value>
+				</li>
+				
+				
 			</operations>
 		</match>
 	</Operation>
