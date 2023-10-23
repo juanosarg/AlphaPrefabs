@@ -26,6 +26,7 @@
 	<AP_ResearchNotFinished>Research "{0}" needs to be finished before being able to buy this prefab</AP_ResearchNotFinished>
 	<AP_NotAllModsPresent>This prefab is lacking one or more mods needed to buy it</AP_NotAllModsPresent>
 	<AP_NotEnoughMoney>Not enough silver. You need at least {0} silver around valid trade beacons to buy this prefab</AP_NotEnoughMoney>
+	<AP_ModNotFound>{0} (not installed)</AP_ModNotFound>
 	<!-- Dev mode -->
 	<AP_TotalPrefabValue>Total prefab value estimated at {0} simoleons</AP_TotalPrefabValue>
 	<AP_PrefabLockingResearches>This prefab requires the following researches: {0}</AP_PrefabLockingResearches>
@@ -40,12 +41,14 @@
 	<!-- Mod Options -->
 	<AP_DevMode>Dev mode (requires game restart)</AP_DevMode>
 	<AP_DevModeDescription>Dev mode will allow you to build certain structures that are useful to create your own prefabs. As a player this won't do much for you. Requires a game restart.</AP_DevModeDescription>
-	<AP_NoSilverMode>No silver (creative) mode</AP_NoSilverMode>
+	<AP_NoSilverMode>No silver cost mode</AP_NoSilverMode>
 	<AP_NoSilverModeDescription>With this mode prefabs can be acquired on the catalog without paying for them. Intended for basebuilding and creative playthroughs.</AP_NoSilverModeDescription>
 	<AP_NoResearchLockingMode>No research locking mode</AP_NoResearchLockingMode>
 	<AP_NoResearchLockingModeDescription>With this mode prefabs can be acquired on the catalog even if the player doesn't have the required research projects finished. Not intended for a normal playthrough as it will get players access to non-researched items.</AP_NoResearchLockingModeDescription>
 	<AP_NoPrefabCatalog>No prefab catalog mode (requires game restart)</AP_NoPrefabCatalog>
-	<AP_NoPrefabCatalogDescription>With this mode the prefab choosing dialog will be accessed via a designator in the Furniture architect menu, instead of having access to a prefab catalog building.</AP_NoPrefabCatalogDescription>
+	<AP_NoPrefabCatalogDescription>With this mode the prefab choosing dialog will be accessed via a designator in the Furniture architect menu, instead of having access to a prefab catalog building on the Misc architect menu.</AP_NoPrefabCatalogDescription>
+	<AP_NoModLockingMode>No mod locking mode</AP_NoModLockingMode>
+	<AP_NoModLockingModeDescription>With this mode active prefabs will still show up on the catalog even if the player doesn't have the required mods. Bear in mind that prefabs using mods you don't have will still be built, only lacking that mod's objects.</AP_NoModLockingModeDescription>
 	
 	
 </LanguageData>

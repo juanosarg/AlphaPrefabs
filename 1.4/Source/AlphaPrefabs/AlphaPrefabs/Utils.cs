@@ -15,7 +15,10 @@ namespace AlphaPrefabs
 
         public static bool ContainsAllItems(List<string> a, List<string> b)
         {
-          
+            if (AlphaPrefabs_Settings.noModLockingMode)
+            {
+                return true;
+            }
             return !b.Except(a).Any();
         }
 

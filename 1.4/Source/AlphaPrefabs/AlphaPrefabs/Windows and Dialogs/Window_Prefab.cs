@@ -126,18 +126,30 @@ namespace AlphaPrefabs
             if (!prefab.modPrerequisites.NullOrEmpty())
             {
                 List<string> modStrings = new List<string>();
+
+
                 foreach (string mod in prefab.modPrerequisites)
                 {
+                    bool found = false;
+
+
                     foreach (ModMetaData item in ModsConfig.ActiveModsInLoadOrder)
                     {
                         if (item.PackageId.ToLower().Contains(mod))
                         {
                             modStrings.Add(item.Name);
+                          
+                            found = true;
                         }
                     }
+                    if (!found)
+                    {
+                        modStrings.Add("AP_ModNotFound".Translate(mod));
+                      
+                    }
                 }
-                textForDetails.AppendInNewLine("AP_ModsNeeded".Translate(modStrings.ToStringSafeEnumerable()));
-               
+                textForDetails.Append("AP_ModsNeeded".Translate(modStrings.ToStringSafeEnumerable()));
+
             }
             else textForDetails.AppendInNewLine("AP_NoModsNeeded".Translate());
            

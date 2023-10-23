@@ -16,6 +16,7 @@ namespace AlphaPrefabs
         public static bool noPrefabCatalog = false;
         public static bool noSilverMode = false;
         public static bool noResearchLockingMode = false;
+        public static bool noModLockingMode = false;
 
         public override void ExposeData()
         {
@@ -24,7 +25,7 @@ namespace AlphaPrefabs
             Scribe_Values.Look(ref noPrefabCatalog, "noPrefabCatalog", false);
             Scribe_Values.Look(ref noSilverMode, "noSilverMode", false);
             Scribe_Values.Look(ref noResearchLockingMode, "noResearchLockingMode", false);
-
+            Scribe_Values.Look(ref noModLockingMode, "noModLockingMode", false);
 
         }
 
@@ -42,6 +43,8 @@ namespace AlphaPrefabs
             ls.CheckboxLabeled("AP_NoSilverMode".Translate(), ref noSilverMode, "AP_NoSilverModeDescription".Translate());
             ls.Gap(12f);
             ls.CheckboxLabeled("AP_NoResearchLockingMode".Translate(), ref noResearchLockingMode, "AP_NoResearchLockingModeDescription".Translate());
+            ls.Gap(12f);
+            ls.CheckboxLabeled("AP_NoModLockingMode".Translate(), ref noModLockingMode, "AP_NoModLockingModeDescription".Translate());
             ls.Gap(12f);
 
 
