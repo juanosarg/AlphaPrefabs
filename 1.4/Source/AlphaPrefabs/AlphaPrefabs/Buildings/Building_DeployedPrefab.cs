@@ -65,7 +65,11 @@ namespace AlphaPrefabs
                     GenOption.GetAllMineableIn(cleanCellRect, map);
                     LayoutUtils.CleanRect(layoutToUse, map, cleanCellRect, false);
                     layoutToUse.Generate(cleanCellRect, map);
-                    this.DeSpawn();
+                    if (this.Spawned)
+                    {
+                        this.DeSpawn();
+                    }
+                    
                 }
                    
 
@@ -91,7 +95,10 @@ namespace AlphaPrefabs
                     prefabItem.variantLayout = this.variantLayout;
                     prefabItem.variationString = this.variationString;
                 }
-                this.DeSpawn();
+                if (this.Spawned)
+                {
+                    this.DeSpawn();
+                }
             };
             yield return undeployPrefab;
         }
