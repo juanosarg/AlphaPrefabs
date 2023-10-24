@@ -15,6 +15,7 @@
 		<thing>DA_GrandSarcophagus</thing>
 		<stuff>BlocksSlate</stuff>
 		<rotation>West</rotation>
+		<chanceToContainPawn>0</chanceToContainPawn>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>DA_BloodCandles_North</defName>
@@ -41,6 +42,7 @@
 		<thing>DA_GrandSarcophagus</thing>
 		<stuff>BlocksSlate</stuff>
 		<rotation>South</rotation>
+		<chanceToContainPawn>0</chanceToContainPawn>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>DA_BurialUrn_BlocksSlate_East</defName>

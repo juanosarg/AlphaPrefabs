@@ -679,10 +679,10 @@
 				<li>Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Plant_Grass,Plant_TallGrass,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Plant_TreeOak</li>
 				<li>Fence_BlocksSlate,PlantPot_BlocksMarble,.,.,.,.,.,.,.,PlantPot_BlocksMarble,Fence_BlocksSlate,.</li>
 				<li>Fence_BlocksSlate,.,.,.,.,.,.,.,.,.,Fence_BlocksSlate,.</li>
-				<li>Fence_BlocksSlate,.,Grave_South,.,Grave_South,.,Grave_South,.,Grave_South,.,Fence_BlocksSlate,.</li>
+				<li>Fence_BlocksSlate,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,Fence_BlocksSlate,.</li>
 				<li>Fence_BlocksSlate,.,.,.,.,.,.,.,.,.,Plant_TreePoplar,Plant_Grass</li>
 				<li>Fence_BlocksSlate,.,.,.,.,.,.,.,.,.,Fence_BlocksSlate,.</li>
-				<li>Fence_BlocksSlate,.,Grave_South,.,Grave_South,.,Grave_South,.,Grave_South,.,Fence_BlocksSlate,.</li>
+				<li>Fence_BlocksSlate,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,AP_Empty_Grave_South,.,Fence_BlocksSlate,.</li>
 				<li>Fence_BlocksSlate,PlantPot_BlocksMarble,.,.,.,.,.,.,.,PlantPot_BlocksMarble,Fence_BlocksSlate,.</li>
 				<li>Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Fence_BlocksSlate,Plant_TallGrass</li>
 				<li>.,.,.,Plant_TreePoplar,.,.,Plant_Grass,.,Plant_Grass,Plant_Grass,.,.</li>
@@ -707,15 +707,15 @@
 		<layouts>
 			<li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South</li>
+				<li>AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South</li>
+				<li>AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South,Grave_South</li>
+				<li>AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South</li>
 			</li>
 		</layouts>
 		<terrainGrid>
@@ -737,12 +737,12 @@
 		<layouts>
 			<li>
 				<li>.,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit</li>
-				<li>.,Wall_Steel,Sarcophagus_Steel_North,Wall_Steel,Sarcophagus_Steel_North,Wall_Steel,Sarcophagus_Steel_North,Wall_Steel,Sarcophagus_Steel_North,Wall_Steel,Sarcophagus_Steel_North,Wall_Steel,.</li>
+				<li>.,Wall_Steel,AP_Sarcophagus_Steel_North,Wall_Steel,AP_Sarcophagus_Steel_North,Wall_Steel,AP_Sarcophagus_Steel_North,Wall_Steel,AP_Sarcophagus_Steel_North,Wall_Steel,AP_Sarcophagus_Steel_North,Wall_Steel,.</li>
 				<li>.,.,.,StandingLamp_Techist,.,.,.,.,.,StandingLamp_Techist,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,Sarcophagus_Steel_North,StandingLamp_Techist,Sarcophagus_Steel_North,.,Sarcophagus_Steel_North,.,Sarcophagus_Steel_North,StandingLamp_Techist,Sarcophagus_Steel_North,.,.</li>
+				<li>.,.,AP_Sarcophagus_Steel_North,StandingLamp_Techist,AP_Sarcophagus_Steel_North,.,AP_Sarcophagus_Steel_North,.,AP_Sarcophagus_Steel_North,StandingLamp_Techist,AP_Sarcophagus_Steel_North,.,.</li>
 				<li>.,Wall_Steel,.,Wall_Steel,.,Wall_Steel,.,Wall_Steel,.,Wall_Steel,.,Wall_Steel,.</li>
 				<li>Plant_Grass,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Plant_Dandelion</li>
 			</li>
@@ -790,14 +790,14 @@
 				<li>Wall_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel</li>
 				<li>Wall_Steel,.,VitalsMonitor_North,.,Wall_Steel,.,VitalsMonitor_North,.,Wall_Steel,.,VitalsMonitor_North,.,Wall_Steel,.,Wall_Steel</li>
-				<li>Wall_Steel,.,.,.,Wall_Steel,.,.,.,Wall_Steel,.,Sarcophagus_Steel_North,.,Wall_Steel,.,Wall_Steel</li>
-				<li>Wall_Steel,.,Sarcophagus_Steel_South,.,Wall_Steel,.,Sarcophagus_Steel_South,.,Wall_Steel,.,.,.,Wall_Steel,.,Wall_Steel</li>
+				<li>Wall_Steel,.,.,.,Wall_Steel,.,.,.,Wall_Steel,.,AP_Sarcophagus_Steel_North,.,Wall_Steel,.,Wall_Steel</li>
+				<li>Wall_Steel,.,AP_Sarcophagus_Steel_South,.,Wall_Steel,.,AP_Sarcophagus_Steel_South,.,Wall_Steel,.,.,.,Wall_Steel,.,Wall_Steel</li>
 				<li>Wall_Steel,.,.,.,StandingLamp_Techist,.,.,.,StandingLamp_Techist,.,.,.,Wall_Steel,.,Wall_Steel</li>
 				<li>Autodoor_Plasteel,.,.,.,.,.,.,.,.,.,.,.,Wall_Steel,.,.</li>
 				<li>Wall_Steel,.,.,.,.,.,.,.,.,.,.,.,Autodoor_Plasteel,.,.</li>
 				<li>Autodoor_Plasteel,.,.,.,.,.,.,.,.,.,.,.,Wall_Steel,.,.</li>
 				<li>Wall_Steel,.,.,.,StandingLamp_Techist,.,.,.,StandingLamp_Techist,.,.,.,Wall_Steel,.,Wall_Steel</li>
-				<li>Wall_Steel,.,Sarcophagus_Steel_North,.,Wall_Steel,.,Sarcophagus_Steel_North,.,Wall_Steel,.,Sarcophagus_Steel_North,.,Wall_Steel,.,Wall_Steel</li>
+				<li>Wall_Steel,.,AP_Sarcophagus_Steel_North,.,Wall_Steel,.,AP_Sarcophagus_Steel_North,.,Wall_Steel,.,AP_Sarcophagus_Steel_North,.,Wall_Steel,.,Wall_Steel</li>
 				<li>Wall_Steel,.,.,.,Wall_Steel,.,.,.,Wall_Steel,.,.,.,Wall_Steel,.,Wall_Steel</li>
 				<li>Wall_Steel,.,VitalsMonitor_South,.,Wall_Steel,.,VitalsMonitor_South,.,Wall_Steel,.,VitalsMonitor_South,.,Wall_Steel,.,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit,Wall_Steel,Wall_Steel,.,Wall_Steel</li>
@@ -870,14 +870,14 @@
 			<li>
 				<li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble</li>
-				<li>Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,.,.,.,Brazier_BlocksGranite,.,.,.,TorchLamp,.,.,.,TorchLamp,.,.,.,Brazier_BlocksGranite,.,.,.,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksMarble</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>Wall_BlocksMarble,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksMarble</li>
-				<li>Wall_BlocksMarble,.,Sarcophagus_BlocksSlate_North,.,Brazier_BlocksGranite,.,Sarcophagus_BlocksSlate_North,.,TorchLamp,.,Sarcophagus_BlocksSlate_North,.,TorchLamp,.,Sarcophagus_BlocksSlate_North,.,Brazier_BlocksGranite,.,Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble</li>
+				<li>Wall_BlocksMarble,.,AP_Sarcophagus_BlocksSlate_North,.,Brazier_BlocksGranite,.,AP_Sarcophagus_BlocksSlate_North,.,TorchLamp,.,AP_Sarcophagus_BlocksSlate_North,.,TorchLamp,.,AP_Sarcophagus_BlocksSlate_North,.,Brazier_BlocksGranite,.,AP_Sarcophagus_BlocksSlate_North,.,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,.,.,.,Wall_BlocksMarble,.,.,.,Wall_BlocksMarble,.,.,.,Wall_BlocksMarble,.,.,.,Wall_BlocksMarble,.,.,.,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble,PlantPot_BlocksMarble,.,PlantPot_BlocksMarble,Wall_BlocksMarble</li>
 				<li>Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble,Wall_BlocksMarble</li>
@@ -1122,16 +1122,16 @@
 				<li>.,.,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,VFEPD_GrassShort_North,VFEPD_BrazierEmpty_Steel,.,.,.,VFEPD_BrazierEmpty_Steel,.,.,.,Plant_Grass,VFEPD_GrassShort_North,.,.,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,.,.</li>
 				<li>.,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Plant_Grass,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,.</li>
 				<li>Wall_BlocksGranite,VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,SteleGrand_BlocksSandstone,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel,Wall_BlocksGranite</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,.,VFEPD_GrassLong_North,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,.,.,.,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,.,.,VFEPD_GrassLong_North,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,.,VFEPD_GrassLong_North,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,.,.,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,VFEPD_GrassLong_North,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,VFEPD_Bush,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEPD_GrassShort_North,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,VFEPD_GrassShort_North,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,.,VFEPD_GrassShort_North,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,VFEPD_GrassShort_North,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,VFEPD_GrassShort_North,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,VFEPD_Bush,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,VFEPD_Bush,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,VFEPD_BrazierEmpty_Steel,.,.,.,VFEPD_BrazierEmpty_Steel,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,VFEPD_GrassShort_North,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,.,SteleGrand_BlocksSandstone,.,.,Grave_South,Grave_South,Grave_South,Grave_South,.,Grave_South,Grave_South,Grave_South,Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,VFEPD_GrassShort_North,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,SteleGrand_BlocksSandstone,.,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,VFEPD_BrickPile_BlocksGranite,.,.,VFEPD_GrassLong_North,.,.,.,.,.,VFEPD_Bush,.,.,.,.,.,VFEPD_GrassShort_North,.,.,.,VFEPD_GrassLong_North,.,.,.,Plant_Grass,VFEPD_BrickPile_BlocksGranite,VFEArch_ChainlinkFence_Steel</li>
 				<li>Wall_BlocksGranite,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,Wall_BlocksGranite</li>
 			</li>
@@ -1170,16 +1170,16 @@
 				<li>VFEArch_ChainlinkFence_Steel,.,.,VFEPD_GrassShort_North,.,.,.,.,.,VFEPD_GrassLong_North,.,.,VFEPD_GrassShort_North,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,Grave_South,Grave_South,Grave_South,Grave_South,.,.,Grave_South,Grave_South,Grave_South,Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,VFEPD_GrassShort_North,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,Grave_South,Grave_South,Grave_South,Grave_South,.,.,Grave_South,Grave_South,Grave_South,Grave_South,VFEPD_GrassLong_North,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,VFEPD_GrassLong_North,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,VFEPD_GrassLong_North,Grave_South,Grave_South,Grave_South,Grave_South,.,.,Grave_South,Grave_South,Grave_South,Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,VFEPD_GrassLong_North,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_ChainlinkFence_Steel</li>
-				<li>VFEArch_ChainlinkFence_Steel,.,Grave_South,Grave_South,Grave_South,Grave_South,SteleLarge_BlocksSandstone,.,Grave_South,Grave_South,Grave_South,Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
+				<li>VFEArch_ChainlinkFence_Steel,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,SteleLarge_BlocksSandstone,.,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,AP_Empty_Grave_South,.,VFEArch_ChainlinkFence_Steel</li>
 				<li>VFEArch_ChainlinkFence_Steel,.,.,VFEPD_GrassShort_North,.,.,.,.,VFEPD_GrassShort_North,.,.,VFEPD_GrassLong_North,VFEPD_BrickPile_BlocksGranite,VFEArch_ChainlinkFence_Steel</li>
 				<li>Wall_BlocksGranite,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,VFEArch_ChainlinkFence_Steel,Wall_BlocksGranite</li>
 			</li>

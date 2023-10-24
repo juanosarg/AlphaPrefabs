@@ -65,6 +65,7 @@ namespace AlphaPrefabs
                     GenOption.GetAllMineableIn(cleanCellRect, map);
                     LayoutUtils.CleanRect(layoutToUse, map, cleanCellRect, false);
                     layoutToUse.Generate(cleanCellRect, map);
+                    this.DeSpawn();
                 }
                    
 
