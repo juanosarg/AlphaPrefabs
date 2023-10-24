@@ -77,7 +77,7 @@
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_SanguophageColosseum</defName>
 		<label>sanguophage colosseum</label>
-		<shortLabel>sanguophage colosseum</shortLabel>
+		<shortLabel>colosseum</shortLabel>
 		<description>A cave structure containing a ritual room for sanguophage death matches and gladiator duels.</description>
 		<priority>10</priority>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageColosseum_Preview</detailedImage>

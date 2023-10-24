@@ -445,7 +445,7 @@
 		<defName>AP_Prefab_GasKillBox</defName>
 		<label>gas killbox</label>
 		<shortLabel>gas killbox</shortLabel>
-		<description>Kill box designed to kill down your enemies with either tox gas or rot gas. Fill with bodies and wastepacks and install more pollution pumps if needed.</description>
+		<description>A kill box designed to slay or down your enemies with either tox gas or rot gas. Fill with bodies and wastepacks and install more pollution pumps if needed.</description>
 		<priority>100</priority>
 		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasKillBox_Preview</detailedImage>

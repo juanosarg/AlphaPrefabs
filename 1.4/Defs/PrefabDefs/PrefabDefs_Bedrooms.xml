@@ -170,7 +170,6 @@
 				<name>Vanilla Variation</name>
 				<layoutVariation>AP_Prefab_ErinsCottageBedroom_1_NoErin</layoutVariation>
 			</li>
-			
 		</variations>
 		<suggestedMods>
 			<li>Erin's Cottage Collection</li>
@@ -196,7 +195,6 @@
 				<name>Vanilla Variation</name>
 				<layoutVariation>AP_Prefab_ErinsCottageBedroom_2_NoErin</layoutVariation>
 			</li>
-			
 		</variations>
 		<suggestedMods>
 			<li>Erin's Cottage Collection</li>
@@ -216,10 +214,8 @@
 		<marketvalue>1159</marketvalue>
 		<researchPrerequisites>
 			<li>Electricity</li>
-			
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
-
 			<li>TubeTelevision</li>
 		</researchPrerequisites>
 		<modPrerequisites>
@@ -254,10 +250,8 @@
 		<author>Reel</author>
 		<researchPrerequisites>
 			<li>Electricity</li>
-		
 			<li>ComplexFurniture</li>
 			<li>CarpetMaking</li>
-
 			<li>TubeTelevision</li>
 			<li>Smithing</li>
 		</researchPrerequisites>
@@ -383,9 +377,7 @@
 		<marketvalue>645</marketvalue>
 		<researchPrerequisites>
 			<li>Electricity</li>
-			
 			<li>ComplexFurniture</li>
-			
 			<li>Stonecutting</li>
 		</researchPrerequisites>
 		<modPrerequisites>
@@ -502,9 +494,7 @@
 		<marketvalue>561</marketvalue>
 		<author>Stelfer</author>
 		<researchPrerequisites>
-			
 			<li>ComplexFurniture</li>
-		
 		</researchPrerequisites>
 		<variations>
 			<li>
@@ -533,7 +523,6 @@
 		<marketvalue>11083</marketvalue>
 		<author>Eragon</author>
 		<researchPrerequisites>
-			
 			<li>TubeTelevision</li>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
@@ -555,7 +544,6 @@
 			<li>Electricity</li>
 			<li>ComplexFurniture</li>
 			<li>Smithing</li>
-			
 		</researchPrerequisites>
 		<variations>
 			<li>
@@ -574,7 +562,6 @@
 		<suggestedMods>
 			<li>Dub's Bad Hygiene</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ApartmentComplex</defName>
@@ -588,7 +575,6 @@
 		<marketvalue>19001</marketvalue>
 		<author>Kad</author>
 		<researchPrerequisites>
-			
 			<li>TubeTelevision</li>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
@@ -611,35 +597,31 @@
 		<category>AP_PrefabCategoryBedrooms</category>
 		<layout>AP_Prefab_RepurposedDanger</layout>
 		<marketvalue>2579</marketvalue>
-	
 		<researchPrerequisites>
-			
-		
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
-			
 			<li>Smithing</li>
-		
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Ideology</li>
-		
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ResearchQuarters</defName>
 		<label>research quarters</label>
 		<shortLabel>research quarters</shortLabel>
-		<description>A gigantic apartment complex containing 18 "rather tight" single bedrooms, as well as a common room in the centre.</description>
+		<description>A research lab with adjoined quarters to have your researchers close to their jobs.</description>
 		<priority>6002</priority>
 		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ResearchQuarters_Preview</detailedImage>
-		<categories><li>AP_PrefabCategoryBedrooms</li><li>AP_Category_Research</li></categories>
+		<categories>
+			<li>AP_PrefabCategoryBedrooms</li>
+			<li>AP_Category_Research</li>
+		</categories>
 		<layout>AP_Prefab_ResearchQuarters</layout>
 		<marketvalue>5849</marketvalue>
 		<author>Kolopo</author>
 		<researchPrerequisites>
-			
 			<li>TubeTelevision</li>
 			<li>ComplexFurniture</li>
 			<li>Stonecutting</li>
@@ -652,7 +634,6 @@
 			<li>SolarPanels</li>
 			<li>MultiAnalyzer</li>
 		</researchPrerequisites>
-		
 		<variations>
 			<li>
 				<name>Vanilla Nutrient Paste Expanded</name>

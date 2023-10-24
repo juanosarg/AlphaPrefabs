@@ -436,7 +436,7 @@
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_PlasteelForge</defName>
 		<label>plasteel forge</label>
-		<shortLabel>adv. artillery foundry</shortLabel>
+		<shortLabel>plasteel forge</shortLabel>
 		<description>A medium sized factory that automatically produces plasteel from blocks, steel and chemfuel, as long as it has a constant flow of corpses.</description>
 		<priority>19</priority>
 		<author>Kolopo</author>
