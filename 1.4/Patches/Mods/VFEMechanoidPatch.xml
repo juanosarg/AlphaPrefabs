@@ -114,7 +114,26 @@
 					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MechFarm"]/researchPrerequisites</xpath>
 					<value>
 						<li>VFE_BasicDroneAssembly</li>
-						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CheeseFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SoupFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_HoneyFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
 					</value>
 				</li>
 			</operations>

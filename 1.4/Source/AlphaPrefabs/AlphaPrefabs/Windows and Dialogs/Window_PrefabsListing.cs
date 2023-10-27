@@ -26,6 +26,7 @@ namespace AlphaPrefabs
             this.building = building;
             this.category = category;           
             closeOnClickedOutside = true;
+            preventCameraMotion = false;
             draggable = true;
             resizeable = true;
         }

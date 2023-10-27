@@ -585,13 +585,11 @@
 			<li>Electricity</li>
 			<li>Firefoam</li>
 			<li>ComplexFurniture</li>
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vchemfuele</li>
 			<li>vanillaexpanded.vfearchitect</li>
 		</modPrerequisites>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_LargeOilRig</defName>
@@ -608,19 +606,13 @@
 		<layout>AP_Prefab_LargeOilRig</layout>
 		<marketvalue>28367</marketvalue>
 		<researchPrerequisites>
-		
 			<li>Electricity</li>
 			<li>Firefoam</li>
 			<li>ComplexFurniture</li>
-			
-			
-			
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>dubwise.rimefeller</li>
 		</modPrerequisites>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_HelixienCentre</defName>
@@ -640,9 +632,6 @@
 			<li>ComplexFurniture</li>
 			<li>TransportPod</li>
 			<li>BiofuelRefining</li>
-			
-	
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.helixiengas</li>
@@ -650,7 +639,6 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_SACSRoom</defName>
@@ -670,7 +658,6 @@
 			<li>ComplexFurniture</li>
 			<li>Smithing</li>
 			<li>MicroelectronicsBasics</li>
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>dubwise.rimatomics</li>
@@ -678,7 +665,6 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_MiniGestator</defName>
@@ -696,7 +682,6 @@
 			<li>Electricity</li>
 			<li>Autodoors</li>
 			<li>ComplexFurniture</li>
-
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
@@ -704,7 +689,6 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_MechCharger</defName>
@@ -723,7 +707,6 @@
 			<li>Autodoors</li>
 			<li>ComplexFurniture</li>
 			<li>AirConditioning</li>
-
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
@@ -731,6 +714,123 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
-		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ArtWorkshop</defName>
+		<label>art workshop</label>
+		<shortLabel>art workshop</shortLabel>
+		<description>A medium sized workshop containing four art workbenches, plus shelving and stockpile space to store both materials and finished sculptures.</description>
+		<priority>110</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ArtWorkshop_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_ArtWorkshop</layout>
+		<marketvalue>4918</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>VE - Nutrient Paste</name>
+				<layoutVariation>AP_Prefab_ArtWorkshop_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheeseFactory</defName>
+		<label>cheese factory</label>
+		<shortLabel>cheese factory</shortLabel>
+		<description>A medium sized factory that automatically produces cheese from milk.</description>
+		<priority>111</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheeseFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_CheeseFactory</layout>
+		<marketvalue>15312</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>Autodoors</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SoupFactory</defName>
+		<label>soup factory</label>
+		<shortLabel>soup factory</shortLabel>
+		<description>A medium sized factory that automatically produces soup from vegetables, by first feeding them to fish in an aquaponics basin.</description>
+		<priority>112</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SoupFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SoupFactory</layout>
+		<marketvalue>12536</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+			<li>vanillaexpanded.vcef</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HoneyFactory</defName>
+		<label>honey factory</label>
+		<shortLabel>honey factory</shortLabel>
+		<description>A medium sized factory that automatically produces honey from two industrial apiaries.</description>
+		<priority>113</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HoneyFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_HoneyFactory</layout>
+		<marketvalue>15041</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Brewing</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>oskarpotocki.vfe.vikings</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

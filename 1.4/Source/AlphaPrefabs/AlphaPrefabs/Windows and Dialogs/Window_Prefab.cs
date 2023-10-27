@@ -26,6 +26,7 @@ namespace AlphaPrefabs
             closeOnClickedOutside = true;
             draggable = true;
             resizeable = true;
+            preventCameraMotion = false;
         }
 
         public void OpenPrefabListWindow()
@@ -210,10 +211,7 @@ namespace AlphaPrefabs
                 if (Widgets.ButtonText(oderButtonRect, "AP_OrderNow".Translate()))
                 {
                     OrderPrefab(null,"");
-                    /*ThingDef thing = ThingDefOf.Bed;
-                    Designator_Build designator = new Designator_Build(thing);                
-                    Find.DesignatorManager.Select(designator);
-                    Close();*/
+                  
                 }
 
             }

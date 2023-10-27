@@ -112,4 +112,23 @@
 		<thing>VFE_Mechanoids_Autoharvester</thing>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_IndustrialCheesePress_East</defName>
+		<thing>VFEM_IndustrialCheesePress</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_AquaponicsBasin_North</defName>
+		<thing>VFEM_AquaponicsBasin</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_IndustrialSoupVat_East</defName>
+		<thing>VFEM_IndustrialSoupVat</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_IndustrialApiary_East</defName>
+		<thing>VFE_IndustrialApiary</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

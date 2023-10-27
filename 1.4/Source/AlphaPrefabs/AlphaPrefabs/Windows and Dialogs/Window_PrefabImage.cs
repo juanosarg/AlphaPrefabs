@@ -25,6 +25,7 @@ namespace AlphaPrefabs
             this.prefab = prefab;
             draggable = true;
             closeOnClickedOutside = true;
+            preventCameraMotion = false;
             resizeable = true;
 
         }

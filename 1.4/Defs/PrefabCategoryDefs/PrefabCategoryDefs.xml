@@ -106,8 +106,8 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_CastlePieces</defName>
-		<label>castle pieces</label>
-		<description>Modular castle pieces to make your own sprawling medieval castle</description>
+		<label>castles &amp; nobility</label>
+		<description>Modular castle pieces to make your own sprawling medieval castle, as well as throne rooms, art galleries, etc</description>
 		<priority>11</priority>
 		<icon>UI/Categories/AP_Category_CastlePieces</icon>
 	</AlphaPrefabs.PrefabCategoryDef>

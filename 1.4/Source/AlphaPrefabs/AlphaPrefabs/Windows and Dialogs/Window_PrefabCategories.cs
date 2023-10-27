@@ -25,6 +25,7 @@ namespace AlphaPrefabs
             closeOnClickedOutside = true;
             draggable = true;
             resizeable = true;
+            preventCameraMotion = false;
 
 
         }

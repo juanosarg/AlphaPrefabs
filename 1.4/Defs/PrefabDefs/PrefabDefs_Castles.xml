@@ -423,4 +423,33 @@
 			<li>oskarpotocki.vfe.empire</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ArtGallery</defName>
+		<label>art gallery</label>
+		<shortLabel>art gallery</shortLabel>
+		<description>A luxurious art gallery to display your best sculptures. Art not included.</description>
+		<author>Kolopo</author>
+		<priority>151</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ArtGallery_Preview</detailedImage>
+		<category>AP_Category_CastlePieces</category>
+		<layout>AP_Prefab_ArtGallery</layout>
+		<marketvalue>45738</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
