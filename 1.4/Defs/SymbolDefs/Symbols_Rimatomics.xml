@@ -50,5 +50,20 @@
 		<thing>PPCADS</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>MissileSilo_Steel_North</defName>
+		<thing>MissileSilo</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>TableRimatomicsMachining_South</defName>
+		<thing>TableRimatomicsMachining</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>PPCWeaponsConsole_South</defName>
+		<thing>PPCWeaponsConsole</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

@@ -265,4 +265,46 @@
 			<li>dubwise.rimatomics</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_School</defName>
+		<label>school</label>
+		<shortLabel>school</shortLabel>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<description>A huge school with facilities to educate and raise the colony's children. Includes playroom, dining room, a classroom and ample storage, as well as energy independence.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_School_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_School</layout>
+		<author>Kolopo</author>
+		<marketvalue>9107</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+			<li>TubeTelevision</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>CarpetMaking</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+		
+		
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_School_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

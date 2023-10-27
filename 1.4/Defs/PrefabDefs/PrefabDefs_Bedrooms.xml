@@ -563,6 +563,7 @@
 			<li>Dub's Bad Hygiene</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+		
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_ApartmentComplex</defName>
 		<label>apartment complex</label>
@@ -648,4 +649,30 @@
 			<li>Vanilla Furniture Expanded: Medical</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VikingHut</defName>
+		<label>viking hut</label>
+		<shortLabel>viking hut</shortLabel>
+		<description>A small viking hut with two fur beds, plenty of survival meals and a table for two. Its 37 tiles of space classifies it as "average sized".</description>
+		<priority>6003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VikingHut_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VikingHut</layout>
+		<marketvalue>880</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.vikings</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

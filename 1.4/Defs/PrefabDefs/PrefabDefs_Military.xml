@@ -538,4 +538,32 @@
 			<li>dubwise.rimatomics</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LiberatorComplex</defName>
+		<label>liberator complex</label>
+		<shortLabel>liberator complex</shortLabel>
+		<description>A heavily defended emplacement with 6 liberator missile silos.</description>
+		<priority>400</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LiberatorComplex_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_LiberatorComplex</layout>
+		<author>Kolopo</author>
+		<marketvalue>17771</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+	
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Nutrient Paste Expanded</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

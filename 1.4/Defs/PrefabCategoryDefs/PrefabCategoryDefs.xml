@@ -37,8 +37,8 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Research</defName>
-		<label>research</label>
-		<description>Research centers and laboratories</description>
+		<label>research &amp; school</label>
+		<description>Research centers and laboratories, as well as schools for children in Biotech</description>
 		<priority>4.5</priority>
 		<icon>UI/Categories/AP_Category_Research</icon>
 	</AlphaPrefabs.PrefabCategoryDef>

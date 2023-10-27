@@ -240,5 +240,27 @@
 			<li>Batteries</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VikingVillage</defName>
+		<label>viking village</label>
+		<shortLabel>viking village</shortLabel>
+		<description>A group of viking huts with 8 single fur beds, a double fur bed, an animal pen, lots of shelves with survival meals and a campfire.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VikingVillage_Preview</detailedImage>
+		<category>AP_Category_FullHouse</category>
+		<layout>AP_Prefab_VikingVillage</layout>
+		<marketvalue>2809</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.vikings</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 	
 </Defs>
