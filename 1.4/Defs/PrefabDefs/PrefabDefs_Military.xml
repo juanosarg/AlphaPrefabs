@@ -75,7 +75,6 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
-		
 			<li>GunTurrets</li>
 			<li>Fabrication</li>
 		</researchPrerequisites>
@@ -96,7 +95,6 @@
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Security</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_FortificationHeavy</defName>
@@ -133,7 +131,6 @@
 				<layoutVariation>AP_Prefab_FortificationHeavy_East</layoutVariation>
 			</li>
 		</variations>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_FortificationCannons</defName>
@@ -268,7 +265,6 @@
 				<layoutVariation>AP_Prefab_FortificationRockets_East</layoutVariation>
 			</li>
 		</variations>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_RoofTrap</defName>
@@ -284,16 +280,14 @@
 		<researchPrerequisites>
 			<li>GunTurrets</li>
 			<li>Electricity</li>
-			
 		</researchPrerequisites>
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_DoubleAutocannons_Corner</defName>
 		<label>autocannon complex, corner</label>
 		<shortLabel>autocannons, corner</shortLabel>
 		<description>A fortification with three double autocannons. Corner piece.</description>
-		<priority>20</priority>
+		<priority>21</priority>
 		<labelForDefaultVariation>NW corner</labelForDefaultVariation>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DoubleAutocannons_Corner_Preview</detailedImage>
 		<category>AP_Category_Military</category>
@@ -302,7 +296,7 @@
 		<marketvalue>6814</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-			<li>Electricity</li>		
+			<li>Electricity</li>
 			<li>Autodoors</li>
 			<li>HeavyTurrets</li>
 		</researchPrerequisites>
@@ -329,7 +323,7 @@
 		<label>autocannon complex</label>
 		<shortLabel>autocannons</shortLabel>
 		<description>A fortification with three double autocannons.</description>
-		<priority>22</priority>
+		<priority>20</priority>
 		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DoubleAutocannons_Preview</detailedImage>
 		<category>AP_Category_Military</category>
@@ -338,7 +332,7 @@
 		<marketvalue>6855</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-			<li>Electricity</li>		
+			<li>Electricity</li>
 			<li>Autodoors</li>
 			<li>HeavyTurrets</li>
 		</researchPrerequisites>
@@ -374,16 +368,13 @@
 		<marketvalue>7009</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-		
 		</researchPrerequisites>
 		<variations>
 			<li>
 				<name>With traps</name>
 				<layoutVariation>AP_Prefab_KillBoxNoTurrets_Traps</layoutVariation>
 			</li>
-			
 		</variations>
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_MultiEntrance</defName>
@@ -399,7 +390,6 @@
 		<marketvalue>1938</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-		
 		</researchPrerequisites>
 		<variations>
 			<li>
@@ -415,7 +405,6 @@
 				<layoutVariation>AP_Prefab_MultiEntrance_East</layoutVariation>
 			</li>
 		</variations>
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_HugeTurretKillbox</defName>
@@ -423,7 +412,6 @@
 		<shortLabel>huge turret killbox</shortLabel>
 		<description>A huge killbox designed to stagger attacker approach, and then catch them in an open area under turret fire. Includes 25 mini-turrets, 4 autocannons and 2 uranium slug turrets.</description>
 		<priority>52</priority>
-		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugeTurretKillbox_Preview</detailedImage>
 		<category>AP_Category_Military</category>
 		<layout>AP_Prefab_HugeTurretKillbox</layout>
@@ -436,10 +424,7 @@
 			<li>Firefoam</li>
 			<li>SniperTurret</li>
 			<li>HeavyTurrets</li>
-		
 		</researchPrerequisites>
-		
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_GasKillBox</defName>
@@ -447,7 +432,6 @@
 		<shortLabel>gas killbox</shortLabel>
 		<description>A kill box designed to slay or down your enemies with either tox gas or rot gas. Fill with bodies and wastepacks and install more pollution pumps if needed.</description>
 		<priority>100</priority>
-		
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasKillBox_Preview</detailedImage>
 		<category>AP_Category_Military</category>
 		<layout>AP_Prefab_GasKillBox</layout>
@@ -456,14 +440,12 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
-			<li>GunTurrets</li>	
+			<li>GunTurrets</li>
 			<li>ComplexFurniture</li>
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
 		</modPrerequisites>
-	
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Bunker</defName>
@@ -478,12 +460,10 @@
 		<marketvalue>5148</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
-			
 			<li>GunTurrets</li>
 			<li>Smithing</li>
 			<li>Fabrication</li>
 		</researchPrerequisites>
-		
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Security</li>
 		</suggestedMods>
@@ -502,7 +482,6 @@
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -529,7 +508,6 @@
 			<li>Autodoors</li>
 			<li>TubeTelevision</li>
 			<li>ComplexFurniture</li>
-	
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -555,7 +533,6 @@
 			<li>GunTurrets</li>
 			<li>Autodoors</li>
 			<li>ComplexFurniture</li>
-	
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -579,8 +556,6 @@
 		<marketvalue>1609</marketvalue>
 		<researchPrerequisites>
 			<li>Fabrication</li>
-			
-	
 		</researchPrerequisites>
 		<variations>
 			<li>
@@ -600,5 +575,136 @@
 			<li>vanillaexpanded.vfesecurity</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SolarPillbox</defName>
+		<label>solar pillbox</label>
+		<shortLabel>solar pillbox</shortLabel>
+		<description>A pillbox with 8 mini-turrets and 4 autocannons, all powered by a protected solar panel with backup batteries.</description>
+		<priority>402</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SolarPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SolarPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>9571</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Batteries</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement</defName>
+		<label>rimatomics emplacement</label>
+		<shortLabel>rimatomics emplacement</shortLabel>
+		<description>A super heavy defense emplacement using a marauder, four tesla coils and two punishers.</description>
+		<priority>403</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement</layout>
+		<author>Kolopo</author>
+		<marketvalue>9030</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement_Corner</defName>
+		<label>rimatomics emplacement, corner</label>
+		<shortLabel>rimatomics, corner</shortLabel>
+		<description>A super heavy defense emplacement using a marauder, four tesla coils and several standard turrets.</description>
+		<priority>404</priority>
+		<labelForDefaultVariation>NW corner</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Corner_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement_Corner</layout>
+		<author>Kolopo</author>
+		<marketvalue>6946</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>NE corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_NE</layoutVariation>
+			</li>
+			<li>
+				<name>SW corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_SW</layoutVariation>
+			</li>
+			<li>
+				<name>SE corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_SE</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement_Gate</defName>
+		<label>rimatomics emplacement, gate</label>
+		<shortLabel>rimatomics, gate</shortLabel>
+		<description>A super heavy defense emplacement entrance gate using a marauder, a punisher, tesla coils and several standard turrets.</description>
+		<priority>405</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Gate_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement_Gate</layout>
+		<author>Kolopo</author>
+		<marketvalue>10232</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -35,7 +35,7 @@
 			<li>Batteries</li>
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-		<AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_LargeWoodFiredDepot</defName>
 		<label>large wood-fired depot</label>
 		<shortLabel>large wood-fired depot</shortLabel>
@@ -108,7 +108,6 @@
 			<li>Stonecutting</li>
 			<li>ComplexFurniture</li>
 			<li>BiofuelRefining</li>
-		
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -265,7 +264,6 @@
 			<li>SolarPanels</li>
 			<li>Stonecutting</li>
 		</researchPrerequisites>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_CleanEnergyPlant</defName>
@@ -310,7 +308,39 @@
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
-			
 		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PollutionFacility</defName>
+		<label>pollution facility</label>
+		<shortLabel>pollution facility</shortLabel>
+		<description>A huge complex that generates up to 14340Wd of power while creating tons of waste that can be dealt with very easily with the built-in transport pods. Polluting the Rim in style!</description>
+		<priority>21</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PollutionFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_PollutionFacility</layout>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<marketvalue>14649</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>TransportPod</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Chemfuel Expanded</name>
+				<layoutVariation>AP_Prefab_PollutionFacility_ChemfuelExpanded</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vchemfuele</li>
+				</modPrerequisites>
+			</li>
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

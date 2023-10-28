@@ -90,7 +90,13 @@
 						<li>StandardMechtech</li>
 					</value>
 				</li>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PollutionFacility"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
 				
 			</operations>
 		</match>
