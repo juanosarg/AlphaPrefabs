@@ -66,5 +66,10 @@
 		<thing>DA_HeroicMemorial</thing>
 		<stuff>BlocksSlate</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DA_BloodflameSepulchralStatue_BlocksSlate</defName>
+		<thing>DA_BloodflameSepulchralStatue</thing>
+		<stuff>BlocksSlate</stuff>
+	</KCSG.SymbolDef>
 </Defs>
 

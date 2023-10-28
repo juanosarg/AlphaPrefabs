@@ -100,12 +100,7 @@
 		<stuff>Gold</stuff>
 		<color>Structure_RedSubtle</color>
 	</KCSG.SymbolDef>
-	<KCSG.SymbolDef>
-		<defName>VFEE_ImperialSlab_BlocksMarble_South</defName>
-		<thing>VFEE_ImperialSlab</thing>
-		<stuff>BlocksMarble</stuff>
-		<rotation>South</rotation>
-	</KCSG.SymbolDef>
+
 	<KCSG.SymbolDef>
 		<defName>VFEE_SteleSmall_Jade_Subtlered</defName>
 		<thing>VFEE_SteleSmall</thing>
@@ -137,9 +132,9 @@
 		<rotation>West</rotation>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-		<defName>VFEE_ImperialSlab_VFEC_BlocksConcrete_South</defName>
+		<defName>VFEE_ImperialSlab_BlocksMarble_South</defName>
 		<thing>VFEE_ImperialSlab</thing>
-		<stuff>VFEC_BlocksConcrete</stuff>
+		<stuff>BlocksMarble</stuff>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>

@@ -5,6 +5,16 @@
 		<thing>VFE_LargeBattery</thing>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
+		<defName>VFE_LargeAdvancedBattery_North</defName>
+		<thing>VFE_LargeAdvancedBattery</thing>
+		<rotation>North</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_AdvancedWindTurbine_North</defName>
+		<thing>VFE_AdvancedWindTurbine</thing>
+		<rotation>North</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
 		<defName>VPE_NuclearGenerator</defName>
 		<thing>VPE_NuclearGenerator</thing>
 	</KCSG.SymbolDef>
@@ -13,7 +23,7 @@
 		<thing>VFE_AdvancedSolarGenerator</thing>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-  <defName>VFE_PortableWoodFiredGenerator</defName>
-  <thing>VFE_PortableWoodFiredGenerator</thing>
-</KCSG.SymbolDef>
+		<defName>VFE_PortableWoodFiredGenerator</defName>
+		<thing>VFE_PortableWoodFiredGenerator</thing>
+	</KCSG.SymbolDef>
 </Defs>

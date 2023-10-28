@@ -1437,4 +1437,29 @@
 			<li>vanillaexpanded.vnutriente</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_TrenchLine</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Plant_Grass,.,Plant_Grass,.,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,Plant_Grass,.,.,Plant_Grass,.,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,.,Plant_Grass</li>
+				<li>VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,.,.,Plant_Grass,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,.,.,.,.</li>
+				<li>Sandbags_Cloth,.,Sandbags_Cloth,Sandbags_Cloth,.,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,Plant_Grass,.,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel</li>
+				<li>VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,.,VFES_Turret_HMGComplex_South,.,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,.,Sandbags_Cloth</li>
+				<li>VFES_Trench,.,.,VFES_AmmoCrate,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,VFES_Trench,.,.,.,VFES_AmmoCrate,VFES_Trench,VFES_Trench,VFES_Trench</li>
+				<li>.,VFES_Platform,VFES_Platform,.,.,.,.,.,Plant_Grass,Plant_Grass,VFES_Platform,VFES_Platform,Plant_TallGrass,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,.,.,.,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,.,.</li>
+			<li>VFES_TrenchTerrain,.,.,.,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain,.,.,.,.,VFES_TrenchTerrain,VFES_TrenchTerrain,VFES_TrenchTerrain</li>
+			<li>.,VFES_PlatformTerrain,VFES_PlatformTerrain,.,.,.,.,.,.,.,VFES_PlatformTerrain,VFES_PlatformTerrain,.,.,.,.</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 </Defs>

@@ -14,4 +14,36 @@
 		<defName>VFES_Turret_AutocannonDouble</defName>
 		<thing>VFES_Turret_AutocannonDouble</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_BarbedWire_Steel</defName>
+		<thing>VFES_BarbedWire</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Trench</defName>
+		<thing>VFES_Trench</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_HMGComplex_South</defName>
+		<thing>VFES_Turret_HMGComplex</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Platform</defName>
+		<thing>VFES_Platform</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_HMGComplex_North</defName>
+		<thing>VFES_Turret_HMGComplex</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_HMGComplex_West</defName>
+		<thing>VFES_Turret_HMGComplex</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_HMGComplex_East</defName>
+		<thing>VFES_Turret_HMGComplex</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

@@ -5,6 +5,12 @@
 		<thing>Table_LightEndTable</thing>
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
+		<KCSG.SymbolDef>
+		<defName>Table_LightEndTable_WoodLog_South</defName>
+		<thing>Table_LightEndTable</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>Radio_Industrial_North</defName>
 		<thing>Radio_Industrial</thing>

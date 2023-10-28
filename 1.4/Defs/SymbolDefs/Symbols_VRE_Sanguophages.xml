@@ -6,6 +6,11 @@
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
+		<defName>VRE_Draincasket_West</defName>
+		<thing>VRE_Draincasket</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
 		<defName>VRE_HemogenPipe</defName>
 		<thing>VRE_HemogenPipe</thing>
 	</KCSG.SymbolDef>
@@ -55,6 +60,10 @@
 	<KCSG.SymbolDef>
 		<defName>VRE_SmallHemogenAmplifier</defName>
 		<thing>VRE_SmallHemogenAmplifier</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VRE_InvocationMatrix</defName>
+		<thing>VRE_InvocationMatrix</thing>
 	</KCSG.SymbolDef>
 </Defs>
 

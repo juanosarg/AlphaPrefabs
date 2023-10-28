@@ -565,5 +565,40 @@
 			<li>dubwise.rimatomics</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TrenchLine</defName>
+		<label>trench line</label>
+		<shortLabel>trench line</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A fortified trench line with an HMG complex, ammo boxes and plenty of defensive positions.</description>
+		<priority>401</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TrenchLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TrenchLine</layout>
+		<author>Kolopo</author>
+		<marketvalue>1609</marketvalue>
+		<researchPrerequisites>
+			<li>Fabrication</li>
+			
+	
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_TrenchLine_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_TrenchLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_TrenchLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 	
 </Defs>

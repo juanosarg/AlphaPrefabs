@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  
+  <VSEWW.RewardDef>
+    <defName>AP_ExcellentPrefabReward</defName>
+    <texPath>UI/Rewards/Reward_Prefab_Excellent</texPath>
+    <label>High value prefab</label>
+    <description>Cargo pod contains one high value prefab</description>
+    <category>Excellent</category>
+    <items>
+      <li>
+        <thing>AP_Prefab_MediumHighValue</thing>
+        <count>1</count>
+      </li>
+    
+    </items>
+  </VSEWW.RewardDef>
+</Defs>

@@ -180,9 +180,9 @@
 		<styleCategory>AM_SteampunkRevival</styleCategory>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-		<defName>AM_SteampunkSlab_Medium_VFEC_BlocksConcrete_South</defName>
+		<defName>AM_SteampunkSlab_Medium_BlocksMarble_South</defName>
 		<thing>AM_SteampunkSlab_Medium</thing>
-		<stuff>VFEC_BlocksConcrete</stuff>
+		<stuff>BlocksMarble</stuff>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>

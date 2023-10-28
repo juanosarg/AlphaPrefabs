@@ -470,19 +470,19 @@
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,.,.,Wall_Steel,.,Wall_Steel,.,.,.,.,.,.,.,.,.,.,.</li>
 				<li>.,.,.,.,Wall_Steel,Wall_Steel,Wall_Steel,Door_Steel,Wall_Steel,Wall_Steel,Wall_Steel,.,.,.,.,.,.,.,.,.</li>
-				<li>.,.,Wall_Steel,Wall_Steel,Wall_Steel,.,.,.,.,Wall_Steel,Wall_Steel,Cooler_South,Wall_Steel,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,FenceGate_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,Wall_Steel,.,.,.,.,.,StandingLamp,Wall_Steel,.,.,Wall_Steel,.,.,.,Plant_Grass,.,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,Shelf_WoodLog_Darkgrey_East,.,Wall_Steel,AnimalSleepingBox_BlocksSlate,Plant_Grass,.,.,Plant_Grass,.,Fence_VFEC_BlocksConcrete</li>
-				<li>PowerConduit,PowerConduit,Wall_Steel,TableButcher_WoodLog_Darkgrey_West,.,.,.,.,.,Door_Steel,.,.,Door_Steel,.,Plant_Grass,.,Plant_TallGrass,Plant_Grass,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,.,.,Wall_Steel,.,Plant_Grass,Plant_Grass,.,Plant_Grass,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,Wall_Steel,.,ShelfSmall_WoodLog_Darkgrey_South,.,TableButcher_WoodLog_Darkgrey_North,.,.,Wall_Steel,Shelf_WoodLog_Darkgrey_East,.,Wall_Steel,AnimalSleepingBox_BlocksSlate,.,.,.,.,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Door_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,.,.,.,Plant_Grass,PenMarker_BlocksGranite,Plant_Grass,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,StandingLamp,.,Wall_Steel,.,Plant_Grass,Plant_Grass,.,.,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,.,.,Door_Steel,.,Plant_Grass,.,Plant_Grass,Plant_Grass,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,ElectricStove_West,.,.,.,.,.,Wall_Steel,.,Plant_Grass,Plant_Grass,Plant_Grass,.,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_Grass,.,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,.,.,.,ElectricStove_North,.,.,Wall_Steel,.,AnimalSleepingSpot,.,AnimalSleepingSpot,.,AnimalSleepingSpot,Fence_VFEC_BlocksConcrete</li>
-				<li>.,.,.,.,.,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete,Fence_VFEC_BlocksConcrete</li>
+				<li>.,.,Wall_Steel,Wall_Steel,Wall_Steel,.,.,.,.,Wall_Steel,Wall_Steel,Cooler_South,Wall_Steel,Fence_BlocksMarble,Fence_BlocksMarble,FenceGate_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble</li>
+				<li>.,.,Wall_Steel,.,.,.,.,.,StandingLamp,Wall_Steel,.,.,Wall_Steel,.,.,.,Plant_Grass,.,.,Fence_BlocksMarble</li>
+				<li>.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,Shelf_WoodLog_Darkgrey_East,.,Wall_Steel,AnimalSleepingBox_BlocksSlate,Plant_Grass,.,.,Plant_Grass,.,Fence_BlocksMarble</li>
+				<li>PowerConduit,PowerConduit,Wall_Steel,TableButcher_WoodLog_Darkgrey_West,.,.,.,.,.,Door_Steel,.,.,Door_Steel,.,Plant_Grass,.,Plant_TallGrass,Plant_Grass,.,Fence_BlocksMarble</li>
+				<li>.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,.,.,Wall_Steel,.,Plant_Grass,Plant_Grass,.,Plant_Grass,.,Fence_BlocksMarble</li>
+				<li>.,.,Wall_Steel,.,ShelfSmall_WoodLog_Darkgrey_South,.,TableButcher_WoodLog_Darkgrey_North,.,.,Wall_Steel,Shelf_WoodLog_Darkgrey_East,.,Wall_Steel,AnimalSleepingBox_BlocksSlate,.,.,.,.,.,Fence_BlocksMarble</li>
+				<li>.,.,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Door_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,.,.,.,Plant_Grass,PenMarker_BlocksGranite,Plant_Grass,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,StandingLamp,.,Wall_Steel,.,Plant_Grass,Plant_Grass,.,.,.,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,.,.,Door_Steel,.,Plant_Grass,.,Plant_Grass,Plant_Grass,.,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,ElectricStove_West,.,.,.,.,.,Wall_Steel,.,Plant_Grass,Plant_Grass,Plant_Grass,.,.,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,.,.,.,.,.,.,Wall_Steel,Plant_Grass,Plant_Grass,Plant_Grass,.,Plant_Grass,.,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,.,.,.,ElectricStove_North,.,.,Wall_Steel,.,AnimalSleepingSpot,.,AnimalSleepingSpot,.,AnimalSleepingSpot,Fence_BlocksMarble</li>
+				<li>.,.,.,.,.,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble,Fence_BlocksMarble</li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
 			</li>
 			<li>
