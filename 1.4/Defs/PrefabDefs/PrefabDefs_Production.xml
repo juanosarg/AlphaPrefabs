@@ -134,7 +134,7 @@
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Mechanitor_1_Preview</detailedImage>
 		<category>AP_Category_Production</category>
 		<layout>AP_Prefab_Production_Mechanitor_1</layout>
-		<marketvalue>14616</marketvalue>
+		<marketvalue>12000</marketvalue>
 		<researchPrerequisites>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
@@ -142,6 +142,35 @@
 			<li>Smithing</li>
 			<li>Batteries</li>
 		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeMechRoom</defName>
+		<label>large mechanitor lab</label>
+		<shortLabel>large mech lab</shortLabel>
+		<description>A large sized lab hosting facilities suitable for a mechanitor, such as mech gestators, mech chargers, scanners and band nodes.</description>
+		<priority>6.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeMechRoom_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_LargeMechRoom</layout>
+		<marketvalue>16000</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+		
+		</researchPrerequisites>
+		<suggestedMods>
+			
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
 		</modPrerequisites>
@@ -831,6 +860,39 @@
 		</modPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BrewingFactory</defName>
+		<label>brewing factory</label>
+		<shortLabel>brewing factory</shortLabel>
+		<description>A medium sized factory containing an industrial coffee roaster and a liquor mixer, as well as a hydroponics bay to grow the necessary plants and a bar to serve the drinks.</description>
+		<priority>114</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BrewingFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_BrewingFactory</layout>
+		<marketvalue>17126</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Hydroponics</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vbrewe</li>
+			<li>vanillaexpanded.vbrewecandt</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Farming</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

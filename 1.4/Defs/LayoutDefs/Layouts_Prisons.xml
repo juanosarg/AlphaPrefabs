@@ -805,4 +805,54 @@
 			<li>oskarpotocki.vfe.pirates</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_IndoctrinationBarracks</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellDoor_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,Table1x2c_Steel_North,DiningChair_Steel_West,.,.,.,.,.,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,.,DiningChair_Steel_West,.,.,.,.,VFE_IndoctrinationPod_South,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,Dresser_Steel_North,.,.,VFE_MechanoidConstructionLamp,.,.,.,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,Plant_Daylily,.,.,.,.,.,VFE_IndoctrinationPod_South,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,.,.,.,.,.,.,.,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,Bed_Steel_South,Bed_Steel_South,Bed_Steel_South,Bed_Steel_South,Bed_Steel_South,.,VFE_IndoctrinationPod_South,VFEArch_CellWall_Steel</li>
+				<li>VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel,VFEArch_CellWall_Steel</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,PlantPot_Steel,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>.,.,.,.,.,.,.,.,PowerConduit</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+			<li>1,1,1,1,1,1,1,1,1</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+			<li>PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 </Defs>

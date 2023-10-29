@@ -573,4 +573,52 @@
 			<li>vanillaexpanded.vfepropsanddecor</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+  <defName>AP_Prefab_SmallEcosystemBay</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
+      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Sprinkler,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,Plant_Rice</li>
+      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+      <li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
+    </li>
+    <li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,VFE_Ecosystem_Tilable_North</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+    </li>
+  </layouts>
+  <terrainGrid>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+  </terrainGrid>
+  <modRequirements>
+    <li>vanillaexpanded.vfefarming</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
 </Defs>

@@ -8,4 +8,8 @@
 		<defName>VFE_Sprinkler</defName>
 		<thing>VFE_Sprinkler</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Ecosystem_Tilable_North</defName>
+		<thing>VFE_Ecosystem_Tilable</thing>
+	</KCSG.SymbolDef>
 </Defs>

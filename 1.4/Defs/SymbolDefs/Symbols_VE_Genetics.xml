@@ -34,5 +34,20 @@
 		<defName>GR_MechahybridAntenna</defName>
 		<thing>GR_MechahybridAntenna</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>GR_TissueGrinder_East</defName>
+		<thing>GR_TissueGrinder</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>GR_GeneticExtractionTable_East</defName>
+		<thing>GR_GeneticExtractionTable</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>GR_TissueGrowingVat_West</defName>
+		<thing>GR_TissueGrowingVat</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

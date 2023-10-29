@@ -707,4 +707,25 @@
 			<li>dubwise.rimatomics</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PalintonePillbox</defName>
+		<label>palintone pillbox</label>
+		<shortLabel>palintone pillbox</shortLabel>
+		<description>A pillbox with a huge palintone turret defended by 4 double auto-cannon turrets.</description>
+		<priority>460</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PalintonePillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_PalintonePillbox</layout>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<marketvalue>13467</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>		
+			<li>GunTurrets</li>
+
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+			<li>oskarpotocki.vfe.deserters</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

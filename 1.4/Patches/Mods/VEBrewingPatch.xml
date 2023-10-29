@@ -4,31 +4,31 @@
 		<mods>
 			<li>Vanilla Brewing Expanded</li>
 		</mods>
-
 		<match Class="PatchOperationSequence">
 			<operations>
-
-			<li Class="PatchOperationAdd">
-				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Eating_2"]/researchPrerequisites</xpath>
-				<value>
-					<li>VBE_MixologyResearch</li>
-					<li>VBE_LiquorBrewing</li>
-				</value>
-			</li>
-
-<li Class="PatchOperationAdd">
-				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Eating_Brewery1"]/researchPrerequisites</xpath>
-				<value>
-					<li>VBE_MixologyResearch</li>
-					<li>VBE_LiquorBrewing</li>
-				</value>
-			</li>
-
-
-		</operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Eating_2"]/researchPrerequisites</xpath>
+					<value>
+						<li>VBE_MixologyResearch</li>
+						<li>VBE_LiquorBrewing</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Eating_Brewery1"]/researchPrerequisites</xpath>
+					<value>
+						<li>VBE_MixologyResearch</li>
+						<li>VBE_LiquorBrewing</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeBrewery"]/researchPrerequisites</xpath>
+					<value>
+						<li>VBE_MixologyResearch</li>
+						<li>VBE_LiquorBrewing</li>
+					</value>
+				</li>
+			</operations>
 		</match>
 	</Operation>
-
-
 </Patch>
 

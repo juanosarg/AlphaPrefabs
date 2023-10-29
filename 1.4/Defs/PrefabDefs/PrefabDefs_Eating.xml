@@ -140,7 +140,7 @@
 		<defName>AP_Prefab_Eating_Brewery1</defName>
 		<label>small brewery</label>
 		<shortLabel>small brewery</shortLabel>
-		<description>A small sized brewery with a bar and vrewing stations for beer, tequila, vodka, whiskey and ambrandy, as well as ample storage space for the finished liquors.</description>
+		<description>A small sized brewery with a bar and brewing stations for beer, tequila, vodka, whiskey and ambrandy, as well as ample storage space for the finished liquors.</description>
 		<priority>3</priority>
 		<category>AP_Category_Eating</category>
 		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_Brewery1_Preview</detailedImage>
@@ -157,6 +157,43 @@
 		<modPrerequisites>
 			<li>vanillaexpanded.vbrewe</li>
 		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeBrewery</defName>
+		<label>large brewery</label>
+		<shortLabel>large brewery</shortLabel>
+		<description>A large sized brewery with a brewery room as well as brewing stations for tequila, vodka, whiskey, gin and ambrandy, as well as ample storage space for the finished liquors. If you have VE Medieval and Vikings you'll also get access to a bigger prefab with wine and mead brewing rooms.</description>
+		<priority>3.5</priority>
+		<labelForDefaultVariation>VE Brewing only</labelForDefaultVariation>
+		<category>AP_Category_Eating</category>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeBrewery_Preview</detailedImage>
+		<layout>AP_Prefab_LargeBrewery</layout>
+		<marketvalue>8199</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+			<li>AirConditioning</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>VE Brewing + Medieval + Vikings</name>
+				<layoutVariation>AP_Prefab_LargeBrewery_Expanded</layoutVariation>
+				<modPrerequisites>
+					<li>oskarpotocki.vfe.vikings</li>
+					<li>oskarpotocki.vanillafactionsexpanded.medievalmodule</li>
+				</modPrerequisites>
+			</li>
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_DiningRoom</defName>
@@ -383,6 +420,34 @@
 		</suggestedMods>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfecore</li>
+			
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CoveredFishingSpot</defName>
+		<label>covered fishing spot</label>
+		<shortLabel>fishing spot</shortLabel>
+	
+		<description>A shallow pool of water covered by roofed walls. Ideal for fishing in peace.</description>
+		<priority>16</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleBar_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_OldStyleBar</layout>
+		<marketvalue>2947</marketvalue>
+		<researchPrerequisites>
+		
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+	
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Fishing Expanded (or else WTF are you fishing?)</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
 			
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>

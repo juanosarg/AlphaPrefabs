@@ -48,6 +48,27 @@
 		</variations>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallEcosystemBay</defName>
+		<label>small artificial ecosystem bay</label>
+		<shortLabel>small ecosystem bay</shortLabel>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<description>A small artificial ecosystem bay containing 100 tilleable artificial ecosystems and a sprinkler. Still absurdly expensive.</description>
+		<priority>1.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EcosystemBay_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_SmallEcosystemBay</layout>
+		<marketvalue>31355</marketvalue>
+		<researchPrerequisites>
+		
+			<li>Electricity</li>
+	
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfefarming</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Nature_2</defName>
 		<label>artificial ecosystem bay</label>
 		<shortLabel>ecosystem bay</shortLabel>

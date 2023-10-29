@@ -136,6 +136,22 @@
 						<li>VFE_FactoryBasics</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BrewingFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_IndoctrinationBarracks"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				
 			</operations>
 		</match>
 	</Operation>

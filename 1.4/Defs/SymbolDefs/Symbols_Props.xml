@@ -223,5 +223,18 @@
 		<stuff>Steel</stuff>
 		<color>Structure_RedSubtle</color>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_CageBrazier</defName>
+		<thing>VFEPD_CageBrazier</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrewingBarrel</defName>
+		<thing>VFEPD_BrewingBarrel</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_WoodenPlankDivider_East</defName>
+		<thing>VFEPD_WoodenPlankDivider</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

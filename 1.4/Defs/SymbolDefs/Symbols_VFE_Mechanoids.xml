@@ -131,4 +131,19 @@
 		<thing>VFE_IndustrialApiary</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_LiquorMixer_East</defName>
+		<thing>VFE_LiquorMixer</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_IndustrialCoffeeRoaster_East</defName>
+		<thing>VFEM_IndustrialCoffeeRoaster</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_IndoctrinationPod_South</defName>
+		<thing>VFE_IndoctrinationPod</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>

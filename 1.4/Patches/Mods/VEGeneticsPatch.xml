@@ -19,6 +19,16 @@
 					
 				</value>
 			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallGeneticsLab"]/researchPrerequisites</xpath>
+				<value>
+					<li>GR_GeneticEngineering</li>
+					<li>GR_GeneticDuplication</li>
+					<li>GR_GeneticAlteration</li>
+					<li>GR_HybridImplantology</li>
+				
+				</value>
+			</li>
 
 
 

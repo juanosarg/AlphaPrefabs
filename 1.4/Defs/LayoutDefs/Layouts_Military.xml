@@ -1674,4 +1674,25 @@
 			<li>dubwise.rimatomics</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_PalintonePillbox</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,VFES_Turret_AutocannonDouble,.,VFED_AmmoBox_Autocannon,VFES_Turret_Searchlight_Steel,VFED_AmmoBox_Autocannon,VFES_Turret_AutocannonDouble,.,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,.,.,.,.,.,.,.,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,VFES_Turret_AutocannonDouble,.,.,VFED_Turret_Palintone,.,VFES_Turret_AutocannonDouble,.,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,.,.,.,.,.,.,.,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,VFED_AmmoBox_Autocannon,VFED_AmmoBox_Autocannon,VFED_AmmoBox_Autocannon,Sandbags_Cloth,Sandbags_Cloth,Sandbags_Cloth,VFES_BarbedWire_Steel</li>
+				<li>VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,Sandbags_Cloth,Sandbags_Cloth,.,Sandbags_Cloth,Sandbags_Cloth,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel</li>
+				<li>.,.,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,.,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,VFES_BarbedWire_Steel,.,.</li>
+			</li>
+		</layouts>
+		<modRequirements>
+			<li>vanillaexpanded.vfesecurity</li>
+			<li>oskarpotocki.vfe.deserters</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 </Defs>

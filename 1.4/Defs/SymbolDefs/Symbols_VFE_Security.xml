@@ -46,4 +46,9 @@
 		<thing>VFES_Turret_HMGComplex</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_Searchlight_Steel</defName>
+		<thing>VFES_Turret_Searchlight</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>

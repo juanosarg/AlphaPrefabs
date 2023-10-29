@@ -97,6 +97,16 @@
 					
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeMechRoom"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>BasicMechtech</li>
+						<li>StandardMechtech</li>
+						<li>HighMechtech</li>
+				
+					</value>
+				</li>
 				
 			</operations>
 		</match>

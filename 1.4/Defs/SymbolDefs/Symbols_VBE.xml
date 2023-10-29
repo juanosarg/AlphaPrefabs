@@ -43,9 +43,8 @@
 	<KCSG.SymbolDef>
 		<defName>VBE_VodkaDrum_North</defName>
 		<thing>VBE_VodkaDrum</thing>
-		
 	</KCSG.SymbolDef>
-		<KCSG.SymbolDef>
+	<KCSG.SymbolDef>
 		<defName>VBE_VodkaDrum_South</defName>
 		<thing>VBE_VodkaDrum</thing>
 		<rotation>South</rotation>
@@ -55,19 +54,33 @@
 		<thing>VBE_AmbrandyDistillery</thing>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-  <defName>VBE_TequilaBarrel_South</defName>
-  <thing>VBE_TequilaBarrel</thing>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
-
-<KCSG.SymbolDef>
-  <defName>VBE_TequilaBarrel_West</defName>
-  <thing>VBE_TequilaBarrel</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
-
-
-	
-	
+		<defName>VBE_TequilaBarrel_South</defName>
+		<thing>VBE_TequilaBarrel</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_TequilaBarrel_West</defName>
+		<thing>VBE_TequilaBarrel</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_Bar_Steel_East</defName>
+		<thing>VBE_Bar</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_Plant_Tea</defName>
+		<thing>VBE_Plant_Tea</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_GinStill_South</defName>
+		<thing>VBE_GinStill</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VBE_GinStill_North</defName>
+		<thing>VBE_GinStill</thing>
+	</KCSG.SymbolDef>
 </Defs>
 

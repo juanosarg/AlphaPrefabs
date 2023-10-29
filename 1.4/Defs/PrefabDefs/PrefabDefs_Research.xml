@@ -170,6 +170,29 @@
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallGeneticsLab</defName>
+		<label>small genetics lab</label>
+		<shortLabel>small genetics lab</shortLabel>
+		<description>A small genetics lab for animal genetics experimentation. Includes a majority of the Vanilla Genetics Expanded workbenches</description>
+		<priority>199</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CompactGeneticsLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_SmallGeneticsLab</layout>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<marketvalue>5184</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vgeneticse</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_HugeGeneticsLab</defName>
 		<label>huge genetics lab</label>
 		<shortLabel>huge genetics lab</shortLabel>
@@ -246,17 +269,12 @@
 		<author>Kolopo</author>
 		<marketvalue>5932</marketvalue>
 		<researchPrerequisites>
-		
 			<li>Smithing</li>
 			<li>Stonecutting</li>
 			<li>Electricity</li>
 			<li>Autodoors</li>
 			<li>ComplexFurniture</li>
 			<li>MultiAnalyzer</li>
-			
-			
-			
-		 
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
@@ -288,8 +306,6 @@
 			<li>CarpetMaking</li>
 			<li>SolarPanels</li>
 		</researchPrerequisites>
-		
-		
 		<variations>
 			<li>
 				<name>Vanilla Nutrient Paste Expanded</name>
@@ -304,7 +320,6 @@
 		</modPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
-		
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
 </Defs>
