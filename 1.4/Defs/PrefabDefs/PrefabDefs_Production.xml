@@ -125,6 +125,29 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleMechDepot</defName>
+		<label>simple mech depot</label>
+		<shortLabel>simple mech depot</shortLabel>
+		<description>A very small depot filled with drone charging stations. These drones are very simple and don't require a mechanitor to work.</description>
+		<priority>5.5</priority>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleMechDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SimpleMechDepot</layout>
+		<marketvalue>18000</marketvalue>
+		<researchPrerequisites>
+			<li>Fabrication</li>
+			<li>Electricity</li>
+			
+			<li>Smithing</li>
+
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Production_Mechanitor_1</defName>
 		<label>mechanitor lab</label>
 		<shortLabel>mechanitor lab</shortLabel>
@@ -567,6 +590,37 @@
 		</suggestedMods>
 		<modPrerequisites>
 			<li>hlx.ultratechalteredcarbon</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AndroidFacility</defName>
+		<label>android facility</label>
+		<shortLabel>android facility</shortLabel>
+		<description>Medium sized room with facilities for android creation and upkeep.</description>
+		<priority>21.5</priority>
+		
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AndroidFacility_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_AndroidFacility</layout>
+		<marketvalue>19134</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Batteries</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaracesexpanded.android</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>

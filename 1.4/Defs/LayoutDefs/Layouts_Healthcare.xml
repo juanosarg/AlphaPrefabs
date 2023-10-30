@@ -976,15 +976,15 @@
 				<li>Wall_Steel,Wall_Steel,PowerConduit,Plant_Grass,.,Plant_Grass,.,.,.,.,PowerConduit,Wall_Steel,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Autodoor_Plasteel,Wall_Steel,Autodoor_Plasteel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,.,ShelfSmall_Steel_Techist_North,.,.,.,.,PowerConduit,Wall_Steel</li>
-				<li>Wall_Steel,PowerSwitch,CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
+				<li>Wall_Steel,PowerSwitch,AP_CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,AP_CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,.,.,.,.,.,.,PowerConduit,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,StandingLamp_Techist,.,.,.,StandingLamp_Techist,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,.,.,.,.,.,.,PowerConduit,Wall_Steel</li>
-				<li>Wall_Steel,PowerSwitch,CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
+				<li>Wall_Steel,PowerSwitch,AP_CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,AP_CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,.,.,.,.,.,.,PowerConduit,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,StandingLamp_Techist,.,.,.,StandingLamp_Techist,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,.,.,.,.,.,.,PowerConduit,Wall_Steel</li>
-				<li>Wall_Steel,PowerSwitch,CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
+				<li>Wall_Steel,PowerSwitch,AP_CryptosleepCasket_East,.,VitalsMonitor_West,.,.,.,VitalsMonitor_East,.,AP_CryptosleepCasket_West,PowerSwitch,Wall_Steel</li>
 				<li>Wall_Steel,PowerConduit,.,.,.,ShelfSmall_Steel_Techist_East,.,ShelfSmall_Steel_Techist_West,.,.,.,PowerConduit,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,PowerConduit,PowerConduit,PowerConduit,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel,Wall_Steel</li>
 				<li>Wall_Steel,Wall_Steel,Wall_Steel,.,Wall_Steel,.,CommsConsole_South,ComponentIndustrial,Wall_Steel,Plant_Grass,Wall_Steel,Wall_Steel,Wall_Steel</li>
@@ -1274,4 +1274,72 @@
 			<li>vanillaexpanded.vfepropsanddecor</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_CryptosleepFacility</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>Plant_Grass,.,.,Plant_Bush,Plant_Bush,Plant_Grass,Plant_Grass,.,.,.,Plant_TallGrass,.,.,Plant_TallGrass</li>
+				<li>Plant_Grass,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,Autodoor_Plasteel,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,.,.</li>
+				<li>.,VFEPD_BoxSmall_South,VFEM_Wall_Sterile,.,.,AP_CryptosleepCasket_West,.,.,.,Shelf_Steel_North,.,VFEM_Wall_Sterile,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,AP_CryptosleepCasket_North,.,.,.,.,.,.,.,VFEM_Wall_Sterile,VFEPD_BarrelGrey_North,.</li>
+				<li>.,VFEPD_BoxSmall_South,VFEM_Wall_Sterile,.,.,.,Bed_CryptoBed_West,Bed_CryptoBed_South,Bed_CryptoBed_East,.,.,VFEM_Wall_Sterile,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,AP_CryptosleepCasket_North,.,.,Bed_CryptoBed_West,Facility_IVDrip,Bed_CryptoBed_East,.,.,VFEM_Wall_Sterile,.,.</li>
+				<li>VFEPD_PalletBarrelGrey_North,.,VFEM_Wall_Sterile,.,.,.,Bed_CryptoBed_West,Bed_CryptoBed_North,Bed_CryptoBed_East,.,.,VFEM_Wall_Sterile,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,AP_CryptosleepCasket_North,.,.,.,.,.,.,.,VFEM_Wall_Sterile,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,.,Steel,Shelf_Steel_South,VFEPD_SteelCupboardNarrow_South,VFEPD_BarrelGrey_North,.,Facility_VitalsCentre_South,.,VFEM_Wall_Sterile,.,.</li>
+				<li>.,.,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,VFEM_Wall_Sterile,.,.</li>
+				<li>Plant_Grass,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,.,.,.,.,.,.,.,.,PowerConduit,.,.</li>
+				<li>.,.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<roofGrid>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,1,1,1,1,1,1,1,1,1,1,.,.</li>
+			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+		</roofGrid>
+		<terrainGrid>
+			<li>.,.,.,.,.,.,.,FlagstoneMarble,.,.,.,.,.,.</li>
+			<li>.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.,.</li>
+			<li>.,FlagstoneMarble,.,.,.,.,.,SterileTile,.,.,.,.,FlagstoneMarble,.</li>
+			<li>.,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,FlagstoneMarble</li>
+			<li>.,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,.</li>
+			<li>FlagstoneMarble,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,.</li>
+			<li>FlagstoneMarble,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,.</li>
+			<li>.,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,.</li>
+			<li>.,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,.</li>
+			<li>.,FlagstoneMarble,.,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,SterileTile,.,FlagstoneMarble,FlagstoneMarble</li>
+			<li>.,FlagstoneMarble,.,.,.,.,.,.,.,.,.,.,FlagstoneMarble,.</li>
+			<li>.,.,.,.,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,FlagstoneMarble,.</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>vanillaexpanded.vfemedical</li>
+			<li>vanillaexpanded.vfepropsanddecor</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
+	
+
 </Defs>

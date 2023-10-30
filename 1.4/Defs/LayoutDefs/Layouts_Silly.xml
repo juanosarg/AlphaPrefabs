@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_Eggplant</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetBlack,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetBlack,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetPurpleMuted,CarpetPurpleMuted,CarpetPurpleMuted,CarpetBlack,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,CarpetBlack,CarpetBlack,CarpetPurpleMuted,CarpetIndigoLight,CarpetIndigoLight,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,CarpetBlack,CarpetPurpleSubtle,CarpetBlack,CarpetIndigoLight,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,CarpetBlack,CarpetBlack,CarpetGreenSwamp,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,CarpetBlack,CarpetGreenSwamp,CarpetGreenSwamp,CarpetGreenSwamp,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,CarpetBlack,CarpetGreenSwamp,CarpetGreenSwamp,CarpetGreenSwamp,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,CarpetBlack,CarpetBlack,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,CarpetBlack,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+			<li>Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete</li>
+		</terrainGrid>
+	</KCSG.StructureLayoutDef>
+</Defs>

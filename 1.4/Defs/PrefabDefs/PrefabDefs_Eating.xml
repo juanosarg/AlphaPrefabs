@@ -430,10 +430,10 @@
 	
 		<description>A shallow pool of water covered by roofed walls. Ideal for fishing in peace.</description>
 		<priority>16</priority>
-		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleBar_Preview</detailedImage>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CoveredFishingSpot_Preview</detailedImage>
 		<category>AP_Category_Eating</category>
-		<layout>AP_Prefab_OldStyleBar</layout>
-		<marketvalue>2947</marketvalue>
+		<layout>AP_Prefab_CoveredFishingSpot</layout>
+		<marketvalue>1559</marketvalue>
 		<researchPrerequisites>
 		
 			<li>ComplexFurniture</li>

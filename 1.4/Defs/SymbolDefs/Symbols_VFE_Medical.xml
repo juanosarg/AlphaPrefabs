@@ -35,4 +35,23 @@
 		<thing>Facility_VitalsCentre</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_CryptoBed_South</defName>
+		<thing>Bed_CryptoBed</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_CryptoBed_East</defName>
+		<thing>Bed_CryptoBed</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_CryptoBed_West</defName>
+		<thing>Bed_CryptoBed</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Bed_CryptoBed_North</defName>
+		<thing>Bed_CryptoBed</thing>
+	</KCSG.SymbolDef>
 </Defs>

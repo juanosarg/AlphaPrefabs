@@ -366,6 +366,29 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CryptosleepFacility</defName>
+		<label>cryptosleep facility</label>
+		<shortLabel>cryptosleep facility</shortLabel>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>ComplexFurniture</li>
+			<li>Cryptosleep</li>
+			<li>HospitalBed</li>
+			<li>VitalsMonitor</li>
+			
+		</researchPrerequisites>
+		<description>A cryptosleep facility containing 9 cryptosleep suspenders and four cryptosleep caskets.</description>
+		<priority>106.1</priority>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CryptosleepFacility_Preview</detailedImage>
+		<category>AP_Category_Healthcare</category>
+		<layout>AP_Prefab_CryptosleepFacility</layout>
+		<marketvalue>9625</marketvalue>
+		
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_SmallCrematory</defName>
 		<label>small crematory</label>
 		<shortLabel>small crematory</shortLabel>
@@ -409,4 +432,5 @@
 		<marketvalue>2235</marketvalue>
 		
 	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

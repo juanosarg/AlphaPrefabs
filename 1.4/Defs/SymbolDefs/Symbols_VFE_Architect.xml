@@ -76,5 +76,14 @@
 		<thing>VFEArch_ArmoredWall</thing>
 		<stuff>Steel</stuff>
 	</KCSG.SymbolDef>
-
+	<KCSG.SymbolDef>
+		<defName>VFEArch_ArmoredWall_Uranium</defName>
+		<thing>VFEArch_ArmoredWall</thing>
+		<stuff>Uranium</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_ArmoredDoor_Uranium</defName>
+		<thing>VFEArch_ArmoredDoor</thing>
+		<stuff>Uranium</stuff>
+	</KCSG.SymbolDef>
 </Defs>

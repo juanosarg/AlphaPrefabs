@@ -269,4 +269,12 @@
 		<defName>Facility_ResearchCounter</defName>
 		<thing>Facility_ResearchCounter</thing>
 	</KCSG.SymbolDef>
+
+
+<KCSG.SymbolDef>
+  <defName>Misc_FileCabinet_Steel_South</defName>
+  <thing>Misc_FileCabinet</thing>
+  <stuff>Steel</stuff>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
 </Defs>

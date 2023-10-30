@@ -201,56 +201,46 @@
 		<defName>AP_MorbidFakeSculptureGrandC_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureGrandC</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureSmallB_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureSmallB</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureSmallA_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureSmallA</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureSmallC_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureSmallC</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_ChristianFakeSculptureLargeB_BlocksSlate</defName>
 		<thing>AP_ChristianFakeSculptureLargeB</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureLargeB_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureLargeB</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureLargeA_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureLargeA</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
-	
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureGrandA_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureGrandA</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>AP_MorbidFakeSculptureLargeC_BlocksSlate</defName>
 		<thing>AP_MorbidFakeSculptureLargeC</thing>
 		<stuff>BlocksSlate</stuff>
-		
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
 		<defName>Column_BlocksMarble_Black_Morbid</defName>
@@ -1311,6 +1301,54 @@
 		<defName>AP_FakeSculptureSmallB_BlocksSlate</defName>
 		<thing>AP_FakeSculptureSmallB</thing>
 		<stuff>BlocksSlate</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Ideogram_Totemic_West</defName>
+		<thing>Ideogram</thing>
+		<styleCategory>Totemic</styleCategory>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_HedonismFakeSculptureSmallA_Silver</defName>
+		<thing>AP_HedonismFakeSculptureSmallA</thing>
+		<stuff>Silver</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_HedonismFakeSculptureGrandB_Silver</defName>
+		<thing>AP_HedonismFakeSculptureGrandB</thing>
+		<stuff>Silver</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_HedonismFakeSculptureLargeC_Silver</defName>
+		<thing>AP_HedonismFakeSculptureLargeC</thing>
+		<stuff>Silver</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_HedonismFakeSculptureGrandC_Silver</defName>
+		<thing>AP_HedonismFakeSculptureGrandC</thing>
+		<stuff>Silver</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_HedonismFakeSculptureSmallC_Silver</defName>
+		<thing>AP_HedonismFakeSculptureSmallC</thing>
+		<stuff>Silver</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>TorchLamp_Morbid</defName>
+		<thing>TorchLamp</thing>
+		<styleCategory>Morbid</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Column_Steel_Morbid</defName>
+		<thing>Column</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Morbid</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Altar_Grand_Steel_Morbid_North</defName>
+		<thing>Altar_Grand</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>Morbid</styleCategory>
 	</KCSG.SymbolDef>
 </Defs>
 

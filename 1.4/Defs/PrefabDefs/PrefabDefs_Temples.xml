@@ -84,6 +84,79 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ScavengerChurch</defName>
+		<label>scavenger church</label>
+		<shortLabel>scavenger church</shortLabel>
+		<description>A small sized temple in the Scavenger style.</description>
+		<priority>4.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ScavengerChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_ScavengerChurch</layout>
+		<marketvalue>2416</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HedonistChurch</defName>
+		<label>hedonist church</label>
+		<shortLabel>hedonist church</shortLabel>
+		<description>A medium sized temple in the Hedonist style.</description>
+		<priority>4.6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HedonistChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_HedonistChurch</layout>
+		<marketvalue>6925</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>vanillaexpanded.vmemese</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MorbidChurch</defName>
+		<label>morbid church</label>
+		<shortLabel>morbid church</shortLabel>
+		<description>A large sized temple in the Morbid style.</description>
+		<priority>4.7</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MorbidChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_MorbidChurch</layout>
+		<marketvalue>8374</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Stonecutting</li>			
+			<li>ComplexFurniture</li>		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Temple_Generic_1</defName>
 		<label>generic temple</label>
 		<labelForDefaultVariation>Horizontal</labelForDefaultVariation>

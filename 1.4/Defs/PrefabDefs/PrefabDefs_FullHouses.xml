@@ -262,5 +262,39 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CompactHiTechBase</defName>
+		<label>compact hi-tech base</label>
+		<shortLabel>hi-tech base</shortLabel>
+		<description>A compact structure containing a research lab, hospital and kitchen.</description>
+		<priority>201</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CompactHiTechBase_Preview</detailedImage>
+		<category>AP_Category_FullHouse</category>
+		<layout>AP_Prefab_CompactHiTechBase</layout>
+		<marketvalue>17808</marketvalue>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>VitalsMonitor</li>
+			<li>Cryptosleep</li>
+			<li>FlatscreenTelevision</li>
+			<li>HospitalBed</li>
+			<li>MultiAnalyzer</li>
+			<li>MicroelectronicsBasics</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfemedical</li>
+			<li>vanillaexpanded.vfeproduction</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+   
 	
 </Defs>

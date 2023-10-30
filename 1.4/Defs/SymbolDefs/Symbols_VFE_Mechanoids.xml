@@ -146,4 +146,28 @@
 		<thing>VFE_IndoctrinationPod</thing>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_TurretBase</defName>
+		<thing>VFE_Mechanoids_TurretBase</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_RiotBase</defName>
+		<thing>VFE_Mechanoids_RiotBase</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_PyroBase</defName>
+		<thing>VFE_Mechanoids_PyroBase</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_CombatBase</defName>
+		<thing>VFE_Mechanoids_CombatBase</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_RaiderBase</defName>
+		<thing>VFE_Mechanoids_RaiderBase</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Mechanoids_AutoMedicBase</defName>
+		<thing>VFE_Mechanoids_AutoMedicBase</thing>
+	</KCSG.SymbolDef>
 </Defs>

@@ -16,8 +16,8 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_FullHouse</defName>
-		<label>full houses</label>
-		<description>Complete houses with a bedroom, a living room / dining room and optionally other accessory rooms, such as a kitchen</description>
+		<label>full bases</label>
+		<description>Complete bases that include several different structures under the same roof, such as a bedroom / living room / dining room or a combination hospital / research lab / prison</description>
 		<priority>2.5</priority>
 		<icon>UI/Categories/AP_Category_FullHouse</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
@@ -44,7 +44,7 @@
 	</AlphaPrefabs.PrefabCategoryDef>
 	<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_NatureAndCrops</defName>
-		<label>nature</label>
+		<label>farm &amp; nature</label>
 		<description>Farms, parks, hydroponics facilities. Anything related to either crops or nature</description>
 		<priority>5</priority>
 		<icon>UI/Categories/AP_Category_NatureAndCrops</icon>
@@ -110,5 +110,13 @@
 		<description>Modular castle pieces to make your own sprawling medieval castle, as well as throne rooms, art galleries, etc</description>
 		<priority>11</priority>
 		<icon>UI/Categories/AP_Category_CastlePieces</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Silly</defName>
+		<label>silly</label>
+		<description>Now this is just silly</description>
+		<priority>100</priority>
+		<icon>UI/Categories/AP_Category_Silly</icon>
+		<silly>true</silly>
 	</AlphaPrefabs.PrefabCategoryDef>
 </Defs>

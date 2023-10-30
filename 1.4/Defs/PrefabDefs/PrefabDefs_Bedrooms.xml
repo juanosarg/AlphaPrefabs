@@ -675,4 +675,81 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VidTuberHouse</defName>
+		<label>vidTuber house</label>
+		<shortLabel>vidTuber house</shortLabel>
+		<description>A small content creator house with a streaming console.</description>
+		<priority>6004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VidTuberHouse_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VidTuberHouse</layout>
+		<marketvalue>2395</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			
+			<li>MicroelectronicsBasics</li>
+		
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>noobertnebulous.vidtuber</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VidTuberFarm</defName>
+		<label>vidTuber farm</label>
+		<shortLabel>vidTuber farm</shortLabel>
+		<description>A huge content creator complex with eight streaming consoles with attached bedrooms and a rec room. With vanilla Nutrient Paste Expanded you can enhance the rec room to use piping.</description>
+		<priority>6005</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VidTuberFarm_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VidTuberFarm</layout>
+		<marketvalue>17239</marketvalue>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>FlatscreenTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>Stonecutting</li>
+			<li>MicroelectronicsBasics</li>
+			<li>AirConditioning</li>
+			<li>NutrientPaste</li>
+			
+	
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_VidTuberFarm_Variation</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>noobertnebulous.vidtuber</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
 </Defs>

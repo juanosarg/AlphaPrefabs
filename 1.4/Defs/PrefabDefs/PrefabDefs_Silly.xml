@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eggplant</defName>
+		<label>eggplant</label>
+		<shortLabel>eggplant</shortLabel>
+		<description>If your penis looks like this, go see a doctor, please</description>
+		<priority>1</priority>
+		<category>AP_Category_Silly</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eggplant_Preview</detailedImage>
+		<layout>AP_Prefab_Eggplant</layout>
+		<marketvalue>570</marketvalue>
+		<author>Reel</author>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+</Defs>

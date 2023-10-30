@@ -27,6 +27,7 @@ namespace AlphaPrefabs
 
             prefab = (from x in DefDatabase<PrefabDef>.AllDefsListForReading
                       where CheckModsAndResearch(x) && x.marketvalue > MarketvalueCutOff(this.def).Item1 && x.marketvalue <= MarketvalueCutOff(this.def).Item2
+                      && (x.category?.silly == false || (x.category?.silly == true && !AlphaPrefabs_Settings.hideSillyCategory))
                       select x).ToList().RandomElement();
 
             if(prefab == null ) {

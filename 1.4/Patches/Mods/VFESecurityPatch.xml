@@ -18,6 +18,19 @@
 						<li>VWE_TrenchWarfare</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MedievalDefensiveLine"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFES_SiegeEquipment</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ChargeComplex"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFES_RepulsorTechnology</li>
+						<li>VFES_PulseChargedDefenses</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

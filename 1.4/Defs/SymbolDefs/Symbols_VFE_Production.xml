@@ -75,8 +75,13 @@
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
-  <defName>VFE_KitchenSinkCabinet_West</defName>
-  <thing>VFE_KitchenSinkCabinet</thing>
-  <rotation>West</rotation>
-</KCSG.SymbolDef>
+		<defName>VFE_KitchenSinkCabinet_West</defName>
+		<thing>VFE_KitchenSinkCabinet</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_TableStoveLarge_East</defName>
+		<thing>VFE_TableStoveLarge</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

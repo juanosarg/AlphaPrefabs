@@ -719,13 +719,155 @@
 		<author>Woofwoofwoofwoofwoofwoofwoof</author>
 		<marketvalue>13467</marketvalue>
 		<researchPrerequisites>
-			<li>HeavyTurrets</li>		
+			<li>HeavyTurrets</li>
 			<li>GunTurrets</li>
-
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfesecurity</li>
 			<li>oskarpotocki.vfe.deserters</li>
 		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MedievalDefensiveLine</defName>
+		<label>medieval defensive line</label>
+		<shortLabel>medieval def. line</shortLabel>
+		<description>A medieval defense line with ballistae and catapults, defended by cavalry spikes.</description>
+		<priority>461</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MedievalDefensiveLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_MedievalDefensiveLine</layout>
+		<author>Kolopo</author>
+		<marketvalue>2172</marketvalue>
+		<researchPrerequisites>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ChargeComplex</defName>
+		<label>charge complex</label>
+		<shortLabel>charge complex</shortLabel>
+		<description>A high tech emplacement containing charge turrets and double auto-cannons, protected by an energy shield.</description>
+		<priority>500</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ChargeComplex_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_ChargeComplex</layout>
+		<author>Kolopo</author>
+		<marketvalue>12042</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>GunTurrets</li>
+			<li>HeavyTurrets</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheapPillbox</defName>
+		<label>cheap pillbox</label>
+		<shortLabel>cheap pillbox</shortLabel>
+		<description>A simple, cheap pillbox containing an auto-cannon and a mini-turret.</description>
+		<priority>501</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheapPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CheapPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>1664</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheapSniperPillbox</defName>
+		<label>cheap sniper pillbox</label>
+		<shortLabel>sniper pillbox</shortLabel>
+		<description>A simple, cheap pillbox containing an uranium slug turret and a mini-turret.</description>
+		<priority>502</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheapSniperPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CheapSniperPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>1839</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_East</layoutVariation>
+			</li>
+		</variations>
 	</AlphaPrefabs.PrefabDef>
 </Defs>

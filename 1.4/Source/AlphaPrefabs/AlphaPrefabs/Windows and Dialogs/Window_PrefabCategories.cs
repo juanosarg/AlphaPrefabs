@@ -59,10 +59,11 @@ namespace AlphaPrefabs
 
             List<PrefabCategoryDef> prefabCategories = (from x in DefDatabase<PrefabCategoryDef>.AllDefsListForReading where 
                                                         (x.modPrerequisites.NullOrEmpty() || (x.modPrerequisites != null && Utils.ContainsAllItems(Utils.allActiveModIds, x.modPrerequisites)))
+                                                        && (!x.silly || (x.silly && !AlphaPrefabs_Settings.hideSillyCategory))
                                                         select x).OrderBy(x => x.priority).ToList();
 
            
-            var viewRect = new Rect(0f, 0f, outRect.width - 16f, 180*(float)prefabCategories.Count/4);
+            var viewRect = new Rect(0f, 0f, outRect.width - 16f, 150*(prefabCategories.Count/ columnCount+1) +25);
             Widgets.BeginScrollView(outRect, ref scrollPosition, viewRect);
             try
             {

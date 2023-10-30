@@ -14,5 +14,6 @@ namespace AlphaPrefabs
         public string icon;
         public float priority;
         public List<string> modPrerequisites;
+        public bool silly= false;
     }
 }

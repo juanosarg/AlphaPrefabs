@@ -236,5 +236,23 @@
 		<thing>VFEPD_WoodenPlankDivider</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BoxSmall_South</defName>
+		<thing>VFEPD_BoxSmall</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BarrelGrey_North</defName>
+		<thing>VFEPD_BarrelGrey</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_PalletBarrelGrey_North</defName>
+		<thing>VFEPD_PalletBarrelGrey</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_SteelCupboardNarrow_South</defName>
+		<thing>VFEPD_SteelCupboardNarrow</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

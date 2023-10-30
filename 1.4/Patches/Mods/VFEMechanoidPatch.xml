@@ -151,7 +151,15 @@
 						<li>VFE_MechanoidStructures</li>
 					</value>
 				</li>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SimpleMechDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_AutomatedDefensiveMeasures</li>
+						<li>VFE_AdvancedDroneAssembly</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

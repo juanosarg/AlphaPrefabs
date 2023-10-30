@@ -277,5 +277,34 @@
 		<thing>TorchLamp</thing>
 		<styleCategory>AM_Neolithic</styleCategory>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Wall_Steel_Scavenger</defName>
+		<thing>Wall</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>AM_Scavenger</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>StandingLamp_Scavenger</defName>
+		<thing>StandingLamp</thing>
+		<styleCategory>AM_Scavenger</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Cooler_Scavenger_South</defName>
+		<thing>Cooler</thing>
+		<styleCategory>AM_Scavenger</styleCategory>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Column_Steel_Scavenger</defName>
+		<thing>Column</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>AM_Scavenger</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Column_Steel_Hedonist</defName>
+		<thing>Column</thing>
+		<stuff>Steel</stuff>
+		<styleCategory>VME_Hedonist</styleCategory>
+	</KCSG.SymbolDef>
 </Defs>
 
