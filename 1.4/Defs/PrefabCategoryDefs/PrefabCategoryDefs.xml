@@ -111,12 +111,12 @@
 		<priority>11</priority>
 		<icon>UI/Categories/AP_Category_CastlePieces</icon>
 	</AlphaPrefabs.PrefabCategoryDef>
-	<AlphaPrefabs.PrefabCategoryDef>
+	<!--<AlphaPrefabs.PrefabCategoryDef>
 		<defName>AP_Category_Silly</defName>
 		<label>silly</label>
 		<description>Now this is just silly</description>
 		<priority>100</priority>
 		<icon>UI/Categories/AP_Category_Silly</icon>
 		<silly>true</silly>
-	</AlphaPrefabs.PrefabCategoryDef>
+	</AlphaPrefabs.PrefabCategoryDef>-->
 </Defs>

@@ -10,12 +10,12 @@
         "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.4\\Source\\AlphaPrefabs\\AlphaPrefabs\\AlphaPrefabs.csproj",
         "projectName": "AlphaPrefabs",
         "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.4\\Source\\AlphaPrefabs\\AlphaPrefabs\\AlphaPrefabs.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Sarg\\.nuget\\packages\\",
         "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.4\\Source\\AlphaPrefabs\\AlphaPrefabs\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sarg\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,9 +44,6 @@
       },
       "runtimes": {
         "win": {
-          "#import": []
-        },
-        "win-arm64": {
           "#import": []
         },
         "win-x64": {

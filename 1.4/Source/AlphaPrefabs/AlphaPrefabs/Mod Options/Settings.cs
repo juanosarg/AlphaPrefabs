@@ -49,8 +49,8 @@ namespace AlphaPrefabs
             ls.Gap(12f);
             ls.CheckboxLabeled("AP_NoModLockingMode".Translate(), ref noModLockingMode, "AP_NoModLockingModeDescription".Translate());
             ls.Gap(12f);
-            ls.CheckboxLabeled("AP_HideSilly".Translate(), ref hideSillyCategory, "AP_HideSillyDescription".Translate());
-            ls.Gap(12f);
+            /*ls.CheckboxLabeled("AP_HideSilly".Translate(), ref hideSillyCategory, "AP_HideSillyDescription".Translate());
+            ls.Gap(12f);*/
 
 
             ls.End();

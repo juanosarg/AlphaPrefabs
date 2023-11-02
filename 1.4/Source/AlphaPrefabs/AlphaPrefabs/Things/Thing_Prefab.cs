@@ -46,14 +46,14 @@ namespace AlphaPrefabs
             }
             if (thingdef == InternalDefOf.AP_Prefab)
             {
-                return new Tuple<int, int>(900, 1500);
+                return new Tuple<int, int>(900, 2000);
             }
             if (thingdef == InternalDefOf.AP_Prefab_MediumHighValue)
             {
-                return new Tuple<int, int>(1500, 3000);
+                return new Tuple<int, int>(2000, 5000);
             }
 
-            return  new Tuple<int, int>(3000, int.MaxValue); 
+            return  new Tuple<int, int>(5000, int.MaxValue); 
 
         }
 

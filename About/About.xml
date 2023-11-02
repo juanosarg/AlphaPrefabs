@@ -2,7 +2,7 @@
 
 <ModMetaData>
 	<name>Alpha Prefabs</name>
-	<author>Sarg Bjornson, Reel</author>
+	<author>Sarg Bjornson</author>
 	<url/>
 	<supportedVersions>
 
@@ -26,10 +26,11 @@
 	</modDependencies>
 	
 	<packageId>Sarg.AlphaPrefabs</packageId>
-	<description>Adds Stuff
+	<description>Adds more than 200 Prefab structures that can be bough by the player to create awesome looking colonies.
 
 &lt;size=24&gt;Credits&lt;/size&gt;
 
+Thanks to Reel, Stelfer, Eragon, OpGamer97, Heretic, Kolopo, Kad, Woofwoofwoofwoofwoofwoofwoof and Robosium for providing structures for the mod. I quite literally couldn't have done it all on my own.
 
 &lt;size=24&gt;Issues&lt;/size&gt;
 
@@ -41,7 +42,6 @@ Oh you can bet I will add new things!
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-
-v1.0: Release. (00/00/00)
+v1.0: Release. (03/11/23)
 Full changelog on GitHub</description>
 </ModMetaData>
