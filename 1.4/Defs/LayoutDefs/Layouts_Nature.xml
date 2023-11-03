@@ -423,7 +423,7 @@
 				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,.,.,Seat_Bench_WoodLog,Seat_Bench_WoodLog,.,.,.,.,.,.,.,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
 				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,Light_Streetlamp,.,Table1x2c_WoodLog_East,.,.,.,.,.,.,.,Light_Streetlamp,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
 				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,.,.,Seat_Bench_WoodLog,Seat_Bench_WoodLog,.,.,.,.,.,.,.,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
-				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,.,.,.,.,.,.,.,Stool_WoodLog_East,ChessTable_Steel,Stool_WoodLog_East,.,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
+				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,.,.,.,.,.,.,.,Stool_WoodLog_Morbid_East,ChessTable_Steel,Stool_WoodLog_Morbid_East,.,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
 				<li>VFEArch_HedgeWall,.,.,VFEArch_HedgeWall,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_HedgeWall,.,.,VFEArch_HedgeWall</li>
 				<li>VFEArch_HedgeWall,.,.,PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit,.,.,VFEArch_HedgeWall</li>
 				<li>VFEArch_HedgeWall,.,.,PowerConduit,.,.,.,.,.,.,SteleGrand_BlocksMarble,.,.,.,.,.,.,PowerConduit,.,.,VFEArch_HedgeWall</li>
@@ -463,27 +463,27 @@
 			</li>
 		</layouts>
 		<terrainGrid>
-			<li>PavedTile,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile</li>
-			<li>VFEArch_PlayerPackedDirt,.,VFEArch_PlayerPackedDirt,.,.,.,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt</li>
-			<li>.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.</li>
-			<li>.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.</li>
-			<li>.,.,.,.,.,PavedTile,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,PavedTile,.,.,.,.,.</li>
-			<li>.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,VFEArch_PlayerPackedDirt,.,.</li>
-			<li>.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.</li>
-			<li>.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,VFEArch_PlayerPackedDirt,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,PavedTile,PavedTile,PavedTile,.,.,VFEArch_PlayerPackedDirt,.,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,PavedTile,PavedTile,PavedTile,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.</li>
-			<li>.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,.</li>
-			<li>.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,PavedTile,.,.,.,.,.,.,.,.,.,PavedTile,.,.,.,VFEArch_PlayerPackedDirt,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.</li>
-			<li>.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.</li>
-			<li>.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,VFEArch_PlayerPackedDirt,.</li>
-			<li>PavedTile,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,PavedTile</li>
+			<li>PavedTile,VFEArch_Grass,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,VFEArch_Grass,PavedTile</li>
+			<li>VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt</li>
+			<li>VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,PavedTile,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,PavedTile,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil</li>
+			<li>Soil,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,PavedTile,PavedTile,PavedTile,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_Grass,PavedTile,PavedTile,PavedTile,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,PavedTile,PavedTile,PavedTile,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,PavedTile,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,PavedTile,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_PlayerPackedDirt,Soil,Soil</li>
+			<li>VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil</li>
+			<li>VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil</li>
+			<li>PavedTile,VFEArch_Grass,VFEArch_PlayerPackedDirt,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,PavedTile</li>
 		</terrainGrid>
 		<modRequirements>
 			<li>vanillaexpanded.vfecore</li>
@@ -514,22 +514,22 @@
 			</li>
 		</layouts>
 		<terrainGrid>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.,.,.,VFEArch_PlayerPackedDirt,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-			<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+			<li>Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_PlayerPackedDirt,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
 		</terrainGrid>
 		<modRequirements>
 			<li>vanillaexpanded.vfearchitect</li>
@@ -568,57 +568,84 @@
 				<li>.,.,.,.,.,.,.,.,.,.,Column_WoodLog_Cream,VFEArch_HedgeWall,.,VFEArch_HedgeWall,Column_WoodLog_Cream,.,.,.,.,.,.,.,.,.,.</li>
 			</li>
 		</layouts>
+		<terrainGrid>
+			<li>Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,VFEArch_Grass,Soil</li>
+			<li>Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,VFEArch_Grass,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil,Soil</li>
+		</terrainGrid>
 		<modRequirements>
 			<li>vanillaexpanded.vfearchitect</li>
 			<li>vanillaexpanded.vfepropsanddecor</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
 	<KCSG.StructureLayoutDef>
-  <defName>AP_Prefab_SmallEcosystemBay</defName>
-  <spawnConduits>false</spawnConduits>
-  <layouts>
-    <li>
-      <li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
-      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
-      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
-      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
-      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
-      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Sprinkler,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
-      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
-      <li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,Plant_Rice</li>
-      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
-      <li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
-      <li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
-    </li>
-    <li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,VFE_Ecosystem_Tilable_North</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-      <li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
-    </li>
-  </layouts>
-  <terrainGrid>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-    <li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
-  </terrainGrid>
-  <modRequirements>
-    <li>vanillaexpanded.vfefarming</li>
-  </modRequirements>
-</KCSG.StructureLayoutDef>
+		<defName>AP_Prefab_SmallEcosystemBay</defName>
+		<spawnConduits>false</spawnConduits>
+		<layouts>
+			<li>
+				<li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
+				<li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+				<li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+				<li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+				<li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+				<li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Sprinkler,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+				<li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North</li>
+				<li>VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,Plant_Rice</li>
+				<li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+				<li>.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.</li>
+				<li>.,.,.,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,VFE_Ecosystem_Tilable_North,.,.,.</li>
+			</li>
+			<li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,VFE_Ecosystem_Tilable_North</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+				<li>.,.,.,.,.,PowerConduit,.,.,.,.,.</li>
+			</li>
+		</layouts>
+		<terrainGrid>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+			<li>MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile,MetalTile</li>
+		</terrainGrid>
+		<modRequirements>
+			<li>vanillaexpanded.vfefarming</li>
+		</modRequirements>
+	</KCSG.StructureLayoutDef>
 </Defs>
