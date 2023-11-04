@@ -37,7 +37,7 @@
 	<AP_UndeployPrefab>Undeploy prefab</AP_UndeployPrefab>
 	<AP_UndeployPrefabDesc>Cancels prefab deployment, transforming the prefab builder into an item that can be again moved.</AP_UndeployPrefabDesc>
 	<AP_OpenPrefabCatalog>Open prefab catalog</AP_OpenPrefabCatalog>
-	<AP_OpenPrefabCatalog>Open a catalog to browse all available prefabs. To buy prefabs you'll need a trading beacon with silver on its effect radius.</AP_OpenPrefabCatalog>
+	<AP_OpenPrefabCatalogDesc>Open a catalog to browse all available prefabs. To buy prefabs you'll need a trading beacon with silver on its effect radius.</AP_OpenPrefabCatalogDesc>
 	<!-- Mod Options -->
 	<AP_DevMode>Dev mode (requires game restart)</AP_DevMode>
 	<AP_DevModeDescription>Dev mode will allow you to build certain structures that are useful to create your own prefabs. As a player this won't do much for you. Requires a game restart.</AP_DevModeDescription>
