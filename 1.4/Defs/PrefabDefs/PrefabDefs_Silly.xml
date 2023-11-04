@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<AlphaPrefabs.PrefabDef>
+	<!--<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_Eggplant</defName>
 		<label>eggplant</label>
 		<shortLabel>eggplant</shortLabel>
@@ -12,6 +12,6 @@
 		<marketvalue>570</marketvalue>
 		<author>Reel</author>
 		
-	</AlphaPrefabs.PrefabDef>
+	</AlphaPrefabs.PrefabDef>-->
 	
 </Defs>
