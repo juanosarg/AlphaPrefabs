@@ -296,7 +296,15 @@ namespace AlphaPrefabs
 
             }
             // Checking money
-            if (!AlphaPrefabs_Settings.noSilverMode && AmountSendableSilver(building.Map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
+
+            Map map;
+            if (building != null)
+            {
+                map = building.Map;
+
+            }else map = Find.CurrentMap;
+
+            if (!AlphaPrefabs_Settings.noSilverMode && AmountSendableSilver(map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
             {              
                     reason = "AP_NotEnoughMoney".Translate((int)(prefab.marketvalue * Constants.SellPriceModifier));
                     return false;              
