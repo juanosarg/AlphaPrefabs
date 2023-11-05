@@ -4,7 +4,7 @@
 		<defName>AP_PrefabCatalogBuilding</defName>
 		<label>prefab catalog</label>
 		<thingClass>AlphaPrefabs.Building_Catalog</thingClass>
-		<description>todo.</description>
+		<description>Access a catalog of prefabricated structures that you can buy for silver.</description>
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<texPath>Things/Building/AP_PrefabCatalog</texPath>

@@ -15,8 +15,9 @@ namespace AlphaPrefabs
 
         public Designator_Prefabs()
         {
-            defaultLabel = "Prefab Catalog";
-            defaultDesc = "Open prefab catalog";
+           
+            defaultLabel = "AP_OpenPrefabCatalog".Translate();
+            defaultDesc = "AP_OpenPrefabCatalogDesc".Translate();
             icon = ContentFinder<Texture2D>.Get("UI/AP_OpenPrefabCatalog", true);
             soundDragSustain = SoundDefOf.Designate_DragStandard;
             soundDragChanged = SoundDefOf.Designate_DragStandard_Changed;
