@@ -134,11 +134,11 @@ namespace AlphaPrefabs
                     {
                         return GraphicsCache.graphicLowValue;
                     }
-                    else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 1500)
+                    else if (prefab?.marketvalue >= 900 && prefab?.marketvalue < 2000)
                     {
                         return GraphicsCache.graphicMediumValue;
                     }
-                    else if (prefab?.marketvalue >= 1500 && prefab?.marketvalue < 3000)
+                    else if (prefab?.marketvalue >= 2000 && prefab?.marketvalue < 5000)
                     {
                         return GraphicsCache.graphicMediumHighValue;
                     }
