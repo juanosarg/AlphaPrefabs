@@ -33,8 +33,8 @@ namespace AlphaPrefabs
             if(prefab == null ) {
                 prefab = InternalDefOf.AP_Prefab_Bedroom_1;
             }
-
-            newLabel = def.label + ": " + prefab.LabelCap;
+            newLabel = def.label + ": " + prefab.LabelCap; 
+            
          
         }
 
@@ -52,7 +52,7 @@ namespace AlphaPrefabs
             {
                 return new Tuple<int, int>(2000, 5000);
             }
-
+            
             return  new Tuple<int, int>(5000, int.MaxValue); 
 
         }
@@ -90,7 +90,7 @@ namespace AlphaPrefabs
             {
                 if (cachedLabel.NullOrEmpty())
                 {
-                    cachedLabel = def.label +": "+ newLabel;
+                    cachedLabel = newLabel;
                 }
                 return cachedLabel;
             }
@@ -163,7 +163,7 @@ namespace AlphaPrefabs
         {
             StringBuilder sb = new StringBuilder(base.GetInspectString());
             sb.AppendLine("AP_NeedsDeployment".Translate());
-            sb.AppendLine("AP_WillTurnInto".Translate(newLabel));
+            sb.AppendLine("AP_WillTurnInto".Translate(prefab.LabelCap));
             if (variationString != "")
             {
                 sb.AppendLine("AP_VariantLayout".Translate(variationString));
