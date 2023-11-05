@@ -234,7 +234,7 @@
 				<li>Fence_WoodLog,Plant_Grass,Wall_WoodLog,Shelf_WoodLog_East,.,.,Joy_DartsBoard_WoodLog_South,StandingLamp,.,VBE_Bar_WoodLog_South,.,.,Table1x2c_WoodLog_West,.,.,.,Shelf_WoodLog_West,Wall_WoodLog</li>
 				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,.,Stool_WoodLog_North,.,.,.,.,.,.,.,Wall_WoodLog</li>
 				<li>Wall_WoodLog,.,VFEPD_KitchenSink_North,.,.,.,.,Wall_WoodLog,.,Shelf_WoodLog_South,.,.,PlantPot_Steel_Techist,AP_FakeSculptureSmallB_WoodLog,Table1x2c_WoodLog_South,.,PlantPot_Steel_Techist,Wall_WoodLog</li>
-				<li>Wall_WoodLog,.,.,.,.,Stool_WoodLog_West,TableButcher_Steel_East,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,StandingLamp,Wall_WoodLog</li>
+				<li>Wall_WoodLog,.,.,.,.,Stool_WoodLog_West,VFEPD_KitchenSurface_East,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Door_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,StandingLamp,Wall_WoodLog</li>
 				<li>Wall_WoodLog,.,Stool_WoodLog_North,.,.,.,.,Wall_WoodLog,VBE_GinStill_West,.,ShelfSmall_WoodLog_North,.,.,.,VBE_GinStill_East,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog</li>
 				<li>Wall_WoodLog,.,FueledStove_North,.,VFEPD_Oven_South,VFEPD_Microwave_South,VFEPD_MopBucket,Wall_WoodLog,.,.,.,.,.,.,.,Wall_WoodLog,.,.</li>
 				<li>Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,Wall_WoodLog,VBE_WhiskeyCask_North,.,.,.,.,VBE_WhiskeyCask_North,.,Wall_WoodLog,.,.</li>
@@ -251,7 +251,7 @@
 				<li>.,.,PowerConduit,VBE_Vodka,.,.,.,.,.,.,.,.,.,.,.,.,Beer,PowerConduit</li>
 				<li>.,.,PowerConduit,VBE_Gin,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
 				<li>PowerConduit,PowerConduit,PowerConduit,.,.,.,.,PowerConduit,.,.,.,.,.,.,.,.,Beer,PowerConduit</li>
-				<li>PowerConduit,.,.,.,.,.,VFEPD_CuttingBoard_East,PowerConduit,VBE_Tequila,VBE_Whiskey,.,.,.,.,.,.,.,PowerConduit</li>
+				<li>PowerConduit,.,.,.,.,.,.,PowerConduit,VBE_Tequila,VBE_Whiskey,.,.,.,.,.,.,.,PowerConduit</li>
 				<li>PowerConduit,.,.,.,.,.,.,PowerConduit,.,.,.,.,.,.,.,.,.,PowerConduit</li>
 				<li>PowerConduit,.,.,.,.,.,.,PowerConduit,.,.,.,.,.,.,.,PowerConduit,PowerConduit,PowerConduit</li>
 				<li>PowerConduit,.,.,.,.,.,.,PowerConduit,.,.,.,.,.,.,.,PowerConduit,.,.</li>
