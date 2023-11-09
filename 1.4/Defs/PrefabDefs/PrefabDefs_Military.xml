@@ -728,6 +728,31 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_KontarionPillbox</defName>
+		<label>kontarion pillbox</label>
+		<shortLabel>kontarion pillbox</shortLabel>
+		<description>A pillbox with a huge kontarion turret defended by two double auto-cannon turrets and two sniper turrets.</description>
+		<priority>460.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_KontarionPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_KontarionPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>17142</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+			<li>oskarpotocki.vfe.deserters</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_MedievalDefensiveLine</defName>
 		<label>medieval defensive line</label>
 		<shortLabel>medieval def. line</shortLabel>
@@ -870,4 +895,382 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BallistaLine</defName>
+		<label>ballista line</label>
+		<shortLabel>ballista line</shortLabel>
+		<description>A simple siege line of three ballistae with plenty of wood to rearm them.</description>
+		<priority>503</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BallistaLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_BallistaLine</layout>
+		<author>Heretic</author>
+		<marketvalue>982</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_BallistaLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_BallistaLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_BallistaLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CatapultLine</defName>
+		<label>catapult line</label>
+		<shortLabel>catapult line</shortLabel>
+		<description>A simple siege line of two catapults with plenty of stones to rearm them.</description>
+		<priority>504</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CatapultLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CatapultLine</layout>
+		<author>Heretic</author>
+		<marketvalue>1190</marketvalue>
+		<researchPrerequisites>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_CatapultLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CatapultLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CatapultLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MortarSiegeEmplacement</defName>
+		<label>mortar siege emplacement</label>
+		<shortLabel>mortar siege</shortLabel>
+		<description>A simple siege emplacement similar to the ones employed by raiders on their sieges.</description>
+		<priority>505</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MortarSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_MortarSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>3681</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FieldGunSiegeEmplacement</defName>
+		<label>field gun siege emplacement</label>
+		<shortLabel>field gun siege</shortLabel>
+		<description>A simple siege line of three field guns with plenty of shells to rearm them.</description>
+		<priority>506</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FieldGunSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FieldGunSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>1920</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CannonSiegeEmplacement</defName>
+		<label>cannon siege emplacement</label>
+		<shortLabel>cannon siege</shortLabel>
+		<description>A simple siege line of three cannons with plenty of steel to rearm them.</description>
+		<priority>507</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CannonSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CannonSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>1182</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestSmall</defName>
+		<label>siege nest, small</label>
+		<shortLabel>siege nest, small</shortLabel>
+		<description>A small siege nest with an SMG complex, two mini-turrets, a mortar and plenty of shells and food to last a while.</description>
+		<priority>510</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestSmall_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestSmall</layout>
+		<author>Kolopo</author>
+		<marketvalue>2731</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestMedium</defName>
+		<label>siege nest, medium</label>
+		<shortLabel>siege nest, medium</shortLabel>
+		<description>A medium siege nest with an SMG complex, three mini-turrets, a sniper turret, an auto-cannon, two mortars and plenty of shells and food to last a while.</description>
+		<priority>511</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestMedium_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestMedium</layout>
+		<author>Kolopo</author>
+		<marketvalue>7937</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestBig</defName>
+		<label>siege nest, big</label>
+		<shortLabel>siege nest, big</shortLabel>
+		<description>A large siege nest with SMG complexes, mini-turrets, sniper turrets, auto-cannons, mortars, artillery and plenty of shells and food to last a while.</description>
+		<priority>512</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestBig_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestBig</layout>
+		<author>Kolopo</author>
+		<marketvalue>18752</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AutomortarDepot</defName>
+		<label>small auto-mortar depot</label>
+		<shortLabel>small auto-mortar</shortLabel>
+		<description>A very small auto-mortar depot.</description>
+		<priority>513</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepot_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_AutomortarDepot</layout>
+		<author>Kolopo</author>
+		<marketvalue>1490</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AutomortarDepotBig</defName>
+		<label>big auto-mortar depot</label>
+		<shortLabel>big auto-mortar</shortLabel>
+		<description>A medium sized auto-mortar depot.</description>
+		<priority>514</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepotBig_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_AutomortarDepotBig</layout>
+		<author>Kolopo</author>
+		<marketvalue>7141</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TinyTurret</defName>
+		<label>turret</label>
+		<shortLabel>turret</shortLabel>
+		<description>Very cheap and expendable first line of defense.</description>
+		<priority>0.1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TinyTurret_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TinyTurret</layout>
+		<author>Kolopo</author>
+		<marketvalue>620</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FireKillbox</defName>
+		<label>fire killbox</label>
+		<shortLabel>fire killbo</shortLabel>
+		<description>A killbox with a lot of flame turrets. Connects seamlessly to Reel's castle walls (on the Castles &amp; Nobility category)</description>
+		<priority>515</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FireKillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FireKillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>9353</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>BiofuelRefining</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_FireKillbox_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FireKillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FireKillbox_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Chemfuel Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
+

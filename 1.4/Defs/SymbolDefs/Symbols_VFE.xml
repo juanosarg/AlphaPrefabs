@@ -5,7 +5,7 @@
 		<thing>Table_LightEndTable</thing>
 		<stuff>WoodLog</stuff>
 	</KCSG.SymbolDef>
-		<KCSG.SymbolDef>
+	<KCSG.SymbolDef>
 		<defName>Table_LightEndTable_WoodLog_South</defName>
 		<thing>Table_LightEndTable</thing>
 		<stuff>WoodLog</stuff>
@@ -269,12 +269,21 @@
 		<defName>Facility_ResearchCounter</defName>
 		<thing>Facility_ResearchCounter</thing>
 	</KCSG.SymbolDef>
-
-
-<KCSG.SymbolDef>
-  <defName>Misc_FileCabinet_Steel_South</defName>
-  <thing>Misc_FileCabinet</thing>
-  <stuff>Steel</stuff>
-  <rotation>South</rotation>
-</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Misc_FileCabinet_Steel_South</defName>
+		<thing>Misc_FileCabinet</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_TableButcherElectric_WoodLog_North</defName>
+		<thing>VFE_TableButcherElectric</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_RouletteTable_VFEArch_WoodLog_Walnut_Cream_North</defName>
+		<thing>Joy_RouletteTable</thing>
+		<stuff>WoodLog</stuff>
+		<color>Structure_Cream</color>
+	</KCSG.SymbolDef>
 </Defs>

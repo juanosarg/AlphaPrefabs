@@ -160,6 +160,20 @@
 						<li>VFE_AdvancedDroneAssembly</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutomortarDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_AutomatedDefensiveMeasures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutomortarDepotBig"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_AutomatedDefensiveMeasures</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

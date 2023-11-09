@@ -111,4 +111,30 @@
 			<li>Vanilla Architect Expanded</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ModernBarn</defName>
+		<label>nutri-paste barn</label>
+		<shortLabel>nutri-paste barn</shortLabel>
+		<description>An animal barn built with fireproof walls, and a built-in system to feed the animals using nutrient paste. If you have Vanilla Furniture Expanded it will include an electric butchery.</description>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<priority>11</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ModernBarn_Preview</detailedImage>
+		<layout>AP_Prefab_ModernBarn</layout>
+		<marketvalue>2085</marketvalue>
+		<researchPrerequisites>
+			<li>AirConditioning</li>
+			<li>NutrientPaste</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+		
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

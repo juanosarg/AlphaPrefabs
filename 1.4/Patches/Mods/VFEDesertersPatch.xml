@@ -13,6 +13,13 @@
 						
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_KontarionPillbox"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFED_ImperialDefenses</li>
+						
+					</value>
+				</li>
 				
 			</operations>
 		</match>

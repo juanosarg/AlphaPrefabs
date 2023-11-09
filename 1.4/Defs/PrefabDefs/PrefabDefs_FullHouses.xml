@@ -294,6 +294,31 @@
 			<li>Vanilla Furniture Expanded: Props</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VaultBroadcast</defName>
+		<label>vault broadcast station</label>
+		<shortLabel>vault broadcast</shortLabel>
+		<description>A small compact base built around an ancient broadcast station. This station will give you the location of an Ancient vault.</description>
+		<priority>202</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VaultBroadcast_Preview</detailedImage>
+		<category>AP_Category_FullHouse</category>
+		<layout>AP_Prefab_VaultBroadcast</layout>
+		<marketvalue>3770</marketvalue>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Batteries</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>vanillaexpanded.vfea</li>
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
 	
    
 	

@@ -31,6 +31,24 @@
 						<li>VFES_PulseChargedDefenses</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BallistaLine"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFES_SiegeEquipment</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CatapultLine"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFES_SiegeEquipment</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SiegeNestBig"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFES_Artillery</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

@@ -63,6 +63,13 @@
 						<li>VFEE_StellicThrone</li>
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeRecHall"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFEE_PipeOrgans</li>
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

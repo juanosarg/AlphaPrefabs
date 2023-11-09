@@ -86,4 +86,9 @@
 		<thing>VFEArch_ArmoredDoor</thing>
 		<stuff>Uranium</stuff>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEArch_FineWall_BlocksMarble</defName>
+		<thing>VFEArch_FineWall</thing>
+		<stuff>BlocksMarble</stuff>
+	</KCSG.SymbolDef>
 </Defs>

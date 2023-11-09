@@ -100,7 +100,6 @@
 		<stuff>Gold</stuff>
 		<color>Structure_RedSubtle</color>
 	</KCSG.SymbolDef>
-
 	<KCSG.SymbolDef>
 		<defName>VFEE_SteleSmall_Jade_Subtlered</defName>
 		<thing>VFEE_SteleSmall</thing>
@@ -214,5 +213,10 @@
 		<stuff>Jade</stuff>
 		<color>Structure_Black</color>
 		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEE_PipeOrgan_West</defName>
+		<thing>VFEE_PipeOrgan</thing>
+		<rotation>West</rotation>
 	</KCSG.SymbolDef>
 </Defs>

@@ -163,4 +163,26 @@
 		<thing>VFES_ShieldGenerator_Small</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_Artillery_Steel_North</defName>
+		<thing>VFES_Turret_Artillery</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_Artillery_Steel_West</defName>
+		<thing>VFES_Turret_Artillery</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFES_Turret_Artillery_Steel_East</defName>
+		<thing>VFES_Turret_Artillery</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+  <defName>VFES_Turret_Flame_Steel</defName>
+  <thing>VFES_Turret_Flame</thing>
+  <stuff>Steel</stuff>
+</KCSG.SymbolDef>
 </Defs>

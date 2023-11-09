@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEC_TheatreStage_BlocksGranite_West</defName>
+		<thing>VFEC_TheatreStage</thing>
+		<stuff>BlocksGranite</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEC_TheatreStage_BlocksMarble_East</defName>
+		<thing>VFEC_TheatreStage</thing>
+		<stuff>BlocksMarble</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+</Defs>
