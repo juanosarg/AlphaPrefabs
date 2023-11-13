@@ -174,7 +174,7 @@ namespace AlphaPrefabs
                
             }
             if (!AlphaPrefabs_Settings.noSilverMode) {
-                textForDetails.AppendInNewLine(((int)(prefab.marketvalue * Constants.SellPriceModifier)).ToString() + " " + "AP_Silver".Translate());
+                textForDetails.AppendInNewLine(((int)(prefab.marketvalue * AlphaPrefabs_Settings.costMultiplier)).ToString() + " " + "AP_Silver".Translate());
 
             }
 
@@ -250,7 +250,7 @@ namespace AlphaPrefabs
                 }
                 if (!AlphaPrefabs_Settings.noSilverMode) {
                    
-                    TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * Constants.SellPriceModifier), map, null);
+                    TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * AlphaPrefabs_Settings.costMultiplier), map, null);
                 }
                 
                 DropPodUtility.DropThingsNear(position, map, new List<Thing>() { newPrefab }, 110, false, false, false, false);
@@ -304,9 +304,9 @@ namespace AlphaPrefabs
 
             }else map = Find.CurrentMap;
 
-            if (!AlphaPrefabs_Settings.noSilverMode && AmountSendableSilver(map) < (int)(prefab.marketvalue * Constants.SellPriceModifier))
+            if (!AlphaPrefabs_Settings.noSilverMode && AmountSendableSilver(map) < (int)(prefab.marketvalue * AlphaPrefabs_Settings.costMultiplier))
             {              
-                    reason = "AP_NotEnoughMoney".Translate((int)(prefab.marketvalue * Constants.SellPriceModifier));
+                    reason = "AP_NotEnoughMoney".Translate((int)(prefab.marketvalue * AlphaPrefabs_Settings.costMultiplier));
                     return false;              
             }
 

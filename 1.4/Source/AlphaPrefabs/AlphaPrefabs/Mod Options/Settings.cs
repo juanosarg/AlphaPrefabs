@@ -1,4 +1,5 @@
 ﻿using RimWorld;
+using System;
 using UnityEngine;
 using Verse;
 
@@ -18,6 +19,8 @@ namespace AlphaPrefabs
         public static bool noResearchLockingMode = false;
         public static bool noModLockingMode = false;
         public static bool hideSillyCategory = false;
+        public static float costMultiplier = baseCostMultiplier;
+        public const float baseCostMultiplier = 0.6f;
 
         public override void ExposeData()
         {
@@ -28,7 +31,7 @@ namespace AlphaPrefabs
             Scribe_Values.Look(ref noResearchLockingMode, "noResearchLockingMode", false);
             Scribe_Values.Look(ref noModLockingMode, "noModLockingMode", false);
             Scribe_Values.Look(ref hideSillyCategory, "hideSillyCategory", false);
-
+            Scribe_Values.Look(ref costMultiplier, "costMultiplier", baseCostMultiplier);
 
         }
 
@@ -51,7 +54,13 @@ namespace AlphaPrefabs
             ls.Gap(12f);
             /*ls.CheckboxLabeled("AP_HideSilly".Translate(), ref hideSillyCategory, "AP_HideSillyDescription".Translate());
             ls.Gap(12f);*/
+            var costLabel = ls.LabelPlusButton("AP_CostMultiplier".Translate() + ": " + costMultiplier, "AP_CostMultiplierDesc".Translate());
+            costMultiplier = (float)Math.Round(ls.Slider(costMultiplier, 0.1f, 3), 2);
 
+            if (ls.Settings_Button("AP_Reset".Translate(), new Rect(0f, costLabel.position.y + 35, 250f, 29f)))
+            {
+                costMultiplier = baseCostMultiplier;
+            }
 
             ls.End();
         }

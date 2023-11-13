@@ -51,5 +51,8 @@
 	<AP_NoModLockingModeDescription>With this mode active prefabs will still show up on the catalog even if the player doesn't have the required mods. Bear in mind that prefabs using mods you don't have will still be built, only lacking that mod's objects.</AP_NoModLockingModeDescription>
 	<AP_HideSilly>Hide "Silly" category</AP_HideSilly>
 	<AP_HideSillyDescription>On second thought, let's not go to Camelot. It is a silly place. Removes the "Silly" category, both from the prefab catalog and from appearing on traders, quest rewards, etc.</AP_HideSillyDescription>
+	<AP_CostMultiplier>Prefab cost multiplier</AP_CostMultiplier>
+	<AP_CostMultiplierDesc>By default, prefabs can be bought for 60% or the price of all the materials of their components. With this you can make them cheaper or more expensive to fit your needs.</AP_CostMultiplierDesc>
+	<AP_Reset>Reset</AP_Reset>
 	
 </LanguageData>

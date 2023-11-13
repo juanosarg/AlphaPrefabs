@@ -297,7 +297,6 @@
     <Compile Include="Buildings\Building_Catalog.cs" />
     <Compile Include="Buildings\Building_DeployedPrefab.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />
-    <Compile Include="Constants.cs" />
     <Compile Include="DefOfs\InternalDefOf.cs" />
     <Compile Include="Defs\LayoutVariationsWithName.cs" />
     <Compile Include="Defs\PrefabCategoryDef.cs" />
@@ -308,6 +307,7 @@
     <Compile Include="Harmony\HarmonyInstance.cs" />
     <Compile Include="Mod Options\Mod.cs" />
     <Compile Include="Mod Options\Settings.cs" />
+    <Compile Include="Mod Options\SettingsHelper.cs" />
     <Compile Include="PatchOperations\PatchOperationNoCatalogMode.cs" />
     <Compile Include="PatchOperations\PatchOperationModOption.cs" />
     <Compile Include="Placeworkers\PlaceWorker_ShowPrefabBox.cs" />
