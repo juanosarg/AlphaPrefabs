@@ -35,7 +35,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>500</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
@@ -61,7 +61,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>1500</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
@@ -87,7 +87,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>3000</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
@@ -113,7 +113,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<statBases>
-			<MarketValue>100</MarketValue>
+			<MarketValue>7500</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Usable">
