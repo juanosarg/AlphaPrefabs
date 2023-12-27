@@ -319,6 +319,35 @@
 		</modPrerequisites>
 		
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_UndergroundVaultBase</defName>
+		<label>underground vault base</label>
+		<shortLabel>vault base</shortLabel>
+		<description>A compact underground base.</description>
+		<priority>300</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_UndergroundVaultBase_Preview</detailedImage>
+		<category>AP_Category_FullHouse</category>
+		<layout>AP_Prefab_UndergroundVaultBase</layout>
+		<marketvalue>7319</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Batteries</li>
+			<li>GunTurrets</li>
+			<li>AirConditioning</li>
+			<li>Machining</li>
+			<li>TubeTelevision</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		
+	</AlphaPrefabs.PrefabDef>
 	
    
 	

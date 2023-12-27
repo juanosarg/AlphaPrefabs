@@ -949,4 +949,58 @@
 			<li>Vanilla Furniture Expanded: Farming</li>
 		</suggestedMods>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallAutocraneDepot</defName>
+		<label>small autocrane depot</label>
+		<shortLabel>small autocrane</shortLabel>
+		<description>A small autocrane depot with storage space.</description>
+		<priority>115</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallAutocraneDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SmallAutocraneDepot</layout>
+		<marketvalue>3289</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeAutocraneDepot</defName>
+		<label>large autocrane depot</label>
+		<shortLabel>large autocrane</shortLabel>
+		<description>A large autocrane depot with storage space. Functionally identical to the smaller one, but prettier.</description>
+		<priority>116</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeAutocraneDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_LargeAutocraneDepot</layout>
+		<marketvalue>3619</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -517,6 +517,31 @@
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicLiberatorDepot</defName>
+		<label>basic liberator depot</label>
+		<shortLabel>liberator depot</shortLabel>
+		<description>A basic liberator depot with a control room and defended by a laser turret.</description>
+		<priority>399.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicLiberatorDepot_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_BasicLiberatorDepot</layout>
+		<author>Kad</author>
+		<marketvalue>5606</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_LiberatorComplex</defName>
 		<label>liberator complex</label>
 		<shortLabel>liberator complex</shortLabel>

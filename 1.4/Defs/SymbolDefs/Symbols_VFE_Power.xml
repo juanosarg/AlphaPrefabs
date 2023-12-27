@@ -26,4 +26,8 @@
 		<defName>VFE_PortableWoodFiredGenerator</defName>
 		<thing>VFE_PortableWoodFiredGenerator</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_AdvancedBattery_North</defName>
+		<thing>VFE_AdvancedBattery</thing>
+	</KCSG.SymbolDef>
 </Defs>

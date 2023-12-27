@@ -254,5 +254,73 @@
 		<thing>VFEPD_SteelCupboardNarrow</thing>
 		<rotation>South</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Straight_Marble_South</defName>
+		<thing>VFE_StoneBorder_Straight</thing>
+		<color>Structure_Marble</color>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Straight_Marble_North</defName>
+		<thing>VFE_StoneBorder_Straight</thing>
+		<color>Structure_Marble</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Straight_Marble_West</defName>
+		<thing>VFE_StoneBorder_Straight</thing>
+		<color>Structure_Marble</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Straight_Marble_East</defName>
+		<thing>VFE_StoneBorder_Straight</thing>
+		<color>Structure_Marble</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Corner_Marble_South</defName>
+		<thing>VFE_StoneBorder_Corner</thing>
+		<color>Structure_Marble</color>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Corner_Marble_West</defName>
+		<thing>VFE_StoneBorder_Corner</thing>
+		<color>Structure_Marble</color>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Corner_Marble_East</defName>
+		<thing>VFE_StoneBorder_Corner</thing>
+		<color>Structure_Marble</color>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_StoneBorder_Corner_Marble_North</defName>
+		<thing>VFE_StoneBorder_Corner</thing>
+		<color>Structure_Marble</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_DecalArrowBoth_Marble_South</defName>
+		<thing>VFEPD_DecalArrowBoth</thing>
+		<color>Structure_Marble</color>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BarrelGreen_Pastelred_North</defName>
+		<thing>VFEPD_BarrelGreen</thing>
+		<color>Structure_RedPastel</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_PalletBarrelGreen_Pastelred_North</defName>
+		<thing>VFEPD_PalletBarrelGreen</thing>
+		<color>Structure_RedPastel</color>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_BrickPile_Slate</defName>
+		<thing>VFEPD_BrickPile</thing>
+		<color>Structure_Slate</color>
+	</KCSG.SymbolDef>
+	
 </Defs>
 

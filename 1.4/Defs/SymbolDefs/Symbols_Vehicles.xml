@@ -29,5 +29,42 @@
 		<thing>VVE_GarageCabinet</thing>
 		<rotation>East</rotation>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_RefuelingPump_South</defName>
+		<thing>VVE_RefuelingPump</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageDoorLarge_BlocksSlate_South</defName>
+		<thing>VVE_GarageDoorLarge</thing>
+		<stuff>BlocksSlate</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_CarSuspension</defName>
+		<thing>VVE_CarSuspension</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_CarExhaust</defName>
+		<thing>VVE_CarExhaust</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_CarWheel</defName>
+		<thing>VVE_CarWheel</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_CarAlternator</defName>
+		<thing>VVE_CarAlternator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_EngineBlock</defName>
+		<thing>VVE_EngineBlock</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VVE_GarageDoor_BlocksGranite_South</defName>
+		<thing>VVE_GarageDoor</thing>
+		<stuff>BlocksGranite</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

@@ -170,4 +170,8 @@
 		<defName>VFE_Mechanoids_AutoMedicBase</defName>
 		<thing>VFE_Mechanoids_AutoMedicBase</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEM_Autocrane_North</defName>
+		<thing>VFEM_Autocrane</thing>
+	</KCSG.SymbolDef>
 </Defs>

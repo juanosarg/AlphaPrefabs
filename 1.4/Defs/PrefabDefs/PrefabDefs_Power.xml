@@ -343,4 +343,82 @@
 			</li>
 		</variations>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DualNuclearReactor</defName>
+		<label>dual nuclear reactor</label>
+		<shortLabel>dual reactor</shortLabel>
+		<description>Two nuclear reactors with supporting structures to keep them cooled and working. It also looks like a happy skeleton. Damn you Kolopo...</description>
+		<priority>22</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DualNuclearReactor_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_DualNuclearReactor</layout>
+		<marketvalue>16734</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ReactorTypeAFacility</defName>
+		<label>reactor type A facility</label>
+		<shortLabel>type A reactor</shortLabel>
+		<description>Contains a full facility to operate your own Rimatomics reactor. Rated for max load and to run at 100%. We offer no refunds in case of accidents related to the Rimatomics reactor type A.</description>
+		<priority>23</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ReactorTypeAFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_ReactorTypeAFacility</layout>
+		<marketvalue>15920</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Batteries</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ReactorTypeVFacility</defName>
+		<label>reactor type V facility</label>
+		<shortLabel>type V reactor</shortLabel>
+		<description>Contains a full facility to operate your own breeder reactor from Rimatomics along with the processing of the rods. Rated for max load, 95-98% control rods operation, extra cooling may be required! We offer no refunds in case of accidents related to the Rimatomics reactor type V</description>
+		<priority>24</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ReactorTypeVFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_ReactorTypeVFacility</layout>
+		<marketvalue>35378</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -726,30 +726,30 @@
 		<spawnConduits>false</spawnConduits>
 		<layouts>
 			<li>
-				<li>Skullspike_Steel,.,.,Fence_Steel,Fence_Steel,Plant_Grass,Wall_BlocksGranite,Door_Steel,Wall_BlocksGranite,.,AP_Empty_Grave_East,.,.,.,Plant_TallGrass</li>
-				<li>.,.,.,AP_Empty_Grave_West,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.,Plant_Grass</li>
-				<li>Fence_Steel,Plant_Grass,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,GibbetCage_Steel,.,.,.,GibbetCage_Steel,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,AP_Empty_Grave_South,.</li>
-				<li>Fence_Steel,.,Wall_BlocksGranite,.,VFEPD_FilthBlood_North,.,.,TorchLamp_Morbid,.,.,.,.,Wall_BlocksGranite,.,AP_Empty_Grave_South</li>
-				<li>Fence_Steel,AP_Empty_Grave_South,Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite,AP_Empty_Grave_South,Fence_Steel</li>
+				<li>Skullspike_Steel,.,.,Fence_Steel,Fence_Steel,.,Wall_BlocksGranite,Door_Steel,Wall_BlocksGranite,.,VFEPD_FakeGrave_East,.,.,.,.</li>
+				<li>.,.,.,VFEPD_FakeGrave_West,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.,.</li>
+				<li>Fence_Steel,.,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.,.,.,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,VFEPD_FakeGrave_South,.</li>
+				<li>Fence_Steel,.,Wall_BlocksGranite,VFEPD_FakeGibbetCage,VFEPD_FilthBlood_North,.,.,TorchLamp_Morbid,.,.,.,VFEPD_FakeGibbetCage,Wall_BlocksGranite,.,VFEPD_FakeGrave_South</li>
+				<li>Fence_Steel,VFEPD_FakeGrave_South,Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite,VFEPD_FakeGrave_South,Fence_Steel</li>
 				<li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,VFEPD_FilthBlood_North,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
 				<li>Wall_BlocksGranite,VFEPD_FilthBlood_North,.,.,.,.,.,.,.,.,.,.,VFEPD_FilthBlood_North,.,Wall_BlocksGranite</li>
-				<li>Wall_BlocksGranite,.,AP_Sarcophagus_BlocksGranite_West,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,AP_Sarcophagus_BlocksGranite_East,.,Wall_BlocksGranite</li>
+				<li>Wall_BlocksGranite,VFEPD_FakeSarcophagus_East,.,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,VFEPD_FakeSarcophagus_East,.,Wall_BlocksGranite</li>
 				<li>Wall_BlocksGranite,.,.,VFEPD_FilthBlood_North,.,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite</li>
-				<li>Wall_BlocksGranite,.,AP_Sarcophagus_BlocksGranite_West,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,AP_Sarcophagus_BlocksGranite_East,.,Wall_BlocksGranite</li>
+				<li>Wall_BlocksGranite,VFEPD_FakeSarcophagus_East,.,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,VFEPD_FakeSarcophagus_East,.,Wall_BlocksGranite</li>
 				<li>Wall_BlocksGranite,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksGranite</li>
-				<li>Wall_BlocksGranite,.,AP_Sarcophagus_BlocksGranite_West,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,AP_Sarcophagus_BlocksGranite_East,.,Wall_BlocksGranite</li>
+				<li>Wall_BlocksGranite,VFEPD_FakeSarcophagus_East,.,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,KneelPillow_Cloth_South,Column_Steel_Morbid,KneelPillow_Cloth_South,.,VFEPD_FakeSarcophagus_East,.,Wall_BlocksGranite</li>
 				<li>Wall_BlocksGranite,.,VFEPD_FilthBlood_North,.,.,.,.,.,.,.,.,.,VFEPD_FilthBlood_North,.,Wall_BlocksGranite</li>
-				<li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,GibbetCage_Steel,.,.,.,VFEPD_FilthBlood_North,.,.,.,GibbetCage_Steel,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
-				<li>Fence_Steel,AP_Empty_Grave_North,Wall_BlocksGranite,.,.,TorchLamp_Morbid,.,Lectern_Steel_South,.,TorchLamp_Morbid,.,.,Wall_BlocksGranite,AP_Empty_Grave_East,.</li>
+				<li>Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,VFEPD_FakeGibbetCage,.,.,.,VFEPD_FilthBlood_North,.,.,.,VFEPD_FakeGibbetCage,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite</li>
+				<li>Fence_Steel,VFEPD_FakeGrave_North,Wall_BlocksGranite,.,.,TorchLamp_Morbid,.,Lectern_Steel_South,.,TorchLamp_Morbid,.,.,Wall_BlocksGranite,VFEPD_FakeGrave_East,.</li>
 				<li>Fence_Steel,.,Wall_BlocksGranite,Skullspike_Steel,.,.,.,.,.,.,.,Skullspike_Steel,Wall_BlocksGranite,.,.</li>
 				<li>Fence_Steel,.,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.,VFEPD_FilthBlood_North,.,.,.,Wall_BlocksGranite,Wall_BlocksGranite,Fence_Steel,.</li>
-				<li>Fence_Steel,.,AP_Empty_Grave_West,Wall_BlocksGranite,VFEPD_FilthBlood_North,.,.,.,.,VFEPD_FilthBlood_North,.,Wall_BlocksGranite,AP_Empty_Grave_North,Fence_Steel,.</li>
-				<li>.,.,AP_Empty_Grave_West,Wall_BlocksGranite,GibbetCage_Steel,.,.,Altar_Grand_Steel_Morbid_North,.,.,GibbetCage_Steel,Wall_BlocksGranite,.,.,.</li>
-				<li>.,.,Plant_Grass,Wall_BlocksGranite,.,.,.,.,.,.,.,Wall_BlocksGranite,AP_Empty_Grave_East,.,Plant_Grass</li>
-				<li>Plant_Grass,.,AP_Empty_Grave_West,Wall_BlocksGranite,Wall_BlocksGranite,AP_Sarcophagus_BlocksGranite_North,.,TorchLamp_Morbid,.,AP_Sarcophagus_BlocksGranite_North,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.</li>
-				<li>.,Plant_Grass,.,AP_Empty_Grave_West,Wall_BlocksGranite,.,.,VFEPD_FilthBlood_North,.,.,Wall_BlocksGranite,AP_Empty_Grave_East,.,Fence_Steel,Skullspike_Steel</li>
+				<li>Fence_Steel,.,VFEPD_FakeGrave_West,Wall_BlocksGranite,VFEPD_FilthBlood_North,.,.,.,.,VFEPD_FilthBlood_North,.,Wall_BlocksGranite,VFEPD_FakeGrave_North,Fence_Steel,.</li>
+				<li>.,.,VFEPD_FakeGrave_West,Wall_BlocksGranite,VFEPD_FakeGibbetCage,.,.,Altar_Grand_Steel_Morbid_North,.,.,VFEPD_FakeGibbetCage,Wall_BlocksGranite,.,.,.</li>
+				<li>.,.,.,Wall_BlocksGranite,.,.,.,.,.,.,.,Wall_BlocksGranite,VFEPD_FakeGrave_East,.,.</li>
+				<li>.,.,VFEPD_FakeGrave_West,Wall_BlocksGranite,Wall_BlocksGranite,VFEPD_FakeSarcophagus_North,.,TorchLamp_Morbid,.,VFEPD_FakeSarcophagus_North,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.</li>
+				<li>.,.,.,VFEPD_FakeGrave_West,Wall_BlocksGranite,.,.,VFEPD_FilthBlood_North,.,.,Wall_BlocksGranite,VFEPD_FakeGrave_East,.,Fence_Steel,Skullspike_Steel</li>
 				<li>.,.,Fence_Steel,.,Wall_BlocksGranite,Wall_BlocksGranite,.,Skullspike_Steel,.,Wall_BlocksGranite,Wall_BlocksGranite,Fence_Steel,Fence_Steel,Fence_Steel,.</li>
-				<li>.,.,Fence_Steel,Fence_Steel,Fence_Steel,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,.,Plant_Dandelion,Plant_Grass,.</li>
+				<li>.,.,Fence_Steel,Fence_Steel,Fence_Steel,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,Wall_BlocksGranite,.,.,.,.,.</li>
 			</li>
 			<li>
 				<li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
