@@ -90,6 +90,13 @@
 						
 					</value>
 				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_FullHouse_NobleMansion"]/researchPrerequisites</xpath>
+					<value>
+						<li>Harp</li>
+						
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>
