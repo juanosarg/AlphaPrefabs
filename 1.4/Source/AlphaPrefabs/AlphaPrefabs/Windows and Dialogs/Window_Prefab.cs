@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using HarmonyLib;
 using KCSG;
 using RimWorld;
 using UnityEngine;
@@ -183,6 +184,7 @@ namespace AlphaPrefabs
 
             Text.Font = GameFont.Small;
             Rect oderButtonRect = new Rect(outRect.width / 2f - CloseButSize.x / 2f, outRect.height + 30, CloseButSize.x, CloseButSize.y);
+            Rect exportButtonRect = new Rect(outRect.width / 2f + CloseButSize.x, outRect.height + 30, CloseButSize.x, CloseButSize.y);
             if (!prefab.variations.NullOrEmpty())
             {
                 Utils.DrawButton(oderButtonRect, "AP_OrderNowWithVariation".Translate(), delegate
@@ -206,6 +208,35 @@ namespace AlphaPrefabs
                     Find.WindowStack.Add(new FloatMenu(floatOptions));
                 });
 
+                if (BlueprintUtils.ModActive)
+                    Utils.DrawButton(
+                        exportButtonRect,
+                        "AP_ExportWithVariation".Translate(),
+                        () =>
+                            Find.WindowStack.Add(
+                                new FloatMenu(
+                                    prefab
+                                        .variations.Select(
+                                            variation =>
+                                                new FloatMenuOption(
+                                                    variation.name.CapitalizeFirst(),
+                                                    () =>
+                                                        ExportPrefab(
+                                                            variation.layoutVariation,
+                                                            variation.name
+                                                        )
+                                                )
+                                        )
+                                        .Prepend(
+                                            new FloatMenuOption(
+                                                prefab.labelForDefaultVariation.CapitalizeFirst(),
+                                                () => ExportPrefab()
+                                            )
+                                        )
+                                        .ToList()
+                                )
+                            )
+                    );
             }
             else {
                 if (Widgets.ButtonText(oderButtonRect, "AP_OrderNow".Translate()))
@@ -213,6 +244,9 @@ namespace AlphaPrefabs
                     OrderPrefab(null,"");
                   
                 }
+                if (BlueprintUtils.ModActive)
+                    if (Widgets.ButtonText(exportButtonRect, "AP_Export".Translate()))
+                        ExportPrefab();
 
             }
             
@@ -267,6 +301,26 @@ namespace AlphaPrefabs
 
             }
 
+        }
+        public void ExportPrefab(
+            StructureLayoutDef layoutVariation = null,
+            string variationString = null
+        )
+        {
+            AccessTools
+                .Method("Blueprints.BlueprintController:Add")
+                .Invoke(
+                    null,
+                    new[]
+                    {
+                        BlueprintUtils.ToBlueprint(
+                            layoutVariation ?? prefab.layout,
+                            prefab.variations.NullOrEmpty()
+                                ? $"{prefab.LabelCap}"
+                                : $"{prefab.LabelCap} ({variationString ?? prefab.labelForDefaultVariation})"
+                        )
+                    }
+                );
         }
 
         public bool CheckModsSilverAndResearch(out string reason)
