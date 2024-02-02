@@ -8,6 +8,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Verse;
 using Verse.Noise;
+using static UnityEngine.GraphicsBuffer;
 
 
 namespace AlphaPrefabs
@@ -270,18 +271,9 @@ namespace AlphaPrefabs
                     prefabItem.variationString = variationString;
 
                 }
-                Map map;
-                IntVec3 position;
-                if (building == null)
-                {
-                    map = Find.CurrentMap;
-                    position = Find.CameraDriver.MapPosition;
-                }
-                else
-                {
-                    map = building.Map;
-                    position = building.Position;
-                }
+                Map map = GetMap(building);
+                IntVec3 position = GetPosition(building,map);
+                
                 if (!AlphaPrefabs_Settings.noSilverMode) {
                    
                     TradeUtility.LaunchThingsOfType(ThingDefOf.Silver, (int)(prefab.marketvalue * AlphaPrefabs_Settings.costMultiplier), map, null);
@@ -374,5 +366,37 @@ namespace AlphaPrefabs
                     where t.def == ThingDefOf.Silver
                     select t).Sum((Thing t) => t.stackCount);
         }
+
+        public static Map GetMap(Building_Catalog building)
+        {
+            if (building == null)
+            {
+                return Find.CurrentMap;               
+            }
+            else
+            {
+                return building.Map;              
+            }
+        }
+
+        public static IntVec3 GetPosition(Building_Catalog building,Map map)
+        {
+
+            List<Thing> prefabDeliverySpots = map.listerThings.ThingsOfDef(InternalDefOf.AP_PrefabDeliverySpot);
+            if (prefabDeliverySpots.Count > 0)
+            {
+                return prefabDeliverySpots.RandomElement().Position;
+            }
+
+            if (building == null)
+            {
+               return Find.CameraDriver.MapPosition;
+            }
+            else
+            {
+                return building.Position;
+            }
+        }
+
     }
 }
