@@ -294,6 +294,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AI\JobDrivers\JobDriver_UsePrefab.cs" />
+    <Compile Include="BlueprintUtils.cs" />
     <Compile Include="Buildings\Building_Catalog.cs" />
     <Compile Include="Buildings\Building_DeployedPrefab.cs" />
     <Compile Include="Comps\CompTargetable_Ground.cs" />

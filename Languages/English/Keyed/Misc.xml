@@ -14,6 +14,8 @@
 	<AP_PrefabFixedPrice>Prefab price: fixed value</AP_PrefabFixedPrice>
 	<AP_OrderNow>Order now</AP_OrderNow>
 	<AP_OrderNowWithVariation>Order now with...</AP_OrderNowWithVariation>
+	<AP_Export>Export</AP_Export>
+	<AP_ExportWithVariation>Export with...</AP_ExportWithVariation>
 	<AP_VariantLayout>Variant layout: {0}</AP_VariantLayout>
 	<AP_Silver>silver</AP_Silver>
 	<AP_Author>Prefab designed by: {0}</AP_Author>
