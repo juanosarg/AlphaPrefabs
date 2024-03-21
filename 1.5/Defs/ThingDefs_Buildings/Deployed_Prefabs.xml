@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<defName>AP_DeployedPrefab</defName>
+		<label>prefab builder</label>
+		<thingClass>AlphaPrefabs.Building_DeployedPrefab</thingClass>
+		<description>A heavy-duty metal box containing a powerful mechanite dispersal unit capable of assembling a prefab structure in a matter of seconds. This prefab has already been deployed, and you can choose whether to build the structure or undeploy it to return it to a movable state.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; The structure will only be built if no other buildings and no tiles of impassable terrain are in the designated area. No colonists or animals will be harmed in the construction of the structure.</description>
+		<graphicData>
+			<texPath>Things/Building/AP_DeployedPrefab</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<fillPercent>0.3</fillPercent>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+		</building>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>25</Mass>
+			<Flammability>0.5</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<comps>
+			
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>AlphaPrefabs.PlaceWorker_ShowPrefabBox</li>
+		</placeWorkers>
+	</ThingDef>
+</Defs>

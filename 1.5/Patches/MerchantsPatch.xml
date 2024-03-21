@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+    <value>
+       <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_LowValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_MediumHighValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_HighValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	
+	
+    </value>
+  </Operation>
+  
+    <Operation Class="PatchOperationAdd">
+    <xpath>Defs/TraderKindDef[defName="Orbital_BulkGoods"]/stockGenerators</xpath>
+    <value>
+       <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_LowValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_MediumHighValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>AP_Prefab_HighValue</thingDef>
+        <countRange>1~1</countRange>
+      </li>
+     
+    </value>
+  </Operation>
+  
+</Patch>

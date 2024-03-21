@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Kemetic_1</defName>
+		<label>kemetic temple</label>
+		<shortLabel>kemetic temple</shortLabel>
+		<description>A large temple in the Kemetic style.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Kemetic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Kemetic_1</layout>
+		<marketvalue>7113</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Jewish_1</defName>
+		<label>jewish temple</label>
+		<shortLabel>jewish temple</shortLabel>
+		<description>A large temple in the Jewish style.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Jewish_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Jewish_1</layout>
+		<marketvalue>14945</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Steampunk_1</defName>
+		<label>steampunk temple</label>
+		<shortLabel>steampunk temple</shortLabel>
+		<description>A medium sized temple in the Steampunk style.</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Steampunk_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Steampunk_1</layout>
+		<marketvalue>3331</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>SolarPanels</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Neolithic_1</defName>
+		<label>neolithic circle</label>
+		<shortLabel>neolithic circle</shortLabel>
+		<description>A medium sized temple in the Neolithic style.</description>
+		<priority>4</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Neolithic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Neolithic_1</layout>
+		<marketvalue>2774</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ScavengerChurch</defName>
+		<label>scavenger church</label>
+		<shortLabel>scavenger church</shortLabel>
+		<description>A small sized temple in the Scavenger style.</description>
+		<priority>4.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ScavengerChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_ScavengerChurch</layout>
+		<marketvalue>2416</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>sarg.alphamemes</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HedonistChurch</defName>
+		<label>hedonist church</label>
+		<shortLabel>hedonist church</shortLabel>
+		<description>A medium sized temple in the Hedonist style.</description>
+		<priority>4.6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HedonistChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_HedonistChurch</layout>
+		<marketvalue>6925</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>vanillaexpanded.vmemese</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MorbidChurch</defName>
+		<label>morbid church</label>
+		<shortLabel>morbid church</shortLabel>
+		<description>A large sized temple in the Morbid style.</description>
+		<priority>4.7</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MorbidChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_MorbidChurch</layout>
+		<marketvalue>8374</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Stonecutting</li>			
+			<li>ComplexFurniture</li>		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Temple_Generic_1</defName>
+		<label>generic temple</label>
+		<labelForDefaultVariation>Horizontal</labelForDefaultVariation>
+		<shortLabel>generic temple</shortLabel>
+		<description>A medium sized generic temple.</description>
+		<priority>5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Temple_Generic_1_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_Temple_Generic_1</layout>
+		<marketvalue>6509</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Vertical</name>
+				<layoutVariation>AP_Prefab_Temple_Generic_1_vertical</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DreadnoughtChurch</defName>
+		<label>dreadnought church</label>
+		<shortLabel>dreadnought church</shortLabel>
+		<description>A temple dedicated to Warcasket worship and Warcasket funerals (if you have Alpha Memes).</description>
+		<priority>6</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DreadnoughtChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_DreadnoughtChurch</layout>
+		<marketvalue>5393</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TranshumanistChurch</defName>
+		<label>transhumanist church</label>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<shortLabel>transhumanist church</shortLabel>
+		<description>A medium sized transhumanist church with biosculpter pods and neural superchargers, as well as an ideology room.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TranshumanistChurch_Preview</detailedImage>
+		<category>AP_Category_Temples</category>
+		<layout>AP_Prefab_TranshumanistChurch</layout>
+		<marketvalue>16803</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_TranshumanistChurch_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

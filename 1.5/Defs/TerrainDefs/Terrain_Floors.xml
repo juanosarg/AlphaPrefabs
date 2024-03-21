@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TerrainDef Name="AP_FloorBase" Abstract="True">
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+		</affordances>
+		<tags>
+			<li>Floor</li>
+		</tags>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughLinearBurn</pollutionShaderType>
+		<pollutionOverlayTexturePath>Terrain/Surfaces/PollutionFloorSmooth</pollutionOverlayTexturePath>
+		<pollutionColor>(1, 1, 1, 0.8)</pollutionColor>
+		<pollutionOverlayScale>(0.75, 0.75)</pollutionOverlayScale>
+	</TerrainDef>
+	<TerrainDef Name="AP_PrefabFloorsBase" ParentName="AP_FloorBase" Abstract="true">
+		
+		
+	</TerrainDef>
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTile</defName>
+		<label>kitchen tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>A cheap linoleum floor. Perfect for kitchens and bathrooms.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTile</texturePath>
+		<statBases>
+			<WorkToBuild>200</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTileDiagonal</defName>
+		<label>diagonal kitchen tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>An elegant linoleum floor. Perfect for kitchens and bathrooms. Prettier than the basic one.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTileDiagonal</texturePath>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+	<TerrainDef ParentName="AP_PrefabFloorsBase">
+		<defName>Go_KitchenTileBlue</defName>
+		<label>blue sterile linoleum tile</label>
+		<renderPrecedence>230</renderPrecedence>
+		<description>This clean, epoxy treated linoleum floor is ideal for heavy duty surfaces, such as kitchens. Ugly as sin, though.</description>
+		<texturePath>Terrain/Surfaces/AP_KitchenTileBlue</texturePath>
+		<statBases>
+			<Cleanliness>0.5</Cleanliness>
+			<WorkToBuild>1300</WorkToBuild>
+		</statBases>
+		<designationHotKey>Misc5</designationHotKey>
+	</TerrainDef>
+</Defs>

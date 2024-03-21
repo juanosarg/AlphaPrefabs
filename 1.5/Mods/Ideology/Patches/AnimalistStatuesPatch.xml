@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_AnimalistFakeSculptures</defName>
+				<label>animalist fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallAnimalistSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small animalist sculpture</label>
+				<description>An animalist style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>Animalist</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_AnimalistFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAnimalistSculptureBase">
+				<defName>AP_AnimalistFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Small/SculptureSmallAnimalistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAnimalistSculptureBase">
+				<defName>AP_AnimalistFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Small/SculptureSmallAnimalistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallAnimalistSculptureBase">
+				<defName>AP_AnimalistFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Small/SculptureSmallAnimalistC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumAnimalistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large animalist sculpture</label>
+				<description>An animalist style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>Animalist</dominantStyleCategory>
+				<designatorDropdown>AP_AnimalistFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Large/SculptureLargeAnimalistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Large/SculptureLargeAnimalistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Large/SculptureLargeAnimalistC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandAnimalistFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand animalist sculpture</label>
+				<description>An animalist style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_AnimalistFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>Animalist</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Grand/SculptureGrandAnimalistA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Grand/SculptureGrandAnimalistB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandAnimalistFakeSculptureBase">
+				<defName>AP_AnimalistFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Animalist/Sculptures/Grand/SculptureGrandAnimalistC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

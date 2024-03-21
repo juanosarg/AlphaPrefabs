@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_CorporateFakeSculptures</defName>
+				<label>corporate fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallCorporateSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small corporate sculpture</label>
+				<description>A corporate style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>VME_Corporate</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_CorporateFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallCorporateSculptureBase">
+				<defName>AP_CorporateFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Small/VME_SculptureSmallCorporateA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallCorporateSculptureBase">
+				<defName>AP_CorporateFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Small/VME_SculptureSmallCorporateB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallCorporateSculptureBase">
+				<defName>AP_CorporateFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Small/VME_SculptureSmallCorporateC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumCorporateFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large corporate sculpture</label>
+				<description>A corporate style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>VME_Corporate</dominantStyleCategory>
+				<designatorDropdown>AP_CorporateFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Large/VME_SculptureLargeCorporateA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Large/VME_SculptureLargeCorporateB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Large/VME_SculptureLargeCorporateC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandCorporateFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand corporate sculpture</label>
+				<description>A corporate style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_CorporateFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>VME_Corporate</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Grand/VME_SculptureGrandCorporateA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Grand/VME_SculptureGrandCorporateB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandCorporateFakeSculptureBase">
+				<defName>AP_CorporateFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Corporate/Sculptures/Grand/VME_SculptureGrandCorporateC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

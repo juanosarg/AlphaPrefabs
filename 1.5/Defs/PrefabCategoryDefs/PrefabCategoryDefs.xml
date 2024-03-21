@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_PrefabCategoryBedrooms</defName>
+		<label>bedrooms</label>
+		<description>Prefabs that include beds, end tables, dressers, etc</description>
+		<priority>1</priority>
+		<icon>UI/Categories/AP_Category_Bedroom</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Animals</defName>
+		<label>animals</label>
+		<description>Barns, animal rooms, anything that is related to pets, livestock or similar</description>
+		<priority>2</priority>
+		<icon>UI/Categories/AP_Category_Animals</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_FullHouse</defName>
+		<label>full bases</label>
+		<description>Complete bases that include several different structures under the same roof, such as a bedroom / living room / dining room or a combination hospital / research lab / prison</description>
+		<priority>2.5</priority>
+		<icon>UI/Categories/AP_Category_FullHouse</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Eating</defName>
+		<label>food &amp; rec</label>
+		<description>Living rooms, kitchens, taverns. Anything having to do with the consumption of food or beverages or colonist recreation</description>
+		<priority>3</priority>
+		<icon>UI/Categories/AP_Category_Eating</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Healthcare</defName>
+		<label>healthcare</label>
+		<description>Hospitals, medicine rooms, triage rooms, drug labs. Anything having to do with colonist health. Note that this category will be more expensive in the USA</description>
+		<priority>4</priority>
+		<icon>UI/Categories/AP_Category_Healthcare</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Research</defName>
+		<label>research &amp; school</label>
+		<description>Research centers and laboratories, as well as schools for children in Biotech</description>
+		<priority>4.5</priority>
+		<icon>UI/Categories/AP_Category_Research</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_NatureAndCrops</defName>
+		<label>farm &amp; nature</label>
+		<description>Farms, parks, hydroponics facilities. Anything related to either crops or nature</description>
+		<priority>5</priority>
+		<icon>UI/Categories/AP_Category_NatureAndCrops</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Power</defName>
+		<label>power</label>
+		<description>Power generation and storage, as well as related things such as gas or chemfuel networks</description>
+		<priority>6</priority>
+		<icon>UI/Categories/AP_Category_Power</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Prison</defName>
+		<label>prisons</label>
+		<description>Prefabs including ways to handle prisoners</description>
+		<priority>7</priority>
+		<icon>UI/Categories/AP_Category_Prison</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Production</defName>
+		<label>production</label>
+		<description>Prefabs consisting of production facilities of all kinds</description>
+		<priority>8</priority>
+		<icon>UI/Categories/AP_Category_Production</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Military</defName>
+		<label>military</label>
+		<description>Offensive and defensive structures such as pillboxes, armories, mortar depots, etc</description>
+		<priority>8.5</priority>
+		<icon>UI/Categories/AP_Category_Military</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Temples</defName>
+		<label>temples</label>
+		<description>Ideology based structures such as temples, churches, and similar</description>
+		<priority>8.75</priority>
+		<icon>UI/Categories/AP_Category_Temples</icon>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Vampires</defName>
+		<label>sanguophage</label>
+		<description>Commonly known as vampires</description>
+		<priority>9</priority>
+		<icon>UI/Categories/AP_Category_Vampires</icon>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_RoadPieces</defName>
+		<label>transportation</label>
+		<description>Modular roads to make an urban looking cityscape and vehicle related buildings</description>
+		<priority>10</priority>
+		<icon>UI/Categories/AP_Category_RoadPieces</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_CastlePieces</defName>
+		<label>castles &amp; nobility</label>
+		<description>Modular castle pieces to make your own sprawling medieval castle, as well as throne rooms, art galleries, etc</description>
+		<priority>11</priority>
+		<icon>UI/Categories/AP_Category_CastlePieces</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+	<!--<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Silly</defName>
+		<label>silly</label>
+		<description>Now this is just silly</description>
+		<priority>100</priority>
+		<icon>UI/Categories/AP_Category_Silly</icon>
+		<silly>true</silly>
+	</AlphaPrefabs.PrefabCategoryDef>-->
+</Defs>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road_Straight</defName>
+		<label>straight road</label>
+		<shortLabel>straight road</shortLabel>
+		<labelForDefaultVariation>West-East, curb on the South</labelForDefaultVariation>
+		<description>A straight road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>1</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Straight_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road_Straight</layout>
+		<marketvalue>581</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>West-East, curb on the North</name>
+				<layoutVariation>AP_Prefab_Road_Straight_north</layoutVariation>
+			</li>
+			<li>
+				<name>North-South, curb on the West</name>
+				<layoutVariation>AP_Prefab_Road_Straight_west</layoutVariation>
+			</li>
+			<li>
+				<name>North-South, curb on the East</name>
+				<layoutVariation>AP_Prefab_Road_Straight_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road_Corner_northwest</defName>
+		<label>corner road</label>
+		<shortLabel>corner road</shortLabel>
+		<labelForDefaultVariation>Curb on the Northwest</labelForDefaultVariation>
+		<description>A corner road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>2</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road_Corner_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road_Corner_northwest</layout>
+		<marketvalue>194</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Curb on the Northeast</name>
+				<layoutVariation>AP_Prefab_Road_Corner_northeast</layoutVariation>
+			</li>
+			<li>
+				<name>Curb on the Southwest</name>
+				<layoutVariation>AP_Prefab_Road_Corner_southwest</layoutVariation>
+			</li>
+			<li>
+				<name>Curb on the Southeast</name>
+				<layoutVariation>AP_Prefab_Road_Corner_southeast</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AirplaneHangar</defName>
+		<label>airplane hangars</label>
+		<shortLabel>airplane hangars</shortLabel>
+		<description>Airplane hangars with space for planes and helicopters, plus a garage workshop.</description>
+		<priority>5</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AirplaneHangar_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_AirplaneHangar</layout>
+		<marketvalue>15120</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MosquitoHelipad</defName>
+		<label>simple helipad</label>
+		<shortLabel>simple helipad</shortLabel>
+		<description>A simple helipad.</description>
+		<priority>10</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MosquitoHelipad_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_MosquitoHelipad</layout>
+		<marketvalue>550</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepropsanddecor</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Helipad</defName>
+		<label>large helipad</label>
+		<shortLabel>large helipad</shortLabel>
+		<description>A large helipad.</description>
+		<priority>10.5</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Helipad_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Helipad</layout>
+		<marketvalue>698</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepropsanddecor</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleGarage</defName>
+		<label>simple garage</label>
+		<shortLabel>simple garage</shortLabel>
+		<description>A structure containing a garage bench, two garage cabinets, plenty of space to store components and two garage bays with garage doors to store vehicles.</description>
+		<priority>11</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleGarage_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_SimpleGarage</layout>
+		<marketvalue>3988</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road3Wide</defName>
+		<label>3-wide road</label>
+		<shortLabel>3-wide road</shortLabel>
+		<labelForDefaultVariation>West-East</labelForDefaultVariation>
+		<description>A 3-wide straight road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>100</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road3Wide_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road3Wide</layout>
+		<marketvalue>493</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>North-South</name>
+				<layoutVariation>AP_Prefab_Road3Wide_Vertical</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road3WideIntersection</defName>
+		<label>3-wide road intersection</label>
+		<shortLabel>3-wide intersection</shortLabel>
+		<description>A 3-wide straight road intersection. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>101</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road3WideIntersection_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road3WideIntersection</layout>
+		<marketvalue>567</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road5Wide</defName>
+		<label>5-wide road</label>
+		<shortLabel>5-wide road</shortLabel>
+		<labelForDefaultVariation>West-East</labelForDefaultVariation>
+		<description>A 5-wide straight road. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>102</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road5Wide_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road3Wide</layout>
+		<marketvalue>614</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>North-South</name>
+				<layoutVariation>AP_Prefab_Road5Wide_Vertical</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Road5WideIntersection</defName>
+		<label>5-wide road intersection</label>
+		<shortLabel>5-wide intersection</shortLabel>
+		<description>A 5-wide straight road intersection. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>103</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Road5WideIntersection_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_Road5WideIntersection</layout>
+		<marketvalue>685</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RoadConverter</defName>
+		<label>road converter</label>
+		<shortLabel>road converter</shortLabel>
+		<labelForDefaultVariation>3 West- 5 East</labelForDefaultVariation>
+		<description>A 3-wide to 5-wide straight road converter. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>104</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RoadConverter_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_RoadConverter</layout>
+		<marketvalue>557</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>5 West- 3 East</name>
+				<layoutVariation>AP_Prefab_RoadConverter_5West3East</layoutVariation>
+			</li>
+			<li>
+				<name>3 North - 5 South</name>
+				<layoutVariation>AP_Prefab_RoadConverter_3North5South</layoutVariation>
+			</li>
+			<li>
+				<name>5 North - 3 South</name>
+				<layoutVariation>AP_Prefab_RoadConverter_5North3South</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RoadGasStation</defName>
+		<label>gas station</label>
+		<shortLabel>gas station</shortLabel>
+		<description>A 5-wide straight road intersection. Use the prefab's bounding box to line them up, and remember there is no Undo button, so save often.</description>
+		<priority>105</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RoadGasStation_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_RoadGasStation</layout>
+		<marketvalue>1884</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>BiofuelRefining</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VehicleMineralScanner</defName>
+		<label>vehicle mineral scanner</label>
+		<shortLabel>vehicle scanner</shortLabel>
+		<description>A building containing a long range mineral scanner, a garage along with a storage containg parts for a T1 vehicle, fuel and packaged meals</description>
+		<priority>106</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VehicleMineralScanner_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_VehicleMineralScanner</layout>
+		<marketvalue>3492</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>LongRangeMineralScanner</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VehicleMineralScannerVariant</defName>
+		<label>vehicle mineral scanner, small</label>
+		<shortLabel>small vehicle scanner</shortLabel>
+		<description>A building containing a long range mineral scanner, a garage along with a storage containg parts for a simple T1 vehicleand fuel</description>
+		<priority>107</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VehicleMineralScannerVariant_Preview</detailedImage>
+		<category>AP_Category_RoadPieces</category>
+		<layout>AP_Prefab_VehicleMineralScannerVariant</layout>
+		<marketvalue>3000</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>LongRangeMineralScanner</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vanillavehiclesexpanded</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

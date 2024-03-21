@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+  <defName>VCE_Grill_South</defName>
+  <thing>VCE_Grill</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_ElectricPot_East</defName>
+  <thing>VCE_ElectricPot</thing>
+  <rotation>East</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBE_EspressoMachineBuilding_West</defName>
+  <thing>VBE_EspressoMachineBuilding</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBE_SodaFountain_West</defName>
+  <thing>VBE_SodaFountain</thing>
+  <rotation>West</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VCE_CanningMachine_North</defName>
+  <thing>VCE_CanningMachine</thing>
+</KCSG.SymbolDef>
+	
+	
+</Defs>
+

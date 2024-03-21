@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_1</defName>
+		<label>small 1-person bedroom</label>
+		<shortLabel>small single</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A very small 1-person bedroom ideal for cramped spaces. Its 13 tiles of space classifies it as "rather tight".</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_1</layout>
+		<marketvalue>436</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_1_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_3</defName>
+		<label>small 1-person bedroom</label>
+		<shortLabel>small single 2</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A very small 1-person bedroom ideal for cramped spaces. Its 21 tiles of space classifies it as "rather tight".</description>
+		<priority>1.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_3_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_3</layout>
+		<marketvalue>657</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_3_east</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_2</defName>
+		<label>small 2-person bedroom</label>
+		<shortLabel>small double</shortLabel>
+		<labelForDefaultVariation>Facing East</labelForDefaultVariation>
+		<description>A very small 2-person bedroom ideal for cramped spaces. Its 18 tiles of space classifies it as "rather tight".</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_2</layout>
+		<marketvalue>650</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_Bedroom_2_south</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Tribal_1</defName>
+		<label>cozy 2-person tribal hut</label>
+		<shortLabel>tribal double</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A cozy 2-person tribal hut with a passive cooler. Its 18 tiles of space classifies it as "rather tight".</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Tribal_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Tribal_1</layout>
+		<marketvalue>541</marketvalue>
+		<researchPrerequisites>
+			<li>PassiveCooler</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_1_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Tribal_2</defName>
+		<label>cozy 1-person tribal hut</label>
+		<shortLabel>tribal single</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A cozy 1-person tribal hut with a passive cooler. Its 17 tiles of space classifies it as "rather tight".</description>
+		<priority>2.9</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Tribal_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Tribal_2</layout>
+		<marketvalue>379</marketvalue>
+		<researchPrerequisites>
+			<li>PassiveCooler</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Bedroom_Tribal_2_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ErinsCottageBedroom_1</defName>
+		<label>erin's 2-person cottage bedroom</label>
+		<description>A small 2-person cottage bedroom using Erin's cottage collection items. Its 21 tiles of space classifies it as "rather tight". You also get a cottage using vanilla items, but it's recommended to get the mod for optimal aesthetics.</description>
+		<shortLabel>cottage double</shortLabel>
+		<labelForDefaultVariation>Using Erin's mod</labelForDefaultVariation>
+		<priority>2000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_ErinsCottageBedroom_1</layout>
+		<marketvalue>948</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Variation</name>
+				<layoutVariation>AP_Prefab_ErinsCottageBedroom_1_NoErin</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Erin's Cottage Collection</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ErinsCottageBedroom_2</defName>
+		<label>erin's medium 2-person cottage bedroom</label>
+		<shortLabel>cottage double Mdm</shortLabel>
+		<description>A medium 2-person cottage bedroom using Erin's cottage collection items. Includes a fireplace and a dining room. Its 36 tiles of space classifies it as "average sized". You also get a cottage using vanilla items, but it's recommended to get the mod for optimal aesthetics.</description>
+		<labelForDefaultVariation>Using Erin's mod</labelForDefaultVariation>
+		<priority>2001</priority>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ErinsCottageBedroom_2_Preview</detailedImage>
+		<layout>AP_Prefab_ErinsCottageBedroom_2</layout>
+		<marketvalue>1444</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Variation</name>
+				<layoutVariation>AP_Prefab_ErinsCottageBedroom_2_NoErin</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Erin's Cottage Collection</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Elegant_Bedroom_1</defName>
+		<label>elegant 1-person bedroom</label>
+		<shortLabel>elegant single</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A very small but elegant 1-person bedroom ideal for cramped spaces. Its 15 tiles of space classifies it as "rather tight". Includes an industrial radio for recreation and a steel bin for cleanliness</description>
+		<priority>3000</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Elegant_Bedroom_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Elegant_Bedroom_1</layout>
+		<marketvalue>1159</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_1_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Elegant_Bedroom_2</defName>
+		<label>elegant 2-person bedroom</label>
+		<shortLabel>elegant double</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A medium size, elegant 2-person bedroom. Its 45 tiles of space classifies it as "average sized". Includes an industrial radio, chess table, dartboard and television for recreation and a steel bin for cleanliness</description>
+		<priority>3001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Elegant_Bedroom_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Elegant_Bedroom_2</layout>
+		<marketvalue>2520</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>TubeTelevision</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_north</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_west</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_Elegant_Bedroom_2_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nursery</defName>
+		<label>small nursery</label>
+		<author>Reel</author>
+		<shortLabel>small nursery</shortLabel>
+		<description>A small nursery with three cribs, toys and a shelf to store baby food.</description>
+		<priority>3002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nursery_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Nursery</layout>
+		<marketvalue>1296</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Dormitory_1</defName>
+		<label>heated bedroom cluster</label>
+		<shortLabel>bedroom cluster</shortLabel>
+		<labelForDefaultVariation>Entrance on West side</labelForDefaultVariation>
+		<description>A cluster of 4 compact double bedrooms, all connected to a single electric heater via air vents.</description>
+		<priority>4000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Dormitory_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Dormitory_1</layout>
+		<marketvalue>2569</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>>Entrance on East side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_east</layoutVariation>
+			</li>
+			<li>
+				<name>>Entrance on North side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_north</layoutVariation>
+			</li>
+			<li>
+				<name>>Entrance on South side</name>
+				<layoutVariation>AP_Prefab_Dormitory_1_south</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Dormitory_2</defName>
+		<label>large barracks</label>
+		<shortLabel>large barracks</shortLabel>
+		<labelForDefaultVariation>North-South Orientation</labelForDefaultVariation>
+		<description>A large barracks with space for 14 people, plus a communal living room / dining room in the center.</description>
+		<priority>4001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Dormitory_2_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Dormitory_2</layout>
+		<marketvalue>3345</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>East-West Orientation</name>
+				<layoutVariation>AP_Prefab_Dormitory_2_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_TwinBarracks</defName>
+		<label>twin barracks</label>
+		<shortLabel>twin barracks</shortLabel>
+		<description>A couple of twin barracks with space for 8 people.</description>
+		<priority>4002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_TwinBarracks_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_TwinBarracks</layout>
+		<marketvalue>3455</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallBedroomWithBathroom</defName>
+		<label>small bedroom with bathroom</label>
+		<shortLabel>small bedroom</shortLabel>
+		<description>A very small bedroom with an attached bathroom.</description>
+		<priority>4003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallBedroomWithBathroom_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_SmallBedroomWithBathroom</layout>
+		<marketvalue>645</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>Dubwise.dubsbadhygiene</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Residential_1</defName>
+		<label>large residential plaza</label>
+		<shortLabel>residential plaza</shortLabel>
+		<labelForDefaultVariation>Entrance West</labelForDefaultVariation>
+		<description>A large residential plaza with a central outdoors area, 8 single bedrooms and 3 larger double bedrooms, arranged in a circle.</description>
+		<priority>4004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Residential_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Residential_1</layout>
+		<marketvalue>6275</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Entrance East</name>
+				<layoutVariation>AP_Prefab_Residential_1_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Circular_1</defName>
+		<label>circular bedroom</label>
+		<shortLabel>circular bedroom</shortLabel>
+		<description>A circular 1-person bedroom. Its 40 tiles of space classifies it as "average-sized".</description>
+		<priority>5000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Circular_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Circular_1</layout>
+		<marketvalue>1012</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Pillbox_Dormitory</defName>
+		<label>armored barracks</label>
+		<shortLabel>armored barracks</shortLabel>
+		<description>Barracks with space for eight people, surreounded by walls and a layer of sandbags.</description>
+		<priority>5001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Pillbox_Dormitory_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Pillbox_Dormitory</layout>
+		<marketvalue>1330</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Medium_1</defName>
+		<label>medium bedroom</label>
+		<shortLabel>medium bedroom</shortLabel>
+		<description>A medium 1-person bedroom. Its 45 tiles of space classifies it as "average-sized".</description>
+		<priority>5002</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Medium_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Medium_1</layout>
+		<marketvalue>949</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Large_1</defName>
+		<label>large double bedroom</label>
+		<shortLabel>large bedroom</shortLabel>
+		<description>A large 2-person bedroom. Includes a flatscreen TV and 4 seating spaces to eat. Its 91 tiles of space classifies it as "quite spacious".</description>
+		<priority>5003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Large_1_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Large_1</layout>
+		<marketvalue>4074</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>FlatscreenTelevision</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Rustic_Variations_1</defName>
+		<label>medium rustic bedroom</label>
+		<shortLabel>rustic bedroom</shortLabel>
+		<labelForDefaultVariation>Variation 1</labelForDefaultVariation>
+		<description>Four variations of medium 1 or 2-person bedrooms. They are all classified as "average-sized".</description>
+		<priority>5004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Rustic_Variations_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Rustic_Variations_1</layout>
+		<marketvalue>561</marketvalue>
+		<author>Stelfer</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Variation 2</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_2</layoutVariation>
+			</li>
+			<li>
+				<name>Variation 3</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_3</layoutVariation>
+			</li>
+			<li>
+				<name>Variation 4</name>
+				<layoutVariation>AP_Prefab_Bedroom_Rustic_Variations_4</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_CircleOfBedrooms</defName>
+		<label>circle of bedrooms</label>
+		<shortLabel>circle of bedrooms</shortLabel>
+		<description>A huge circular structure containing 6 bedrooms, as well as a common room in the centre. Bedrooms go from "average-sized" to "quite spacious".</description>
+		<priority>5005</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_CircleOfBedrooms_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_CircleOfBedrooms</layout>
+		<marketvalue>11083</marketvalue>
+		<author>Eragon</author>
+		<researchPrerequisites>
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bedroom_Bath</defName>
+		<label>double bedroom with bathroom</label>
+		<shortLabel>double with bathroom</shortLabel>
+		<labelForDefaultVariation>Entrance SW</labelForDefaultVariation>
+		<description>A 2-person bedroom with an attached bathroom. Its 26 tiles of size classifies it as "rather tight". Without Dub's Bad Hygiene the bedroom will just have an empty attached room.</description>
+		<priority>5010</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bedroom_Bath_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_Bedroom_Bath</layout>
+		<marketvalue>922</marketvalue>
+		<author>OpGamer97</author>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Entrance SE (mirrored)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_2</layoutVariation>
+			</li>
+			<li>
+				<name>Entrance SE (vertical)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_3</layoutVariation>
+			</li>
+			<li>
+				<name>Entrance SW (vertical, mirrored)</name>
+				<layoutVariation>AP_Prefab_Bedroom_Bath_4</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Dub's Bad Hygiene</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+		
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ApartmentComplex</defName>
+		<label>apartment complex</label>
+		<shortLabel>apartment complex</shortLabel>
+		<description>A gigantic apartment complex containing 18 "rather tight" single bedrooms, as well as a common room in the centre.</description>
+		<priority>6000</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ApartmentComplex_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_ApartmentComplex</layout>
+		<marketvalue>19001</marketvalue>
+		<author>Kad</author>
+		<researchPrerequisites>
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RepurposedDanger</defName>
+		<label>repurposed ancient danger</label>
+		<shortLabel>repurposed ancient danger</shortLabel>
+		<description>A former ancient danger converted into a very simple barracks.</description>
+		<priority>6001</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RepurposedDanger_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_RepurposedDanger</layout>
+		<marketvalue>2579</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Ideology</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ResearchQuarters</defName>
+		<label>research quarters</label>
+		<shortLabel>research quarters</shortLabel>
+		<description>A research lab with adjoined quarters to have your researchers close to their jobs.</description>
+		<priority>6002</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ResearchQuarters_Preview</detailedImage>
+		<categories>
+			<li>AP_PrefabCategoryBedrooms</li>
+			<li>AP_Category_Research</li>
+		</categories>
+		<layout>AP_Prefab_ResearchQuarters</layout>
+		<marketvalue>5849</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+			<li>Batteries</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+			<li>SolarPanels</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_ResearchQuarters_Variation</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Medical</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VikingHut</defName>
+		<label>viking hut</label>
+		<shortLabel>viking hut</shortLabel>
+		<description>A small viking hut with two fur beds, plenty of survival meals and a table for two. Its 37 tiles of space classifies it as "average sized".</description>
+		<priority>6003</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VikingHut_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VikingHut</layout>
+		<marketvalue>880</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.vikings</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VidTuberHouse</defName>
+		<label>vidTuber house</label>
+		<shortLabel>vidTuber house</shortLabel>
+		<description>A small content creator house with a streaming console.</description>
+		<priority>6004</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VidTuberHouse_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VidTuberHouse</layout>
+		<marketvalue>2395</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+			
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			
+			<li>MicroelectronicsBasics</li>
+		
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>noobertnebulous.vidtuber</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_VidTuberFarm</defName>
+		<label>vidTuber farm</label>
+		<shortLabel>vidTuber farm</shortLabel>
+		<description>A huge content creator complex with eight streaming consoles with attached bedrooms and a rec room. With vanilla Nutrient Paste Expanded you can enhance the rec room to use piping.</description>
+		<priority>6005</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_VidTuberFarm_Preview</detailedImage>
+		<category>AP_PrefabCategoryBedrooms</category>
+		<layout>AP_Prefab_VidTuberFarm</layout>
+		<marketvalue>17239</marketvalue>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>FlatscreenTelevision</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>Stonecutting</li>
+			<li>MicroelectronicsBasics</li>
+			<li>AirConditioning</li>
+			<li>NutrientPaste</li>
+			
+	
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_VidTuberFarm_Variation</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>noobertnebulous.vidtuber</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+</Defs>

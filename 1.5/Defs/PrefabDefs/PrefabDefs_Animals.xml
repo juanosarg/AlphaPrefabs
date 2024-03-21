@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_Barn_1</defName>
+		<label>huge barn</label>
+		<shortLabel>huge barn</shortLabel>
+		<description>A huge barn with space for 6 farm animals, plus an exterior pen so herbivores can graze. Includes shelves with hay to feed the animals. Fits a 20x20 tile area</description>
+		<priority>1</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_1_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_Barn_1</layout>
+		<marketvalue>2298</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_Barn_2</defName>
+		<label>small barn</label>
+		<shortLabel>small barn</shortLabel>
+		<description>A small barn with space for 4 farm animals, plus boxes for 3 smaller ones, and an exterior pen so herbivores can graze. Includes shelves with hay to feed the animals.</description>
+		<priority>0.5</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_2_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_Barn_2</layout>
+		<marketvalue>1508</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_Barn_3</defName>
+		<label>tiny barn</label>
+		<shortLabel>tiny barn</shortLabel>
+		<description>A tiny barn with 5 animal beds and 2 sleeping boxes for small animals, as well as an exterior pen separated in two grassy areas so herbivores can graze.</description>
+		<priority>0.25</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_Barn_3_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_Barn_3</layout>
+		<marketvalue>1001</marketvalue>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_AnimalProcessing</defName>
+		<label>animal processing</label>
+		<shortLabel>animal processing</shortLabel>
+		<description>An integrated animal processing center with a small outdoors pen, a butchery and two stoves.</description>
+		<priority>2</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_AnimalProcessing_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_AnimalProcessing</layout>
+		<marketvalue>1999</marketvalue>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_AnimalProcessing_Modern</defName>
+		<label>animal processing, modern</label>
+		<shortLabel>animal processing</shortLabel>
+		<description>A modern, integrated animal processing center with a small outdoors pen, butchery tables, two electric stoves and a walk-in freezer.</description>
+		<priority>3</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_AnimalProcessing_Modern_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_AnimalProcessing</layout>
+		<marketvalue>2560</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Animals_RoundBarn</defName>
+		<label>circle barn</label>
+		<shortLabel>circle barn</shortLabel>
+		<description>A medium sized animal barn for square haters, surrounded by walls to keep your animals safe and comes with a warm place for your animals to sleep during cold days.</description>
+		<author>Kolopo</author>
+		<priority>10</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Animals_RoundBarn_Preview</detailedImage>
+		<layout>AP_Prefab_Animals_RoundBarn</layout>
+		<marketvalue>3174</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Electricity</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ModernBarn</defName>
+		<label>nutri-paste barn</label>
+		<shortLabel>nutri-paste barn</shortLabel>
+		<description>An animal barn built with fireproof walls, and a built-in system to feed the animals using nutrient paste. If you have Vanilla Furniture Expanded it will include an electric butchery.</description>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<priority>11</priority>
+		<category>AP_Category_Animals</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ModernBarn_Preview</detailedImage>
+		<layout>AP_Prefab_ModernBarn</layout>
+		<marketvalue>2085</marketvalue>
+		<researchPrerequisites>
+			<li>AirConditioning</li>
+			<li>NutrientPaste</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+		
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+		
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

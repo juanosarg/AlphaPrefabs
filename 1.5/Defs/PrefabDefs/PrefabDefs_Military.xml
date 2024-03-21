@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Military_1</defName>
+		<label>huge bunker</label>
+		<shortLabel>huge bunker</shortLabel>
+		<description>A huge defensive structure with 8 mini-turrets, 4 auto-cannons, 4 IEDs and 4 mortars, plus space for ammo and a chemfuel generator with batteries to hold out for a while in case it is cut from the electric grid.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Military_1_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_Military_1</layout>
+		<author>Reel</author>
+		<marketvalue>17253</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Batteries</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+			<li>IEDs</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleMortars</defName>
+		<label>simple mortar depot</label>
+		<shortLabel>mortar simple</shortLabel>
+		<description>A small depot with three mortars as well as some ammo for them.</description>
+		<priority>0.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleMortars_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SimpleMortars</layout>
+		<marketvalue>4052</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Military_2</defName>
+		<label>simple pillbox</label>
+		<shortLabel>simple pillbox</shortLabel>
+		<description>A simple defensive pillbox with 3 mini-turrets, 2 autocannons and 4 IEDs, protected by sandbags and barricades.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Military_2_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_Military_2</layout>
+		<marketvalue>4031</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>IEDs</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationMini</defName>
+		<label>fortification: turrets</label>
+		<shortLabel>fortification: turrets</shortLabel>
+		<description>A fortification with four mini-turrets. If you have Vanilla Furniture Expanded - Security the fortification will also have ammo boxes.</description>
+		<priority>9</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationMini_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationMini</layout>
+		<author>Heretic</author>
+		<marketvalue>2696</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_FortificationMini_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FortificationMini_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FortificationMini_East</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationHeavy</defName>
+		<label>fortification: heavy</label>
+		<shortLabel>fortification: heavy</shortLabel>
+		<description>A heavy fortification with six mini-turrets, two autocannons and two uranium slug turrets, plus spike traps and firefoam poppers.</description>
+		<priority>9.5</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationHeavy_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationHeavy</layout>
+		<author>Heretic</author>
+		<marketvalue>7953</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_FortificationHeavy_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FortificationHeavy_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FortificationHeavy_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationCannons</defName>
+		<label>fortification: cannons</label>
+		<shortLabel>fortification: cannons</shortLabel>
+		<description>A fortification with four cannons.</description>
+		<priority>10</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationCannons_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationCannons</layout>
+		<author>Heretic</author>
+		<marketvalue>1700</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_FortificationCannons_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FortificationCannons_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FortificationCannons_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationFieldGuns</defName>
+		<label>fortification: field guns</label>
+		<shortLabel>fortification: field guns</shortLabel>
+		<description>A fortification with four field guns. If you have Vanilla Furniture Expanded - Security the fortification will also have ammo boxes.</description>
+		<priority>11</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationFieldGuns_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationFieldGuns</layout>
+		<author>Heretic</author>
+		<marketvalue>3125</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Mortars</li>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_FortificationFieldGuns_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FortificationFieldGuns_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FortificationFieldGuns_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationArtillery</defName>
+		<label>fortification: artillery</label>
+		<shortLabel>fortification: artillery</shortLabel>
+		<description>A fortification with five steel artillery, as well as protected shelves to store shells.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationArtillery_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationArtillery</layout>
+		<author>Heretic</author>
+		<marketvalue>5183</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Mortars</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FortificationRockets</defName>
+		<label>fortification: rockets</label>
+		<shortLabel>fortification: rockets</shortLabel>
+		<description>A fortification with two rocketswarm launchers, four mini-turrets and two autocannon turrets.</description>
+		<priority>13</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FortificationRockets_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FortificationRockets</layout>
+		<author>Heretic</author>
+		<marketvalue>5971</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>RocketswarmLauncher</li>
+			<li>GunTurrets</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_FortificationRockets_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FortificationRockets_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FortificationRockets_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RoofTrap</defName>
+		<label>turret roof trap</label>
+		<shortLabel>turret roof trap</shortLabel>
+		<description>A small, expendable turret nest designed to shoot, stab and lure melee raiders into getting under a roof that will collapse after one turret explosion. Works best agains tribals.</description>
+		<priority>14</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RoofTrap_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RoofTrap</layout>
+		<author>Kolopo</author>
+		<marketvalue>2025</marketvalue>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DoubleAutocannons_Corner</defName>
+		<label>autocannon complex, corner</label>
+		<shortLabel>autocannons, corner</shortLabel>
+		<description>A fortification with three double autocannons. Corner piece.</description>
+		<priority>21</priority>
+		<labelForDefaultVariation>NW corner</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DoubleAutocannons_Corner_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_DoubleAutocannons_Corner</layout>
+		<author>Kolopo</author>
+		<marketvalue>6814</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>NE corner</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_Corner_NE</layoutVariation>
+			</li>
+			<li>
+				<name>SW corner</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_Corner_SW</layoutVariation>
+			</li>
+			<li>
+				<name>SE corner</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_Corner_SE</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DoubleAutocannons</defName>
+		<label>autocannon complex</label>
+		<shortLabel>autocannons</shortLabel>
+		<description>A fortification with three double autocannons.</description>
+		<priority>20</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DoubleAutocannons_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_DoubleAutocannons</layout>
+		<author>Kolopo</author>
+		<marketvalue>6855</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_DoubleAutocannons_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_KillBoxNoTurrets</defName>
+		<label>killbox, no turrets</label>
+		<shortLabel>killbox, no turrets</shortLabel>
+		<description>A killbox designed to slow down attackers when walking towards the base. Alternate design includes traps between the sandbags.</description>
+		<priority>50</priority>
+		<labelForDefaultVariation>No traps</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_KillBoxNoTurrets_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_KillBoxNoTurrets</layout>
+		<author>Heretic</author>
+		<marketvalue>7009</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>With traps</name>
+				<layoutVariation>AP_Prefab_KillBoxNoTurrets_Traps</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MultiEntrance</defName>
+		<label>base multi-entrance</label>
+		<shortLabel>base multi-entrance</shortLabel>
+		<description>A multi-door base entrance designed to slow down attackers.</description>
+		<priority>51</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MultiEntrance_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_MultiEntrance</layout>
+		<author>Heretic</author>
+		<marketvalue>1938</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_MultiEntrance_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_MultiEntrance_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_MultiEntrance_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HugeTurretKillbox</defName>
+		<label>huge turret killbox</label>
+		<shortLabel>huge turret killbox</shortLabel>
+		<description>A huge killbox designed to stagger attacker approach, and then catch them in an open area under turret fire. Includes 25 mini-turrets, 4 autocannons and 2 uranium slug turrets.</description>
+		<priority>52</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugeTurretKillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_HugeTurretKillbox</layout>
+		<author>Heretic</author>
+		<marketvalue>28071</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+			<li>SniperTurret</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GasKillBox</defName>
+		<label>gas killbox</label>
+		<shortLabel>gas killbox</shortLabel>
+		<description>A kill box designed to slay or down your enemies with either tox gas or rot gas. Fill with bodies and wastepacks and install more pollution pumps if needed.</description>
+		<priority>100</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasKillBox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_GasKillBox</layout>
+		<author>Kolopo</author>
+		<marketvalue>6650</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bunker</defName>
+		<label>bunker</label>
+		<shortLabel>bunker</shortLabel>
+		<description>A bunker inspired by designs used by Empire deserters.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bunker_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_Bunker</layout>
+		<author>Reel</author>
+		<marketvalue>5148</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>GunTurrets</li>
+			<li>Smithing</li>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HELNest</defName>
+		<label>HEL nest</label>
+		<shortLabel>HEL nest</shortLabel>
+		<description>A small High Energy Laser nest powered by a PPC.</description>
+		<priority>300</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HELNest_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_HELNest</layout>
+		<author>Kolopo</author>
+		<marketvalue>1845</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TeslaEmplacement</defName>
+		<label>tesla emplacement</label>
+		<shortLabel>tesla emplacement</shortLabel>
+		<description>A small defense building with 4 tesla coils, an obelisk an ADS and two mini-turrets.</description>
+		<priority>301</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TeslaEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TeslaEmplacement</layout>
+		<author>Kolopo</author>
+		<marketvalue>6396</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Autodoors</li>
+			<li>TubeTelevision</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicLiberatorDepot</defName>
+		<label>basic liberator depot</label>
+		<shortLabel>liberator depot</shortLabel>
+		<description>A basic liberator depot with a control room and defended by a laser turret.</description>
+		<priority>399.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicLiberatorDepot_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_BasicLiberatorDepot</layout>
+		<author>Kad</author>
+		<marketvalue>5606</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LiberatorComplex</defName>
+		<label>liberator complex</label>
+		<shortLabel>liberator complex</shortLabel>
+		<description>A heavily defended emplacement with 6 liberator missile silos.</description>
+		<priority>400</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LiberatorComplex_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_LiberatorComplex</layout>
+		<author>Kolopo</author>
+		<marketvalue>17771</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Nutrient Paste Expanded</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TrenchLine</defName>
+		<label>trench line</label>
+		<shortLabel>trench line</shortLabel>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<description>A fortified trench line with an HMG complex, ammo boxes and plenty of defensive positions.</description>
+		<priority>401</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TrenchLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TrenchLine</layout>
+		<author>Kolopo</author>
+		<marketvalue>1609</marketvalue>
+		<researchPrerequisites>
+			<li>Fabrication</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_TrenchLine_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_TrenchLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_TrenchLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SolarPillbox</defName>
+		<label>solar pillbox</label>
+		<shortLabel>solar pillbox</shortLabel>
+		<description>A pillbox with 8 mini-turrets and 4 autocannons, all powered by a protected solar panel with backup batteries.</description>
+		<priority>402</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SolarPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SolarPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>9571</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>Batteries</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement</defName>
+		<label>rimatomics emplacement</label>
+		<shortLabel>rimatomics emplacement</shortLabel>
+		<description>A super heavy defense emplacement using a marauder, four tesla coils and two punishers.</description>
+		<priority>403</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement</layout>
+		<author>Kolopo</author>
+		<marketvalue>9030</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement_Corner</defName>
+		<label>rimatomics emplacement, corner</label>
+		<shortLabel>rimatomics, corner</shortLabel>
+		<description>A super heavy defense emplacement using a marauder, four tesla coils and several standard turrets.</description>
+		<priority>404</priority>
+		<labelForDefaultVariation>NW corner</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Corner_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement_Corner</layout>
+		<author>Kolopo</author>
+		<marketvalue>6946</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>NE corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_NE</layoutVariation>
+			</li>
+			<li>
+				<name>SW corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_SW</layoutVariation>
+			</li>
+			<li>
+				<name>SE corner</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Corner_SE</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsEmplacement_Gate</defName>
+		<label>rimatomics emplacement, gate</label>
+		<shortLabel>rimatomics, gate</shortLabel>
+		<description>A super heavy defense emplacement entrance gate using a marauder, a punisher, tesla coils and several standard turrets.</description>
+		<priority>405</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsEmplacement_Gate_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_RimatomicsEmplacement_Gate</layout>
+		<author>Kolopo</author>
+		<marketvalue>10232</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_RimatomicsEmplacement_Gate_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PalintonePillbox</defName>
+		<label>palintone pillbox</label>
+		<shortLabel>palintone pillbox</shortLabel>
+		<description>A pillbox with a huge palintone turret defended by 4 double auto-cannon turrets.</description>
+		<priority>460</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PalintonePillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_PalintonePillbox</layout>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<marketvalue>13467</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+			<li>oskarpotocki.vfe.deserters</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_KontarionPillbox</defName>
+		<label>kontarion pillbox</label>
+		<shortLabel>kontarion pillbox</shortLabel>
+		<description>A pillbox with a huge kontarion turret defended by two double auto-cannon turrets and two sniper turrets.</description>
+		<priority>460.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_KontarionPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_KontarionPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>17142</marketvalue>
+		<researchPrerequisites>
+			<li>HeavyTurrets</li>
+			<li>GunTurrets</li>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+			<li>oskarpotocki.vfe.deserters</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MedievalDefensiveLine</defName>
+		<label>medieval defensive line</label>
+		<shortLabel>medieval def. line</shortLabel>
+		<description>A medieval defense line with ballistae and catapults, defended by cavalry spikes.</description>
+		<priority>461</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MedievalDefensiveLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_MedievalDefensiveLine</layout>
+		<author>Kolopo</author>
+		<marketvalue>2172</marketvalue>
+		<researchPrerequisites>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_MedievalDefensiveLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ChargeComplex</defName>
+		<label>charge complex</label>
+		<shortLabel>charge complex</shortLabel>
+		<description>A high tech emplacement containing charge turrets and double auto-cannons, protected by an energy shield.</description>
+		<priority>500</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ChargeComplex_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_ChargeComplex</layout>
+		<author>Kolopo</author>
+		<marketvalue>12042</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>GunTurrets</li>
+			<li>HeavyTurrets</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_ChargeComplex_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheapPillbox</defName>
+		<label>cheap pillbox</label>
+		<shortLabel>cheap pillbox</shortLabel>
+		<description>A simple, cheap pillbox containing an auto-cannon and a mini-turret.</description>
+		<priority>501</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheapPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CheapPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>1664</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CheapPillbox_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheapSniperPillbox</defName>
+		<label>cheap sniper pillbox</label>
+		<shortLabel>sniper pillbox</shortLabel>
+		<description>A simple, cheap pillbox containing an uranium slug turret and a mini-turret.</description>
+		<priority>502</priority>
+		<labelForDefaultVariation>Facing South</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheapSniperPillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CheapSniperPillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>1839</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing North</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_North</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CheapSniperPillbox_East</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BallistaLine</defName>
+		<label>ballista line</label>
+		<shortLabel>ballista line</shortLabel>
+		<description>A simple siege line of three ballistae with plenty of wood to rearm them.</description>
+		<priority>503</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BallistaLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_BallistaLine</layout>
+		<author>Heretic</author>
+		<marketvalue>982</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_BallistaLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_BallistaLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_BallistaLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CatapultLine</defName>
+		<label>catapult line</label>
+		<shortLabel>catapult line</shortLabel>
+		<description>A simple siege line of two catapults with plenty of stones to rearm them.</description>
+		<priority>504</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CatapultLine_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CatapultLine</layout>
+		<author>Heretic</author>
+		<marketvalue>1190</marketvalue>
+		<researchPrerequisites>
+			
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_CatapultLine_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CatapultLine_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CatapultLine_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MortarSiegeEmplacement</defName>
+		<label>mortar siege emplacement</label>
+		<shortLabel>mortar siege</shortLabel>
+		<description>A simple siege emplacement similar to the ones employed by raiders on their sieges.</description>
+		<priority>505</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MortarSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_MortarSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>3681</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FieldGunSiegeEmplacement</defName>
+		<label>field gun siege emplacement</label>
+		<shortLabel>field gun siege</shortLabel>
+		<description>A simple siege line of three field guns with plenty of shells to rearm them.</description>
+		<priority>506</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FieldGunSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FieldGunSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>1920</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FieldGunSiegeEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CannonSiegeEmplacement</defName>
+		<label>cannon siege emplacement</label>
+		<shortLabel>cannon siege</shortLabel>
+		<description>A simple siege line of three cannons with plenty of steel to rearm them.</description>
+		<priority>507</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CannonSiegeEmplacement_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_CannonSiegeEmplacement</layout>
+		<author>Heretic</author>
+		<marketvalue>1182</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_CannonSiegeEmplacement_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestSmall</defName>
+		<label>siege nest, small</label>
+		<shortLabel>siege nest, small</shortLabel>
+		<description>A small siege nest with an SMG complex, two mini-turrets, a mortar and plenty of shells and food to last a while.</description>
+		<priority>510</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestSmall_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestSmall</layout>
+		<author>Kolopo</author>
+		<marketvalue>2731</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestSmall_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestMedium</defName>
+		<label>siege nest, medium</label>
+		<shortLabel>siege nest, medium</shortLabel>
+		<description>A medium siege nest with an SMG complex, three mini-turrets, a sniper turret, an auto-cannon, two mortars and plenty of shells and food to last a while.</description>
+		<priority>511</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestMedium_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestMedium</layout>
+		<author>Kolopo</author>
+		<marketvalue>7937</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestMedium_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SiegeNestBig</defName>
+		<label>siege nest, big</label>
+		<shortLabel>siege nest, big</shortLabel>
+		<description>A large siege nest with SMG complexes, mini-turrets, sniper turrets, auto-cannons, mortars, artillery and plenty of shells and food to last a while.</description>
+		<priority>512</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SiegeNestBig_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_SiegeNestBig</layout>
+		<author>Kolopo</author>
+		<marketvalue>18752</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Fabrication</li>
+			<li>GunTurrets</li>
+			<li>SniperTurret</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_SiegeNestBig_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AutomortarDepot</defName>
+		<label>small auto-mortar depot</label>
+		<shortLabel>small auto-mortar</shortLabel>
+		<description>A very small auto-mortar depot.</description>
+		<priority>513</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepot_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_AutomortarDepot</layout>
+		<author>Kolopo</author>
+		<marketvalue>1490</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AutomortarDepotBig</defName>
+		<label>big auto-mortar depot</label>
+		<shortLabel>big auto-mortar</shortLabel>
+		<description>A medium sized auto-mortar depot.</description>
+		<priority>514</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepotBig_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_AutomortarDepotBig</layout>
+		<author>Kolopo</author>
+		<marketvalue>7141</marketvalue>
+		<researchPrerequisites>
+			<li>Mortars</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+			<li>HeavyTurrets</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TinyTurret</defName>
+		<label>turret</label>
+		<shortLabel>turret</shortLabel>
+		<description>Very cheap and expendable first line of defense.</description>
+		<priority>0.1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TinyTurret_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_TinyTurret</layout>
+		<author>Kolopo</author>
+		<marketvalue>620</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>GunTurrets</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FireKillbox</defName>
+		<label>fire killbox</label>
+		<shortLabel>fire killbo</shortLabel>
+		<description>A killbox with a lot of flame turrets. Connects seamlessly to Reel's castle walls (on the Castles &amp; Nobility category)</description>
+		<priority>515</priority>
+		<labelForDefaultVariation>Facing North</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FireKillbox_Preview</detailedImage>
+		<category>AP_Category_Military</category>
+		<layout>AP_Prefab_FireKillbox</layout>
+		<author>Kolopo</author>
+		<marketvalue>9353</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>BiofuelRefining</li>
+			<li>GunTurrets</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Facing South</name>
+				<layoutVariation>AP_Prefab_FireKillbox_South</layoutVariation>
+			</li>
+			<li>
+				<name>Facing West</name>
+				<layoutVariation>AP_Prefab_FireKillbox_West</layoutVariation>
+			</li>
+			<li>
+				<name>Facing East</name>
+				<layoutVariation>AP_Prefab_FireKillbox_East</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfesecurity</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Chemfuel Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>
+

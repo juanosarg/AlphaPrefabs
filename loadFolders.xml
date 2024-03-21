@@ -10,6 +10,15 @@
 		<li IfModActive="Sarg.AlphaMemes">1.4/Mods/AlphaMemes</li>
 
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+
+		<li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>	
+		<li IfModActive="VanillaExpanded.VMemesE">1.5/Mods/VanillaMemesExpanded</li>
+		<li IfModActive="Sarg.AlphaMemes">1.5/Mods/AlphaMemes</li>
+
+	</v1.5>
 </loadFolders>
 
 

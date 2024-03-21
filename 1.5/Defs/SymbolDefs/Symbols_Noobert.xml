@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>NN_StreamingConsole_South</defName>
+		<thing>NN_StreamingConsole</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>NN_StreamingConsole_East</defName>
+		<thing>NN_StreamingConsole</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>NN_StreamingConsole_West</defName>
+		<thing>NN_StreamingConsole</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+</Defs>
+

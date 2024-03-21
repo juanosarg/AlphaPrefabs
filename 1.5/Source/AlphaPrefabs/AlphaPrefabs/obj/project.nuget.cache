@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dVjhEjdKSL9FkX7XNYVIvHxv7GesaWPxTaktbocsrnyrPENuYf3DSFgBKWP0kZuQQmpvYaJHOmelFi0tRvn22g==",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.5\\Source\\AlphaPrefabs\\AlphaPrefabs\\AlphaPrefabs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

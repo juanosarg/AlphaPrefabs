@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Prison_1</defName>
+		<label>large prison</label>
+		<shortLabel>large prison</shortLabel>
+		<description>A large prison with 8 individual cells, a prison yard and a kitchen.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_1_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_Prison_1</layout>
+		<author>Reel</author>
+		<marketvalue>6952</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Prison_2</defName>
+		<label>large prison</label>
+		<shortLabel>large prison</shortLabel>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<description>A large prison with 9 individual cells, a dining room and a kitchen / nutrient paste dispenser. With Vanilla Furniture Expanded: Architect you get access to a variant using prison walls and prison doors</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_2_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_Prison_2</layout>
+		<marketvalue>4511</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>NutrientPaste</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>VFE - Architect</name>
+				<layoutVariation>AP_Prefab_Prison_2_variant</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vfearchitect</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Prison_Small_1</defName>
+		<label>small prison</label>
+		<shortLabel>small prison</shortLabel>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<description>A very small prison with 3 individual cells. With Vanilla Furniture Expanded: Architect you get access to a variant using prison walls and prison doors</description>
+		<priority>0</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Prison_Small_1_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_Prison_Small_1</layout>
+		<marketvalue>1147</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>VFE - Architect</name>
+				<layoutVariation>AP_Prefab_Prison_Small_1_Variant</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vfearchitect</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HugePrison</defName>
+		<label>huge prison</label>
+		<shortLabel>huge prison</shortLabel>
+		<description>A huge prison complex housing up to 50 inmates. All cells are equipped with nutrient paste taps so wardens don't have to spend time feeding the prisoners. Includes warden recreation areas and security turrets.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugePrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_HugePrison</layout>
+		<author>Kolopo</author>
+		<marketvalue>29128</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>FlatscreenTelevision</li>
+			<li>GunTurrets</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PrisonHospital</defName>
+		<label>prison hospital</label>
+		<shortLabel>prison hospital</shortLabel>
+		<description>A medium sized prison with 20 hospital beds linked with autofeeders. Bear in mind the beds won't be automatically spawned as prison beds, you'll need to set them up.</description>
+		<priority>11</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PrisonHospital_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Prison</li>
+			<li>AP_Category_Healthcare</li>
+		</categories>
+		<layout>AP_Prefab_PrisonHospital</layout>
+		<author>Kolopo</author>
+		<marketvalue>25262</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+			<li>SterileMaterials</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+			<li>HospitalBed</li>
+			<li>VitalsMonitor</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfemedical</li>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStylePrison</defName>
+		<label>old style prison</label>
+		<shortLabel>old style prison</shortLabel>
+		<description>An old style prison straight from the Wild West.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStylePrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_OldStylePrison</layout>
+		<author>Robosium</author>
+		<marketvalue>1627</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GeneDungeon</defName>
+		<label>gene dungeon</label>
+		<shortLabel>gene dungeon</shortLabel>
+		<description>A small prison with space for 8 plus a small room for gene extraction purposes. With Vanilla Furniture Expanded: Architect you get access to a variant using prison walls and prison doors</description>
+		<priority>13</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GeneDungeon_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_GeneDungeon</layout>
+		<author>Robosium</author>
+		<marketvalue>9409</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>SterileMaterials</li>
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>VFE - Architect</name>
+				<layoutVariation>AP_Prefab_GeneDungeon_Architect</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vfearchitect</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WarcasketPrison</defName>
+		<label>warcasket prison</label>
+		<shortLabel>warcasket prison</shortLabel>
+		<description>A small prison to store up to six prisoners or slaves who will be forcefully emtombed in a warcasket.</description>
+		<priority>14</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WarcasketPrison_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_WarcasketPrison</layout>
+		<author>Robosium</author>
+		<marketvalue>4008</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+		<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_IndoctrinationBarracks</defName>
+		<label>indoctrination barracks</label>
+		<shortLabel>indoctrination barracks</shortLabel>
+		<description>A small prison for five people plus three indoctrination pods.</description>
+		<priority>15</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_IndoctrinationBarracks_Preview</detailedImage>
+		<category>AP_Category_Prison</category>
+		<layout>AP_Prefab_IndoctrinationBarracks</layout>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<marketvalue>4883</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		
+	</AlphaPrefabs.PrefabDef>
+	
+	 
+</Defs>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_Hydroponics</defName>
+		<label>small hydroponics bay</label>
+		<shortLabel>small hydroponics bay</shortLabel>
+		<labelForDefaultVariation>Efficient Variation</labelForDefaultVariation>
+		<description>A small hydroponics bay containing 24 hydroponics basins centered around a sun lamp, as well as 2 heaters.</description>
+		<priority>0.5</priority>
+		<author>Eragon</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_Hydroponics_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_Nature_Hydroponics</layout>
+		<marketvalue>6337</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Clean Variation</name>
+				<layoutVariation>AP_Prefab_Nature_Hydroponics_Variation</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_1</defName>
+		<label>huge hydroponics bay</label>
+		<shortLabel>hydroponics bay</shortLabel>
+		<labelForDefaultVariation>South-North Orientation</labelForDefaultVariation>
+		<description>A 26x17 hydroponics bay containing 38 hydroponics basins and 2 sun lamps.</description>
+		<priority>1</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_1_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_Nature_1</layout>
+		<marketvalue>11541</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>West-East Orientation</name>
+				<layoutVariation>AP_Prefab_Nature_1_east</layoutVariation>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallEcosystemBay</defName>
+		<label>small artificial ecosystem bay</label>
+		<shortLabel>small ecosystem bay</shortLabel>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<description>A small artificial ecosystem bay containing 100 tilleable artificial ecosystems and a sprinkler. Still absurdly expensive.</description>
+		<priority>1.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EcosystemBay_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_SmallEcosystemBay</layout>
+		<marketvalue>31355</marketvalue>
+		<researchPrerequisites>
+		
+			<li>Electricity</li>
+	
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfefarming</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Nature_2</defName>
+		<label>artificial ecosystem bay</label>
+		<shortLabel>ecosystem bay</shortLabel>
+		<author>Reel</author>
+		<description>An artificial ecosystem bay containing 47 artificial ecosystems and 4 heaters. Absurdly expensive.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Nature_2_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_Nature_2</layout>
+		<marketvalue>51707</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfefarming</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MechFarm</defName>
+		<label>auto farm</label>
+		<shortLabel>auto farm</shortLabel>
+		<author>Kolopo</author>
+		<description>A setup of 3 autosowers and 3 autoharvesters to create a mechanized auto farm.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MechFarm_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_MechFarm</layout>
+		<marketvalue>11090</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HedgePark</defName>
+		<label>hedge park</label>
+		<shortLabel>hedge park</shortLabel>
+		<author>Robosium</author>
+		<description>A peaceful hedge park used as a gathering space.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HedgePark_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_HedgePark</layout>
+		<marketvalue>2249</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Architect</li>
+			<li>Vanilla Furniture Expanded</li>
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallHedgeMaze</defName>
+		<label>small hedge maze</label>
+		<shortLabel>small hedge maze</shortLabel>
+		
+		<description>A small hedge maze used as a gathering space.</description>
+		<priority>20</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallHedgeMaze_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_SmallHedgeMaze</layout>
+		<marketvalue>919</marketvalue>
+		<researchPrerequisites>
+			<li>Smithing</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+	
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeHedgeMaze</defName>
+		<label>large hedge maze</label>
+		<shortLabel>large hedge maze</shortLabel>
+		
+		<description>A large hedge maze used as a gathering space.</description>
+		<priority>21</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeHedgeMaze_Preview</detailedImage>
+		<category>AP_Category_NatureAndCrops</category>
+		<layout>AP_Prefab_LargeHedgeMaze</layout>
+		<marketvalue>2460</marketvalue>
+		<researchPrerequisites>
+			
+			<li>ComplexFurniture</li>
+			
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+	
+		
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

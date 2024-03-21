@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+			<value>
+				<DesignationCategoryDef>
+					<defName>AP_AlphaPrefabsTab</defName>
+					<label>Prefabs</label>
+					<description>Items added by Alpha Prefabs.</description>
+					<order>450</order>
+					<specialDesignatorClasses>
+						<li>Designator_Cancel</li>
+						<li>Designator_Deconstruct</li>
+					</specialDesignatorClasses>
+				</DesignationCategoryDef>
+			</value>
+		</match>
+	</Operation>
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="AP_FakeSculptureBase"]</xpath>
+			<value>
+				<designationCategory>AP_AlphaPrefabsTab</designationCategory>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/TerrainDef[@Name="AP_PrefabFloorsBase"]</xpath>
+			<value>
+				<designationCategory>AP_AlphaPrefabsTab</designationCategory>
+			</value>
+		</match>
+	</Operation>
+	
+	<Operation Class="AlphaPrefabs.PatchOperationModOption">
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[@Name="AP_BuildingBase"]</xpath>
+			<value>
+				<designationCategory>AP_AlphaPrefabsTab</designationCategory>
+			</value>
+		</match>
+	</Operation>
+	
+</Patch>

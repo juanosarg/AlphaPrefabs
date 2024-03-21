@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>TableCircular_WoodLog</defName>
+		<thing>TableCircular</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Chemlamp</defName>
+		<thing>Chemlamp</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>DoorSaloon_WoodLog</defName>
+		<thing>DoorSaloon</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>TableFiveFingerFilet_WoodLog</defName>
+		<thing>TableFiveFingerFilet</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>StoolBar_WoodLog</defName>
+		<thing>StoolBar</thing>
+		<stuff>WoodLog</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_Piano_WoodLog_South</defName>
+		<thing>Joy_Piano</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+</Defs>

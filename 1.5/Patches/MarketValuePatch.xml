@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+	<Operation Class="PatchOperationAdd"> 
+		<xpath>/Defs/StatDef[@Name="MarketValueBase"]/parts</xpath>
+		<value>
+			 <li Class="AlphaPrefabs.StatPart_Prefab"/>
+		</value>
+	</Operation>
+
+
+
+
+</Patch>

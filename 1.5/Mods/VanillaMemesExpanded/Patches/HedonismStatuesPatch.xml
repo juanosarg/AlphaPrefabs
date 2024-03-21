@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs</xpath>
+		<value>
+			<DesignatorDropdownGroupDef>
+				<defName>AP_HedonismFakeSculptures</defName>
+				<label>hedonism fake sculptures</label>
+			</DesignatorDropdownGroupDef>
+			<ThingDef Name="AP_SmallHedonismSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>small hedonism sculpture</label>
+				<description>A hedonism style torso-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<fillPercent>0.35</fillPercent>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+				</graphicData>
+				<dominantStyleCategory>VME_Hedonist</dominantStyleCategory>
+				<rotatable>false</rotatable>
+				<designatorDropdown>AP_HedonismFakeSculptures</designatorDropdown>
+				<statBases>
+					<MaxHitPoints>90</MaxHitPoints>
+					<Mass>3</Mass>
+					<Beauty>50</Beauty>
+					<WorkToMake>18000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallHedonismSculptureBase">
+				<defName>AP_HedonismFakeSculptureSmallA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Small/VME_SculptureSmallHedonismA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallHedonismSculptureBase">
+				<defName>AP_HedonismFakeSculptureSmallB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Small/VME_SculptureSmallHedonismB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_SmallHedonismSculptureBase">
+				<defName>AP_HedonismFakeSculptureSmallC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Small/VME_SculptureSmallHedonismC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_MediumHedonismFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>large hedonism sculpture</label>
+				<description>A hedonism style person-sized piece of material sculpted into an artistic form. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(3,3)</drawSize>
+				</graphicData>
+				<dominantStyleCategory>VME_Hedonist</dominantStyleCategory>
+				<designatorDropdown>AP_HedonismFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<statBases>
+					<MaxHitPoints>150</MaxHitPoints>
+					<Mass>7</Mass>
+					<Beauty>100</Beauty>
+					<WorkToMake>30000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureLargeA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Large/VME_SculptureLargeHedonismA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureLargeB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Large/VME_SculptureLargeHedonismB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_MediumHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureLargeC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Large/VME_SculptureLargeHedonismC</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef Name="AP_GrandHedonismFakeSculptureBase" ParentName="AP_FakeSculptureBase" Abstract="True">
+				<label>grand hedonism sculpture</label>
+				<description>A hedonism style  huge sculpture sized to dominate a room. This sculpture seems to be mass produced and hence its value is significantly lower than usual.</description>
+				<castEdgeShadows>true</castEdgeShadows>
+				<graphicData>
+					<graphicClass>Graphic_Single</graphicClass>
+					<drawSize>(4,4)</drawSize>
+				</graphicData>
+				<designatorDropdown>AP_HedonismFakeSculptures</designatorDropdown>
+				<fillPercent>0.5</fillPercent>
+				<rotatable>false</rotatable>
+				<dominantStyleCategory>VME_Hedonist</dominantStyleCategory>
+				<size>(2,2)</size>
+				<canOverlapZones>false</canOverlapZones>
+				<statBases>
+					<MaxHitPoints>300</MaxHitPoints>
+					<Beauty>400</Beauty>
+					<Mass>28</Mass>
+					<WorkToMake>105000</WorkToMake>
+					<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">40</StyleDominance>
+				</statBases>
+				<stuffCategories>
+					<li>Metallic</li>
+					<li>Woody</li>
+					<li>Stony</li>
+				</stuffCategories>
+				<costStuffCount>1</costStuffCount>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureGrandA</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Grand/VME_SculptureGrandHedonismA</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureGrandB</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Grand/VME_SculptureGrandHedonismB</texPath>
+				</graphicData>
+			</ThingDef>
+			<ThingDef ParentName="AP_GrandHedonismFakeSculptureBase">
+				<defName>AP_HedonismFakeSculptureGrandC</defName>
+				<graphicData>
+					<texPath>Things/Building/BuildingStyles/Hedonist/Sculptures/Grand/VME_SculptureGrandHedonismC</texPath>
+				</graphicData>
+			</ThingDef>
+		</value>
+	</Operation>
+</Patch>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Mechanoids</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Production_Factory_1"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Production_Factory_2"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Production_Factory_3"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_Production_Factory_4"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MedicinalCompoundingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ArtilleryFoundry"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PsychoidFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MedicinalCompoundingFactory</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CanningFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MeatCannery"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_NutrientFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AdvancedArtilleryFoundry"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_AutomatedDefensiveMeasures</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_PlasteelForge"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MunitionsandArmamentsFactory</li>
+						<li>VFE_ElectronicsFabricationFactory</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_MasonryandMetallicsFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_FoodFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MechFarm"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicDroneAssembly</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CheeseFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SoupFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_HoneyFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BrewingFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_MechanoidStructures</li>
+						<li>VFE_ProvisionsPackagingFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_IndoctrinationBarracks"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_MechanoidStructures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SimpleMechDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_FactoryBasics</li>
+						<li>VFE_AutomatedDefensiveMeasures</li>
+						<li>VFE_AdvancedDroneAssembly</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutomortarDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_AutomatedDefensiveMeasures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutomortarDepotBig"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_AutomatedDefensiveMeasures</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallAutocraneDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_ElectronicsFabricationFactory</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeAutocraneDepot"]/researchPrerequisites</xpath>
+					<value>
+						
+						<li>VFE_ElectronicsFabricationFactory</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

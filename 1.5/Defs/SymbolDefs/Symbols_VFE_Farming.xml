@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFE_Ecosystem_North</defName>
+		<thing>VFE_Ecosystem</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Sprinkler</defName>
+		<thing>VFE_Sprinkler</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_Ecosystem_Tilable_North</defName>
+		<thing>VFE_Ecosystem_Tilable</thing>
+	</KCSG.SymbolDef>
+</Defs>

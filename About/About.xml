@@ -4,11 +4,11 @@
 	<name>Alpha Prefabs</name>
 	<author>Sarg Bjornson</author>
 	<url/>
-	<supportedVersions>
-
-		
+	<supportedVersions>		
 		<li>1.4</li>
+		<li>1.5</li>
 	</supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/AlphaPrefabsLogo</modIconPath>
 	<modDependencies>
 		<li>
 			<packageId>brrainz.harmony</packageId>
@@ -42,8 +42,5 @@ Oh you can bet I will add new things!
 
 &lt;size=24&gt;Changelog&lt;/size&gt;
 
-v1.2: 16 new prefabs (27/12/23)
-v1.1: 17 new prefabs (9/11/23)
-v1.0: Release. (03/11/23)
 Full changelog on GitHub</description>
 </ModMetaData>

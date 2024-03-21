@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VREA_SubterraneanNeutroPipe</defName>
+		<thing>VREA_SubterraneanNeutroPipe</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VREA_SubcorePolyanalyzer_South</defName>
+		<thing>VREA_SubcorePolyanalyzer</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VREA_AndroidPartWorkbench_West</defName>
+		<thing>VREA_AndroidPartWorkbench</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VREA_AndroidCreationStation</defName>
+		<thing>VREA_AndroidCreationStation</thing>
+	</KCSG.SymbolDef>
+</Defs>
+

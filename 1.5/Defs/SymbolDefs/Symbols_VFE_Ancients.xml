@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+  <defName>VFEA_AncientEducator_North</defName>
+  <thing>VFEA_AncientEducator</thing>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VFEA_AncientBroadcastStation_North</defName>
+  <thing>VFEA_AncientBroadcastStation</thing>
+</KCSG.SymbolDef>
+
+
+</Defs>

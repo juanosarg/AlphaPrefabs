@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Research_1</defName>
+		<label>nuclear research lab</label>
+		<shortLabel>nuclear lab</shortLabel>
+		<description>A large research lab powered by a nuclear power plant. Includes two high-tech research benches with multi-analyzers, comms consoles and a LOT of batteries.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_Research_1</layout>
+		<author>Reel</author>
+		<marketvalue>17601</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+			<li>SterileMaterials</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>MultiAnalyzer</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Research_3</defName>
+		<label>high-tech research lab</label>
+		<shortLabel>high-tech lab</shortLabel>
+		<author>Reel</author>
+		<description>A medium sized high-tech research lab. Includes three high-tech research benches with multi-analyzers and comms consoles.</description>
+		<priority>1.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_3_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_Research_3</layout>
+		<marketvalue>8783</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Alliance_Research_2</defName>
+		<label>alliance research lab</label>
+		<shortLabel>alliance lab</shortLabel>
+		<description>A large Systems Alliance research lab. Includes six spacer-tech research benches with a multi-analyzer and Alliance terminals, two comms consoles and fusion cells powered by two prefab generators.</description>
+		<priority>2</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_2_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_Research_2</layout>
+		<marketvalue>27208</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>MicroelectronicsBasics</li>
+			<li>SterileMaterials</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>rimeffect.core</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicResearch_1</defName>
+		<label>basic research lab</label>
+		<shortLabel>basic lab</shortLabel>
+		<description>A small simple research lab.</description>
+		<priority>0.5</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicResearch_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_BasicResearch_1</layout>
+		<marketvalue>708</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BasicResearch_2</defName>
+		<label>basic research lab, double</label>
+		<shortLabel>basic lab, double</shortLabel>
+		<description>A small simple research lab with two simple research benches.</description>
+		<priority>0.75</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BasicResearch_2_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_BasicResearch_2</layout>
+		<marketvalue>937</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HiTechResearchSmall_1</defName>
+		<label>high-tech research lab, small</label>
+		<shortLabel>small hi-tech lab</shortLabel>
+		<description>A small high-tech research lab with a high-tech research bench and a multi-analyzer.</description>
+		<priority>0.8</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HiTechResearchSmall_1_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_HiTechResearchSmall_1</layout>
+		<marketvalue>3771</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>MultiAnalyzer</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Research_RepairedLab</defName>
+		<label>partially repaired ancient biotech lab</label>
+		<shortLabel>repaired bio-lab</shortLabel>
+		<description>An ancient bio-lab that has been partially repaired and repurposed. Comes with some working mechanitor and genetics machines, as well as a bunch of random genepacks and genetics tools.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Research_RepairedLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_Research_RepairedLab</layout>
+		<marketvalue>7641</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>VitalsMonitor</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>sarg.alphagenes</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LibraryComplex</defName>
+		<label>library complex</label>
+		<shortLabel>library complex</shortLabel>
+		<description>A large library distributed in two different buildings. Highly recommended to be used alongside Vanilla Books Expanded, although it is not mandatory.</description>
+		<priority>100</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LibraryComplex_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_LibraryComplex</layout>
+		<author>Kad</author>
+		<marketvalue>13484</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Books Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallGeneticsLab</defName>
+		<label>small genetics lab</label>
+		<shortLabel>small genetics lab</shortLabel>
+		<description>A small genetics lab for animal genetics experimentation. Includes a majority of the Vanilla Genetics Expanded workbenches</description>
+		<priority>199</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CompactGeneticsLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_SmallGeneticsLab</layout>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<marketvalue>5184</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vgeneticse</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HugeGeneticsLab</defName>
+		<label>huge genetics lab</label>
+		<shortLabel>huge genetics lab</shortLabel>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<description>A huge genetics lab for animal genetics experimentation. Includes a majority of the Vanilla Genetics Expanded workbenches, plus if you have Vanilla Factions Expanded - Insectoids it will also include a Bio-engineering incubator.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HugeGeneticsLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_HugeGeneticsLab</layout>
+		<author>Kolopo</author>
+		<marketvalue>37647</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_HugeGeneticsLab_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>vanillaexpanded.vgeneticse</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Factions Expanded - Insectoids</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DefendedLab</defName>
+		<label>armoured lab</label>
+		<shortLabel>armoured lab</shortLabel>
+		<description>A large armoured lab protected by defensive layers.</description>
+		<priority>201</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DefendedLab_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_DefendedLab</layout>
+		<author>Reel</author>
+		<marketvalue>11277</marketvalue>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Batteries</li>
+			<li>MicroelectronicsBasics</li>
+			<li>Firefoam</li>
+			<li>CarpetMaking</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RimatomicsResearch</defName>
+		<label>rimatomics lab</label>
+		<shortLabel>rimatomics lab</shortLabel>
+		<description>Room with all necessary buildings for Rimatomics research.</description>
+		<priority>202</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RimatomicsResearch_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_RimatomicsResearch</layout>
+		<author>Kolopo</author>
+		<marketvalue>5932</marketvalue>
+		<researchPrerequisites>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>MultiAnalyzer</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_School</defName>
+		<label>school</label>
+		<shortLabel>school</shortLabel>
+		<labelForDefaultVariation>Base game</labelForDefaultVariation>
+		<description>A huge school with facilities to educate and raise the colony's children. Includes playroom, dining room, a classroom and ample storage, as well as energy independence.</description>
+		<priority>200</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_School_Preview</detailedImage>
+		<category>AP_Category_Research</category>
+		<layout>AP_Prefab_School</layout>
+		<author>Kolopo</author>
+		<marketvalue>9107</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+			<li>TubeTelevision</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>CarpetMaking</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_School_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

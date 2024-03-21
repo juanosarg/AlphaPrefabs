@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+  <defName>VBE_TypewritersTable_South</defName>
+  <thing>VBE_TypewritersTable</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBE_WritersTable_South</defName>
+  <thing>VBE_WritersTable</thing>
+  <rotation>South</rotation>
+</KCSG.SymbolDef>
+
+<KCSG.SymbolDef>
+  <defName>VBE_WritersTable_North</defName>
+  <thing>VBE_WritersTable</thing>
+</KCSG.SymbolDef>
+	
+	
+	
+</Defs>
+

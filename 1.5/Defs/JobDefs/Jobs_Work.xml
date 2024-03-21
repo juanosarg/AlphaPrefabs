@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<JobDef>
+		<defName>AP_UsePrefab</defName>
+		<driverClass>AlphaPrefabs.JobDriver_UsePrefab</driverClass>
+		<reportString>using prefab.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+	
+</Defs>

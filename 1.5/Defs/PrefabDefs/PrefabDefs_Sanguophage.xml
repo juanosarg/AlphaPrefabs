@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Sanguophage_1</defName>
+		<label>vampire lair</label>
+		<shortLabel>vampire lair</shortLabel>
+		<description>A large sanguophage lair containing a temple (Ideology room), a dining room / draincasket room / art gallery and a bedroom / deathresting room.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_1_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_Sanguophage_1</layout>
+		<author>Reel</author>
+		<marketvalue>14533</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			
+			<li>CarpetMaking</li>
+			<li>Batteries</li>
+			<li>SolarPanels</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Sanguophage_2</defName>
+		<label>deathrest room</label>
+		<shortLabel>deathrest room</shortLabel>
+		<description>A deathrest room containing the basic deathresting machinery.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Sanguophage_2_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_Sanguophage_2</layout>
+		<marketvalue>6072</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BloodFacility</defName>
+		<label>hemogen extraction facility</label>
+		<shortLabel>hemogen extraction</shortLabel>
+		<labelForDefaultVariation>North-South</labelForDefaultVariation>
+		<description>A blood extraction facility to start using the hemogen network. Includes 6 vats, 4 draincaskets, 2 taps and 2 drains.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BloodFacility_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_BloodFacility</layout>
+		<marketvalue>8087</marketvalue>
+		<researchPrerequisites>
+		
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>>East-West</name>
+				<layoutVariation>AP_Prefab_BloodFacility_east</layoutVariation>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageColosseum</defName>
+		<label>sanguophage colosseum</label>
+		<shortLabel>colosseum</shortLabel>
+		<description>A cave structure containing a ritual room for sanguophage death matches and gladiator duels.</description>
+		<priority>10</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageColosseum_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageColosseum</layout>
+		<author>Kolopo</author>
+		<marketvalue>10150</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>ludeon.rimworld.ideology</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Races Expanded: Sanguophage</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>ludeon.rimworld.royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageLair</defName>
+		<label>sanguophage lair</label>
+		<shortLabel>sanguophage lair</shortLabel>
+		<description>A throne-like Sanguophage lair with deathrest devices.</description>
+		<priority>11</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageLair_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageLair</layout>
+		<author>Robosium</author>
+		<marketvalue>24329</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>van.dacrypts</li>
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Races Expanded: Sanguophage</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SanguophageCrypt</defName>
+		<label>sanguophage crypt</label>
+		<shortLabel>sanguophage crypt</shortLabel>
+		<description>A Sanguophage crypt disguised as a long abandoned tomb under a mountain.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SanguophageCrypt_Preview</detailedImage>
+		<category>AP_Category_Vampires</category>
+		<layout>AP_Prefab_SanguophageCrypt</layout>
+		<author>Robosium</author>
+		<marketvalue>19927</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+			<li>vanillaracesexpanded.sanguophage</li>
+			
+			
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Dark Ages: Crypts and Tombs</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Royalty</li>
+			
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

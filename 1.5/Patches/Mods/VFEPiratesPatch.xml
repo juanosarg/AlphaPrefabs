@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Factions Expanded - Pirates</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_WarcasketFoundry"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEP_WarcasketWeaponry</li>
+						<li>VFEP_Warcaskets</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_DreadnoughtChurch"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEP_Warcaskets</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_WarcasketPrison"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFEP_Warcaskets</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

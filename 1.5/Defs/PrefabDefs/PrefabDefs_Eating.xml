@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleKitchen</defName>
+		<label>simple kitchen</label>
+		<shortLabel>simple kitchen</shortLabel>
+		<description>A simple kitchen containing three separate rooms for butchering, cooking on an electric stove, and a walk-in freezer to store food.</description>
+		<priority>0.25</priority>
+		<author>Kad</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleKitchen_Preview</detailedImage>
+		<layout>AP_Prefab_SimpleKitchen</layout>
+		<marketvalue>3207</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeKitchen</defName>
+		<label>large kitchen</label>
+		<shortLabel>large kitchen</shortLabel>
+		<description>A large kitchen containing five separate rooms for butchering, cooking, two walk-in freezers to store food and a storage room for things that don't need refrigeration. If you have VE Cooking, Brewing and Coffees and Teas mods the kitchen will include more workbenches and machines.</description>
+		<priority>0.3</priority>
+		<author>Kad</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeKitchen_Preview</detailedImage>
+		<layout>AP_Prefab_LargeKitchen</layout>
+		<marketvalue>14062</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Cooking Expanded</li>
+			<li>Vanilla Brewing Expanded</li>
+			<li>Vanilla Brewing Expanded: Coffees and Teas</li>
+			<li>Vanilla Furniture Expanded: Production</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Food_Freezer</defName>
+		<label>small freezer</label>
+		<shortLabel>small freezer</shortLabel>
+		<description>A small walk-in freezer with plenty of space for food.</description>
+		<priority>0.5</priority>
+		<author>Eragon</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Food_Freezer_Preview</detailedImage>
+		<layout>AP_Prefab_Food_Freezer</layout>
+		<marketvalue>1299</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_EatingVFEProduction_1</defName>
+		<label>cozy restaurant</label>
+		<shortLabel>restaurant</shortLabel>
+		<description>A large sized restaurant with sitting space for 34 guests, plus two cooks. Includes dining room, kitchen and refrigerated storeroom, as well as two outside areas to eat and butcher corpses.</description>
+		<priority>1</priority>
+		<author>Reel</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_EatingVFEProduction_1_Preview</detailedImage>
+		<layout>AP_Prefab_EatingVFEProduction_1</layout>
+		<marketvalue>9553</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+			<li>Smithing</li>
+			<li>SterileMaterials</li>
+			<li>Batteries</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfeproduction</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_1</defName>
+		<label>wooden tavern</label>
+		<shortLabel>tavern</shortLabel>
+		<description>A large sized tavern with sitting space for 17 guests, plus two rooms. Includes dining room, kitchen and a bunch of fermenting barrels.</description>
+		<priority>2</priority>
+		<author>Reel</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_1_Preview</detailedImage>
+		<layout>AP_Prefab_Eating_1</layout>
+		<marketvalue>7066</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_2</defName>
+		<label>small tavern with brewing room</label>
+		<shortLabel>small tavern</shortLabel>
+		<description>A small sized tavern with sitting space for 12 guests, plus a kitchen and a dark room for brewing vodka, whiskey, tequila and gin.</description>
+		<priority>3</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_2_Preview</detailedImage>
+		<layout>AP_Prefab_Eating_2</layout>
+		<marketvalue>4340</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Core</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Eating_Brewery1</defName>
+		<label>small brewery</label>
+		<shortLabel>small brewery</shortLabel>
+		<description>A small sized brewery with a bar and brewing stations for beer, tequila, vodka, whiskey and ambrandy, as well as ample storage space for the finished liquors.</description>
+		<priority>3</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Eating_Brewery1_Preview</detailedImage>
+		<layout>AP_Prefab_Eating_Brewery1</layout>
+		<marketvalue>5092</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeBrewery</defName>
+		<label>large brewery</label>
+		<shortLabel>large brewery</shortLabel>
+		<description>A large sized brewery with a brewery room as well as brewing stations for tequila, vodka, whiskey, gin and ambrandy, as well as ample storage space for the finished liquors. If you have VE Medieval and Vikings you'll also get access to a bigger prefab with wine and mead brewing rooms.</description>
+		<priority>3.5</priority>
+		<labelForDefaultVariation>VE Brewing only</labelForDefaultVariation>
+		<category>AP_Category_Eating</category>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeBrewery_Preview</detailedImage>
+		<layout>AP_Prefab_LargeBrewery</layout>
+		<marketvalue>8199</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Brewing</li>
+			<li>AirConditioning</li>
+			<li>Electricity</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vbrewe</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>VE Brewing + Medieval + Vikings</name>
+				<layoutVariation>AP_Prefab_LargeBrewery_Expanded</layoutVariation>
+				<modPrerequisites>
+					<li>oskarpotocki.vfe.vikings</li>
+					<li>oskarpotocki.vanillafactionsexpanded.medievalmodule</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DiningRoom</defName>
+		<label>dining room</label>
+		<shortLabel>dining room</shortLabel>
+		<labelForDefaultVariation>Vertical Orientation</labelForDefaultVariation>
+		<description>A regal dining room with space for 16 people, with a chess table and several animal sleeping boxes.</description>
+		<priority>4</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DiningRoom_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_DiningRoom</layout>
+		<marketvalue>3020</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>Horizontal Orientation</name>
+				<layoutVariation>AP_Prefab_DiningRoom_Horizontal</layoutVariation>
+			</li>
+		</variations>
+		<modPrerequisites>
+			<li>ludeon.rimworld.royalty</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_NutrientPasteDepot</defName>
+		<label>nutrient paste depot</label>
+		<shortLabel>nutrient paste depot</shortLabel>
+		<description>A nutrient paste depot with a grinder, paste vats and a tap, as well as a small butchery room and a dining room with space for 16 guests.</description>
+		<priority>10</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_NutrientPasteDepot_Preview</detailedImage>
+		<layout>AP_Prefab_NutrientPasteDepot</layout>
+		<marketvalue>11434</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<author>Heretic</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_NutrientPasteDepot2</defName>
+		<label>nutrient paste depot</label>
+		<shortLabel>nutrient paste depot</shortLabel>
+		<description>A nutrient paste depot with a grinder, paste vats and a tap, as well as a very small dining room with space for 2 guests.</description>
+		<priority>10.5</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_NutrientPasteDepot2_Preview</detailedImage>
+		<layout>AP_Prefab_NutrientPasteDepot2</layout>
+		<marketvalue>4536</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>AirConditioning</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Disco</defName>
+		<label>disco</label>
+		<shortLabel>disco</shortLabel>
+		<description>Burn, baby, burn!</description>
+		<priority>11</priority>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Disco_Preview</detailedImage>
+		<layout>AP_Prefab_Disco</layout>
+		<marketvalue>3897</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<author>Heretic</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Production</li>
+			<li>Vanilla Factions Expanded: Ancients</li>
+			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.ideology</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RaiderProccesingWorkshop</defName>
+		<label>raider proccesing workshop</label>
+		<shortLabel>raider proccesing workshop</shortLabel>
+		<labelForDefaultVariation>Base game nutrient paste</labelForDefaultVariation>
+		<description>A medium-sized complex designed to turn dead raiders into organs and food, it also trains your doctors too! You will need Harvest Organs Post Mortem mod for the autopsy tables.</description>
+		<priority>12</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RaiderProccesingWorkshop_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_RaiderProccesingWorkshop</layout>
+		<marketvalue>8355</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<variations>
+			<li>
+				<name>Vanilla Nutrient Paste Expanded</name>
+				<layoutVariation>AP_Prefab_RaiderProccesingWorkshop_VE</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Harvest Organs Post Mortem</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Arcade</defName>
+		<label>arcade</label>
+		<shortLabel>arcade</shortLabel>
+		<description>A recreation center with several different ammenities.</description>
+		<priority>13</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Arcade_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_Arcade</layout>
+		<marketvalue>14618</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>Autodoors</li>
+			<li>CarpetMaking</li>
+			<li>Smithing</li>
+			<li>FlatscreenTelevision</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStyleBar</defName>
+		<label>old style bar</label>
+		<shortLabel>old style bar</shortLabel>
+		<description>An old style bar straight from the Wild West.</description>
+		<priority>14</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleBar_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_OldStyleBar</layout>
+		<marketvalue>2947</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+			<li>oskarpotocki.vanillafactionsexpanded.settlersmodule</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_OldStyleTavern</defName>
+		<label>old style tavern</label>
+		<shortLabel>old style tavern</shortLabel>
+		<description>An old style tavern with brewing facilities, straight from the Wild West.</description>
+		<priority>15</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_OldStyleTavern_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_OldStyleTavern</layout>
+		<marketvalue>4343</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Electricity</li>
+			<li>Brewing</li>
+		</researchPrerequisites>
+		<author>Robosium</author>
+		<suggestedMods>
+			<li>Vanilla Brewing Expanded</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfecore</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CoveredFishingSpot</defName>
+		<label>covered fishing spot</label>
+		<shortLabel>fishing spot</shortLabel>
+		<description>A shallow pool of water covered by roofed walls. Ideal for fishing in peace.</description>
+		<priority>16</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CoveredFishingSpot_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_CoveredFishingSpot</layout>
+		<marketvalue>1559</marketvalue>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Fishing Expanded (or else WTF are you fishing?)</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleTheaterHall</defName>
+		<label>simple theatre hall</label>
+		<shortLabel>theatre hall</shortLabel>
+		<description>A simple but elegant hall with a theatre stage.</description>
+		<priority>17</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleTheaterHall_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_SimpleTheaterHall</layout>
+		<marketvalue>4020</marketvalue>
+		<researchPrerequisites>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Ideology</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.classical</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeRecHall</defName>
+		<label>large rec hall</label>
+		<shortLabel>large rec hall</shortLabel>
+		<description>A luxurious large rec hall with music ammenities and billiard and poker tables. A roulette table will be added if you have Vanilla Furniture Expanded and a stage will be added if you have Vanilla Factions Expanded: Classical.</description>
+		<priority>18</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeRecHall_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_LargeRecHall</layout>
+		<marketvalue>11230</marketvalue>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>FlatscreenTelevision</li>
+		</researchPrerequisites>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Ideology</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.empire</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

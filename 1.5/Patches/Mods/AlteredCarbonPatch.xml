@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Altered Carbon: Ultratech Unleashed</li>
+		</mods>
+
+		<match Class="PatchOperationSequence">
+			<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SleevingFacility"]/researchPrerequisites</xpath>
+				<value>
+					<li>AC_Sleeving</li>
+					<li>AC_CorticalCrafting</li>
+				</value>
+			</li>
+
+
+
+		</operations>
+		</match>
+	</Operation>
+
+
+</Patch>
+
