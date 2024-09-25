@@ -59,6 +59,13 @@
 		<chanceToContainPawn>0</chanceToContainPawn>
 	</KCSG.SymbolDef>
 	<KCSG.SymbolDef>
+		<defName>AP_Sarcophagus_BlocksGranite_South</defName>
+		<thing>Sarcophagus</thing>
+		<stuff>BlocksGranite</stuff>
+		<rotation>South</rotation>
+		<chanceToContainPawn>0</chanceToContainPawn>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
 		<defName>AP_Sarcophagus_Steel_North</defName>
 		<thing>Sarcophagus</thing>
 		<stuff>Steel</stuff>

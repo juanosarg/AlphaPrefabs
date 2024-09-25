@@ -67,6 +67,27 @@
 		</researchPrerequisites>
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WalkInFreezer</defName>
+		<label>walk-in freezer</label>
+		<shortLabel>walk-in freezer</shortLabel>
+		<description>A medium sized walk-in freezer with plenty of space for food.</description>
+		<priority>0.6</priority>
+		<author>Kolopo</author>
+		<category>AP_Category_Eating</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WalkInFreezer_Preview</detailedImage>
+		<layout>AP_Prefab_WalkInFreezer</layout>
+		<marketvalue>2054</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Stonecutting</li>
+			<li>Autodoors</li>
+			
+		
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_EatingVFEProduction_1</defName>
 		<label>cozy restaurant</label>
 		<shortLabel>restaurant</shortLabel>

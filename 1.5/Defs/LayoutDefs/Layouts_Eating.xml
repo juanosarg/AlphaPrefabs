@@ -1525,4 +1525,53 @@
 			<li>oskarpotocki.vfe.classical</li>
 		</modRequirements>
 	</KCSG.StructureLayoutDef>
+	<KCSG.StructureLayoutDef>
+  <defName>AP_Prefab_WalkInFreezer</defName>
+  <spawnConduits>false</spawnConduits>
+  <layouts>
+    <li>
+      <li>.,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,VFEPD_BarrelGreen_North,.</li>
+      <li>Wall_BlocksSlate,Wall_BlocksSlate,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate</li>
+      <li>Wall_BlocksSlate,.,.,.,.,.,.,.,.,.,.,.,.,StandingLamp,Cooler_East</li>
+      <li>Wall_BlocksSlate,StandingLamp,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_West,Wall_BlocksSlate</li>
+      <li>Wall_BlocksSlate,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,Shelf_Steel_North,.,.,.,Cooler_East</li>
+      <li>Wall_BlocksSlate,.,.,.,.,.,.,.,.,.,.,.,.,.,Wall_BlocksSlate</li>
+      <li>Wall_BlocksSlate,Wall_BlocksSlate,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,.,Shelf_Steel_South,Wall_BlocksSlate,Autodoor_Steel,Wall_BlocksSlate</li>
+      <li>VFEPD_BinBag,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,Wall_BlocksSlate,.,.</li>
+    </li>
+    <li>
+      <li>.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.</li>
+      <li>PowerConduit,PowerConduit,.,.,.,.,.,.,.,.,.,.,PowerConduit,PowerConduit,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,.,.,.,.,.,.,.,.,.,.,.,.,.,PowerConduit</li>
+      <li>PowerConduit,PowerConduit,.,.,.,.,.,.,.,.,.,.,PowerConduit,PowerConduit,PowerConduit</li>
+      <li>.,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,PowerConduit,.,.</li>
+    </li>
+  </layouts>
+  <roofGrid>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>1,1,1,1,1,1,1,1,1,1,1,1,1,1,1</li>
+    <li>.,1,1,1,1,1,1,1,1,1,1,1,1,.,.</li>
+  </roofGrid>
+  <terrainGrid>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+    <li>.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,.,.</li>
+    <li>.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,.</li>
+    <li>.,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,PavedTile,.</li>
+    <li>.,PavedTile,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,PavedTile,PavedTile,.</li>
+    <li>.,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,PavedTile,.</li>
+    <li>.,.,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,Concrete,.,PavedTile,.</li>
+    <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+  </terrainGrid>
+  <modRequirements>
+    <li>vanillaexpanded.vfepropsanddecor</li>
+  </modRequirements>
+</KCSG.StructureLayoutDef>
 </Defs>

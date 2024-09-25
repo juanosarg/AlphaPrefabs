@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Recycling Expanded</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>VRecyclingE_BasicRecycling</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MediumRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>VRecyclingE_BasicRecycling</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BigRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>VRecyclingE_BasicRecycling</li>
+						<li>VRecyclingE_ComplexRecycling</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SlaveRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>VRecyclingE_BasicRecycling</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_TrashCompactor"]/researchPrerequisites</xpath>
+					<value>
+					
+						<li>VRecyclingE_ComplexRecycling</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_RecyclingBase"]/researchPrerequisites</xpath>
+					<value>
+						<li>VRecyclingE_BasicRecycling</li>
+						<li>VRecyclingE_ComplexRecycling</li>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

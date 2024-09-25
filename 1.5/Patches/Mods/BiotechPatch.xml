@@ -107,7 +107,55 @@
 				
 					</value>
 				</li>
-				
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MediumRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_BigRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallToxifierPower"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeToxifierPower"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SlaveRecycling"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_RecyclingBase"]/researchPrerequisites</xpath>
+					<value>
+						<li>ToxifierGenerator</li>
+					
+					</value>
+				</li>
 			</operations>
 		</match>
 	</Operation>

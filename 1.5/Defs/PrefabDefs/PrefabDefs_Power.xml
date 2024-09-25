@@ -421,4 +421,53 @@
 			<li>dubwise.rimatomics</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallToxifierPower</defName>
+		<label>small toxifier power plant</label>
+		<shortLabel>small tox power</shortLabel>
+		<description>A small facility containing 6 toxifier generators and a pollution fast pump to avoid them creating too much pollution. Generates around 7500 Wd.</description>
+		<priority>200</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallToxifierPower_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_SmallToxifierPower</layout>
+		<marketvalue>2679</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>		
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeToxifierPower</defName>
+		<label>large toxifier power plant</label>
+		<shortLabel>large tox power</shortLabel>
+		<description>A large facility containing 24 toxifier generators and 5 pollution fast pumps to avoid them creating too much pollution. Generates around 28000 Wd and tons of waste.</description>
+		<priority>201</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeToxifierPower_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_LargeToxifierPower</layout>
+		<marketvalue>11601</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>		
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

@@ -17,7 +17,7 @@
 		<li IfModActive="Ludeon.RimWorld.Ideology">1.5/Mods/Ideology</li>	
 		<li IfModActive="VanillaExpanded.VMemesE">1.5/Mods/VanillaMemesExpanded</li>
 		<li IfModActive="Sarg.AlphaMemes">1.5/Mods/AlphaMemes</li>
-
+		<li IfModActive="OskarPotocki.VFE.Insectoid2">1.5/Mods/VFEInsectoids2</li>
 	</v1.5>
 </loadFolders>
 

@@ -118,7 +118,6 @@
 			<li>Electricity</li>
 			<li>Stonecutting</li>
 			<li>CarpetMaking</li>
-			
 			<li>Brewing</li>
 		</researchPrerequisites>
 		<modPrerequisites>
@@ -253,7 +252,6 @@
 		<author>Kolopo</author>
 		<researchPrerequisites>
 			<li>ComplexFurniture</li>
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>oskarpotocki.vfe.vikings</li>
@@ -284,7 +282,6 @@
 			<li>HospitalBed</li>
 			<li>MultiAnalyzer</li>
 			<li>MicroelectronicsBasics</li>
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfemedical</li>
@@ -311,13 +308,11 @@
 			<li>Electricity</li>
 			<li>Stonecutting</li>
 			<li>Batteries</li>
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfearchitect</li>
 			<li>vanillaexpanded.vfea</li>
 		</modPrerequisites>
-		
 	</AlphaPrefabs.PrefabDef>
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_UndergroundVaultBase</defName>
@@ -340,15 +335,41 @@
 			<li>AirConditioning</li>
 			<li>Machining</li>
 			<li>TubeTelevision</li>
-			
 		</researchPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded: Props</li>
 			<li>Vanilla Furniture Expanded: Architect</li>
 		</suggestedMods>
-		
 	</AlphaPrefabs.PrefabDef>
-	
-   
-	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_RecyclingBase</defName>
+		<label>toxifier base</label>
+		<shortLabel>toxifier base</shortLabel>
+		<description>A Huge, indepented complex capable of housing 8 people. Uses Toxifier generators to generate power while recycling waste into usefull resources. This thing can basically run on thin air!</description>
+		<priority>301</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_RecyclingBase_Preview</detailedImage>
+		<category>AP_Category_FullHouse</category>
+		<layout>AP_Prefab_RecyclingBase</layout>
+		<marketvalue>21788</marketvalue>
+		<author>Kolopo</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Hydroponics</li>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Batteries</li>
+			<li>GunTurrets</li>
+			<li>AirConditioning</li>
+			<li>Machining</li>
+			<li>Autodoors</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>
