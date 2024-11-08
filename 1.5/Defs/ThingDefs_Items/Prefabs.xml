@@ -13,6 +13,7 @@
 		<stackLimit>1</stackLimit>
 		<tradeability>All</tradeability>
 		<tradeNeverGenerateStacked>true</tradeNeverGenerateStacked>
+		<tradeNeverStack>true</tradeNeverStack>
 		<healthAffectsPrice>false</healthAffectsPrice>
 		<thingCategories>
 			<li>AP_Prefabs</li>

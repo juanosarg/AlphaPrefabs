@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dVjhEjdKSL9FkX7XNYVIvHxv7GesaWPxTaktbocsrnyrPENuYf3DSFgBKWP0kZuQQmpvYaJHOmelFi0tRvn22g==",
+  "dgSpecHash": "6xNBq4vhH7SNdDgNda/pdBkINW7rMIRJabCY87D5twNkUAiU4ac+dQlpcKy1Jq+h1wMKwCqhEYqx+KlFgWEEYQ==",
   "success": true,
-  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.5\\Source\\AlphaPrefabs\\AlphaPrefabs\\AlphaPrefabs.csproj",
+  "projectFilePath": "E:\\Steam\\steamapps\\common\\RimWorld\\Mods\\AlphaPrefabs\\1.5\\Source\\AlphaPrefabs\\AlphaPrefabs\\AlphaPrefabs.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sarg\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
+    "C:\\Users\\Administrator\\.nuget\\packages\\lib.harmony\\2.3.1.1\\lib.harmony.2.3.1.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -64,7 +64,7 @@ namespace AlphaPrefabs
                     InternalDefOf.AP_BuildPrefab.PlayOneShot(new TargetInfo(Position, map, false));
                     GenOption.GetAllMineableIn(cleanCellRect, map);
                     LayoutUtils.CleanRect(layoutToUse, map, cleanCellRect, false);
-                    layoutToUse.Generate(cleanCellRect, map);
+                    layoutToUse.Generate(cleanCellRect, map, Faction.OfPlayerSilentFail);
                     if (this.Spawned)
                     {
                         this.DeSpawn();
