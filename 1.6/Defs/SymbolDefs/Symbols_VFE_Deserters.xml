@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFED_AmmoBox_Autocannon</defName>
+		<thing>VFED_AmmoBox_Autocannon</thing>
+		
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFED_Turret_Palintone</defName>
+		<thing>VFED_Turret_Palintone</thing>
+		
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFED_AmmoBox_UraniumSlug</defName>
+		<thing>VFED_AmmoBox_UraniumSlug</thing>
+		
+	</KCSG.SymbolDef>
+	
+	<KCSG.SymbolDef>
+		<defName>VFED_Turret_Kontarion</defName>
+		<thing>VFED_Turret_Kontarion</thing>
+		
+	</KCSG.SymbolDef>
+	
+</Defs>

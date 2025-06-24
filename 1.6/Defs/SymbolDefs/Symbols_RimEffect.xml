@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>RE_SpacerTechResearchBench_Steel_West</defName>
+		<thing>RE_SpacerTechResearchBench</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>RE_PrefabStandingLamp</defName>
+		<thing>RE_PrefabStandingLamp</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>RE_PrefabWall_Steel</defName>
+		<thing>RE_PrefabWall</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>RE_PrefabAutodoor_Steel</defName>
+		<thing>RE_PrefabAutodoor</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>RE_PrefabGenerator</defName>
+		<thing>RE_PrefabGenerator</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>RE_PrefabLargePlantPot_Steel</defName>
+		<thing>RE_PrefabLargePlantPot</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
+</Defs>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidSingleBedroom</defName>
+		<label>insectoid single bedroom</label>
+		<shortLabel>single bedroom</shortLabel>
+		<description>A simple insectoid bedroom for one person. Includes some recreation buildings.</description>
+		<priority>0</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidSingleBedroom_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidSingleBedroom</layout>
+		<marketvalue>1137</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidSingleBedroom_Alternate</defName>
+		<label>insectoid single bedroom 2</label>
+		<shortLabel>single bedroom 2</shortLabel>
+		<description>A simple insectoid bedroom for one person. Includes some recreation buildings.</description>
+		<priority>0.5</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidSingleBedroom_Alternate_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidSingleBedroom_Alternate</layout>
+		<marketvalue>2027</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidDualSingleBedroom</defName>
+		<label>insectoid dual single bedroom</label>
+		<shortLabel>dual single</shortLabel>
+		<description>A simple dual insectoid bedroom for two people.</description>
+		<priority>0.6</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidDualSingleBedroom_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidDualSingleBedroom</layout>
+		<marketvalue>2925</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidDoubleBedroom</defName>
+		<label>insectoid double bedroom</label>
+		<shortLabel>double bedroom</shortLabel>
+		<description>A simple insectoid bedroom for two people.</description>
+		<priority>1</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidDoubleBedroom_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidDoubleBedroom</layout>
+		<marketvalue>980</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidBedrooms</defName>
+		<label>insectoid bedrooms</label>
+		<shortLabel>insectoid bedrooms</shortLabel>
+		<description>A set of three insectoid bedrooms with a small work room.</description>
+		<priority>2</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidBedrooms_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidBedrooms</layout>
+		<marketvalue>11655</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>Stonecutting</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidDiningRroom</defName>
+		<label>insectoid dining room</label>
+		<shortLabel>insectoid dining</shortLabel>
+		<description>An insectoid dining room that includes a butchering table.</description>
+		<priority>3</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidDiningRroom_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidDiningRroom</layout>
+		<marketvalue>2395</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidFarm</defName>
+		<label>insectoid farm</label>
+		<shortLabel>insectoid farm</shortLabel>
+		<description>An insectoid structure that contains two jelly farms and a creeper.</description>
+		<priority>4</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidFarm_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidFarm</layout>
+		<marketvalue>5813</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidHugeFarm</defName>
+		<label>insectoid huge farm</label>
+		<shortLabel>huge farm</shortLabel>
+		<description>A large insectoid structure that contains four jelly farms, two creepers, foampods and monumental steles.</description>
+		<priority>5</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidHugeFarm_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidHugeFarm</layout>
+		<marketvalue>11779</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidBarracks</defName>
+		<label>insectoid barracks</label>
+		<shortLabel>insectoid barracks</shortLabel>
+		<description>A large multi-purpose insectoid structure that contains a barracks, stonecutting facilities, tombs, dining rooms and creepers.</description>
+		<priority>6</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidBarracks_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidBarracks</layout>
+		<marketvalue>9507</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidResearch</defName>
+		<label>insectoid research</label>
+		<shortLabel>insectoid research</shortLabel>
+		<description>A large insectoid structure that contains two double bedrooms, two research benches and a central recreation space.</description>
+		<priority>7</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidResearch_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidResearch</layout>
+		<marketvalue>8173</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_InsectoidHugeBase</defName>
+		<label>insectoid huge base</label>
+		<shortLabel>insectoid huge base</shortLabel>
+		<description>A huge insectoid base with lots of individual rooms and passageways.</description>
+		<priority>8</priority>
+		<category>AP_Category_Insectoids</category>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_InsectoidHugeBase_Preview</detailedImage>
+		<layout>AP_Prefab_InsectoidHugeBase</layout>
+		<marketvalue>27500</marketvalue>
+		<author>Reel</author>
+		<researchPrerequisites>
+			<li>ComplexFurniture</li>
+			<li>VFEI2_BasicHivetech</li>
+			<li>VFEI2_StandardHivetech</li>
+			<li>VFEI2_ExoticHivetech</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

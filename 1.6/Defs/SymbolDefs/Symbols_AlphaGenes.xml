@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>AG_RustedWall</defName>
+		<thing>AG_RustedWall</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_LabDoor</defName>
+		<thing>AG_LabDoor</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_AncientLamp</defName>
+		<thing>AG_AncientLamp</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_RandomGeneTool</defName>
+		<thing>AG_RandomGeneTool</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AG_RandomGenepack</defName>
+		<thing>AG_RandomGenepack</thing>
+	</KCSG.SymbolDef>
+</Defs>
+

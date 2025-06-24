@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<AlphaPrefabs.PrefabCategoryDef>
+		<defName>AP_Category_Insectoids</defName>
+		<label>insectoids</label>
+		<description>Modular bases using materials from Vanilla Factions Expanded - Insectoids 2</description>
+		<priority>12</priority>
+		<icon>UI/Categories/AP_Category_Insectoid</icon>
+	</AlphaPrefabs.PrefabCategoryDef>
+
+</Defs>

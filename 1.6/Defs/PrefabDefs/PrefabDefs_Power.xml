@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Power_1</defName>
+		<label>solar and chemfuel substation</label>
+		<shortLabel>substation</shortLabel>
+		<description>A small 13x13 solar power and chemfuel power substation with 5 batteries.</description>
+		<priority>1</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Power_1_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_Power_1</layout>
+		<marketvalue>3441</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>SolarPanels</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WoodFiredDepot</defName>
+		<label>wood-fired depot</label>
+		<shortLabel>wood-fired depot</shortLabel>
+		<description>A power depot with 3 wood-fired generators, 6 batteries, plus plenty of shelf space to store wood.</description>
+		<priority>1.25</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WoodFiredDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_WoodFiredDepot</layout>
+		<marketvalue>3719</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeWoodFiredDepot</defName>
+		<label>large wood-fired depot</label>
+		<shortLabel>large wood-fired depot</shortLabel>
+		<description>A power depot with 12 wood-fired generators plus plenty of shelf space to store wood.</description>
+		<priority>1.3</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeWoodFiredDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_LargeWoodFiredDepot</layout>
+		<marketvalue>5500</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallChemfuelDepot</defName>
+		<label>small chemfuel depot</label>
+		<shortLabel>small chemfuel depot</shortLabel>
+		<description>A chemfuel depot containing 4 chemfuel powered generators, 3 batteries, and a chemfuel refinery.</description>
+		<priority>1.5</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallChemfuelDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_SmallChemfuelDepot</layout>
+		<marketvalue>3534</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ChemfuelDepot</defName>
+		<label>chemfuel depot</label>
+		<shortLabel>chemfuel depot</shortLabel>
+		<description>A chemfuel depot containing 6 chemfuel powered generators, 8 batteries, and shelves with chemfuel to start powering the generators.</description>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ChemfuelDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_ChemfuelDepot</layout>
+		<marketvalue>5797</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeChemfuelDepot</defName>
+		<label>large chemfuel depot</label>
+		<shortLabel>large chemfuel depot</shortLabel>
+		<description>A large chemfuel depot containing 10 chemfuel powered generators and plenty of shelf space to store chemfuel.</description>
+		<priority>2.1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeChemfuelDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<author>Kolopo</author>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<layout>AP_Prefab_LargeChemfuelDepot</layout>
+		<marketvalue>6500</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>BiofuelRefining</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<variations>
+			<li>
+				<name>Vanilla Chemfuel Expanded</name>
+				<layoutVariation>AP_Prefab_LargeChemfuelDepot_Variation</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vchemfuele</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Power_SolarFarm</defName>
+		<label>solar farm</label>
+		<shortLabel>solar farm</shortLabel>
+		<description>A simple solar farm containing 4 solar panels, an advanced solar panel, 4 protected batteries and a power switch.</description>
+		<priority>3</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Power_SolarFarm_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_Power_SolarFarm</layout>
+		<marketvalue>3305</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BigSolarPlant</defName>
+		<label>large solar farm</label>
+		<shortLabel>large solar farm</shortLabel>
+		<description>A large solar farm containing 16 solar panels and 6 protected batteries.</description>
+		<priority>3.1</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BigSolarPlant_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_BigSolarPlant</layout>
+		<marketvalue>7463</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>SolarPanels</li>
+			<li>Batteries</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeWindFarm</defName>
+		<label>large wind farm</label>
+		<shortLabel>large wind farm</shortLabel>
+		<description>A large wind farm containing 4 wind turbines, individually toggleable with power switches and 10 protected batteries.</description>
+		<priority>3.2</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeWindFarm_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_LargeWindFarm</layout>
+		<marketvalue>6979</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>Batteries</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PowerAdvanced</defName>
+		<label>advanced power farm</label>
+		<shortLabel>advanced power farm</shortLabel>
+		<description>A large solar farm containing 6 advanced solar panels, 2 advanced wind turbines, and 4 protected large advanced batteries.</description>
+		<priority>4</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PowerAdvanced_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_PowerAdvanced</layout>
+		<marketvalue>14324</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>Stonecutting</li>
+			<li>Firefoam</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_GasDepot</defName>
+		<label>helixien gas depot</label>
+		<shortLabel>helixien gas depot</shortLabel>
+		<description>A gas depot with two industrial gas generators and 10 gas tanks.</description>
+		<priority>10</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_GasDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_GasDepot</layout>
+		<marketvalue>4625</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.helixiengas</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WasteToEnergy</defName>
+		<label>waste to energy plant</label>
+		<shortLabel>waste to energy plant</shortLabel>
+		<description>A waste to energy power plant. Designed to have an 1:1 ratio between pollution produced and pollution cleaned by pumps. Includes refrigerated space for wastepacks.</description>
+		<priority>11</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WasteToEnergy_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_WasteToEnergy</layout>
+		<marketvalue>8925</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Stonecutting</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallCleanEnergy</defName>
+		<label>small clean energy plant</label>
+		<shortLabel>small clean energy plant</shortLabel>
+		<description>A compact clean energy plant containing 12 solar panels and 4 wind turbines.</description>
+		<priority>11.9</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallCleanEnergy_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_SmallCleanEnergy</layout>
+		<marketvalue>6370</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CleanEnergyPlant</defName>
+		<label>clean energy plant</label>
+		<shortLabel>clean energy plant</shortLabel>
+		<description>A big clean energy plant containing 24 solar panels and 8 wind turbines.</description>
+		<priority>12</priority>
+		<author>Robosium</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CleanEnergyPlant_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_CleanEnergyPlant</layout>
+		<marketvalue>10208</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>SolarPanels</li>
+			<li>Stonecutting</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BatteryDepot</defName>
+		<label>battery depot</label>
+		<shortLabel>battery depot</shortLabel>
+		<description>A battery depot with 18 batteries and two solar panels.</description>
+		<priority>20</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BatteryDepot_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_BatteryDepot</layout>
+		<marketvalue>6968</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SolarPanels</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>Batteries</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PollutionFacility</defName>
+		<label>pollution facility</label>
+		<shortLabel>pollution facility</shortLabel>
+		<description>A huge complex that generates up to 14340Wd of power while creating tons of waste that can be dealt with very easily with the built-in transport pods. Polluting the Rim in style!</description>
+		<priority>21</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PollutionFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_PollutionFacility</layout>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<marketvalue>14649</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Stonecutting</li>
+			<li>TransportPod</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>Vanilla Chemfuel Expanded</name>
+				<layoutVariation>AP_Prefab_PollutionFacility_ChemfuelExpanded</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vchemfuele</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DualNuclearReactor</defName>
+		<label>dual nuclear reactor</label>
+		<shortLabel>dual reactor</shortLabel>
+		<description>Two nuclear reactors with supporting structures to keep them cooled and working. It also looks like a happy skeleton. Damn you Kolopo...</description>
+		<priority>22</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DualNuclearReactor_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_DualNuclearReactor</layout>
+		<marketvalue>16734</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Architect</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfepower</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ReactorTypeAFacility</defName>
+		<label>reactor type A facility</label>
+		<shortLabel>type A reactor</shortLabel>
+		<description>Contains a full facility to operate your own Rimatomics reactor. Rated for max load and to run at 100%. We offer no refunds in case of accidents related to the Rimatomics reactor type A.</description>
+		<priority>23</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ReactorTypeAFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_ReactorTypeAFacility</layout>
+		<marketvalue>15920</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Batteries</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ReactorTypeVFacility</defName>
+		<label>reactor type V facility</label>
+		<shortLabel>type V reactor</shortLabel>
+		<description>Contains a full facility to operate your own breeder reactor from Rimatomics along with the processing of the rods. Rated for max load, 95-98% control rods operation, extra cooling may be required! We offer no refunds in case of accidents related to the Rimatomics reactor type V</description>
+		<priority>24</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ReactorTypeVFacility_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_ReactorTypeVFacility</layout>
+		<marketvalue>35378</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallToxifierPower</defName>
+		<label>small toxifier power plant</label>
+		<shortLabel>small tox power</shortLabel>
+		<description>A small facility containing 6 toxifier generators and a pollution fast pump to avoid them creating too much pollution. Generates around 7500 Wd.</description>
+		<priority>200</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallToxifierPower_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_SmallToxifierPower</layout>
+		<marketvalue>2679</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>		
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeToxifierPower</defName>
+		<label>large toxifier power plant</label>
+		<shortLabel>large tox power</shortLabel>
+		<description>A large facility containing 24 toxifier generators and 5 pollution fast pumps to avoid them creating too much pollution. Generates around 28000 Wd and tons of waste.</description>
+		<priority>201</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeToxifierPower_Preview</detailedImage>
+		<category>AP_Category_Power</category>
+		<layout>AP_Prefab_LargeToxifierPower</layout>
+		<marketvalue>11601</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>		
+			<li>Stonecutting</li>
+			
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+</Defs>

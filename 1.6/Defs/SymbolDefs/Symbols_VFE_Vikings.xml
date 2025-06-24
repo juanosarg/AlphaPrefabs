@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEV_MeadFermentingBarrel_North</defName>
+		<thing>VFEV_MeadFermentingBarrel</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEV_MeadFermentingBarrel_West</defName>
+		<thing>VFEV_MeadFermentingBarrel</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEV_MeadFermentingBarrel_East</defName>
+		<thing>VFEV_MeadFermentingBarrel</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEV_RunedColumn_WoodLog</defName>
+		<thing>Column</thing>
+		<stuff>WoodLog</stuff>
+		<styleCategory>VFEM2_Viking</styleCategory>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEV_FurBed_Cloth</defName>
+		<thing>VFEM2_FurBed</thing>
+		<stuff>Cloth</stuff>
+		
+	</KCSG.SymbolDef>
+</Defs>

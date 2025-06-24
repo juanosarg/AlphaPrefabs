@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_1</defName>
+		<label>full production complex</label>
+		<shortLabel>huge workshop</shortLabel>
+		<description>A huge production complex housing drug labs, smelters, stonecutting tables, biofuel refineries, smithies, tailoring tables, fabrication benches and machining tables, as well as plenty of shelves.</description>
+		<priority>1</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_1</layout>
+		<author>Reel</author>
+		<marketvalue>17489</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Fabrication</li>
+			<li>Machining</li>
+			<li>ComplexFurniture</li>
+			<li>BiofuelRefining</li>
+			<li>Firefoam</li>
+			<li>DrugProduction</li>
+			<li>ComplexClothing</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vfeproduction</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_1</defName>
+		<label>steel factory</label>
+		<shortLabel>steel factory</shortLabel>
+		<description>A medium sized factory that automatically produces steel, with three automatic drills and three steel extractors. Includes a machining table.</description>
+		<author>Reel</author>
+		<priority>2</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_1</layout>
+		<marketvalue>21311</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>Machining</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_2</defName>
+		<label>components factory</label>
+		<shortLabel>components factory</shortLabel>
+		<description>A medium sized factory that automatically produces components, with two automatic drills, two steel extractors and a components assembler. Includes two fabrication benches and two smelters.</description>
+		<priority>3</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_2_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_2</layout>
+		<marketvalue>23882</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>Fabrication</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_3</defName>
+		<label>masonry factory</label>
+		<shortLabel>masonry factory</shortLabel>
+		<description>A medium sized factory that automatically produces stone blocks, with two automatic drills and two masonry saws. Includes two stonecutter tables.</description>
+		<priority>4</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_3_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_3</layout>
+		<marketvalue>14134</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Factory_4</defName>
+		<label>neutroamine factory</label>
+		<shortLabel>neutroamine factory</shortLabel>
+		<description>A medium sized factory that automatically produces neutroamine from food, with two meat grinders and two neutroamine infusers. Includes two drug labs.</description>
+		<priority>5</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Factory_4_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Factory_4</layout>
+		<marketvalue>18850</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>SterileMaterials</li>
+			<li>DrugProduction</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SimpleMechDepot</defName>
+		<label>simple mech depot</label>
+		<shortLabel>simple mech depot</shortLabel>
+		<description>A very small depot filled with drone charging stations. These drones are very simple and don't require a mechanitor to work.</description>
+		<priority>5.5</priority>
+		<author>Woofwoofwoofwoofwoofwoofwoof</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SimpleMechDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SimpleMechDepot</layout>
+		<marketvalue>18000</marketvalue>
+		<researchPrerequisites>
+			<li>Fabrication</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_Mechanitor_1</defName>
+		<label>mechanitor lab</label>
+		<shortLabel>mechanitor lab</shortLabel>
+		<description>A medium sized lab hosting facilities suitable for a mechanitor, such as mech gestators, mech chargers, scanners and band nodes.</description>
+		<priority>6</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_Mechanitor_1_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_Production_Mechanitor_1</layout>
+		<marketvalue>12000</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeMechRoom</defName>
+		<label>large mechanitor lab</label>
+		<shortLabel>large mech lab</shortLabel>
+		<description>A large sized lab hosting facilities suitable for a mechanitor, such as mech gestators, mech chargers, scanners and band nodes.</description>
+		<priority>6.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeMechRoom_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_LargeMechRoom</layout>
+		<marketvalue>16000</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>Smithing</li>
+			<li>Batteries</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Production_GeneticsLab</defName>
+		<label>genetics lab</label>
+		<shortLabel>genetics lab</shortLabel>
+		<description>A medium sized genetics lab hosting facilities suitable for a genetic engineering, such as extractors, processors, assemblers and gene banks. Also includes a high-tech research bench</description>
+		<priority>6</priority>
+		<author>Reel</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Production_GeneticsLab_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Research</li>
+		</categories>
+		<layout>AP_Prefab_Production_GeneticsLab</layout>
+		<marketvalue>10119</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>Batteries</li>
+			<li>MultiAnalyzer</li>
+			<li>MicroelectronicsBasics</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_WarcasketFoundry</defName>
+		<label>warcasket foundry</label>
+		<shortLabel>warcasket foundry</shortLabel>
+		<description>A medium sized warcasket foundry with some ready to go materials and weapons.</description>
+		<priority>10</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_WarcasketFoundry_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_WarcasketFoundry</layout>
+		<marketvalue>7506</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Fabrication</li>
+			<li>Machining</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.pirates</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Security</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ArtilleryFoundry</defName>
+		<label>artillery foundry</label>
+		<shortLabel>artillery foundry</shortLabel>
+		<description>A large sized factory that automatically produces artillery shells from rock chunks and wood.</description>
+		<priority>11</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ArtilleryFoundry_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_ArtilleryFoundry</layout>
+		<marketvalue>17908</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PsychoidFactory</defName>
+		<label>psychoid factory</label>
+		<shortLabel>psychoid factory</shortLabel>
+		<description>A large sized factory that automatically produces flake and yayo from psychoid leaves. Includes 47 hydroponics bays to grow the psychoid.</description>
+		<priority>12</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PsychoidFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_PsychoidFactory</layout>
+		<marketvalue>36894</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CanningFactory</defName>
+		<label>canning factory</label>
+		<shortLabel>canning factory</shortLabel>
+		<description>A large sized factory that automatically produces canned goods from vegetables. Includes 47 hydroponics bays to grow the vegetables.</description>
+		<priority>13</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CanningFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_CanningFactory</layout>
+		<marketvalue>21162</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Hydroponics</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MeatCannery</defName>
+		<label>meat cannery</label>
+		<shortLabel>meat cannery</shortLabel>
+		<description>A medium sized factory that automatically produces canned goods from meat.</description>
+		<priority>14</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MeatCannery_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MeatCannery</layout>
+		<marketvalue>8515</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Production</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_NutrientFactory</defName>
+		<label>nutrient factory</label>
+		<shortLabel>nutrient factory</shortLabel>
+		<description>A medium sized factory that automatically produces nutrient paste from meat.</description>
+		<priority>15</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_NutrientFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_NutrientFactory</layout>
+		<marketvalue>7913</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+			<li>NutrientPaste</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vnutriente</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Production</li>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DeepchemRefinery</defName>
+		<label>deepchem refinery</label>
+		<shortLabel>deepchem refinery</shortLabel>
+		<description>A deepchem refinery with storage tanks for both deepchem and chemfuel.</description>
+		<priority>16</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DeepchemRefinery_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Power</li>
+		</categories>
+		<layout>AP_Prefab_DeepchemRefinery</layout>
+		<marketvalue>7537</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>BiofuelRefining</li>
+			<li>ComplexFurniture</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vchemfuele</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DeepchemRefinery2</defName>
+		<label>deepchem refinery</label>
+		<shortLabel>deepchem refinery</shortLabel>
+		<description>A deepchem refinery with storage tanks for both deepchem and chemfuel.</description>
+		<priority>16.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DeepchemRefinery2_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Power</li>
+		</categories>
+		<layout>AP_Prefab_DeepchemRefinery2</layout>
+		<marketvalue>5229</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>BiofuelRefining</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vchemfuele</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AdvancedArtilleryFoundry</defName>
+		<label>advanced artillery foundry</label>
+		<shortLabel>adv. artillery foundry</shortLabel>
+		<description>A large sized factory that automatically produces artillery shells from rock chunks and chemfuel. Includes an automatic mortar depot. If you have VE Chemfuel installed it will include chemfuel tanks to auto-input chemfuel to the factory.</description>
+		<priority>17</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AdvancedArtilleryFoundry_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_AdvancedArtilleryFoundry</layout>
+		<marketvalue>20569</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>BiofuelRefining</li>
+			<li>Firefoam</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Chemfuel Expanded</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PodLauncherbays</defName>
+		<label>launcher bays</label>
+		<shortLabel>launcher bays</shortLabel>
+		<description>A pod launcher depot. If you have Royalty, Bay 1 will act as a ship landing area for spacecraft. If you have VE Chemfuel, you will get a chemfuel net to refuel the pods.</description>
+		<priority>18</priority>
+		<author>Heretic</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PodLauncherbays_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_PodLauncherbays</layout>
+		<marketvalue>6794</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>BiofuelRefining</li>
+			<li>TransportPod</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Chemfuel Expanded</li>
+			<li>Vanilla Architect Expanded</li>
+			<li>Royalty</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PlasteelForge</defName>
+		<label>plasteel forge</label>
+		<shortLabel>plasteel forge</shortLabel>
+		<description>A medium sized factory that automatically produces plasteel from blocks, steel and chemfuel, as long as it has a constant flow of corpses.</description>
+		<priority>19</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PlasteelForge_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_PlasteelForge</layout>
+		<marketvalue>28886</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>SolarPanels</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+			<li>Batteries</li>
+			<li>Machining</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Architect Expanded</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_PsychoidSlaveFarm</defName>
+		<label>psychoid slave farm</label>
+		<shortLabel>psychoid slave farm</shortLabel>
+		<description>Two hydroponics bays attached to a drug lab and a barracks, intended to be used by slaves.</description>
+		<priority>20</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_PsychoidSlaveFarm_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_NatureAndCrops</li>
+		</categories>
+		<layout>AP_Prefab_PsychoidSlaveFarm</layout>
+		<marketvalue>21482</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>ComplexFurniture</li>
+			<li>Hydroponics</li>
+			<li>Autodoors</li>
+			<li>NutrientPaste</li>
+			<li>DrugProduction</li>
+			<li>SterileMaterials</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>VE - Nutrient Paste</name>
+				<layoutVariation>AP_Prefab_PsychoidSlaveFarm_Variant</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Farming</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SleevingFacility</defName>
+		<label>sleeving facility</label>
+		<shortLabel>sleeving facility</shortLabel>
+		<description>Medium sized room made for creating and modifing sleeves, decryption bench not included.</description>
+		<priority>21</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SleevingFacility_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SleevingFacility</layout>
+		<marketvalue>32110</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>CarpetMaking</li>
+			<li>VitalsMonitor</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>VRE - Android</name>
+				<layoutVariation>AP_Prefab_SleevingFacility_Variant</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaracesexpanded.android</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Medical</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>hlx.ultratechalteredcarbon</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AndroidFacility</defName>
+		<label>android facility</label>
+		<shortLabel>android facility</shortLabel>
+		<description>Medium sized room with facilities for android creation and upkeep.</description>
+		<priority>21.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AndroidFacility_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_AndroidFacility</layout>
+		<marketvalue>19134</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>CarpetMaking</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>Batteries</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaracesexpanded.android</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_FoodFactory</defName>
+		<label>food factory</label>
+		<shortLabel>food factory</shortLabel>
+		<description>A medium sized factory that automatically produces meat into kibble or packaged survival meals.</description>
+		<priority>22</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_FoodFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_FoodFactory</layout>
+		<marketvalue>14934</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallOilRig</defName>
+		<label>small oil rig</label>
+		<shortLabel>small oil rig</shortLabel>
+		<description>A small oil rig intended to be built over shallow water. Uses systems from Vanilla Chemfuel Expanded, acting as a deepchem refinery.</description>
+		<priority>23</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallOilRig_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Power</li>
+		</categories>
+		<layout>AP_Prefab_SmallOilRig</layout>
+		<marketvalue>14424</marketvalue>
+		<researchPrerequisites>
+			<li>BiofuelRefining</li>
+			<li>Electricity</li>
+			<li>Firefoam</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.vchemfuele</li>
+			<li>vanillaexpanded.vfearchitect</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeOilRig</defName>
+		<label>large oil rig</label>
+		<shortLabel>large oil rig</shortLabel>
+		<description>A large oil rig intended to be built over shallow water. Uses systems from Rimefeller.</description>
+		<priority>24</priority>
+		<author>Kad</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeOilRig_Preview</detailedImage>
+		<categories>
+			<li>AP_Category_Production</li>
+			<li>AP_Category_Power</li>
+		</categories>
+		<layout>AP_Prefab_LargeOilRig</layout>
+		<marketvalue>28367</marketvalue>
+		<researchPrerequisites>
+			<li>Electricity</li>
+			<li>Firefoam</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>dubwise.rimefeller</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HelixienCentre</defName>
+		<label>helixien facility</label>
+		<shortLabel>helixien facility</shortLabel>
+		<description>A small Helixien gas complex that has all the apliances and stuff needed in a case of a power outtage or solar flare.</description>
+		<priority>100</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HelixienCentre_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_HelixienCentre</layout>
+		<marketvalue>6647</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>TransportPod</li>
+			<li>BiofuelRefining</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.helixiengas</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SACSRoom</defName>
+		<label>SACS control room</label>
+		<shortLabel>SACS control room</shortLabel>
+		<description>Rimatomics SACS control room with all necessary buildings for weapon control.</description>
+		<priority>101</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SACSRoom_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SACSRoom</layout>
+		<marketvalue>7650</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>dubwise.rimatomics</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MiniGestator</defName>
+		<label>compact mech gestator</label>
+		<shortLabel>compact mech gestator</shortLabel>
+		<description>A compact facility containing two mech gestators and a large mech gestator, plus a subcore encoder.</description>
+		<priority>102</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MiniGestator_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MiniGestator</layout>
+		<marketvalue>3064</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MechCharger</defName>
+		<label>mech charge facility</label>
+		<shortLabel>mech charge facility</shortLabel>
+		<description>A facility containing six mech chargers and three large mech chargers, plus refrigerated shelving space to store wastepacks produced.</description>
+		<priority>103</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MechCharger_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MechCharger</layout>
+		<marketvalue>7005</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Autodoors</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_ArtWorkshop</defName>
+		<label>art workshop</label>
+		<shortLabel>art workshop</shortLabel>
+		<description>A medium sized workshop containing four art workbenches, plus shelving and stockpile space to store both materials and finished sculptures.</description>
+		<priority>110</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_ArtWorkshop_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_ArtWorkshop</layout>
+		<marketvalue>4918</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>VE - Nutrient Paste</name>
+				<layoutVariation>AP_Prefab_ArtWorkshop_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_CheeseFactory</defName>
+		<label>cheese factory</label>
+		<shortLabel>cheese factory</shortLabel>
+		<description>A medium sized factory that automatically produces cheese from milk.</description>
+		<priority>111</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_CheeseFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_CheeseFactory</layout>
+		<marketvalue>15312</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>Autodoors</li>
+			<li>MicroelectronicsBasics</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SoupFactory</defName>
+		<label>soup factory</label>
+		<shortLabel>soup factory</shortLabel>
+		<description>A medium sized factory that automatically produces soup from vegetables, by first feeding them to fish in an aquaponics basin.</description>
+		<priority>112</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SoupFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SoupFactory</layout>
+		<marketvalue>12536</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>SterileMaterials</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vcooke</li>
+			<li>vanillaexpanded.vcef</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_HoneyFactory</defName>
+		<label>honey factory</label>
+		<shortLabel>honey factory</shortLabel>
+		<description>A medium sized factory that automatically produces honey from two industrial apiaries.</description>
+		<priority>113</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_HoneyFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_HoneyFactory</layout>
+		<marketvalue>15041</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Brewing</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>oskarpotocki.vfe.vikings</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BrewingFactory</defName>
+		<label>brewing factory</label>
+		<shortLabel>brewing factory</shortLabel>
+		<description>A medium sized factory containing an industrial coffee roaster and a liquor mixer, as well as a hydroponics bay to grow the necessary plants and a bar to serve the drinks.</description>
+		<priority>114</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BrewingFactory_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_BrewingFactory</layout>
+		<marketvalue>17126</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>Smithing</li>
+			<li>ComplexFurniture</li>
+			<li>AirConditioning</li>
+			<li>Hydroponics</li>
+			<li>Autodoors</li>
+			<li>SterileMaterials</li>
+			<li>CarpetMaking</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+			<li>vanillaexpanded.vbrewe</li>
+			<li>vanillaexpanded.vbrewecandt</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Vanilla Furniture Expanded: Farming</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallAutocraneDepot</defName>
+		<label>small autocrane depot</label>
+		<shortLabel>small autocrane</shortLabel>
+		<description>A small autocrane depot with storage space.</description>
+		<priority>115</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallAutocraneDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SmallAutocraneDepot</layout>
+		<marketvalue>3289</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargeAutocraneDepot</defName>
+		<label>large autocrane depot</label>
+		<shortLabel>large autocrane</shortLabel>
+		<description>A large autocrane depot with storage space. Functionally identical to the smaller one, but prettier.</description>
+		<priority>116</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargeAutocraneDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_LargeAutocraneDepot</layout>
+		<marketvalue>3619</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>oskarpotocki.vfe.mechanoid</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SmallRecycling</defName>
+		<label>small recycling</label>
+		<shortLabel>small recycling</shortLabel>
+		<description>A small recycling plant with a recycling bench.</description>
+		<priority>200</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SmallRecycling_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SmallRecycling</layout>
+		<marketvalue>1216</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_MediumRecycling</defName>
+		<label>medium recycling</label>
+		<shortLabel>medium recycling</shortLabel>
+		<description>A medium recycling plant with three electric recycling benches, two toxifier generators and a pollution pump.</description>
+		<priority>201</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_MediumRecycling_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_MediumRecycling</layout>
+		<marketvalue>3250</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_BigRecycling</defName>
+		<label>big recycling</label>
+		<shortLabel>big recycling</shortLabel>
+		<description>A big recycling plant with four electric recycling benches, three toxifier generators and two pollution pumps, as well as two garbage compactors and shelving space.</description>
+		<priority>202</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_BigRecycling_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_BigRecycling</layout>
+		<marketvalue>6271</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Autodoors</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_LargePollutionPump</defName>
+		<label>large pollution pump</label>
+		<shortLabel>large pump</shortLabel>
+		<description>A building housing a large pollution pump.</description>
+		<priority>203</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_LargePollutionPump_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_LargePollutionPump</layout>
+		<marketvalue>2255</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_TrashCompactor</defName>
+		<label>trash compactor</label>
+		<shortLabel>trash compactor</shortLabel>
+		<description>A building housing three garbage compactors.</description>
+		<priority>203.5</priority>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_TrashCompactor_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_TrashCompactor</layout>
+		<marketvalue>1520</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Smithing</li>
+		
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_SlaveRecycling</defName>
+		<label>slave recycling center</label>
+		<shortLabel>slave recycling</shortLabel>
+		<description>No, you don't recycle slaves here... You make them work on your recycling! 6 electric recycling benches, 5 toxifier generators, 3 pollution pumps and space for 6 slaves to live.</description>
+		<priority>204</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_SlaveRecycling_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_SlaveRecycling</layout>
+		<marketvalue>10517</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>AirConditioning</li>
+			<li>ComplexFurniture</li>
+			<li>NutrientPaste</li>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<modPrerequisites>
+			<li>vanillaexpanded.recycling</li>
+			<li>ludeon.rimworld.biotech</li>
+		</modPrerequisites>
+		<variations>
+			<li>
+				<name>VE - Nutrient Paste</name>
+				<layoutVariation>AP_Prefab_SlaveRecycling_NutrientPaste</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vnutriente</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Ideology</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_DropPodDepot</defName>
+		<label>drop pod depot</label>
+		<shortLabel>drop pod depot</shortLabel>
+		<description>A simple shed for storage and 12 drop pods.</description>
+		<priority>205</priority>
+		<labelForDefaultVariation>Vanilla</labelForDefaultVariation>
+		<author>Kolopo</author>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_DropPodDepot_Preview</detailedImage>
+		<category>AP_Category_Production</category>
+		<layout>AP_Prefab_DropPodDepot</layout>
+		<marketvalue>3930</marketvalue>
+		<researchPrerequisites>
+			<li>Stonecutting</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>TransportPod</li>
+		</researchPrerequisites>
+		<variations>
+			<li>
+				<name>VE - Chemfuel</name>
+				<layoutVariation>AP_Prefab_DropPodDepot_ChemfuelExpanded</layoutVariation>
+				<modPrerequisites>
+					<li>vanillaexpanded.vchemfuele</li>
+				</modPrerequisites>
+			</li>
+		</variations>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+		</suggestedMods>
+	</AlphaPrefabs.PrefabDef>
+</Defs>
