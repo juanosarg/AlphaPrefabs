@@ -24,7 +24,10 @@
 		</li>
 		
 	</modDependencies>
-	
+	<loadAfter>
+		
+		<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+	</loadAfter>
 	<packageId>Sarg.AlphaPrefabs</packageId>
 	<description>Adds more than 200 Prefab structures that can be bough by the player to create awesome looking colonies.
 
