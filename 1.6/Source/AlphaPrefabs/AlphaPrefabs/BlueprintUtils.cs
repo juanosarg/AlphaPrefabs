@@ -11,11 +11,11 @@ namespace AlphaPrefabs
     public static class BlueprintUtils
     {
         public static bool ModActive =>
-            Utils.allActiveModIds.Any(packageId => packageId.StartsWith("Defi.Blueprints"));
+            Utils.allActiveModIds.Any(packageId => packageId.StartsWith("defi.blueprints"));
 
         public static object ToBlueprint(StructureLayoutDef structureLayoutDef, string name)
         {
-            if (!Utils.allActiveModIds.Any(packageId => packageId == "Defi.Blueprints.fork"))
+            if (!Utils.allActiveModIds.Any(packageId => packageId == "defi.blueprints.fork"))
                 name = Regex.Replace(name, @"[^A-Za-z0-9_]", "");
             var layouts = Traverse
                 .Create(structureLayoutDef)
