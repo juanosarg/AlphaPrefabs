@@ -11,7 +11,7 @@ namespace AlphaPrefabs
     public static class BlueprintUtils
     {
         public static bool ModActive =>
-            Utils.allActiveModIds.Any(packageId => packageId.StartsWith("Defi.Blueprints.fork"));
+            Utils.allActiveModIds.Any(packageId => packageId.StartsWith("Defi.Blueprints"));
 
         public static object ToBlueprint(StructureLayoutDef structureLayoutDef, string name)
         {
