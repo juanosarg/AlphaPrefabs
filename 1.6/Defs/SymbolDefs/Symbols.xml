@@ -1430,5 +1430,10 @@
 		<stuff>WoodLog</stuff>
 		<color>Structure_Cream</color>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_MorbidFakeSculptureSmallA_Steel</defName>
+		<thing>AP_MorbidFakeSculptureSmallA</thing>
+		<stuff>Steel</stuff>
+	</KCSG.SymbolDef>
 </Defs>
 

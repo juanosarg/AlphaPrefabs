@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Alpha Crafts</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CraftsWorkshop"]/researchPrerequisites</xpath>
+					<value>
+						<li>AC_MiscellaneousArtisanalCrafting</li>
+						<li>AC_OilExtraction</li>
+						<li>AC_Infusing</li>
+						<li>AC_ArtisanDairyProcessing</li>
+						<li>AC_ArtisanalGrinding</li>
+						<li>AC_BottlingTechniques</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_FermentingRoom"]/researchPrerequisites</xpath>
+					<value>
+						<li>AC_VinegarBrewing</li>
+						
+					</value>
+				</li>
+				
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

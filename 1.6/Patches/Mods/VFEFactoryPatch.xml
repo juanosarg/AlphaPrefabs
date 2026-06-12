@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Factory</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_ChemfuelFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_CanneryFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_FactoryHydroponicBay"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MedicineFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_NeutroamineFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutomatedBar"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_TextileFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_RaiderDisposalPlant"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_SmallAutoDrill"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeAutoDrill"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_MasonryFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_JoJuiceFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AlloySmeltery"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_LargeMedicineFactory"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						<li>VFE_ComplexFactories</li>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlphaPrefabs.PrefabDef[defName = "AP_Prefab_AutofarmDepot"]/researchPrerequisites</xpath>
+					<value>
+						<li>VFE_BasicFactories</li>
+						
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>
+

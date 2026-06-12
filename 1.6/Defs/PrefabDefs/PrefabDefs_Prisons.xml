@@ -190,11 +190,9 @@
 			<li>Electricity</li>
 			<li>SterileMaterials</li>
 			<li>ComplexFurniture</li>
-		
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>ludeon.rimworld.biotech</li>
-		
 		</modPrerequisites>
 		<suggestedMods>
 			<li>Vanilla Furniture Expanded</li>
@@ -227,38 +225,10 @@
 			<li>Smithing</li>
 			<li>ComplexFurniture</li>
 			<li>Fabrication</li>
-			
 		</researchPrerequisites>
 		<modPrerequisites>
 			<li>vanillaexpanded.vfearchitect</li>
 			<li>oskarpotocki.vfe.pirates</li>
 		</modPrerequisites>
-		
 	</AlphaPrefabs.PrefabDef>
-		<AlphaPrefabs.PrefabDef>
-		<defName>AP_Prefab_IndoctrinationBarracks</defName>
-		<label>indoctrination barracks</label>
-		<shortLabel>indoctrination barracks</shortLabel>
-		<description>A small prison for five people plus three indoctrination pods.</description>
-		<priority>15</priority>
-		<detailedImage>UI/Prefabs_Preview/AP_Prefab_IndoctrinationBarracks_Preview</detailedImage>
-		<category>AP_Category_Prison</category>
-		<layout>AP_Prefab_IndoctrinationBarracks</layout>
-		<author>Woofwoofwoofwoofwoofwoofwoof</author>
-		<marketvalue>4883</marketvalue>
-		<researchPrerequisites>
-			<li>Stonecutting</li>
-			<li>Electricity</li>
-			<li>Smithing</li>
-			<li>ComplexFurniture</li>
-			
-		</researchPrerequisites>
-		<modPrerequisites>
-			<li>vanillaexpanded.vfearchitect</li>
-			<li>oskarpotocki.vfe.mechanoid</li>
-		</modPrerequisites>
-		
-	</AlphaPrefabs.PrefabDef>
-	
-	 
 </Defs>

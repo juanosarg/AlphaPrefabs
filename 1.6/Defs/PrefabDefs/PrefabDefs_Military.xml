@@ -1196,51 +1196,7 @@
 			<li>vanillaexpanded.vfesecurity</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
-	<AlphaPrefabs.PrefabDef>
-		<defName>AP_Prefab_AutomortarDepot</defName>
-		<label>small auto-mortar depot</label>
-		<shortLabel>small auto-mortar</shortLabel>
-		<description>A very small auto-mortar depot.</description>
-		<priority>513</priority>
-		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepot_Preview</detailedImage>
-		<category>AP_Category_Military</category>
-		<layout>AP_Prefab_AutomortarDepot</layout>
-		<author>Kolopo</author>
-		<marketvalue>1490</marketvalue>
-		<researchPrerequisites>
-			<li>Mortars</li>
-			<li>ComplexFurniture</li>
-			<li>Electricity</li>
-			<li>Stonecutting</li>
-		</researchPrerequisites>
-		<modPrerequisites>
-			<li>oskarpotocki.vfe.mechanoid</li>
-		</modPrerequisites>
-	</AlphaPrefabs.PrefabDef>
-	<AlphaPrefabs.PrefabDef>
-		<defName>AP_Prefab_AutomortarDepotBig</defName>
-		<label>big auto-mortar depot</label>
-		<shortLabel>big auto-mortar</shortLabel>
-		<description>A medium sized auto-mortar depot.</description>
-		<priority>514</priority>
-		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomortarDepotBig_Preview</detailedImage>
-		<category>AP_Category_Military</category>
-		<layout>AP_Prefab_AutomortarDepotBig</layout>
-		<author>Kolopo</author>
-		<marketvalue>7141</marketvalue>
-		<researchPrerequisites>
-			<li>Mortars</li>
-			<li>ComplexFurniture</li>
-			<li>Electricity</li>
-			<li>Stonecutting</li>
-			<li>GunTurrets</li>
-			<li>Firefoam</li>
-			<li>HeavyTurrets</li>
-		</researchPrerequisites>
-		<modPrerequisites>
-			<li>oskarpotocki.vfe.mechanoid</li>
-		</modPrerequisites>
-	</AlphaPrefabs.PrefabDef>
+	
 	<AlphaPrefabs.PrefabDef>
 		<defName>AP_Prefab_TinyTurret</defName>
 		<label>turret</label>

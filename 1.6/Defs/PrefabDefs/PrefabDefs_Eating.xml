@@ -502,4 +502,63 @@
 			<li>vanillaexpanded.vfearchitect</li>
 		</modPrerequisites>
 	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_AutomatedBar</defName>
+		<label>automated bar</label>
+		<shortLabel>automated bar</shortLabel>
+		<description>A large structure containing a hydroponics bay, two automated distilleries and a dining room / rec room.</description>
+		<priority>19</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_AutomatedBar_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_AutomatedBar</layout>
+		<marketvalue>16781</marketvalue>
+		<researchPrerequisites>
+		
+			<li>Stonecutting</li>
+			<li>Smithing</li>
+			<li>CarpetMaking</li>
+			<li>Brewing</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>TubeTelevision</li>
+			<li>Hydroponics</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<author>Heretic</author>
+		
+		<modPrerequisites>
+			<li>vanillaexpanded.vcooke</li>
+			<li>vanillaexpanded.vfefactory</li>
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
+	<AlphaPrefabs.PrefabDef>
+		<defName>AP_Prefab_Bakery</defName>
+		<label>bakery</label>
+		<shortLabel>bakery</shortLabel>
+		<description>A small bakery with four electric bakery ovens plus a walk-in fridge and a combined dining room / rec room.</description>
+		<priority>20</priority>
+		<detailedImage>UI/Prefabs_Preview/AP_Prefab_Bakery_Preview</detailedImage>
+		<category>AP_Category_Eating</category>
+		<layout>AP_Prefab_Bakery</layout>
+		<marketvalue>7918</marketvalue>
+		<researchPrerequisites>	
+			<li>Stonecutting</li>
+			<li>MicroelectronicsBasics</li>
+			<li>CarpetMaking</li>
+			<li>FlatscreenTelevision</li>
+			<li>Electricity</li>
+			<li>ComplexFurniture</li>
+			<li>Firefoam</li>
+			<li>SterileMaterials</li>
+			<li>AirConditioning</li>
+		</researchPrerequisites>
+		<author>Kolopo</author>
+		<suggestedMods>
+			<li>Vanilla Furniture Expanded: Props</li>
+			<li>Alpha Props - Parks and Gardens</li>
+		</suggestedMods>
+		<modPrerequisites>
+			<li>vanillaexpanded.vcookebakery</li>		
+		</modPrerequisites>
+	</AlphaPrefabs.PrefabDef>
 </Defs>

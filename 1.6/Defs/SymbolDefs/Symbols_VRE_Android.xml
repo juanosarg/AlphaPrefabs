@@ -34,5 +34,10 @@
 		<defName>VREA_NeutroPipe</defName>
 		<thing>VREA_NeutroPipe</thing>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VREA_NeutroTank</defName>
+		<thing>VREA_NeutroTank</thing>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
 </Defs>
 

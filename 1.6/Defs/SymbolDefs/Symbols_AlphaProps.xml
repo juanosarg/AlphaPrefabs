@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_NarrowTrellis_Roses</defName>
+		<thing>VFEPD_AP_NarrowTrellis_Roses</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_MantelpieceA</defName>
+		<thing>VFEPD_AP_MantelpieceA</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_WideTrellis</defName>
+		<thing>VFEPD_AP_WideTrellis</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_WideTrellis_Roses</defName>
+		<thing>VFEPD_AP_WideTrellis_Roses</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_ParkBench_Functional_WoodLog</defName>
+		<thing>VFEPD_AP_ParkBench_Functional</thing>
+		<stuff>WoodLog</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_PottedTulips</defName>
+		<thing>AP_PottedTulips</thing>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFEPD_AP_MantelpieceB</defName>
+		<thing>VFEPD_AP_MantelpieceB</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AP_PottedHibiscus</defName>
+		<thing>AP_PottedHibiscus</thing>
+	</KCSG.SymbolDef>
+</Defs>
+

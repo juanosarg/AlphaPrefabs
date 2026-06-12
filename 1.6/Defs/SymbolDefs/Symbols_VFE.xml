@@ -286,4 +286,22 @@
 		<stuff>WoodLog</stuff>
 		<color>Structure_Cream</color>
 	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_DartsBoard_Steel</defName>
+		<thing>Joy_DartsBoard</thing>
+		<stuff>Steel</stuff>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>Joy_Piano_Steel</defName>
+		<thing>Joy_Piano</thing>
+		<stuff>Steel</stuff>
+		<rotation>West</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>VFE_CoffeeTable_Steel</defName>
+		<thing>VFE_CoffeeTable</thing>
+		<stuff>Steel</stuff>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
 </Defs>

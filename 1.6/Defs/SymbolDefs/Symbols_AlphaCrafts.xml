@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<KCSG.SymbolDef>
+		<defName>AC_VinegarCask</defName>
+		<thing>AC_VinegarCask</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_DairyProcessingStation</defName>
+		<thing>AC_DairyProcessingStation</thing>
+		<rotation>East</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_ArtisanWorkshop</defName>
+		<thing>AC_ArtisanWorkshop</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_OilPressWorkshop</defName>
+		<thing>AC_OilPressWorkshop</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_Infuser</defName>
+		<thing>AC_Infuser</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_ArtisanalGrinder</defName>
+		<thing>AC_ArtisanalGrinder</thing>
+		<rotation>South</rotation>
+	</KCSG.SymbolDef>
+	<KCSG.SymbolDef>
+		<defName>AC_BottlingStation</defName>
+		<thing>AC_BottlingStation</thing>
+	</KCSG.SymbolDef>
+</Defs>
+
